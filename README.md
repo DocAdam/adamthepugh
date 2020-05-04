@@ -5,9 +5,8 @@ Contents:
 * [Masking Account Numbers](https://github.com/DocAdam/docsamples/wiki/Masking-Account-Numbers)
 * [Procedural Task](https://github.com/DocAdam/docsamples/wiki/Procedural-Task)
 * [Software Update](https://github.com/DocAdam/docsamples/wiki/Software-Update)
-## My Online Shop Vinyl Junction
+## [Vinyl Junction - My Online Store](https://vinyljunction.com)
 #### Cassettes LPs Books Record Storage
-* [Vinyl Junction](https://vinyljunction.com)
 * [Instagram](https://https://instagram.com/vinyljunction/)
 * [Twitter](https://twitter.com/VinylJunction)
 * [Facebook](https://facebook.com/VinylJunction)
