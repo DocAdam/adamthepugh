@@ -8,7 +8,6 @@ This screen allows you to set up the account number masking as your institution 
 
 1. Click **Submit**.  
 1. Select **Notice Masking**.  
-
  Situation|Steps
  ---------|--------|
  **Changing a Single Notice** | * Select a statement for masking.  
