@@ -26,7 +26,7 @@ Take a look at some of the process content I create in the course of my professi
 * [Procedural Task](https://github.com/DocAdam/docsamples/wiki/Procedural-Task)
 * [Software Update](https://github.com/DocAdam/docsamples/wiki/Software-Update)
 
-[Customer Communication Sample](01_customer_communication_sample.md)
+[Customer Communication Sample](docs/01_customer_communication_sample.md)
 <br>
 [Masking Account Numbers](docs/02_masking_account_numbers.md)
 <br>
