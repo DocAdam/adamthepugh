@@ -25,3 +25,12 @@ Take a look at some of the process content I create in the course of my professi
 * [Masking Account Numbers](https://github.com/DocAdam/docsamples/wiki/Masking-Account-Numbers)
 * [Procedural Task](https://github.com/DocAdam/docsamples/wiki/Procedural-Task)
 * [Software Update](https://github.com/DocAdam/docsamples/wiki/Software-Update)
+
+[Customer Communication Sample](_includes/01_customer_communication_sample.md)
+<br>
+[Masking Account Numbers](_includes/02_masking_account_numbers.md)
+<br>
+[Procedural Task](_includes/03_procedural_task.md)
+<br>
+[Software Update](_includes/04_software_update.md)
+
