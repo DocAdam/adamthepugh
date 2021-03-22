@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<img class="wt-circle wt-icon" src="https://i.etsystatic.com/iusa/196155/82725155/iusa_75x75.82725155_raus.jpg?version=0" alt="Adam outside">
+<img class="wt-circle wt-icon" src="/images/PughHeadshot.JPG" alt="Adam outside" width="150">
 
 ## Adam Pugh Writing Samples
 
