@@ -34,8 +34,9 @@ Direct links to some very special, unusual, or rare items in my shop.
 
 Visuals created with Tableau Public based on sales for my shop.
 
-* [US Cassette Sales](docs/01_tableau_samples.md)
-* [Top Cassette Sales](docs/02_tableau_samples.md)
+* [US Cassette Sales](https://public.tableau.com/views/CassetteSalesPerYearVinylJunction/CassetteSalesUS?:language=en&:display_count=y&:origin=viz_share_link)
+* [Top Cassette Sales](https://public.tableau.com/views/CassetteSalesTopAlbumsVinylJunction/TopSellingCassettesAllTime?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link)
+* <a href="https://public.tableau.com/views/CassetteSalesPerYearVinylJunction/CassetteSalesUS?:language=en&:display_count=y&:origin=viz_share_link" target="_blank">US Cassette Sales</a>
 
 ### Social Media links
 
