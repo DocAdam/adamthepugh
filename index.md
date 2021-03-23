@@ -40,6 +40,6 @@ Visuals created with Tableau Public based on sales for my shop.
 ### Social Media links
 
 * <a href="https://www.linkedin.com/in/adampugh/" target="_blank">LinkedIn</a> is the place to take a deeper dive into my work history.
-* <a href="https://https://instagram.com/vinyljunction/" target="_blank">Vinyl Junction Instagram</a> see what's been added to the shop.
+* <a href="https://instagram.com/vinyljunction/" target="_blank">Vinyl Junction Instagram</a> see what's been added to the shop.
 * <a href="https://twitter.com/VinylJunction" target="_blank">Vinyl Junction Twitter</a> maybe this is your place.
 * <a href="https://facebook.com/VinylJunction" target="_blank">Vinyl Junction Facebook</a> exists for everyone else.
