@@ -22,25 +22,24 @@ Examples of content I've created throughout my professional writing career.
 
 ### Web store and special items in my shop
 
-* [Vinyl Junction](https://vinyljunction.com) is my Etsy shop full of cassettes, records, and books.
+* <a href="https://vinyljunction.com" target="_blank">Vinyl Junction</a> is my Etsy shop full of cassettes, records, and books.
 
 Direct links to some very special, unusual, or rare items in my shop. 
 
-* [Dune Hardcover First Edition](https://www.etsy.com/listing/835722209/dune-by-frank-herbert-first-edition?ref=shop_home_feat_4&frs=1) The classic novel by Frank Herbert. The listing includes 34 photos to show all possible detail of this rare beauty.
-* [Clue Movie Tie-In Paperback Book](https://www.etsy.com/listing/942845483/clue-by-michael-mcdowell-paperback-book?show_sold_out_detail=1) The classic novel by Michael McDowell. The story is based on the shooting script and contains an additional fourth ending cut from the film, and as such, is highly-sought by fans.
-* [Scary Stories To Tell In The Dark Boxed Set](https://etsy.me/3lxL7nR) Contains all three of the classic original collections of folklore by Alvin Schwartz with Stephen Gammell's horrifying art.
+* <a href="https://www.etsy.com/listing/835722209/dune-by-frank-herbert-first-edition?ref=shop_home_feat_4&frs=1" target="_blank">Dune Hardcover First Edition</a>  The classic novel by Frank Herbert. The listing includes 34 photos to show all possible detail of this rare beauty.
+* <a href="https://www.etsy.com/listing/942845483/clue-by-michael-mcdowell-paperback-book?show_sold_out_detail=1" target="_blank">Clue Movie Tie-In Paperback Book</a> The classic novel by Michael McDowell. The story is based on the shooting script and contains an additional fourth ending cut from the film, and as such, is highly-sought by fans.
+* <a href="https://etsy.me/3lxL7nR" target="_blank">Scary Stories To Tell In The Dark Boxed Set</a> Contains all three of the classic original collections of folklore by Alvin Schwartz with Stephen Gammell's horrifying art.
 
 ### Analytics
 
 Visuals created with Tableau Public based on sales for my shop.
 
-* [US Cassette Sales](https://public.tableau.com/views/CassetteSalesPerYearVinylJunction/CassetteSalesUS?:language=en&:display_count=y&:origin=viz_share_link)
-* [Top Cassette Sales](https://public.tableau.com/views/CassetteSalesTopAlbumsVinylJunction/TopSellingCassettesAllTime?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link)
 * <a href="https://public.tableau.com/views/CassetteSalesPerYearVinylJunction/CassetteSalesUS?:language=en&:display_count=y&:origin=viz_share_link" target="_blank">US Cassette Sales</a>
+* <a href="https://public.tableau.com/views/CassetteSalesTopAlbumsVinylJunction/TopSellingCassettesAllTime?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link" target="_blank">Top Cassette Sales</a>
 
 ### Social Media links
 
-* [LinkedIn Profile](https://www.linkedin.com/in/adampugh/) is the place to take a deeper dive into my work history.
-* [Vinyl Junction Instagram](https://https://instagram.com/vinyljunction/) see what's been added to the shop.
-* [Vinyl Junction Twitter](https://twitter.com/VinylJunction) maybe this is your place.
-* [Vinyl Junction Facebook](https://facebook.com/VinylJunction) exists for everyone else.
+* <a href="https://www.linkedin.com/in/adampugh/" target="_blank">LinkedIn</a> is the place to take a deeper dive into my work history.
+* <a href="https://https://instagram.com/vinyljunction/" target="_blank">Vinyl Junction Instagram</a> see what's been added to the shop.
+* <a href="https://twitter.com/VinylJunction" target="_blank">Vinyl Junction Twitter</a> maybe this is your place.
+* <a href="https://facebook.com/VinylJunction" target="_blank">Vinyl Junction Facebook</a> exists for everyone else.
