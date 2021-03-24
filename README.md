@@ -1,5 +1,5 @@
 ### Adam Pugh
-Is the creator of [Vinyl Junction](https://vinyljunction.com)
+Is the creator of <a href="https://vinyljunction.com" target="_blank">Vinyl Junction</a>
 
 Leader of awesome content creators at Jack Henry and Associates
 
