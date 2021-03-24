@@ -59,3 +59,4 @@ strict_front_matter: true
 exclude:
 - icomoon-selection.json
 - readme.md
+theme: jekyll-theme-minimal
