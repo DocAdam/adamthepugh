@@ -1,9 +1,6 @@
-## [Adam Pugh](https://github.com/DocAdam/docsamples/wiki#quick-links)
+### Adam Pugh
+Is the creator of [Vinyl Junction](https://vinyljunction.com)
 
-This site uses Markdown
+Leader of awesome content creators at Jack Henry and Associates
 
-Specific examples of different writing styles from technical documentation to journalism.
-* [Customer Communication](https://github.com/DocAdam/docsamples/wiki/Customer-Communication)
-* [Masking Account Numbers](https://github.com/DocAdam/docsamples/wiki/Masking-Account-Numbers)
-* [Procedural Task](https://github.com/DocAdam/docsamples/wiki/Procedural-Task)
-* [Software Update](https://github.com/DocAdam/docsamples/wiki/Software-Update)
+And built this site to learn more about Markdown, Github Pages, and Jekyll
