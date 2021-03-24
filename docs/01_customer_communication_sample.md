@@ -1,4 +1,5 @@
-## Customer Communication Sample
+# Product Editor
+### Customer Communication Sample
 A new [Product] experience is just around the corner
 
 I am excited to introduce you to our modern [Product] editor. This tool is more intuitive and will streamline your current processes and reduce the learning curve associated with site maintenance.
