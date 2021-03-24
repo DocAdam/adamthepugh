@@ -4,7 +4,7 @@ layout: default
 <img class="wt-circle wt-icon" src="/images/PughHeadshot.JPG" alt="Adam outside" width="150">
 
 ## Entrepreneur, Writer, Leader
-My professional writing career began in college creating content for the Arizona Daily Wildcat. Now I lead a team of professional writers for a software company. Along the way I started a business on Etsy called [Vinyl Junction](https://vinyljunction.com) selling vintage music and books.
+My professional writing career began in college creating content for the Arizona Daily Wildcat. Now I lead a team of professional writers for a software company. Along the way I started a business on Etsy called <a href="https://vinyljunction.com" target="_blank">Vinyl Junction</a> selling vintage music and books.
 
 I enjoy learning, reading, and exploring new music.
 
@@ -12,11 +12,12 @@ I enjoy learning, reading, and exploring new music.
 
 Examples of content I've created throughout my professional writing career. 
 
-* [Customer Communication Sample](docs/01_customer_communication_sample.md)
-* [Masking Account Numbers](docs/02_masking_account_numbers.md)
-* [Procedural Task](docs/03_procedural_task.md)
-* [Software Update](docs/04_software_update.md)
-* [Searching For Valuable Input](docs/searching_for_valuable_input.md)
+* [Business Article: Searching For Valuable Input](docs/searching_for_valuable_input.md)
+* [Customer Communication Sample: Product Editor](docs/01_customer_communication_sample.md)
+* [Music Review: Disillusion](docs/disillusion_gloria.md)
+* [Procedural Task: Creating Requests](docs/03_procedural_task.md)
+* [Software Update: Batch Approval](docs/04_software_update.md)
+* [Software Update: Masking Account Numbers](docs/02_masking_account_numbers.md)
 
 *Original names and menus are obscured.*
 
