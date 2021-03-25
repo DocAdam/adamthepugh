@@ -14,6 +14,7 @@ Examples of content I've created throughout my professional writing career.
 * [Customer Communication Sample: Product Editor](docs/01_customer_communication_sample.md)
 * [Music Review: Disillusion](docs/reviews/disillusion_gloria.md)
 * [Music Review: Hot Water Music](docs/reviews/hot_water_music_caution.md)
+* [Opinion: Anthrax vs. anthrax](docs/opinion/anthrax_vs_anthrax.md)
 * [Procedural Task: Creating Requests](docs/03_procedural_task.md)
 * [Software Update: Batch Approval](docs/04_software_update.md)
 * [Software Update: Masking Account Numbers](docs/02_masking_account_numbers.md)
