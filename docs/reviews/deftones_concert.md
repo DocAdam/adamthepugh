@@ -1,6 +1,6 @@
  ## 'Adrenaline' Rush
 
-<img src=/images/deftones_mike_larson.gif alt="Deftones lead singer Chino Moreno" width="150">
+<img src="/images/deftones_mike_larson.gif" alt="Deftones lead singer Chino Moreno" width="150">
 
 *Photo: Mike Larson*
 
