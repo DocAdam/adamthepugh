@@ -25,4 +25,5 @@ Thursday October 3, 2002
 <p>The lyrics are stronger and more emotional than usual and it vibrates through each note that is sung. </p>
 
 <p>This album has the energy of a truly great HWM live show, where everyone is tired and struggling to stay standing. But there is just one more song and the band is doing everything in its power to make it the best three minutes of your life. </p>
-          
+
+*<a href="https://www.epitaph.com/news/article/the-arizona-daily-wildcat-reviews-the-new-hot-water-music-record" target="_blank">Epitaph Records</a> even republished the review on its site*
