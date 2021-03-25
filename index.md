@@ -12,7 +12,7 @@ Examples of content I've created throughout my professional writing career.
 
 * [Business Article: Searching For Valuable Input](docs/searching_for_valuable_input.md)
 * [Customer Communication Sample: Product Editor](docs/01_customer_communication_sample.md)
-* [Music Review: Disillusion](docs/disillusion_gloria.md)
+* [Music Review: Disillusion](docs/reviews/disillusion_gloria.md)
 * [Procedural Task: Creating Requests](docs/03_procedural_task.md)
 * [Software Update: Batch Approval](docs/04_software_update.md)
 * [Software Update: Masking Account Numbers](docs/02_masking_account_numbers.md)
