@@ -10,6 +10,7 @@ I enjoy learning, reading, and exploring new music.
 
 Examples of content I've created throughout my professional writing career. 
 
+* [Business Article: Authenticity and Service](docs/opinion/authenticity_and_service.md)
 * [Business Article: Searching For Valuable Input](docs/searching_for_valuable_input.md)
 * [Concert Review: Deftones](docs/reviews/deftones_concert.md)
 * [Customer Communication Sample: Product Editor](docs/01_customer_communication_sample.md)
