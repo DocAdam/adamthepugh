@@ -28,8 +28,8 @@ So we look for consistency. What is our default posture at work? What can others
 I came up with a few ideas to remind myself about the daily purpose of our work:
 
 1. To make kindness our biggest strength
-1. Helpfulness our default position.
-1. Learning, a constant companion.
+1. Helpfulness our default position
+1. Learning, a constant companion
 
 Godin loves to ask the question ‘What’s it for?’ You can ask this about anything you create whether it is an article, video, or for a side business. Many of the things I create are for the purpose of triggering a happy memory, or a joyful response.
 
