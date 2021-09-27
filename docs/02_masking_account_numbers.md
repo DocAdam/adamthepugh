@@ -21,5 +21,4 @@ Situation | **Changing All Notices**
 * Select **Yes** in the *Mask* field.
 * Click **Submit**.
 * Read the warning and click **Submit**.
-
-6. Click **Submit** to exit to the main menu.
+* Click **Submit** to exit to the main menu.
