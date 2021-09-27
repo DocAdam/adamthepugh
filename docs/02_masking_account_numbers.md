@@ -7,16 +7,19 @@ This is an example of how you can mask account numbers for one or all of the ava
 This screen allows you to set up the account number masking as your institution sees fit.
 
 1. Click **Submit**.  
-1. Select **Notice Masking**.  
- Situation|Steps
- ---------|--------|
- **Changing a Single Notice** | * Select a statement for masking.  
- ||* Click **Change**.
- ||* Select **Yes** in the *Mask* field.
- ||* Click **Submit**.
- ||* Read the warning and click **Submit**.
- **Changing All Notices**| * Select **Change All**.
- ||* Select **Yes** in the *Mask* field.
- ||* Click **Submit**.
- ||* Read the warning and click **Submit**.
-1. Click **Submit** to exit to the main menu.
+1. Select **Notice Masking**.
+
+Situation | **Changing a Single Notice**
+* Select a statement for masking.
+* Click **Change**.
+* Select **Yes** in the *Mask* field.
+* Click **Submit**.
+* Read the warning and click **Submit**.
+
+Situation | **Changing All Notices**
+* Select **Change All**.
+* Select **Yes** in the *Mask* field.
+* Click **Submit**.
+* Read the warning and click **Submit**.
+
+6. Click **Submit** to exit to the main menu.
