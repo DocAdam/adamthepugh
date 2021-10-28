@@ -27,6 +27,8 @@ Sample content I've created throughout my professional writing career.
 * [Software Update: Masking Account Numbers](docs/02_masking_account_numbers.md)
 
 *Original names and menus are obscured.*
+### Products Supported
+* [List of products supported by the Digital Solutions team](docs/products_supported.md)
 
 ### Web store and special items in my shop
 
