@@ -9,16 +9,15 @@ This screen allows you to set up the account number masking as your institution 
 1. Click **Submit**.  
 1. Select **Notice Masking**.
 
-Situation | **Changing a Single Notice**
-* Select a statement for masking.
-* Click **Change**.
-* Select **Yes** in the *Mask* field.
-* Click **Submit**.
-* Read the warning and click **Submit**.
-
-Situation | **Changing All Notices**
-* Select **Change All**.
-* Select **Yes** in the *Mask* field.
-* Click **Submit**.
-* Read the warning and click **Submit**.
-* Click **Submit** to exit to the main menu.
+|Situation | Steps |
+| --- | --- |
+|**Changing a Single Notice**|1. Select a statement for masking.|
+| |2. Click **Change**.|
+||3. Select **Yes** in the *Mask* field.|
+||4. Click **Submit**.|
+||5. Read the warning and click **Submit**.|
+| **Changing All Notices** |1. Select **Change All**.|
+||2. Select **Yes** in the *Mask* field.|
+||3. Click **Submit**.|
+||4. Read the warning and click **Submit**.|
+||5. Click **Submit** to exit to the main menu.|
