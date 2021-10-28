@@ -40,7 +40,6 @@ This is a list of products I support with my team of 10 Technical Writers. Conte
 |Electronic Statements - Interactive|Online and Mobile|
 |goDough|Online and Mobile|
 |JHA Commercial Cash Management|Online and Mobile|
-|JHA Online Credentials Protection|Online and Mobile|
 |JHA Online Financial Management|Online and Mobile|
 |JHA OpenAnywhere|Online and Mobile|
 |Multi Factor Authentication|Online and Mobile|
