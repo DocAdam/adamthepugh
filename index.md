@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## Entrepreneur, Writer, Leader
+## Adam Pugh | Entrepreneur | Writer | Leader
 My professional writing career began in college creating content for the Arizona Daily Wildcat. Now I lead a team of professional writers for a software company. Along the way I started a business on Etsy called <a href="https://vinyljunction.com" target="_blank">Vinyl Junction</a> selling vintage music and books.
 
 I enjoy learning, reading, and exploring new music.
