@@ -19,7 +19,7 @@ Visuals created with Tableau Public based on sales for my shop.
 #### [Social Media links](docs/social.md)
 Take a look at my activity around the web or check out what I am learning.
 
-## More about me
+#### More about me
 I'm focused on developing compassionate and kind leaders in the Fintech space. I workshop and improve the content creation process to bring technical documentation to customers quickly. To do this well we must: be kind, and do good work. That is my leadership philosophy.
 
 I lead a team of professional writers for a software company. 
