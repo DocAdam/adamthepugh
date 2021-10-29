@@ -8,17 +8,22 @@ We consistently strive to create products and experiences that mirror the best-i
 
 I know you are going to love using the new editor. So what updated features does it include?
 
-**Additional functions**|**Edit**| **Format**|
---------------------------|-----------|-----------|
-* New bulleted formats | Undo / redo actions | Increase / decrease indentation
-* New numbered list types | New editor bar location | Paste as plain text
-* New image editing options | New menu structure | Subscript / superscript / strikethrough
-
-**Insert**|**Preview**|
-------|-----|
-* Editable tables | Headers / font size
-* Special characters | Links / buttons
-* Horizontal rule |
+|Feature|Type|
+| --- | --- |
+|**Additional functions** | New bulleted formats |
+|| Undo / redo actions |
+|| Increase / decrease indentation|
+|**Edit**|New numbered list types | 
+|| New editor bar location | 
+||Paste as plain text| 
+|**Format**| New image editing options | 
+|| New menu structure | 
+|| Subscript / superscript / strikethrough|
+|**Insert**| Editable tables |
+|| Headers / font size|
+|**Preview** |Special characters |
+||Links / buttons|
+||Horizontal rule|
 
 Our product specialist [Name] will reach out to you when it is your turn to experience all that the [Product] editor has to offer your institution.
 
