@@ -15,4 +15,6 @@
 1. Jack Henry & Associates - Technical Writer
 1. Jack Henry & Associates - Technical Writer, Advanced
 1. Jack Henry & Associates - Technical Writing, Manager
-1. Jack Henry & Associates - Technical Writing, Senior Manager
+2. VinylJunction - Store Owner
+3. VinylJunction - Marketing / Design
+4. Jack Henry & Associates - Technical Writing, Senior Manager
