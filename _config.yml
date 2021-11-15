@@ -60,3 +60,4 @@ exclude:
 - icomoon-selection.json
 - readme.md
 theme: jekyll-theme-minimal
+page-col: "#FFFFFF"
