@@ -4,6 +4,9 @@ layout: default
 # Adam Pugh's Portfolio
 ## Writer | Entrepreneur | Leader | Designer
 
+#### [Long Resume](https://gist.github.com/DocAdam/a5b893eada7be5aeb8349dfcc82883f5)
+20 years of work history and interesting projects.
+
 #### [Writing](docs/writing.md)
 Sample content I've created throughout my professional writing career. 
 
