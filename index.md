@@ -13,6 +13,9 @@ Sample content I've created throughout my professional writing career.
 #### [Products Supported](docs/products_supported.md)
 List of products supported by my Digital Solutions technical writing team.
 
+#### [Product Documentation Workshops](https://gist.github.com/DocAdam/8be024a10bf75dd3231e7ab8c65c06f0)
+20 years of work history and interesting projects.
+
 #### [Web store and special items in my shop](docs/webstore.md)
 I connect people with vintage treasures to bring back a memory as a gift to themselves or to share with a loved one. Vinyl Junction is an online store for Cassettes, LPs, Books, and Record Boxes on the Etsy platform.
 
@@ -30,3 +33,5 @@ I lead a team of professional writers for a software company.
 Along the way I started a business on Etsy called <a href="https://vinyljunction.com" target="_blank">Vinyl Junction</a> selling vintage music and books.
 
 I enjoy learning, <a href="https://www.goodreads.com/adamthepugh" target="_blank">reading</a>, and exploring new music.
+
+<script src="https://gist.github.com/DocAdam/a5b893eada7be5aeb8349dfcc82883f5.js"></script>
