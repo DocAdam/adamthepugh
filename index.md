@@ -13,7 +13,7 @@ Sample content I've created throughout my professional writing career.
 #### [Products Supported](docs/products_supported.md)
 List of products supported by my Digital Solutions technical writing team.
 
-#### [Product Documentation Workshops](https://gist.github.com/DocAdam/8be024a10bf75dd3231e7ab8c65c06f0)
+#### [Product Documentation Workshops](docs/workshop_list.md)
 20 years of work history and interesting projects.
 
 #### [Web store and special items in my shop](docs/webstore.md)
