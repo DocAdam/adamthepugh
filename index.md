@@ -4,7 +4,7 @@ layout: default
 # Adam Pugh's Portfolio
 ## Writer | Entrepreneur | Leader | Designer
 
-#### [Long Resume](https://gist.github.com/DocAdam/a5b893eada7be5aeb8349dfcc82883f5)
+#### [Long Resume](docs/full_resume.md)
 20 years of work history and interesting projects.
 
 #### [Writing](docs/writing.md)
@@ -34,4 +34,3 @@ Along the way I started a business on Etsy called <a href="https://vinyljunction
 
 I enjoy learning, <a href="https://www.goodreads.com/adamthepugh" target="_blank">reading</a>, and exploring new music.
 
-<script src="https://gist.github.com/DocAdam/a5b893eada7be5aeb8349dfcc82883f5.js"></script>
