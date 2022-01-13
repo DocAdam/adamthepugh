@@ -2,7 +2,26 @@
 layout: default
 ---
 # Adam Pugh's Portfolio
-## Writer | Entrepreneur | Leader | Designer
+## Technical Writer | Leader | Designer
+
+My name is Adam, and I am a leader, writer, and curious individual.
+
+*You might be my kind of company if you:*
+ - Hire independent and kind leaders.
+ - Believe that documentation is essential for all users.
+ - Are remote-first and properly support distributed employees financially and technologically.
+ - Compensate based on experience, not location.
+ - Support ongoing learning.
+ - Focus on adding value to the world.
+
+*I might be your kind of leader if you:*
+ - Seek to hire kind and empathetic people.
+ - Want to build a positive team culture.
+ - Need to start a remote-first writing team.
+ - Appreciate autonomous and helpful work.
+
+If you think we are a good match I’d love to hear from you.
+
 
 #### [Long Resume](docs/full_resume.md)
 20 years of work history and interesting projects.
