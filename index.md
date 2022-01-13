@@ -22,6 +22,10 @@ My name is Adam, and I am a leader, writer, and curious individual.
 
 If you think we are a good match I’d love to hear from you.
 
+#### More about me
+I have a Bachelor’s degree in Journalism with a minor in Communication plus 16 years of technical writing and management experience. I’ve worked with APIs, JSON, and code commenting tools. I work using Agile methodologies and interact with engineers to deliver helpful online content. I am experienced with DITA and use the Oxygen XML Author and Tridion Docs CCMS.
+
+I'm focused on developing compassionate and kind leaders in the Fintech space. To do this well we must: be kind, and do good work. That is my leadership philosophy.
 
 #### [Long Resume](docs/full_resume.md)
 20 years of work history and interesting projects.
@@ -43,11 +47,6 @@ Visuals created with Tableau Public based on sales for my shop.
 
 #### [Social Media links](docs/social.md)
 Take a look at my activity around the web or check out what I am learning.
-
-#### More about me
-I'm focused on developing compassionate and kind leaders in the Fintech space. I workshop and improve the content creation process to bring technical documentation to customers quickly. To do this well we must: be kind, and do good work. That is my leadership philosophy.
-
-I lead a team of professional writers for a software company. 
 
 Along the way I started a business on Etsy called <a href="https://vinyljunction.com" target="_blank">Vinyl Junction</a> selling vintage music and books.
 
