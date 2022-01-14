@@ -1,6 +1,8 @@
-### Adam Pugh
-Is the creator of <a href="https://vinyljunction.com" target="_blank">Vinyl Junction</a>
+### <a href="https://adamthepugh.com" target="_blank">Adam Pugh</a>
 
-Leader of awesome content creators at Jack Henry and Associates
+This is my work portfolio.
+I am a Technical Writer, Leader, and Designer
 
-And built this site to learn more about Markdown, Github Pages, and Jekyll
+Check out my shop full of cassettes and books <a href="https://vinyljunction.com" target="_blank">Vinyl Junction</a>
+
+I built this site to learn more about Markdown, Github Pages, and Jekyll
