@@ -25,7 +25,7 @@ If you think we are a good match I’d love to hear from you.
 #### More about me
 I have a Bachelor’s degree in Journalism with a minor in Communication plus 16 years of technical writing and management experience. I’ve worked with APIs, JSON, and code commenting tools. I work using Agile methodologies and interact with engineers to deliver helpful online content. I am experienced with DITA and use the Oxygen XML Author and Tridion Docs CCMS.
 
-I'm focused on developing compassionate and kind leaders in the Fintech space. To do this well we must: be kind, and do good work. That is my leadership philosophy.
+I'm focused on developing compassionate and kind leaders. To do this well we must: be kind, and do good work. That is my leadership philosophy.
 
 #### [Long Resume](docs/full_resume.md)
 20 years of work history and interesting projects.
