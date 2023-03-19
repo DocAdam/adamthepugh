@@ -23,7 +23,7 @@ My name is Adam, and I am a leader, writer, and curious individual.
 If you think we are a good match I’d love to hear from you.
 
 #### More about me
-I have a Bachelor’s degree in Journalism with a minor in Communication plus 18 years of technical writing and management experience. I’ve worked with APIs, JSON, and code commenting tools. I work using Agile methodologies and interact with engineers to deliver helpful online content. I am experienced with DITA and use the Oxygen XML Author and Tridion Docs CCMS.
+I have a Bachelor’s degree in Journalism with a minor in Communication plus 19 years of technical writing and management experience. I’ve worked with APIs, JSON, and code commenting tools. I work using Agile methodologies and interact with engineers to deliver helpful online content. I am experienced with DITA and use the Oxygen XML Author and Tridion Docs CCMS.
 
 I'm focused on developing compassionate and kind leaders. To do this well we must: be kind, and do good work. That is my leadership philosophy.
 
@@ -37,7 +37,7 @@ Sample content I've created throughout my professional writing career.
 List of products supported by my Digital Solutions technical writing team.
 
 #### [Product Documentation Workshops](docs/workshop_list.md)
-20 years of work history and interesting projects.
+A list of products I onboarded and supported with documentation.
 
 #### [Web store and special items in my shop](docs/webstore.md)
 I connect people with vintage treasures to bring back a memory as a gift to themselves or to share with a loved one. Vinyl Junction is an online store for Cassettes, LPs, Books, and Record Boxes on the Etsy platform.
