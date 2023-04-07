@@ -9,9 +9,10 @@ Sample content I've created throughout my professional writing career.
 * [Music Review: Disillusion](reviews/disillusion_gloria.md)
 * [Music Review: Hot Water Music](reviews/hot_water_music_caution.md)
 * [Opinion: Anthrax vs. anthrax](opinion/anthrax_vs_anthrax.md)
-* [Procedural Task: Creating Requests](03_procedural_task.md)
-* [Procedural Task: Show or Hide Plugins](show_or_hide_plugins_within_a_task.md)
-* [Software Update: Batch Approval](04_software_update.md)
-* [Software Update: Masking Account Numbers](02_masking_account_numbers.md)
+* [Concept: Batch Approval](04_software_update.md)
+* [Task: Masking Account Numbers](02_masking_account_numbers.md)
+* [Task: Creating Requests](03_procedural_task.md)
+* [Task: Show or Hide Plugins](show_or_hide_plugins_within_a_task.md)
+* [Task: Showing the Goals Connection in Tasks](Showing_the_Goals_Connection_in_Tasks.md) 
 
 *Original names and menus are obscured.*
