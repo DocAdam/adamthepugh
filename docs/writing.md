@@ -10,6 +10,7 @@ Sample content I've created throughout my professional writing career.
 * [Music Review: Hot Water Music](reviews/hot_water_music_caution.md)
 * [Opinion: Anthrax vs. anthrax](opinion/anthrax_vs_anthrax.md)
 * [Concept: Batch Approval](04_software_update.md)
+* [Field Definitions: New Work Tracker](Field_Definitions_new_work_tracker.md)
 * [Task: Masking Account Numbers](02_masking_account_numbers.md)
 * [Task: Creating Requests](03_procedural_task.md)
 * [Task: Show or Hide Plugins](show_or_hide_plugins_within_a_task.md)
