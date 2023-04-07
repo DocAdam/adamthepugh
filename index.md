@@ -23,8 +23,7 @@ My name is Adam, and I am a leader, writer, and curious individual.
 If you think we are a good match I’d love to hear from you.
 
 #### More about me
-I have a Bachelor’s degree in Journalism with a minor in Communication plus 19 years of technical writing and management experience. I’ve worked with APIs, JSON, and code commenting tools. I work using Agile methodologies and interact with engineers to deliver helpful online content. I am experienced with DITA and use the Oxygen XML Author and Tridion Docs CCMS.
-
+Results-driven Documentation Manager with over 12 years of experience leading and managing teams ranging from 4 to 14 professionals. Skilled in developing and implementing content strategies, documentation analytics, and data-driven process improvements. Proficient in using Tableau, Power BI, and Excel Power Query for data analysis. Experienced in content management systems such as Tridion Docs, SharePoint, and Wiki, as well as HTML, Markdown, CSS, and XML markup languages for web-based documentation. Committed to fostering compassionate and effective leadership by leading by example and valuing both kindness and high-quality work.
 I'm focused on developing compassionate and kind leaders. To do this well we must: be kind, and do good work. That is my leadership philosophy.
 
 #### [Long Resume](docs/full_resume.md)
@@ -40,15 +39,11 @@ List of products supported by my Digital Solutions technical writing team.
 A list of products I onboarded and supported with documentation.
 
 #### [Web store and special items in my shop](docs/webstore.md)
-I connect people with vintage treasures to bring back a memory as a gift to themselves or to share with a loved one. Vinyl Junction is an online store for Cassettes, LPs, Books, and Record Boxes on the Etsy platform.
+Founded and manage Vinyl Junction, an online store on the Etsy platform that specializes in vintage music and books, with a focus on connecting customers with treasures that evoke positive memories.
 
 #### [Analytics](docs/analytics.md)
 Visuals created with Tableau Public based on sales for my shop.
 
 #### [Social Media links](docs/social.md)
 Take a look at my activity around the web or check out what I am learning.
-
-Along the way I started a business on Etsy called <a href="https://vinyljunction.com" target="_blank">Vinyl Junction</a> selling vintage music and books.
-
-I enjoy learning, <a href="https://www.goodreads.com/adamthepugh" target="_blank">reading</a>, and exploring new music.
 
