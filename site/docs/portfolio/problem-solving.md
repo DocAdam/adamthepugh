@@ -42,6 +42,8 @@ When information is uneven, I look for what repeats:
 
 That gives me a starting point for structure.
 
+I also pay attention to where people naturally go for help. A lot of the time, they do not start with formal documentation. They ask another person, search informally, or look for examples from someone who has already solved the problem. That matters, because good documentation should account for how people actually seek help, not just how we wish they would.
+
 ### Then, build something people can use
 
 I care less about theoretical elegance than whether the result actually helps.
