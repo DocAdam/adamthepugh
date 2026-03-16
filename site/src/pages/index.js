@@ -15,24 +15,24 @@ export default function Home() {
         </p>
 
         <p style={{ maxWidth: '760px' }}>
-          I like work that starts messy: scattered information, unclear workflows,
-          evolving systems, awkward tools, and half-documented processes. I turn
-          that kind of material into clearer help, better structure, and usable content.
+          I work at the intersection of documentation, structure, analytics, and practical
+          systems thinking. I like projects that start messy and need someone to figure out
+          what matters, organize the information, and turn it into something people can use.
         </p>
 
         <h2>What I do</h2>
         <ul>
           <li>Technical writing and help content</li>
-          <li>Documentation cleanup and restructuring</li>
-          <li>Procedural, reference, and support writing</li>
-          <li>Information architecture and content organization</li>
-          <li>Excel, reporting, and data-supported analysis</li>
-          <li>Practical tool use and lightweight build work</li>
+          <li>Documentation strategy and structure</li>
+          <li>Content cleanup and information architecture</li>
+          <li>Cross-functional documentation for complex systems</li>
+          <li>Excel, Tableau, reporting, and documentation analytics</li>
+          <li>Practical documentation tooling and lightweight build work</li>
         </ul>
 
         <h2>Featured recent work</h2>
         <p>
-          <strong>TeraCreators Help</strong> is a strong example of turning scattered,
+          <strong>TeraCreators Help</strong> is a recent example of turning scattered,
           community-sourced knowledge into structured, navigable help content.
         </p>
 
@@ -42,9 +42,17 @@ export default function Home() {
           <a href="https://docadam.github.io/TeraCreators-Help/">View the live guide</a>
         </p>
 
+        <h2>Current focus</h2>
+        <p style={{ maxWidth: '760px' }}>
+          I currently work as a Documentation Engineer at Meta, creating and improving
+          documentation for in-house Recruiting Management Software that supports the hiring
+          lifecycle from sourcing to onboarding.
+        </p>
+
         <h2>Explore</h2>
         <ul>
           <li><Link to="/docs/intro">Portfolio Docs</Link></li>
+          <li><Link to="/docs/case-studies/overview">Case Studies</Link></li>
           <li><Link to="/docs/writing-samples/overview">Writing Samples</Link></li>
           <li><Link to="/docs/data-analytics/overview">Data &amp; Analytics</Link></li>
           <li><Link to="/docs/experience/overview">Experience</Link></li>
