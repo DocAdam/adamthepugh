@@ -43,7 +43,7 @@ I currently work as a **Documentation Engineer at Meta**, creating and improving
 
 ### TeraCreators Help
 
-TeraCreators Help is a recent example of the kind of work I like most: taking scattered, community-sourced information and turning it into structured, navigable help content.
+TeraCreators Help is a multi-guide documentation project covering five different games. It takes scattered, community-sourced information and turns it into structured, navigable help content with screenshots, repeatable page models, and live community-facing documentation.
 
 - [Read the case study](./case-studies/teracreators-help.md)
 - [View the live guide](https://docadam.github.io/TeraCreators-Help/)
