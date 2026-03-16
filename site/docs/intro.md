@@ -1,25 +1,61 @@
 ---
 sidebar_position: 1
+slug: /intro
 ---
 
-# Portfolio Docs
+<div className="intro-hero">
+  <img src="/img/headshot.jpg" alt="Adam Pugh" className="intro-headshot" />
 
-This site is a documentation-style portfolio for my work as a writer, technical writer, problem-solver, and practical builder.
+  <div className="intro-copy">
+    <h1>Adam Pugh</h1>
+    <p className="intro-tagline">Writer, technical writer, problem-solver, and practical builder.</p>
+    <p>
+      I work at the intersection of documentation, structure, analytics, and practical systems thinking.
+      I like projects that start messy and need someone to figure out what matters, organize the information,
+      and turn it into something people can use.
+    </p>
+    <p className="intro-links">
+      <a href="https://www.linkedin.com/in/adampugh/details/experience/">Resume on LinkedIn</a>
+      <span> · </span>
+      <a href="https://github.com/DocAdam">GitHub</a>
+      <span> · </span>
+      <a href="https://docadam.github.io/TeraCreators-Help/">TeraCreators Help</a>
+    </p>
+  </div>
+</div>
 
-I’m at my best when the work starts messy.
+## What I do
 
-That usually means one or more of these are true:
+- technical writing and help content
+- documentation strategy and information architecture
+- content cleanup and restructuring
+- cross-functional documentation for complex systems
+- Excel, Tableau, reporting, and documentation analytics
+- practical documentation tooling and lightweight build work
 
-- information is scattered
-- the structure is weak or inconsistent
-- the workflow is unclear
-- the audience needs help, not jargon
-- the tools are awkward, underexplained, or half-assembled
-- the project does not come with a neat playbook
+## Current focus
 
-I like that kind of work.
+I currently work as a **Documentation Engineer at Meta**, creating and improving documentation for in-house Recruiting Management Software that supports the hiring lifecycle from sourcing through onboarding.
 
-## How this portfolio is organized
+## Featured recent work
+
+### TeraCreators Help
+
+TeraCreators Help is a recent example of the kind of work I like most: taking scattered, community-sourced information and turning it into structured, navigable help content.
+
+- [Read the case study](./case-studies/teracreators-help.md)
+- [View the live guide](https://docadam.github.io/TeraCreators-Help/)
+
+## Best places to start
+
+- [About](./about.md)
+- [Portfolio Overview](./portfolio/overview.md)
+- [Case Studies](./case-studies/overview.md)
+- [Writing Samples](./writing-samples/overview.md)
+- [Data & Analytics](./data-analytics/overview.md)
+- [Experience](./experience/overview.md)
+
+## How this site is organized
 
 ### Portfolio
 
@@ -31,7 +67,7 @@ Examples of turning messy systems, knowledge, and workflows into usable help.
 
 ### Writing Samples
 
-Procedural, reference, conceptual, and help-focused writing samples.
+A compact, honest summary of the kinds of writing I’ve done and how that work shows up across the site.
 
 ### Data & Analytics
 
@@ -44,13 +80,3 @@ Selected work history, achievements, leadership, and mentoring.
 ### Projects
 
 Supporting projects that show initiative, experimentation, long-term ownership, and practical follow-through.
-
-## Best places to start
-
-If you are new to the site, start with:
-
-- [TeraCreators Help case study](./case-studies/teracreators-help.md)
-- [Portfolio overview](./portfolio/overview.md)
-- [Writing samples overview](./writing-samples/overview.md)
-- [Data & Analytics overview](./data-analytics/overview.md)
-- [Experience overview](./experience/overview.md)

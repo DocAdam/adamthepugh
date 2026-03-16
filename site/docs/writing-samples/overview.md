@@ -2,7 +2,7 @@
 
 This section is intentionally compact.
 
-A lot of my strongest writing work has happened in enterprise environments where the raw source material is internal, proprietary, or tied to systems that are not public. Because of that, this portfolio focuses less on publishing random isolated sample pages and more on showing the kinds of writing I’ve done, the systems I’ve supported, and the documentation judgment behind the work.
+A lot of my strongest writing work has happened in enterprise environments where the raw source material is internal, proprietary, or tied to systems that are not public. Because of that, this portfolio focuses less on publishing isolated sample pages and more on showing the kinds of writing I’ve done, the systems I’ve supported, and the documentation judgment behind the work.
 
 ## Writing I’ve done
 
