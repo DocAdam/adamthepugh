@@ -5,6 +5,12 @@ title: Home
 hide_title: true
 ---
 
+import Head from '@docusaurus/Head';
+
+<Head>
+  <title>Adam Pugh</title>
+</Head>
+
 <div className="intro-hero">
   <img src="/img/headshot.jpg" alt="Adam Pugh" className="intro-headshot" />
 
@@ -59,19 +65,19 @@ TeraCreators Help is a multi-guide documentation project covering five different
 
 ## How this site is organized
 
-### Portfolio
+### How I Work
 
-How I think about writing, problem-solving, tools, systems, and figuring things out.
+How I approach writing, problem-solving, tools, systems, and figuring things out.
 
-### Case Studies
+### Work
 
-Examples of turning messy systems, knowledge, and workflows into usable help.
+Examples of turning scattered systems, knowledge, and workflows into usable help.
 
 ### Writing Samples
 
 A compact, honest summary of the kinds of writing I’ve done and how that work shows up across the site.
 
-### Data & Analytics
+### Analytics
 
 Examples of using Excel, reporting, dashboards, and structured analysis to support decisions and improve documentation work.
 
@@ -79,6 +85,6 @@ Examples of using Excel, reporting, dashboards, and structured analysis to suppo
 
 Selected work history, achievements, leadership, and mentoring.
 
-### Projects
+### Selected Projects
 
 Supporting projects that show initiative, experimentation, long-term ownership, and practical follow-through.
