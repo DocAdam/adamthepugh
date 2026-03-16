@@ -4,7 +4,7 @@
 
 My career has centered on technical writing, documentation systems, team leadership, content operations, analytics, and improving how information is created, maintained, and used.
 
-Across roles, the pattern has stayed pretty consistent: take complicated products, messy workflows, scattered knowledge, or underdeveloped content systems and make them clearer, more usable, and easier to maintain.
+Across roles, the pattern has stayed pretty consistent: take complicated products, weak workflows, scattered knowledge, or underdeveloped content systems and make them clearer, more usable, and easier to maintain.
 
 ## Meta
 
@@ -47,7 +47,13 @@ This role combined leadership, content strategy, analytics, and hands-on documen
 
 I founded and run Vinyl Junction, an Etsy shop focused on vintage music and books.
 
-What started with vintage records expanded into spoken word records, vintage cassettes, and classic books. Running the shop has strengthened a different but related set of skills:
+What started with vintage records expanded into:
+
+- spoken word records
+- vintage cassettes
+- classic books
+
+Running the shop has strengthened a different but related set of skills:
 
 - product communication
 - copy refinement
@@ -111,3 +117,9 @@ Highlights included:
 - helping transition authoring practices toward DITA and XML
 - consistently delivering quality content on time
 - supporting teammates and shared documentation goals
+
+### Additional scale and tooling context from Jack Henry work
+
+Earlier portfolio material reflects additional scope that shaped this work, including support across a team of 10 technical writers, content outputs such as online help, PDFs, Microsoft Word deliverables, and help-system publishing, plus work inside a content management system using oXygen XML Editor, GitHub, and monthly build cycles.
+
+That broader environment reinforces the kind of documentation work I’ve spent much of my career in: structured content, large product sets, repeatable publishing workflows, and systems that need both writing quality and operational discipline.

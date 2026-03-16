@@ -21,6 +21,8 @@ My background includes work with:
 - DITA
 - GitHub Pages
 - Docusaurus
+- oXygen XML Editor
+- content management systems for help and documentation publishing
 
 ## How I think about tools
 
@@ -92,6 +94,7 @@ In my career, this tools-and-systems mindset has shown up in work like:
 - working in enterprise documentation systems
 - building and restructuring documentation sites with GitHub Pages and Docusaurus
 - shaping content models that are easier to scale and maintain
+- supporting environments with online help, PDFs, Word-based deliverables, CMS-managed content, GitHub workflows, and monthly build cycles
 
 ## What matters most
 
