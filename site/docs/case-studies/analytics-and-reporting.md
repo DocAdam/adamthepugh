@@ -72,6 +72,8 @@ Reporting helps with that by making it easier to:
 
 That is why I see analytics as part of documentation operations, not something separate from it.
 
+For more on the broader operational side, see [Documentation Operations](./documentation-operations.md), [Analytics Overview](../data-analytics/overview.md), and [Tools and Systems](../portfolio/tools-and-systems.md).
+
 ## What this shows about my work
 
 This is a good example of how I work beyond page-level writing:

@@ -77,6 +77,8 @@ Improving documentation operations helps create:
 - better maintainability
 - better conditions for good documentation work
 
+For the reporting side of that work, see [Analytics and Reporting](./analytics-and-reporting.md). For the structural side, see [Migrations and Information Architecture](./migrations-and-ia.md).
+
 ## What this shows about my work
 
 This is a strong example of the broader way I work:

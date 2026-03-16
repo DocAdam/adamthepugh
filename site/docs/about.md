@@ -1,44 +1,22 @@
 # About
 
-I’m a writer and documentation professional who likes difficult projects, unclear systems, and work that does not arrive with a neat playbook.
+I’m a writer and documentation professional whose work has grown across technical writing, documentation leadership, documentation engineering, analytics, and system improvement.
 
-My background spans technical writing, documentation leadership, documentation engineering, analytics, and practical system improvement. I’ve worked across software documentation, internal help systems, content operations, reporting, and team leadership, and I tend to do my best work when the real problem is bigger than just writing a page.
+A lot of what I do sits at the boundary between content and operations: clarifying workflows, improving structure, supporting teams, measuring progress, and making information easier to maintain over time.
 
-## What I do well
+If you want the broadest view of how I work, start with [Home](./intro.md), [How I Work](./portfolio/overview.md), and [Work](./case-studies/overview.md).
 
-I’m especially strong in work that combines:
+## Background
 
-- technical writing
-- documentation structure
-- information architecture
-- analytics and reporting
-- Excel and data wrangling
-- process improvement
-- practical tooling
-- figuring things out in unfamiliar domains
+My work has included documentation for enterprise software, internal recruiting systems, analytics and reporting, structured authoring, help systems, and long-running independent project work.
 
-## Current role
+Earlier editorial work included reporting and editing at the Arizona Daily Wildcat, where I managed and assigned work for 10 writers.
 
-I currently work as a **Documentation Engineer at Meta**, where I create, maintain, and improve documentation for an in-house Recruiting Management Software platform that supports the hiring lifecycle from sourcing through onboarding.
+## Education
 
-That work involves close collaboration with product managers, software engineers, recruiters, coordinators, directors, HR, Global Recruiting, Mission Control, and People teams.
+- **B.A., Journalism / Communications** — University of Arizona
+- **A.A., Sociology** — Bellevue College
 
-## Earlier work
+## Personal context
 
-Before that, I worked in documentation leadership roles at **Meta** and **Jack Henry**, where my work included:
-
-- team leadership
-- content strategy
-- documentation analytics
-- onboarding acquired products into existing documentation practices
-- improving how documentation gets planned, measured, and delivered
-
-Earlier in my career, I also did game testing at Nintendo and later participated in product testing through Exploding Kittens’ Test Pilot program — experiences that reinforced my interest in usability, testing, and how real people interact with products.
-
-## How I think about the work
-
-I care a lot about usefulness.
-
-I like documentation that helps people complete a task, understand a system, find what matters, or make better decisions. I also like building practical solutions when the work needs more than writing alone.
-
-This site is organized like a help system because that is the kind of work I do best: making complicated systems easier to navigate and easier to use.
+Outside my main documentation work, I run [Vinyl Junction](./projects/vinyl-junction.md), a long-running Etsy shop focused on vintage music and books. I’m also a longtime music collector and someone who tends to learn by building, testing, refining, and improving things over time.

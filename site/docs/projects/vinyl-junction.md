@@ -58,4 +58,4 @@ Even though Vinyl Junction is not a documentation team role, it still reinforces
 - iteration
 - sustained ownership
 
-That makes it worth including as part of the bigger picture.
+For the broader professional framing, see [How I Work](../portfolio/overview.md), [Tools and Systems](../portfolio/tools-and-systems.md), and [Experience](../experience/overview.md).
