@@ -2,6 +2,7 @@
 const config = {
   title: 'Adam Pugh',
   tagline: 'Writer, technical writer, problem-solver, and practical builder',
+  favicon: 'img/favicon.ico',
 
   future: {
     v4: true,
@@ -29,10 +30,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: 'docs',
         },
-        blog: {
-          showReadingTime: true,
-          routeBasePath: 'notes',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -41,7 +39,7 @@ const config = {
   ],
 
   themeConfig: ({
-    image: 'img/social-card.jpg',
+    image: 'img/social-card.png',
     navbar: {
       title: 'Adam Pugh',
       logo: {
@@ -49,13 +47,16 @@ const config = {
         src: 'img/logo.svg',
       },
       items: [
-        { to: '/', label: 'Home', position: 'left' },
-        { to: '/docs/intro', label: 'Portfolio Docs', position: 'left' },
+        { to: '/docs/intro', label: 'Home', position: 'left' },
+        { to: '/docs/about', label: 'About', position: 'left' },
         { to: '/docs/case-studies/overview', label: 'Case Studies', position: 'left' },
         { to: '/docs/writing-samples/overview', label: 'Writing Samples', position: 'left' },
         { to: '/docs/data-analytics/overview', label: 'Data & Analytics', position: 'left' },
-        { to: '/about', label: 'About', position: 'left' },
-        { to: '/notes', label: 'Notes', position: 'left' },
+        {
+          href: 'https://www.linkedin.com/in/adampugh/details/experience/',
+          label: 'Resume',
+          position: 'right',
+        },
         {
           href: 'https://github.com/DocAdam',
           label: 'GitHub',
@@ -69,17 +70,17 @@ const config = {
         {
           title: 'Explore',
           items: [
-            { label: 'Portfolio Docs', to: '/docs/intro' },
+            { label: 'Home', to: '/docs/intro' },
+            { label: 'About', to: '/docs/about' },
             { label: 'Case Studies', to: '/docs/case-studies/overview' },
             { label: 'Writing Samples', to: '/docs/writing-samples/overview' },
             { label: 'Data & Analytics', to: '/docs/data-analytics/overview' },
           ],
         },
         {
-          title: 'More',
+          title: 'Elsewhere',
           items: [
-            { label: 'About', to: '/about' },
-            { label: 'Notes', to: '/notes' },
+            { label: 'Resume on LinkedIn', href: 'https://www.linkedin.com/in/adampugh/details/experience/' },
             { label: 'GitHub', href: 'https://github.com/DocAdam' },
             { label: 'TeraCreators Help', href: 'https://docadam.github.io/TeraCreators-Help/' },
           ],

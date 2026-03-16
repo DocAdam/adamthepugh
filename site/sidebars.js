@@ -1,6 +1,7 @@
 const sidebars = {
   portfolioSidebar: [
     'intro',
+    'about',
     {
       type: 'category',
       label: 'Portfolio',
