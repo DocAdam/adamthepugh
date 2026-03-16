@@ -1,15 +1,13 @@
 const sidebars = {
   portfolioSidebar: [
-    'intro',
-    'about',
+    { type: 'doc', id: 'intro', label: 'Home' },
+    { type: 'doc', id: 'about', label: 'About' },
     {
       type: 'category',
-      label: 'Portfolio',
+      label: 'How I Work',
       items: [
         'portfolio/overview',
-        'portfolio/writing-philosophy',
         'portfolio/problem-solving',
-        'portfolio/vibe-coding',
         'portfolio/tools-and-systems',
       ],
     },
