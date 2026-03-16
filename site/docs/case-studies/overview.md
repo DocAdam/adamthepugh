@@ -1,4 +1,4 @@
-# Case Studies Overview
+# Work Overview
 
 This section highlights projects that show how I work when the problem is bigger than writing words on a page.
 
@@ -25,15 +25,15 @@ These pages are here to show how I approach work like:
 
 ### TeraCreators Help
 
-A recent example of turning scattered, community-sourced information into a structured help site.
+A multi-guide help system covering five different games, built from community-sourced Discord knowledge, screenshots, and iterative refinement. This is one of the strongest examples on the site because it combines information architecture, editorial judgment, visual documentation, live publishing, and real user feedback.
 
 ### Documentation Operations
 
-Work tied to the systems, processes, and support structures behind good documentation.
+Work tied to the systems, processes, reporting, and support structures behind good documentation.
 
 ### Migrations and Information Architecture
 
-Examples of restructuring content and improving how information is organized.
+Examples of restructuring content and improving how information is organized so it becomes easier to navigate and easier to maintain.
 
 ### Analytics and Reporting
 
@@ -41,6 +41,6 @@ Work that uses data, reporting, and visibility to support documentation decision
 
 ## Why this section matters
 
-Case studies are where the site moves beyond general claims.
+This section is where the site moves beyond general claims.
 
-They show how I think, what I pay attention to, and how I turn uneven situations into something more usable.
+It shows how I think, what I pay attention to, and how I turn uneven situations into something more usable, more structured, and more sustainable.

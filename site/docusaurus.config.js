@@ -2,7 +2,7 @@
 const config = {
   title: 'Adam Pugh',
   tagline: 'Writer, technical writer, problem-solver, and practical builder',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/social-card.png',
 
   future: {
     v4: true,
