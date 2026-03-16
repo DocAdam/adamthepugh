@@ -10,6 +10,7 @@ export default function Home() {
     >
       <main style={{ padding: '3rem 1.5rem', maxWidth: '960px', margin: '0 auto' }}>
         <h1>Adam Pugh</h1>
+
         <p style={{ fontSize: '1.2rem', maxWidth: '760px' }}>
           Writer, technical writer, problem-solver, and practical builder.
         </p>
@@ -23,17 +24,18 @@ export default function Home() {
         <h2>What I do</h2>
         <ul>
           <li>Technical writing and help content</li>
-          <li>Documentation strategy and structure</li>
-          <li>Content cleanup and information architecture</li>
+          <li>Documentation strategy and information architecture</li>
+          <li>Content cleanup and restructuring</li>
           <li>Cross-functional documentation for complex systems</li>
           <li>Excel, Tableau, reporting, and documentation analytics</li>
           <li>Practical documentation tooling and lightweight build work</li>
         </ul>
 
         <h2>Featured recent work</h2>
-        <p>
-          <strong>TeraCreators Help</strong> is a recent example of turning scattered,
-          community-sourced knowledge into structured, navigable help content.
+        <p style={{ maxWidth: '760px' }}>
+          <strong>TeraCreators Help</strong> is a recent example of the kind of work I like
+          most: taking scattered, community-sourced information and turning it into structured,
+          navigable help content.
         </p>
 
         <p>
@@ -46,10 +48,10 @@ export default function Home() {
         <p style={{ maxWidth: '760px' }}>
           I currently work as a Documentation Engineer at Meta, creating and improving
           documentation for in-house Recruiting Management Software that supports the hiring
-          lifecycle from sourcing to onboarding.
+          lifecycle from sourcing through onboarding.
         </p>
 
-        <h2>Explore</h2>
+        <h2>Start here</h2>
         <ul>
           <li><Link to="/docs/intro">Portfolio Docs</Link></li>
           <li><Link to="/docs/case-studies/overview">Case Studies</Link></li>
