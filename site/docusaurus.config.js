@@ -10,6 +10,7 @@ const config = {
 
   url: 'https://adamthepugh.com',
   baseUrl: '/',
+  trailingSlash: false,
 
   organizationName: 'DocAdam',
   projectName: 'adamthepugh',
