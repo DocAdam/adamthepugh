@@ -19,10 +19,14 @@ My background includes work with:
 - CSS
 - XML
 - DITA
+- GitHub
+- VS Code
 - GitHub Pages
 - Docusaurus
 - oXygen XML Editor
 - content management systems for help and documentation publishing
+- Presto SQL
+- Unidash
 
 ## How I think about tools
 
@@ -47,7 +51,7 @@ I am not interested in treating tools like trophies.
 
 What matters is whether the tool helps with something real:
 
-- improving structure
+- improving organization
 - reducing duplication
 - making reporting easier
 - supporting consistency
@@ -64,6 +68,7 @@ I’m comfortable learning enough of the environment to make progress, whether t
 - editing config files
 - organizing content in a docs generator
 - using dashboards and spreadsheets to track work
+- writing queries to support measurement
 - cleaning up a publishing workflow
 - figuring out where the friction actually is
 
@@ -77,6 +82,7 @@ That can include:
 
 - editing site configuration
 - working with Markdown, HTML, CSS, XML, and structured content systems
+- using GitHub and VS Code in day-to-day documentation work
 - using static site tools like Docusaurus and GitHub Pages
 - iterating on documentation site structure
 - using scripts, templates, or lightweight automation to reduce repetitive work
@@ -91,6 +97,7 @@ In my career, this tools-and-systems mindset has shown up in work like:
 - helping adopt DITA and XML
 - implementing documentation analytics in Tableau
 - streamlining reporting and large-data workflows in Excel
+- building metric dashboards at Meta using Presto SQL and Unidash
 - working in enterprise documentation systems
 - building and restructuring documentation sites with GitHub Pages and Docusaurus
 - shaping content models that are easier to scale and maintain
@@ -100,4 +107,4 @@ In my career, this tools-and-systems mindset has shown up in work like:
 
 The point is not that I have touched a lot of tools.
 
-The point is that I can work across writing, systems, workflow problems, and lightweight build work without needing everything handed to me in a perfect package.
+The point is that I can work across writing, systems, workflow problems, analytics, and lightweight build work without needing everything handed to me in a perfect package.

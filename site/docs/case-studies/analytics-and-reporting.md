@@ -31,12 +31,15 @@ Across roles, this work has included:
 - improving visibility into documentation work across many products
 - supporting planning and prioritization with better reporting
 - identifying opportunities for process improvement through data
+- writing Presto SQL queries and building dashboards in Unidash at Meta to measure project success
 
 ## How this showed up in my work
 
 At Meta, this work included a Tableau dashboard set used to measure a large-scale wiki migration effort spanning **421 products**, including completion rates by team and team group.
 
 It also included setting up a SharePoint-based work progress tracker and using Tableau to display the data in a more usable way for monthly reporting and documentation visibility.
+
+In addition, I implemented metric dashboards at Meta using **Presto SQL** and **Unidash** to measure project success more directly.
 
 At Jack Henry, this work included streamlining data collection, analysis, and reporting for a department of 45 by implementing an automated documentation analytics system using Tableau and SharePoint.
 

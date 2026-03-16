@@ -1,6 +1,6 @@
 # About
 
-I’m a writer and documentation professional who likes difficult projects, messy information, unclear systems, and work that does not arrive with a neat playbook.
+I’m a writer and documentation professional who likes difficult projects, unclear systems, and work that does not arrive with a neat playbook.
 
 My background spans technical writing, documentation leadership, documentation engineering, analytics, and practical system improvement. I’ve worked across software documentation, internal help systems, content operations, reporting, and team leadership, and I tend to do my best work when the real problem is bigger than just writing a page.
 
@@ -33,10 +33,12 @@ Before that, I worked in documentation leadership roles at **Meta** and **Jack H
 - onboarding acquired products into existing documentation practices
 - improving how documentation gets planned, measured, and delivered
 
+Earlier in my career, I also did game testing at Nintendo and later participated in product testing through Exploding Kittens’ Test Pilot program — experiences that reinforced my interest in usability, testing, and how real people interact with products.
+
 ## How I think about the work
 
 I care a lot about usefulness.
 
 I like documentation that helps people complete a task, understand a system, find what matters, or make better decisions. I also like building practical solutions when the work needs more than writing alone.
 
-This site is organized like a help system because that is the kind of work I do best: turning complexity into something clearer, more usable, and easier to navigate.
+This site is organized like a help system because that is the kind of work I do best: making complicated systems easier to navigate and easier to use.

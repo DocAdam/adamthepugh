@@ -8,13 +8,13 @@ I’m a writer and documentation professional, but the value I bring is not limi
 
 I work on documentation problems that often involve some mix of these:
 
-- scattered or uneven source material
+- uneven or scattered source material
 - unclear workflows
-- inconsistent structure
+- inconsistent organization
 - evolving systems
 - cross-functional complexity
 - weak discoverability
-- the need for clearer, more usable help
+- the need for guidance people can actually use
 
 That can lead to work like:
 
@@ -39,11 +39,11 @@ Projects where the real challenge is not just wording, but structure, workflow, 
 
 ### Tools and systems
 
-Work that sits close to documentation tooling, structured content, reporting, static sites, and practical build work.
+Work that sits close to documentation tooling, structured content, reporting, static sites, and lightweight build work.
 
 ### Data and analytics
 
-Using Excel, Tableau, reporting, and structured analysis to improve documentation work and support better decisions.
+Using Excel, Tableau, reporting, SQL-based analysis, and structured measurement to improve documentation work and support better decisions.
 
 ### Recent proof
 
