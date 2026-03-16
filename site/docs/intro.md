@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
 slug: /intro
+title: Home
+hide_title: true
 ---
 
 <div className="intro-hero">
