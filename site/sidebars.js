@@ -58,7 +58,6 @@ const sidebars = {
         'projects/overview',
         'projects/personal-site',
         'projects/vinyl-junction',
-        'projects/experiments',
       ],
     },
   ],

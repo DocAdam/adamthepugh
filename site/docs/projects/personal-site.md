@@ -2,7 +2,7 @@
 
 This site is not just a portfolio. It is also a working example of how I like to organize information.
 
-I’m rebuilding it as a documentation-style portfolio because that format better reflects how I think and work. A traditional portfolio can show experience. A help-style site can show structure, judgment, clarity, and how I approach organizing information.
+I rebuilt it as a documentation-style portfolio because that format better reflects how I think and work. A traditional portfolio can show experience. A help-style site can also show structure, judgment, clarity, and how I approach organizing information.
 
 ## Why I rebuilt it this way
 
