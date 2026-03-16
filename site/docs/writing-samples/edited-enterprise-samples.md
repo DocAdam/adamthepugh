@@ -8,42 +8,60 @@ That is normal. A lot of meaningful documentation work involves internal systems
 
 Instead of pretending that limitation does not exist, I’d rather be clear about it.
 
-Some of my most relevant work includes:
+A lot of my most relevant work includes:
 
 - internal product documentation
 - recruiting workflow documentation
 - process-heavy documentation for enterprise systems
-- documentation strategy and structure work
+- feature and enhancement explanations
+- field definitions and structured reference content
+- administrative and configuration procedures
+- customer communication tied to product changes
 - editing and improving content across large product sets
-- content operations and analytics support tied to internal environments
 
-## How to read this section
+## Representative examples from my background
 
-The absence of full public samples does not mean the work is vague. It means the work happened in settings where the exact source material is not public.
+The older samples from my portfolio still show the range of work I’ve done well, even if they are not the newest pieces on the site.
 
-What I can show here is:
+### Customer communication
 
-- the kinds of writing I’ve done
-- the kinds of systems I’ve supported
-- the types of problems I’ve solved
-- the documentation patterns I’ve worked in
-- the structures and editorial decisions I tend to make
+I’ve written customer-facing communication that introduces product changes clearly, frames value, and explains feature updates in a structured way.
 
-## What this work has included
+### Procedural task writing
 
-Across enterprise environments, my work has included things like:
+My work includes task-based documentation such as:
+
+- masking account numbers
+- creating requests in a backlog tracker
+- showing or hiding plugins within a task
+- showing task connections to goals
+
+These examples show clear sequencing, scoped notes, and administrative task support.
+
+### Reference and structured content
+
+I’ve also written reference-oriented material such as field definitions for tracking systems, where consistency, naming, and fast lookup matter more than narrative flow.
+
+### Feature and enhancement explanations
+
+My background includes software enhancement and update writing, where a page needs to explain what changed, why it matters, and how it affects behavior without overwhelming the reader.
+
+## What these examples show
+
+These examples matter less as isolated artifacts and more as proof of pattern.
+
+They show that I’ve worked across:
 
 - procedural documentation
-- reference material
-- conceptual content
-- help content tied to software behavior
-- content strategy
-- editing for clarity and consistency
-- documentation for evolving internal systems
-- work shaped by analytics, scale, and cross-functional complexity
+- reference content
+- conceptual/feature explanation
+- customer communication
+- administrative help content
 
-## Why this still matters
+They also show that I understand when content should behave like a task, a reference page, a feature explanation, or a communication piece.
 
-A lot of strong documentation work is invisible to the public.
+## Why this section stays compact
 
-That does not make it less real. It just means the portfolio has to explain the work honestly and show its shape through summaries, related public examples, and the way the rest of the site is structured.
+I would rather keep this section honest than overfill it with old standalone sample pages.
+
+The strongest signal is not that I can collect examples by category. It is that I can apply the right structure, tone, and level of detail to the documentation problem in front of me.
