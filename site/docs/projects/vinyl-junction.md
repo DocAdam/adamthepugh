@@ -2,7 +2,7 @@
 
 Vinyl Junction is my Etsy shop focused on vintage music and books.
 
-It is not the same kind of work as enterprise documentation, but it reflects a lot of the same strengths: organization, product communication, iterative improvement, customer awareness, taxonomy, and long-term consistency.
+It is not the same kind of work as enterprise documentation, but it reflects many of the same strengths: organization, product communication, iterative improvement, customer awareness, taxonomy, and long-term consistency.
 
 ## What the project is
 
@@ -17,9 +17,13 @@ The shop began with vintage records and expanded into:
 
 It has also become a long-running operational project involving listing quality, inventory organization, packaging, customer communication, and sustained maintenance over many years.
 
+## Scale
+
+Vinyl Junction has grown into a real long-running business, with more than **1.4 million views**, **11.3K sales**, and over **$387K in revenue** since 2014. The shop has also reached customers in **51 countries**.
+
 ## Why I include it here
 
-I include Vinyl Junction because it is a real, sustained project that shows a different side of how I work.
+I include Vinyl Junction because it is a sustained project that shows a different side of how I work.
 
 Running the shop has required:
 
