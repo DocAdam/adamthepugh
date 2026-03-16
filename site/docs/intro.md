@@ -16,7 +16,7 @@ import Head from '@docusaurus/Head';
 
   <div className="intro-copy">
     <h1>Adam Pugh</h1>
-    <p className="intro-tagline">Writer, technical writer, problem-solver, and practical builder.</p>
+    <p className="intro-tagline">Documentation engineer focused on complex systems, clear structure, and usable help.</p>
     <p>
       I work at the intersection of documentation, structure, analytics, and practical systems thinking.
       I like projects that start messy and need someone to figure out what matters, organize the information,
