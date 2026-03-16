@@ -25,7 +25,7 @@ The older samples from my portfolio still show the range of work I’ve done wel
 
 ### Customer communication
 
-I’ve written customer-facing communication that introduces product changes clearly, frames value, and explains feature updates in a structured way.
+I’ve written customer-facing communication that introduces product changes clearly, frames value, and explains feature updates in a structured way. One example is a product editor announcement that combines rollout messaging, feature framing, and user-facing explanation.
 
 ### Procedural task writing
 
@@ -36,7 +36,7 @@ My work includes task-based documentation such as:
 - showing or hiding plugins within a task
 - showing task connections to goals
 
-These examples show clear sequencing, scoped notes, and administrative task support.
+These examples show sequencing, scoped notes, warnings where needed, and support for real administrative tasks rather than abstract examples.
 
 ### Reference and structured content
 
@@ -44,7 +44,7 @@ I’ve also written reference-oriented material such as field definitions for tr
 
 ### Feature and enhancement explanations
 
-My background includes software enhancement and update writing, where a page needs to explain what changed, why it matters, and how it affects behavior without overwhelming the reader.
+My background includes software enhancement and update writing, where a page needs to explain what changed, why it matters, and how it affects behavior without overwhelming the reader. The batch approval enhancement sample is one example of that style of work.
 
 ## What these examples show
 
@@ -54,7 +54,7 @@ They show that I’ve worked across:
 
 - procedural documentation
 - reference content
-- conceptual/feature explanation
+- conceptual and feature explanation
 - customer communication
 - administrative help content
 
