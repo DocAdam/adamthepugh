@@ -1,42 +1,47 @@
-# Writing Samples Overview
+# Writing Samples
 
-This section groups writing samples by purpose rather than just listing documents.
+This section is intentionally compact.
 
-That matters because different kinds of writing solve different kinds of problems. A good procedure is not built the same way as a reference page. Help content is not the same as conceptual content. Strong documentation depends on knowing the difference.
+A lot of my strongest writing work has happened in enterprise environments where the raw source material is internal, proprietary, or tied to systems that are not public. Because of that, this portfolio focuses less on publishing random isolated sample pages and more on showing the kinds of writing I’ve done, the systems I’ve supported, and the documentation judgment behind the work.
 
-## What this section includes
+## Writing I’ve done
 
-### Procedural Writing
+My background includes work across:
 
-Task-focused content meant to help someone complete a process with less friction.
+- procedural documentation
+- reference content
+- conceptual documentation
+- UX and help content
+- software and process documentation
+- internal documentation for complex operational systems
+- edited and structured content across large product sets
 
-### Reference Writing
+## What matters more than the label
 
-Content designed for lookup, confirmation, and quick retrieval of specific details.
+The important part is not just that I have worked in different content types.
 
-### Conceptual Writing
+It is that I know when a page should behave like:
 
-Content that helps readers understand how something works, why it matters, and how the pieces fit together.
+- a task
+- a reference
+- an explanation
+- support content
+- structured internal documentation
 
-### UX and Help Content
+That judgment matters because documentation gets weaker when every page tries to do everything.
 
-Content written close to the user’s moment of confusion, action, or decision.
+## Where to see the work
 
-### Edited Enterprise Samples
+Some of the strongest proof on this site lives outside this section:
 
-A way of explaining work shaped by internal systems and non-public environments, where raw samples cannot always be published directly.
+- the [TeraCreators Help case study](../case-studies/teracreators-help.md)
+- the [Migrations and Information Architecture case study](../case-studies/migrations-and-ia.md)
+- the [Documentation Operations case study](../case-studies/documentation-operations.md)
+- the [Experience section](../experience/overview.md)
+- the [Edited Enterprise Samples page](./edited-enterprise-samples.md)
 
-## What these pages are meant to show
+## Why this section is small
 
-These pages are meant to show:
+I would rather keep this section honest than pad it with generic explanation.
 
-- how I think about different documentation types
-- how I structure content for different user needs
-- how I balance clarity, usefulness, and scope
-- how documentation work changes depending on the task
-
-## Why this matters
-
-A lot of documentation gets weaker when every page is treated like the same kind of page.
-
-I like working with page types deliberately, because that usually makes content more usable and easier to maintain.
+The real value in my writing work is not that I can define documentation categories. It is that I can use the right structure, tone, and level of detail for the problem in front of me.

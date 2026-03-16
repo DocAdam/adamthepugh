@@ -29,10 +29,6 @@ const sidebars = {
       label: 'Writing Samples',
       items: [
         'writing-samples/overview',
-        'writing-samples/procedural-writing',
-        'writing-samples/reference-writing',
-        'writing-samples/conceptual-writing',
-        'writing-samples/ux-and-help-content',
         'writing-samples/edited-enterprise-samples',
       ],
     },
