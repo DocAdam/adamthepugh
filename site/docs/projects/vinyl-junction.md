@@ -15,6 +15,8 @@ The shop began with vintage records and expanded into:
 - classic books
 - related vintage media
 
+It has also become a long-running operational project involving listing quality, inventory organization, packaging, customer communication, and sustained maintenance over many years.
+
 ## Why I include it here
 
 I include Vinyl Junction because it is a real, sustained project that shows a different side of how I work.
@@ -38,6 +40,8 @@ This project demonstrates that I can:
 - organize large amounts of varied inventory
 - refine focus based on real-world feedback
 - maintain consistency without making everything generic
+
+It also shows comfort with the less glamorous side of sustained work: upkeep, iteration, packaging, quality control, and process consistency.
 
 ## Why it still fits the larger story
 

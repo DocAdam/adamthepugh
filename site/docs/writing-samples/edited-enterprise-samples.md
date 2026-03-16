@@ -48,17 +48,13 @@ My background includes software enhancement and update writing, where a page nee
 
 ## What these examples show
 
-These examples matter less as isolated artifacts and more as proof of pattern.
+These examples show repeatable strengths across enterprise documentation work:
 
-They show that I’ve worked across:
-
-- procedural documentation
-- reference content
-- conceptual and feature explanation
-- customer communication
-- administrative help content
-
-They also show that I understand when content should behave like a task, a reference page, a feature explanation, or a communication piece.
+- choosing the right page type for the problem
+- balancing clarity with operational detail
+- supporting both end users and internal stakeholders
+- structuring content for tasks, reference, and change communication
+- writing in environments where accuracy and maintainability matter
 
 ## Why this section stays compact
 
