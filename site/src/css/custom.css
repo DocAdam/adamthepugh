@@ -60,3 +60,190 @@
   margin-top: 1rem;
   font-weight: 500;
 }
+
+/* Mobile optimization pass */
+
+:root {
+  --ifm-spacing-horizontal: 1rem;
+}
+
+.markdown > h1:first-child {
+  margin-top: 0;
+}
+
+.theme-doc-markdown {
+  max-width: 760px;
+}
+
+.intro-hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.intro-headshot {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+
+.intro-copy {
+  max-width: 700px;
+}
+
+.intro-tagline {
+  font-size: 1.15rem;
+  line-height: 1.4;
+  margin-top: -0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.intro-links {
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.footer .container {
+  max-width: 960px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
+.footer__col {
+  margin-right: 0;
+}
+
+.footer__copyright {
+  text-align: left;
+  margin-top: 1rem;
+  opacity: 0.9;
+}
+
+/* Better defaults for smaller screens */
+@media (max-width: 996px) {
+  .theme-doc-sidebar-container {
+    border-right: none;
+  }
+
+  .theme-doc-markdown {
+    max-width: 100%;
+  }
+
+  .footer__links {
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .intro-hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+
+  .intro-copy {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .intro-headshot {
+    width: 120px;
+    height: 120px;
+    align-self: flex-start;
+  }
+
+  .intro-tagline {
+    font-size: 1rem;
+    line-height: 1.45;
+    margin-top: 0;
+  }
+
+  .intro-links {
+    line-height: 1.6;
+  }
+
+  .markdown h1 {
+    font-size: 2rem;
+    line-height: 1.15;
+  }
+
+  .markdown h2 {
+    font-size: 1.35rem;
+    line-height: 1.25;
+    margin-top: 1.75rem;
+  }
+
+  .markdown h3 {
+    font-size: 1.1rem;
+    line-height: 1.3;
+  }
+
+  .markdown p,
+  .markdown li {
+    font-size: 0.98rem;
+    line-height: 1.65;
+  }
+
+  .markdown ul,
+  .markdown ol {
+    padding-left: 1.25rem;
+  }
+
+  .pagination-nav {
+    gap: 0.75rem;
+  }
+
+  .footer__links {
+    display: block;
+  }
+
+  .footer__col {
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
+  }
+
+  .intro-headshot {
+    width: 104px;
+    height: 104px;
+  }
+
+  .markdown h1 {
+    font-size: 1.75rem;
+  }
+
+  .markdown h2 {
+    font-size: 1.25rem;
+  }
+
+  .intro-tagline {
+    font-size: 0.96rem;
+  }
+
+  .markdown p,
+  .markdown li {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
