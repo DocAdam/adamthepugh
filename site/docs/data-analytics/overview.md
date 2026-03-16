@@ -1,8 +1,8 @@
 # Data & Analytics Overview
 
-I use data as a practical support tool for documentation work.
+I use data as a support tool for documentation work.
 
-That includes understanding workload, tracking progress, improving visibility, identifying patterns, and making better decisions about content and process. I’m interested in analytics when they help clarify reality, not when they just create more dashboards nobody uses.
+That includes understanding workload, tracking progress, improving visibility, identifying patterns, and making better decisions about content and process. I’m interested in analytics when they clarify reality, not when they just create more dashboards nobody uses.
 
 ## Where data fits into my work
 
@@ -42,7 +42,7 @@ Across roles, I’ve used analytics and reporting to:
 
 ## Why this matters in documentation work
 
-Documentation teams often know things are messy before they can prove how or where.
+Documentation teams often know things are off before they can prove how or where.
 
 Data helps with that.
 

@@ -1,14 +1,14 @@
 # Portfolio Overview
 
-This portfolio is organized like a help site because that matches how I work.
+This portfolio is organized like a help site because that matches the kind of work I do.
 
-I’m a writer and documentation professional, but the value I bring is not limited to drafting pages. A lot of my work lives at the intersection of writing, structure, problem-solving, analytics, and practical systems thinking.
+I’m a writer and documentation professional, but the value I bring is not limited to drafting pages. A lot of my work sits at the intersection of writing, structure, judgment, analytics, and practical systems thinking.
 
 ## What I do
 
-I work on documentation problems that usually involve some mix of these:
+I work on documentation problems that often involve some mix of these:
 
-- messy or scattered information
+- scattered or uneven source material
 - unclear workflows
 - inconsistent structure
 - evolving systems
@@ -35,7 +35,7 @@ Technical writing, help content, procedural writing, reference material, concept
 
 ### Problem-solving
 
-Projects where the real challenge is not just the wording, but the structure, the workflow, the ambiguity, or the lack of a usable system.
+Projects where the real challenge is not just wording, but structure, workflow, ambiguity, or the absence of a usable system.
 
 ### Tools and systems
 
@@ -55,7 +55,7 @@ I want this site to show that I can:
 
 - write clearly
 - organize complexity
-- improve messy content environments
+- improve weak content environments
 - work across documentation and systems
 - use data practically
 - learn what a project needs and figure it out

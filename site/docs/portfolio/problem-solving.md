@@ -16,7 +16,7 @@ That is the kind of problem space where I tend to be useful.
 
 ## How I usually approach it
 
-### First, figure out what the real problem is
+### First, identify the actual problem
 
 A documentation request is not always just a documentation request.
 
@@ -32,7 +32,7 @@ I like identifying the real problem before I start polishing text.
 
 ### Then, find the stable patterns
 
-When information is messy, I look for what repeats:
+When information is uneven, I look for what repeats:
 
 - recurring questions
 - repeated workflow gaps
@@ -42,7 +42,7 @@ When information is messy, I look for what repeats:
 
 That gives me a starting point for structure.
 
-### Then, build something usable
+### Then, build something people can use
 
 I care less about theoretical elegance than whether the result actually helps.
 

@@ -1,10 +1,10 @@
 # Case Studies Overview
 
-This section highlights projects that show how I work when the problem is bigger than just writing words on a page.
+This section highlights projects that show how I work when the problem is bigger than writing words on a page.
 
 The common thread in these projects is that they usually involve some mix of:
 
-- messy source material
+- uneven source material
 - unclear structure
 - evolving systems
 - repeated user needs
@@ -43,4 +43,4 @@ Work that uses data, reporting, and visibility to support documentation decision
 
 Case studies are where the site moves beyond general claims.
 
-They show how I think, what I pay attention to, and how I turn messy situations into something more useful.
+They show how I think, what I pay attention to, and how I turn uneven situations into something more usable.
