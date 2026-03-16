@@ -1,0 +1,3 @@
+# Writing Philosophy
+
+Placeholder.
