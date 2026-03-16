@@ -54,6 +54,12 @@ TeraCreators Help is a multi-guide documentation project covering five different
 - [Read the case study](./case-studies/teracreators-help.md)
 - [View the live guide](https://docadam.github.io/TeraCreators-Help/)
 
+### Vinyl Junction
+
+Vinyl Junction is a long-running Etsy business I’ve built since 2014, with more than **11.3K sales** and over **$387K in revenue**. It is a strong proof point for sustained ownership, product communication, and operational consistency.
+
+- [Read about the project](./projects/vinyl-junction.md)
+
 ## Best places to start
 
 - [About](./about.md)
