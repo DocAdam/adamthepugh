@@ -34,11 +34,11 @@ That judgment matters because documentation gets weaker when every page tries to
 
 Some of the strongest proof on this site lives outside this section:
 
-- the [TeraCreators Help case study](../case-studies/teracreators-help.md)
-- the [Migrations and Information Architecture case study](../case-studies/migrations-and-ia.md)
-- the [Documentation Operations case study](../case-studies/documentation-operations.md)
-- the [Experience section](../experience/overview.md)
-- the [Edited Enterprise Samples page](./edited-enterprise-samples.md)
+- [TeraCreators Help](../case-studies/teracreators-help.md)
+- [Migrations and Information Architecture](../case-studies/migrations-and-ia.md)
+- [Documentation Operations](../case-studies/documentation-operations.md)
+- [Experience](../experience/overview.md)
+- [Edited Enterprise Samples](./edited-enterprise-samples.md)
 
 ## Why this section is small
 

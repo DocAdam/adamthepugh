@@ -22,7 +22,7 @@ That can lead to work like:
 - improving information architecture
 - restructuring content
 - building or improving help sites
-- supporting documentation teams with analytics and reporting
+- supporting documentation teams with [analytics and reporting](../data-analytics/overview.md)
 - using practical tooling to make the work easier to maintain
 
 ## What this portfolio emphasizes
@@ -31,23 +31,23 @@ This site focuses on the parts of my work that best show how I think and what Iâ
 
 ### Writing and documentation
 
-Technical writing, help content, procedural writing, reference material, conceptual writing, and content built for real users.
+See [Writing Samples](../writing-samples/overview.md) for a compact summary of the kinds of writing Iâ€™ve done and how that work shows up across the site.
 
 ### Problem-solving
 
-Projects where the real challenge is not just wording, but structure, workflow, ambiguity, or the absence of a usable system.
+See [Problem Solving](./problem-solving.md) for examples of how I approach work where the real challenge is not just wording, but structure, workflow, ambiguity, or the absence of a usable system.
 
 ### Tools and systems
 
-Work that sits close to documentation tooling, structured content, reporting, static sites, and lightweight build work.
+See [Tools and Systems](./tools-and-systems.md) for the documentation tooling, structured content environments, reporting systems, and lightweight build work that support this side of my work.
 
 ### Data and analytics
 
-Using Excel, Tableau, reporting, SQL-based analysis, and structured measurement to improve documentation work and support better decisions.
+See [Analytics](../data-analytics/overview.md) for how I use Excel, Tableau, reporting, SQL-based analysis, and structured measurement to improve documentation work and support better decisions.
 
 ### Recent proof
 
-Recent work matters, which is why projects like TeraCreators Help are featured prominently here.
+See [Work](../case-studies/overview.md), especially [TeraCreators Help](../case-studies/teracreators-help.md), for the strongest recent proof on the site.
 
 ## What I want this site to show
 

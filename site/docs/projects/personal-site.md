@@ -17,3 +17,5 @@ I rebuilt it as a documentation-style portfolio because that format better refle
 A personal site can be a proof point if it reflects the way someone actually works.
 
 This one is meant to do that by showing not just what I’ve done, but how I think about structure, usability, and turning content into something easier to navigate.
+
+To see that broader framing, start with [Home](../intro.md), [How I Work](../portfolio/overview.md), and [Work](../case-studies/overview.md).

@@ -9,4 +9,4 @@ This section highlights projects that show how I work when the challenge involve
 - [Migrations and Information Architecture](./migrations-and-ia.md)
 - [Analytics and Reporting](./analytics-and-reporting.md)
 
-These pages are the strongest proof on the site because they show not just what I’ve done, but how I approach documentation problems in practice.
+If you want the strongest overall example, start with [TeraCreators Help](./teracreators-help.md). For more on my broader approach, see [How I Work](../portfolio/overview.md).

@@ -11,4 +11,4 @@ This part of my work includes reporting, measurement, content audits, operationa
 - [Content Audits](./content-audits.md)
 - [Measurement and Operations](./measurement-and-operations.md)
 
-These pages show how I use reporting, structured analysis, and operational thinking to improve documentation work at scale.
+For project-level examples, also see [Analytics and Reporting](../case-studies/analytics-and-reporting.md) in [Work](../case-studies/overview.md).

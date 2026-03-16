@@ -10,4 +10,4 @@ I’ve worked as an individual contributor, a manager, a senior manager, and a d
 - [Selected Achievements](./selected-achievements.md)
 - [Leadership and Mentoring](./leadership-and-mentoring.md)
 
-This section is the quickest way to see the scope of my work, the kinds of teams and systems I’ve supported, and the responsibilities I’ve carried across roles.
+If you want the quickest view of the scope of my work, start with [Selected Achievements](./selected-achievements.md). If you want the full progression, go to [Work History](./work-history.md).
