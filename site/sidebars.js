@@ -53,7 +53,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Projects',
+      label: 'Selected Projects',
       items: [
         'projects/overview',
         'projects/personal-site',

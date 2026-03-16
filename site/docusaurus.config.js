@@ -55,9 +55,9 @@ const config = {
       items: [
         { to: '/docs/intro', label: 'Home', position: 'left' },
         { to: '/docs/about', label: 'About', position: 'left' },
-        { to: '/docs/case-studies/overview', label: 'Case Studies', position: 'left' },
+        { to: '/docs/case-studies/overview', label: 'Work', position: 'left' },
         { to: '/docs/writing-samples/overview', label: 'Writing Samples', position: 'left' },
-        { to: '/docs/data-analytics/overview', label: 'Data & Analytics', position: 'left' },
+        { to: '/docs/data-analytics/overview', label: 'Analytics', position: 'left' },
         {
           href: 'https://www.linkedin.com/in/adampugh/details/experience/',
           label: 'Resume',
@@ -78,9 +78,9 @@ const config = {
           items: [
             { label: 'Home', to: '/docs/intro' },
             { label: 'About', to: '/docs/about' },
-            { label: 'Case Studies', to: '/docs/case-studies/overview' },
+            { label: 'Work', to: '/docs/case-studies/overview' },
             { label: 'Writing Samples', to: '/docs/writing-samples/overview' },
-            { label: 'Data & Analytics', to: '/docs/data-analytics/overview' },
+            { label: 'Analytics', to: '/docs/data-analytics/overview' },
           ],
         },
         {

@@ -51,10 +51,10 @@ TeraCreators Help is a recent example of the kind of work I like most: taking sc
 ## Best places to start
 
 - [About](./about.md)
-- [Portfolio Overview](./portfolio/overview.md)
-- [Case Studies](./case-studies/overview.md)
+- [How I Work](./portfolio/overview.md)
+- [Selected Work](./case-studies/overview.md)
 - [Writing Samples](./writing-samples/overview.md)
-- [Data & Analytics](./data-analytics/overview.md)
+- [Analytics](./data-analytics/overview.md)
 - [Experience](./experience/overview.md)
 
 ## How this site is organized
