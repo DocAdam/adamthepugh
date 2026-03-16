@@ -18,12 +18,10 @@ import Head from '@docusaurus/Head';
     <h1>Adam Pugh</h1>
     <p className="intro-tagline">Documentation engineer focused on complex systems, clear structure, and usable help.</p>
     <p>
-      I work at the intersection of documentation, structure, analytics, and practical systems thinking.
-      I like projects that start messy and need someone to figure out what matters, organize the information,
-      and turn it into something people can use.
+      I work across documentation, information architecture, analytics, and practical tooling to make complicated systems easier to understand and use.
     </p>
     <p className="intro-links">
-      <a href="https://www.linkedin.com/in/adampugh/details/experience/">Resume on LinkedIn</a>
+      <a href="https://www.linkedin.com/in/adampugh/details/experience/">Resume</a>
       <span> · </span>
       <a href="https://github.com/DocAdam">GitHub</a>
       <span> · </span>
@@ -41,11 +39,7 @@ import Head from '@docusaurus/Head';
 - Excel, Tableau, reporting, and documentation analytics
 - practical documentation tooling and lightweight build work
 
-## Current focus
-
-I currently work as a **Documentation Engineer at Meta**, creating and improving documentation for in-house Recruiting Management Software that supports the hiring lifecycle from sourcing through onboarding.
-
-## Featured recent work
+## Featured work
 
 ### TeraCreators Help
 
@@ -60,7 +54,11 @@ Vinyl Junction is a long-running Etsy business I’ve built since 2014, with mor
 
 - [Read about the project](./projects/vinyl-junction.md)
 
-## Best places to start
+## Current focus
+
+I currently work as a **Documentation Engineer at Meta**, creating and improving documentation for in-house Recruiting Management Software that supports the hiring lifecycle from sourcing through onboarding.
+
+## Start here
 
 - [About](./about.md)
 - [How I Work](./portfolio/overview.md)

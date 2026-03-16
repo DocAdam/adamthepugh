@@ -247,3 +247,31 @@
     line-height: 1.6;
   }
 }
+
+
+/* Homepage tightening */
+.intro-hero {
+  margin-bottom: 1.5rem;
+}
+
+.intro-copy h1 {
+  margin-bottom: 0.35rem;
+}
+
+.intro-copy p {
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .intro-hero {
+    margin-bottom: 1rem;
+  }
+
+  .intro-copy p {
+    margin-bottom: 0.65rem;
+  }
+
+  .markdown h2 {
+    margin-top: 1.4rem;
+  }
+}
