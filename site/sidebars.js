@@ -55,7 +55,6 @@ const sidebars = {
       type: 'category',
       label: 'Selected Projects',
       items: [
-        'projects/overview',
         'projects/personal-site',
         'projects/vinyl-junction',
       ],
