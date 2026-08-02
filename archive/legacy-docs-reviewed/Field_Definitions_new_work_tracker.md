@@ -1,5 +1,5 @@
 # New Work Progress Tracker
-This SharePoint tracking listwas created to ensure consistent project tracking and to increase the visibility of the work we do. This also allows a centralized and uniform process for capturing our monthly work requests and completions. This will help us to automate our monthly reporting for the Product Operations reviews.
+This SharePoint tracking list was created to ensure consistent project tracking and to increase the visibility of the work we do. This also allows a centralized and uniform process for capturing our monthly work requests and completions. This will help us to automate our monthly reporting for the Product Operations reviews.
 
 ## Field Definitions
 * **Product Name** - product name imported from the EE Product Catalog. Begin typing the name and the quick search will help you find your product. This also includes descriptions for Cross-Org Work, EP Doc Admin, and EP Doc Center.
