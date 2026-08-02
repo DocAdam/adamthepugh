@@ -1,110 +1,83 @@
 # Tools and Systems
 
-I like tools, but I care more about what they let me solve.
+I use tools to improve a documentation system, not to collect a longer skills list. The useful question is always: where is the friction, and what combination of structure, process, and tooling will make the work easier to maintain?
 
-A lot of my work sits in the space between writing, structure, process, and maintenance. That means I tend to work across toolchains rather than inside a single authoring environment forever.
+## The documentation system I work in
 
-## Tools I’ve used in meaningful ways
+```text
+source material + product change
+              │
+              ▼
+     author and structure content
+     Markdown · XML/DITA · CMS · page models
+              │
+              ▼
+       review, publish, and deliver
+     GitHub · Docusaurus · help systems · PDFs
+              │
+              ▼
+       measure, govern, and improve
+     Tableau · SQL · Excel · freshness tracking
+              │
+              ▼
+      automate repeated work when it proves useful
+     scripts · internal tools · AI-assisted workflows
+```
 
-My background includes work with:
+Each layer affects the next. A clean authoring model makes review easier; reliable publishing makes content easier to trust; useful measurement shows where maintenance belongs; and automation is only worthwhile after the manual process is understood.
 
-- Excel
-- Tableau
-- Power BI
-- SharePoint
-- Tridion Docs
-- wiki-based documentation environments
-- Markdown
-- HTML
-- CSS
-- XML
-- DITA
-- GitHub
-- VS Code
-- GitHub Pages
-- Docusaurus
-- oXygen XML Editor
-- content management systems for help and documentation publishing
-- Presto SQL
-- Unidash
+## Tool families
 
-## How I think about tools
+<div className="tool-map">
+  <section className="tool-group">
+    <h3>Authoring and structure</h3>
+    <p>Creating content that can be reused, navigated, and maintained.</p>
+    <div className="tool-chips">
+      <span>Markdown</span><span>XML</span><span>DITA</span><span>HTML</span><span>CSS</span><span>oXygen XML Editor</span><span>Tridion Docs</span><span>Wiki and CMS environments</span>
+    </div>
+  </section>
+  <section className="tool-group">
+    <h3>Publishing and delivery</h3>
+    <p>Making documentation available through predictable, versioned workflows.</p>
+    <div className="tool-chips">
+      <span>GitHub</span><span>VS Code</span><span>Docusaurus</span><span>GitHub Pages</span><span>Online help</span><span>PDFs</span><span>API guides</span>
+    </div>
+  </section>
+  <section className="tool-group">
+    <h3>Measurement and operations</h3>
+    <p>Making documentation work visible enough to prioritize and improve.</p>
+    <div className="tool-chips">
+      <span>Excel</span><span>Power Query</span><span>Tableau</span><span>Power BI</span><span>SharePoint</span><span>Presto SQL</span><span>Documentation-health metrics</span>
+    </div>
+  </section>
+  <section className="tool-group">
+    <h3>Workflow automation</h3>
+    <p>Reducing repeated work while preserving review, quality, and accountability.</p>
+    <div className="tool-chips">
+      <span>Scripts and templates</span><span>Internal web tools</span><span>AI-assisted workflows</span><span>Automated checks</span><span>Change monitoring</span><span>Diff triage</span>
+    </div>
+  </section>
+</div>
 
-### Tools are part of the documentation system
+## What that looks like in practice
 
-Documentation quality is not just about the page someone reads.
+| Need | What I have done |
+| --- | --- |
+| Make an evolving documentation environment easier to navigate | Reorganized and standardized high-traffic content, created page and terminology standards, and supported migrations to more structured systems. |
+| Make operational work visible | Built tracking for 400+ products, seven automated Tableau dashboards, and SQL-backed documentation-health metrics. |
+| Reduce recurring friction | Built documentation tooling and AI-assisted workflows around repeated review, change, governance, and task-management work. |
+| Keep the system maintainable | Built a 234-page freshness-tracking system and used content governance to make maintenance work easier to identify and prioritize. |
 
-It is also shaped by:
+The related case studies provide the evidence behind those examples: [Documentation Tooling and Automation](../case-studies/documentation-tooling-and-automation.md), [Analytics and Reporting](../case-studies/analytics-and-reporting.md), and [Migrations and Information Architecture](../case-studies/migrations-and-ia.md).
 
-- how the content is authored
-- how it is structured
-- how it is reviewed
-- how it is published
-- how it is tracked
-- how easy it is to maintain over time
+## A practical technical range
 
-That is why I pay attention to systems, not just writing surfaces.
+I am not a full-time software engineer, and I do not present myself as one. I am a documentation engineer who can work productively in technical environments: understand enough of the stack to improve the documentation, use data to find the real problem, and build or guide the right amount of tooling when the workflow warrants it.
 
-### I like practical tool use
+This site is one public example: it uses [Docusaurus](https://docusaurus.io/), Markdown, GitHub, and static-site publishing to make a portfolio behave like documentation. For more on that decision, see [Personal Site](../projects/personal-site.md). For public build work, see [GitHub](https://github.com/DocAdam).
 
-I am not interested in treating tools like trophies.
+:::tip The standard I use
 
-What matters is whether the tool helps with something real:
+A tool earns its place when it improves clarity, consistency, speed, or maintainability for the people using the documentation system.
 
-- improving organization
-- reducing duplication
-- making reporting easier
-- supporting consistency
-- simplifying workflow
-- helping teams move faster with less chaos
-
-### I’m comfortable learning what the project needs
-
-Not every project comes with a familiar stack.
-
-I’m comfortable learning enough of the environment to make progress, whether that means:
-
-- working in structured authoring systems
-- editing config files
-- organizing content in a docs generator
-- using dashboards and spreadsheets to track work
-- writing queries to support measurement
-- cleaning up a publishing workflow
-- figuring out where the friction actually is
-
-### I can work effectively in projects that need some build and tooling work
-
-I am not coming at code like a full-time software engineer, and I do not pretend to.
-
-What I am good at is practical build work in service of a real goal.
-
-That can include:
-
-- editing site configuration
-- working with Markdown, HTML, CSS, XML, and structured content systems
-- using GitHub and VS Code in day-to-day documentation work
-- using static site tools like Docusaurus and GitHub Pages
-- iterating on documentation site structure
-- using scripts, templates, or lightweight automation to reduce repetitive work
-- troubleshooting and improving practical workflows
-
-A lot of modern documentation work sits close to tooling. Sometimes the problem is not just the content. It is also the publishing model, the structure, the workflow, the templates, or the friction around maintaining the content. I like being able to work in that space.
-
-## Where this has shown up
-
-In my career, this tools-and-systems mindset has shown up in work like:
-
-- helping adopt DITA and XML
-- implementing documentation analytics in Tableau
-- streamlining reporting and large-data workflows in Excel
-- building metric dashboards at Meta using Presto SQL and Unidash
-- working in enterprise documentation systems
-- building and restructuring documentation sites with GitHub Pages and Docusaurus
-- shaping content models that are easier to scale and maintain
-- supporting environments with online help, PDFs, Word-based deliverables, CMS-managed content, GitHub workflows, and monthly build cycles
-
-## What matters most
-
-The point is not that I have touched a lot of tools.
-
-The point is that I can work across writing, systems, workflow problems, analytics, and lightweight build work without needing everything handed to me in a perfect package.
+:::

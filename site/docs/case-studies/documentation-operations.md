@@ -1,90 +1,27 @@
 # Documentation Operations
 
-## Summary
+Good documentation needs more than good pages. It needs enough structure around the pages for teams to plan work, keep standards visible, and maintain the system as products change.
 
-Good documentation depends on more than good writing.
+## The operating model
 
-It also depends on planning, visibility, consistency, workflow, reporting, editorial judgment, and the systems that support the work over time. Documentation operations is the part of the job that helps all of that hold together.
+<div className="content-grid">
+  <section className="content-card"><h3>Plan and track</h3><p>Make priorities, ownership, and work in progress visible.</p></section>
+  <section className="content-card"><h3>Standardize</h3><p>Use shared models, guidance, and review practices to support consistency.</p></section>
+  <section className="content-card"><h3>Measure and prioritize</h3><p>Use reporting and usage signals to focus effort where it matters.</p></section>
+  <section className="content-card"><h3>Maintain and improve</h3><p>Build governance and workflow patterns that survive the next change.</p></section>
+</div>
 
-This has been a recurring part of my career, especially in roles that involved documentation leadership, cross-functional coordination, analytics, and large or evolving content environments.
+## Evidence from the work
 
-## The problem
+| Problem | Response | Evidence |
+| --- | --- | --- |
+| Work spread across a large product environment | Centralized tracking and automated reporting | 400+ products tracked; seven Tableau dashboards |
+| Migration and cleanup at scale | Repeatable migration process and content consolidation | 101 migrations; volume reduced from 1,157 pages to 469 |
+| Content aging in a fast-moving product | Governance and freshness tracking | 234 pages tracked for maintenance priority |
+| Fragmented in-product help | Planned migration to a structured support environment | 200+ help links migrated |
 
-Documentation gets harder to sustain when the surrounding system is weak.
+## Takeaway
 
-That can show up as:
+The common thread is making content work easier to see, easier to manage, and easier to maintain. That is the part of documentation operations I care about: not a more elaborate process, but enough operating structure for good content to stay good.
 
-- unclear ownership
-- uneven quality
-- poor visibility into work
-- inconsistent structure
-- weak reporting
-- too much manual tracking
-- difficulty scaling across many products or teams
-- friction between documentation needs and product timelines
-
-At that point, improving the writing alone is not enough. The operating model around the writing also needs work.
-
-## What documentation operations includes
-
-For me, documentation operations includes work like:
-
-- improving how documentation gets planned and tracked
-- supporting consistency across writers, teams, or product areas
-- using analytics and reporting to improve visibility
-- helping define realistic workflows
-- improving content systems and maintenance patterns
-- connecting documentation work more clearly to product and organizational needs
-
-It is the part of documentation work that helps teams move from reactive content production to something more sustainable and better understood.
-
-## How this has shown up in my work
-
-This kind of work has been part of multiple roles in my career.
-
-At Meta, my public role history includes work as both a Documentation Manager and a Documentation Engineer. That work has included supporting documentation across large product sets, collaborating with cross-functional teams, implementing documentation metrics in Tableau, using Excel to streamline processes and manage large data sets, and helping shape documentation strategy.
-
-At Jack Henry, this work included managing documentation teams, delivering help content across many products, building automated documentation analytics with Tableau and SharePoint, onboarding acquired products into existing documentation practices, and helping improve how teams coordinated around documentation work.
-
-Across those roles, the pattern is consistent: build clearer systems around the content so the content itself can work better.
-
-## What I pay attention to
-
-When I work on documentation operations, I usually care about questions like:
-
-- Can the team see the work clearly?
-- Are priorities understandable?
-- Is the reporting useful?
-- Where is the friction?
-- What is inconsistent?
-- What should be standardized?
-- What is too manual?
-- What will help the work scale without getting sloppier?
-
-Those questions usually reveal whether the documentation system is helping or hurting.
-
-## Why this matters
-
-Documentation operations matters because good content does not survive very well inside a bad system.
-
-Writers can be talented and still struggle if the surrounding workflow is unclear, the visibility is poor, the structure is inconsistent, or the process creates unnecessary friction.
-
-Improving documentation operations helps create:
-
-- better visibility
-- better consistency
-- better decision support
-- better maintainability
-- better conditions for good documentation work
-
-For the reporting side of that work, see [Analytics and Reporting](./analytics-and-reporting.md). For the structural side, see [Migrations and Information Architecture](./migrations-and-ia.md).
-
-## What this shows about my work
-
-This is a strong example of the broader way I work:
-
-- I care about systems, not just pages
-- I like making the work easier to see and easier to manage
-- I use analytics and structure to support better decisions
-- I think documentation quality depends partly on the operating model around it
-- I’m comfortable working where writing, process, tools, and organizational needs intersect
+See [Analytics and Reporting](./analytics-and-reporting.md) for the measurement side and [Migrations and Information Architecture](./migrations-and-ia.md) for the structural side.

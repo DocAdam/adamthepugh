@@ -1,61 +1,14 @@
 # Vinyl Junction
 
-Vinyl Junction is my Etsy shop focused on vintage music and books.
+Vinyl Junction is my Etsy shop for vintage music and books. It is not enterprise documentation, but it is a long-running customer-facing information and operations system—and a real example of the habits that also matter in documentation work.
 
-It is not the same kind of work as enterprise documentation, but it reflects many of the same strengths: organization, product communication, iterative improvement, customer awareness, taxonomy, and long-term consistency.
+## What the work requires
 
-## What the project is
+<div className="content-grid">
+  <section className="content-card"><h3>Clear product communication</h3><p>Accurate descriptions of varied items, condition, and customer expectations.</p></section>
+  <section className="content-card"><h3>Taxonomy and organization</h3><p>Large, diverse inventory that stays findable without flattening meaningful differences.</p></section>
+  <section className="content-card"><h3>Operational consistency</h3><p>Listing quality, inventory, packaging, and upkeep repeated over more than a decade.</p></section>
+  <section className="content-card"><h3>Feedback and iteration</h3><p>Refinement based on real customer needs and the practical costs of running the work.</p></section>
+</div>
 
-I founded Vinyl Junction in 2014 and have continued to refine it over time.
-
-The shop began with vintage records and expanded into:
-
-- spoken word records
-- vintage cassettes
-- classic books
-- related vintage media
-
-It has also become a long-running operational project involving listing quality, inventory organization, packaging, customer communication, and sustained maintenance over many years.
-
-## Scale
-
-Vinyl Junction has grown into a real long-running business, with more than **1.4 million views**, **11.3K sales**, and over **$387K in revenue** since 2014. The shop has also reached customers in **51 countries**.
-
-## Why I include it here
-
-I include Vinyl Junction because it is a sustained project that shows a different side of how I work.
-
-Running the shop has required:
-
-- clear product writing
-- consistent listing quality
-- curation
-- inventory organization
-- adaptation based on customer interest
-- repeatable process work
-- long-term maintenance and refinement
-
-## What it demonstrates
-
-This project demonstrates that I can:
-
-- build and sustain something over time
-- communicate clearly about products and condition
-- organize large amounts of varied inventory
-- refine focus based on real-world feedback
-- maintain consistency without making everything generic
-
-It also shows comfort with the less glamorous side of sustained work: upkeep, iteration, packaging, quality control, and process consistency.
-
-## Why it still fits the larger story
-
-Even though Vinyl Junction is not a documentation team role, it still reinforces the same broader pattern:
-
-- practical writing
-- organization
-- clarity
-- usability
-- iteration
-- sustained ownership
-
-For the broader professional framing, see [How I Work](../portfolio/overview.md), [Tools and Systems](../portfolio/tools-and-systems.md), and [Experience](../experience/overview.md).
+The project belongs here because it shows sustained ownership: build something, keep it useful, and improve it as reality gives you better information.

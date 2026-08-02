@@ -1,85 +1,33 @@
 # Analytics and Reporting
 
-## Summary
+Documentation teams usually know when something is off. The harder part is seeing the pattern clearly enough to decide what to change.
 
-Analytics and reporting have been an important part of how I’ve supported documentation work at scale.
+## The model
 
-This part of my work sits at the intersection of documentation, visibility, process improvement, and decision support. The goal is not to produce dashboards for their own sake. The goal is to make the work easier to understand, easier to manage, and easier to improve.
+<pre className="system-flow">documentation work
+    │
+    ▼
+tracking and reporting
+    │
+    ▼
+visible workload, progress, and patterns
+    │
+    ▼
+better prioritization and process decisions</pre>
 
-## The problem
+Reporting is useful when it makes a real decision easier. It is not useful because it produces a dashboard.
 
-Documentation teams often know when something feels off before they can describe it clearly.
+## Evidence from the work
 
-Common problems include:
+| Need | Response | Evidence |
+| --- | --- | --- |
+| Visibility across a large product set | Centralized documentation tracking and automated dashboards | 400+ products tracked; seven Tableau dashboards created |
+| Clearer migration progress | Shared tracker and reporting by team and team group | 101 migrations across seven team groups |
+| Better operational reporting | Automated data collection and analysis | Supported a documentation organization of roughly 45 people |
+| Documentation-health signals | SQL-backed metrics and role-based widgets | Reporting tied more directly to maintenance and project outcomes |
 
-- low visibility into work in progress
-- uneven workload across products or teams
-- too much manual tracking
-- weak reporting on documentation effort
-- difficulty identifying patterns or bottlenecks
-- not enough information to support process decisions
+## What this changed
 
-Without better reporting, those problems stay vague longer than they should.
+The work made documentation easier to discuss in terms of visible scope, progress, and priority. It also made it easier to identify friction before it became a vague complaint or a large cleanup project.
 
-## What this work included
-
-Across roles, this work has included:
-
-- implementing documentation metrics in Tableau
-- building automated documentation analytics with Tableau and SharePoint
-- using Excel to streamline processes and manage large data sets
-- improving visibility into documentation work across many products
-- supporting planning and prioritization with better reporting
-- identifying opportunities for process improvement through data
-- writing Presto SQL queries and building dashboards in Unidash at Meta to measure project success
-
-## How this showed up in my work
-
-At Meta, this work included a Tableau dashboard set used to measure a large-scale wiki migration effort spanning **421 products**, including completion rates by team and team group.
-
-It also included setting up a SharePoint-based work progress tracker and using Tableau to display the data in a more usable way for monthly reporting and documentation visibility.
-
-In addition, I implemented metric dashboards at Meta using **Presto SQL** and **Unidash** to measure project success more directly.
-
-At Jack Henry, this work included streamlining data collection, analysis, and reporting for a department of 45 by implementing an automated documentation analytics system using Tableau and SharePoint.
-
-Across these environments, the pattern was similar: use reporting and structured analysis to make documentation work easier to see and easier to improve.
-
-## What I pay attention to
-
-When I work on analytics and reporting, I usually care about questions like:
-
-- What is changing?
-- What is taking too long?
-- Where is the friction?
-- What patterns are visible across the work?
-- What would help a team make better decisions?
-- What should be simplified, standardized, or tracked more clearly?
-
-That keeps the work tied to action instead of turning it into passive reporting.
-
-## Why this matters
-
-Documentation work gets stronger when teams can see reality more clearly.
-
-Reporting helps with that by making it easier to:
-
-- understand workload
-- identify bottlenecks
-- support prioritization
-- improve process visibility
-- make decisions based on patterns instead of guesswork
-
-That is why I see analytics as part of documentation operations, not something separate from it.
-
-For more on the broader operational side, see [Documentation Operations](./documentation-operations.md), [Analytics Overview](../data-analytics/overview.md), and [Tools and Systems](../portfolio/tools-and-systems.md).
-
-## What this shows about my work
-
-This is a good example of how I work beyond page-level writing:
-
-- I use data practically
-- I care about operational visibility
-- I like making systems easier to understand
-- I connect reporting to documentation decisions
-- I treat process improvement as part of good documentation work
+For the broader system around this work, see [Documentation Operations](./documentation-operations.md). For the working methods and tools, see [Analytics and Documentation Operations](../data-analytics/overview.md) and [Tools and Systems](../portfolio/tools-and-systems.md).

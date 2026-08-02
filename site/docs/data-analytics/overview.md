@@ -1,14 +1,27 @@
-# Analytics Overview
+# Documentation Analytics
 
-I use analytics to support documentation work, not to create dashboards for their own sake.
+I use analytics to improve documentation work, not to decorate it with dashboards. The useful question is always practical: what does a team need to see in order to prioritize, maintain, or improve the system?
 
-This part of my work includes reporting, measurement, content audits, operational visibility, and using data to support better decisions.
+## The analytics model
 
-## What this section covers
+<pre className="system-flow">content and workflow signals
+    │
+    ▼
+clean, reviewable reporting inputs
+    │
+    ▼
+visible scope, progress, and friction
+    │
+    ▼
+better maintenance and process decisions</pre>
 
-- [Excel and Power Query](./excel-and-power-query.md)
-- [Dashboards and Reporting](./dashboards-and-reporting.md)
-- [Content Audits](./content-audits.md)
-- [Measurement and Operations](./measurement-and-operations.md)
+## Where the work helps
 
-For project-level examples, also see [Analytics and Reporting](../case-studies/analytics-and-reporting.md) in [Work](../case-studies/overview.md).
+| Need | Method | Evidence |
+| --- | --- | --- |
+| Understand what exists and what is stale | Content audits, inventories, and freshness tracking | 234-page governance system for maintenance priority |
+| Make work visible | Centralized tracking, Tableau, SharePoint, and reporting workflows | 400+ products tracked; seven automated dashboards |
+| Prepare and analyze operational data | Excel, Power Query, and SQL-backed metrics | Repeatable reporting and documentation-health signals |
+| Prioritize work with real consequences | Usage data and workflow measurement | Focus on high-use content and the friction that affects it |
+
+This work supports documentation operations. See [Analytics and Reporting](../case-studies/analytics-and-reporting.md) for the case-study evidence and [Tools and Systems](../portfolio/tools-and-systems.md) for the related toolchain.

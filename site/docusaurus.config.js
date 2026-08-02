@@ -1,7 +1,7 @@
 // @ts-check
 const config = {
   title: 'Adam Pugh',
-  tagline: 'Writer, technical writer, problem-solver, and practical builder',
+  tagline: 'Senior Documentation Engineer',
   favicon: 'img/social-card.png',
 
   future: {
@@ -35,6 +35,8 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: 'docs',
+          sidebarCollapsible: true,
+          sidebarCollapsed: false,
         },
         blog: false,
         theme: {
@@ -54,10 +56,10 @@ const config = {
       },
       items: [
         { to: '/docs/intro', label: 'Home', position: 'left' },
-        { to: '/docs/about', label: 'About', position: 'left' },
         { to: '/docs/case-studies/overview', label: 'Work', position: 'left' },
-        { to: '/docs/writing-samples/overview', label: 'Writing Samples', position: 'left' },
-        { to: '/docs/data-analytics/overview', label: 'Analytics', position: 'left' },
+        { to: '/docs/portfolio/overview', label: 'Approach', position: 'left' },
+        { to: '/docs/experience/overview', label: 'Experience', position: 'left' },
+        { to: '/docs/about', label: 'About', position: 'left' },
         {
           href: 'https://www.linkedin.com/in/adampugh/details/experience/',
           label: 'Resume',
@@ -79,8 +81,9 @@ const config = {
             { label: 'Home', to: '/docs/intro' },
             { label: 'About', to: '/docs/about' },
             { label: 'Work', to: '/docs/case-studies/overview' },
-            { label: 'Writing Samples', to: '/docs/writing-samples/overview' },
-            { label: 'Analytics', to: '/docs/data-analytics/overview' },
+            { label: 'Approach', to: '/docs/portfolio/overview' },
+            { label: 'Experience', to: '/docs/experience/overview' },
+            { label: 'Documentation Analytics', to: '/docs/data-analytics/overview' },
           ],
         },
         {

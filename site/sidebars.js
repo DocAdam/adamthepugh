@@ -4,10 +4,9 @@ const sidebars = {
     { type: 'doc', id: 'about', label: 'About' },
     {
       type: 'category',
-      label: 'How I Work',
+      label: 'Approach',
       items: [
         'portfolio/overview',
-        'portfolio/problem-solving',
         'portfolio/tools-and-systems',
       ],
     },
@@ -20,6 +19,7 @@ const sidebars = {
         'case-studies/documentation-operations',
         'case-studies/migrations-and-ia',
         'case-studies/analytics-and-reporting',
+        'case-studies/documentation-tooling-and-automation',
       ],
     },
     {
@@ -27,7 +27,6 @@ const sidebars = {
       label: 'Writing Samples',
       items: [
         'writing-samples/overview',
-        'writing-samples/edited-enterprise-samples',
       ],
     },
     {
@@ -35,19 +34,14 @@ const sidebars = {
       label: 'Data & Analytics',
       items: [
         'data-analytics/overview',
-        'data-analytics/excel-and-power-query',
-        'data-analytics/dashboards-and-reporting',
-        'data-analytics/content-audits',
-        'data-analytics/measurement-and-operations',
       ],
     },
     {
       type: 'category',
       label: 'Experience',
       items: [
-        'experience/overview',
-        'experience/work-history',
         'experience/selected-achievements',
+        'experience/work-history',
         'experience/leadership-and-mentoring',
       ],
     },
@@ -55,7 +49,6 @@ const sidebars = {
       type: 'category',
       label: 'Selected Projects',
       items: [
-        'projects/personal-site',
         'projects/vinyl-junction',
       ],
     },

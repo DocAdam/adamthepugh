@@ -1,62 +1,38 @@
-# Portfolio Overview
+# How I Work
 
-This portfolio is organized like a help site because that matches the kind of work I do.
+I’m a Senior Documentation Engineer. I work where content, product change, and operational reality meet: turning scattered knowledge into useful help, making large documentation environments easier to govern, and building practical systems that reduce maintenance work.
 
-I’m a writer and documentation professional, but the value I bring is not limited to drafting pages. A lot of my work sits at the intersection of writing, structure, judgment, analytics, and practical systems thinking.
+## The working model
 
-## What I do
+<pre className="system-flow">understand the operating reality
+    │
+    ▼
+find the repeatable unit
+    │
+    ▼
+build the smallest useful system
+    │
+    ▼
+measure, maintain, and improve</pre>
 
-I work on documentation problems that often involve some mix of these:
+A documentation request may be a page request, but it may also be a discoverability problem, a migration problem, a product-change problem, or a process that has become too manual to trust. I look at the audience, source material, decision-makers, existing structure, and the way people currently get help before deciding what needs to change.
 
-- uneven or scattered source material
-- unclear workflows
-- inconsistent organization
-- evolving systems
-- cross-functional complexity
-- weak discoverability
-- the need for guidance people can actually use
+## What I bring to the problem
 
-That can lead to work like:
+<div className="content-grid">
+  <section className="content-card"><h3>Writing and information architecture</h3><p>Make complex workflows easier to understand, navigate, and reuse.</p></section>
+  <section className="content-card"><h3>Documentation operations</h3><p>Build standards, visibility, governance, and maintenance practices around the content.</p></section>
+  <section className="content-card"><h3>Analytics and decision support</h3><p>Use reporting and measurement to focus effort where it can help most.</p></section>
+  <section className="content-card"><h3>Practical tooling</h3><p>Improve repeated friction with fit-for-purpose systems and AI-assisted workflows.</p></section>
+</div>
 
-- documenting complex systems
-- improving information architecture
-- restructuring content
-- building or improving help sites
-- supporting documentation teams with [analytics and reporting](../data-analytics/overview.md)
-- using practical tooling to make the work easier to maintain
+## Evidence from the work
 
-## What this portfolio emphasizes
+| Problem | Response | Result |
+| --- | --- | --- |
+| High-volume content requiring maintenance | Standardized pages and built freshness tracking | 139+ pages reorganized; 234 pages governed |
+| Migration work with duplication and drift | Consolidated content around clearer structures | 101 migrations; migrated page volume reduced 59% |
+| Low visibility into documentation operations | Built centralized tracking and automated reporting | 400+ products tracked; seven dashboards created |
+| Repeated operational friction | Validated manual workflows, then automated the stable part | Documentation tooling and AI-assisted automation for recurring work |
 
-This site focuses on the parts of my work that best show how I think and what I’m good at:
-
-### Writing and documentation
-
-See [Writing Samples](../writing-samples/overview.md) for a compact summary of the kinds of writing I’ve done and how that work shows up across the site.
-
-### Problem-solving
-
-See [Problem Solving](./problem-solving.md) for examples of how I approach work where the real challenge is not just wording, but structure, workflow, ambiguity, or the absence of a usable system.
-
-### Tools and systems
-
-See [Tools and Systems](./tools-and-systems.md) for the documentation tooling, structured content environments, reporting systems, and lightweight build work that support this side of my work.
-
-### Data and analytics
-
-See [Analytics](../data-analytics/overview.md) for how I use Excel, Tableau, reporting, SQL-based analysis, and structured measurement to improve documentation work and support better decisions.
-
-### Recent proof
-
-See [Work](../case-studies/overview.md), especially [TeraCreators Help](../case-studies/teracreators-help.md), for the strongest recent proof on the site.
-
-## What I want this site to show
-
-I want this site to show that I can:
-
-- write clearly
-- organize complexity
-- improve weak content environments
-- work across documentation and systems
-- use data practically
-- learn what a project needs and figure it out
-- build something useful instead of just describing what should exist
+For the tools behind this work, see [Tools and Systems](./tools-and-systems.md). For project-level proof, see [Work](../case-studies/overview.md).

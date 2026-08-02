@@ -1,105 +1,43 @@
 # TeraCreators Help
 
-## Summary
+[TeraCreators Help](https://docadam.github.io/TeraCreators-Help/) is a public documentation project covering multiple games. It turns scattered, fast-moving community knowledge into a structured help system people can navigate and contributors can extend.
 
-TeraCreators Help is a multi-guide documentation project I built to turn scattered, community-sourced game knowledge into a structured help system that people could actually browse, use, and share.
+## The transformation
 
-This was not a single guide. It became a set of **five full help guides** for different games:
+<pre className="system-flow">community discussion, screenshots, and reference material
+    │
+    ▼
+identify stable questions and repeatable content types
+    │
+    ▼
+create a navigable help structure and page models
+    │
+    ▼
+publish, refine, and maintain the guide in public</pre>
 
-- Havoc Hotel 3
-- Havoc Hotel 2
-- Havoc Hotel 1
-- DnD Zombie Dragon Adventure
-- Raptor Heist
-
-Each guide had its own gameplay systems, terminology, recurring questions, support needs, and documentation challenges. The work involved much more than collecting information. It required building a usable content model, organizing repeated knowledge, deciding what belonged in documentation, incorporating screenshots and visual references, and iterating with real community feedback.
-
-## The problem
-
-The source material largely lived in Discord.
-
-That meant useful information existed, but it was mixed with repeated questions, fragmented answers, temporary issues, casual discussion, and fast-moving community chatter. Even when good answers were present, they were hard to find again, hard to trust quickly, and hard to reuse.
-
-The problem was not a lack of information. It was a lack of structure.
-
-## What I wanted to build
-
-I wanted to build something that felt like actual documentation rather than exported chat history.
-
-That meant creating a help system that could:
-
-- support multiple games with different needs
-- organize content by useful page type
-- separate stable help from temporary noise
-- use screenshots where visuals mattered
-- scale as more information came in
-- be easy to share back to the Discord community
+The problem was not a lack of information. It was that the useful information was scattered across conversations, videos, images, and sources with different levels of reliability.
 
 ## What I built
 
-The result is a Docusaurus-based help site published through GitHub Pages.
+<div className="content-grid">
+  <section className="content-card"><h3>Multi-guide architecture</h3><p>One documentation system that can support distinct game ecosystems without collapsing them into one loose collection.</p></section>
+  <section className="content-card"><h3>Repeatable page models</h3><p>Structured categories for guides, reference information, visual help, and common questions.</p></section>
+  <section className="content-card"><h3>Documentation UX</h3><p>Navigation and page structure designed around what players are trying to understand or do.</p></section>
+  <section className="content-card"><h3>Docs-as-code workflow</h3><p>Docusaurus, Markdown, GitHub, and static publishing for a maintainable public guide.</p></section>
+</div>
 
-The site includes five game-specific guides, each with sections shaped around what that game actually needed. Depending on the guide, that included page types such as:
+## What the project demonstrates
 
-- Overview
-- Tips
-- Tasks
-- FAQ
-- References
-- Terms
-- Rescues
+| Challenge | Documentation decision |
+| --- | --- |
+| Noisy and uneven source material | Separate durable reference knowledge from transient discussion and speculation. |
+| Multiple related guides | Use a shared information architecture with clear boundaries between guide areas. |
+| Visual, task-heavy questions | Combine screenshots and structured instructions where they clarify the task. |
+| A guide that must keep changing | Use contributor-friendly documentation patterns and a practical publishing workflow. |
 
-A strong example is the **Havoc Hotel 3** guide, which shows the level of structure, page modeling, and visual support the project grew into.
+## Why it matters
 
-## How I approached the work
+This is the most public end-to-end example on the site of how I approach a documentation problem: find the stable knowledge, make it discoverable, give it a structure that can grow, and keep improving it as users reveal what they need.
 
-This project required real editorial and structural judgment.
-
-The work included:
-
-- reviewing large amounts of Discord discussion
-- identifying repeated and stable knowledge
-- separating evergreen help from one-off issues
-- rewriting rough source material into clearer guidance
-- creating repeatable page patterns
-- deciding where screenshots would improve usability
-- organizing content by user need instead of chronology
-- refining the guides based on community visibility and use
-
-In other words, I treated it like a real documentation system with real users.
-
-## Why this is a strong example of my work
-
-This project pulls together several things I do well.
-
-### Multi-guide information architecture
-
-This was not one page or one guide. It was a documentation system spanning five different games, with enough variation that each guide needed real judgment rather than a copy-paste structure.
-
-### Turning noisy source material into usable help
-
-The core challenge was identifying useful, repeated, stable knowledge inside a much noisier environment and shaping it into something people could actually use.
-
-### Visual documentation judgment
-
-A lot of the guides benefited from screenshots and submitted visual references. That added another layer of documentation thinking: deciding what needed visual support and where it would make the help more effective.
-
-### Community-informed iteration
-
-The project was tied to a real Discord community, which meant the work was not static. It had to be shaped in a way that made the documentation shareable, useful, and responsive to recurring player needs.
-
-### Practical tooling and publishing
-
-This project also shows comfort with documentation tooling, Markdown-based content, Docusaurus, GitHub Pages, and lightweight publishing workflows.
-
-## Outcome
-
-The result is a live, community-informed help system that is easier to search, browse, share, and maintain than the source material it came from.
-
-It is also one of the strongest examples on this site of the kind of work I like most: real users, imperfect source material, evolving needs, and the chance to turn scattered knowledge into something structured and useful.
-
-## Live project
-
-- Live guide hub: [TeraCreators Help](https://docadam.github.io/TeraCreators-Help/)
-- Example guide: [Havoc Hotel 3](https://docadam.github.io/TeraCreators-Help/havoc-hotel-3/overview)
-- Repository: [DocAdam/TeraCreators-Help](https://github.com/DocAdam/TeraCreators-Help)
+- [View the live guide](https://docadam.github.io/TeraCreators-Help/)
+- [See the project on GitHub](https://github.com/DocAdam/TeraCreators-Help)

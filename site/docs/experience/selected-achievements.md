@@ -1,31 +1,43 @@
 # Selected Achievements
 
-## Documentation leadership at scale
+## Scale at a glance
 
-- Led a team of 4 Documentation Engineers at Meta supporting documentation for more than 100 products in the Enterprise Engineering organization.
-- Managed a remote team of 11 professionals at Jack Henry delivering help content for 46 products on a fixed schedule.
-- Helped maintain documentation quality, consistency, and delivery across large and varied product sets.
+| Scope | Evidence |
+| --- | --- |
+| Documentation leadership | Led a team of four documentation engineers in a 100+ product environment; managed a remote team of 11 supporting 46 products. |
+| Product documentation | Maintained 80%+ coverage across a 98-launch initiative and supported 20 user-facing launches in 2026 to date. |
+| Content governance | Standardized 139+ high-traffic pages and built a 234-page freshness-tracking system. |
+| Migrations and operations | Led 101 migrations, reduced migrated volume by 59%, and built reporting for 400+ products. |
 
-## Documentation engineering and cross-functional support
+## Cross-functional documentation engineering
 
-- Currently create and optimize documentation for Meta’s in-house Recruiting Management Software, supporting the hiring lifecycle from sourcing through onboarding.
-- Partner closely with product managers, software engineers, recruiters, coordinators, directors, HR, Global Recruiting, Mission Control, and People teams.
-- Translate complex technical and operational workflows into clear, usable documentation for internal audiences.
+I partner across product, engineering, recruiting operations, and leadership to translate complex workflows into usable documentation. That work includes in-product help-link migrations, product-change documentation, content governance, and structured review processes.
+
+## Documentation tooling and workflow automation
+
+<pre className="system-flow">repeated manual task
+    │
+    ▼
+validate the workflow
+    │
+    ▼
+automate the stable part
+    │
+    ▼
+review and improve
+30 AI-assisted skills · 10 commands
+50+ quality patterns · 750+ automated tests</pre>
+
+I built and maintained internal tooling around content review, change monitoring, governance, and repeated documentation tasks. The standard remains practical: validate the manual process first, then automate work with clear, repeatable value.
 
 ## Analytics and reporting
 
-- Implemented documentation metrics and analytics using Tableau at Meta.
-- Built an automated documentation analytics system using Tableau and SharePoint at Jack Henry.
-- Used advanced Excel skills and large data sets to streamline processes, improve visibility, and support documentation operations.
+Built centralized tracking for 400+ products and seven automated Tableau dashboards to improve documentation visibility. This work also included SQL-backed documentation-health metrics, Excel and Power Query workflows, and reporting for a documentation organization of roughly 45 people.
 
 ## Documentation systems and structure
 
-- Helped onboard acquired products into established documentation practices while balancing style, workflow, and team needs.
-- Helped drive adoption of DITA and XML to improve documentation systems and team productivity.
-- Worked repeatedly at the boundary between content quality, structure, process, and maintainability.
+Onboarded acquired products into established documentation practices, supported DITA/XML adoption, and led 101 migrations that reduced migrated page volume by 59%, from 1,157 pages to 469 pages.
 
 ## Mentoring and team development
 
-- Led and mentored documentation professionals across multiple roles.
-- Contributed to internship development through training and mentorship earlier in my career.
-- Supported documentation quality through coaching, editing, and repeatable standards, not just individual page review.
+Led and mentored documentation professionals across multiple roles, contributed to internship development, and supported quality through coaching, editing, and repeatable standards—not only individual page review.

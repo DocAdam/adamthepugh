@@ -39,6 +39,7 @@ This includes:
     │   ├── sidebars.js
     │   └── package.json
     ├── CNAME                         # legacy root custom domain file
+    ├── AGENTS.md                     # repository working instructions
     ├── _config.yml                   # legacy Jekyll config
     ├── index.md                      # legacy root page
     └── README.md
@@ -82,6 +83,21 @@ From the repo root:
 2. Preview locally with `npm run start`
 3. Commit changes from the repo root
 4. Deploy from `site/` with `USE_SSH=true npm run deploy`
+
+## Current content rewrite
+
+The active site content has been rewritten and consolidated to make the
+portfolio easier to scan and navigate while retaining source-supported claims.
+This update includes:
+
+- shorter, clearer overview and case-study pages;
+- expanded coverage of documentation tooling and automation;
+- revised experience, analytics, portfolio, project, and writing-sample pages;
+- refreshed navigation, site configuration, and responsive visual styling; and
+- crosslinks that connect related pages and sections.
+
+The rewrite is documented in the active `site/` directory; archived material
+remains unchanged and is retained for reference only.
 
 ## Custom domain
 
