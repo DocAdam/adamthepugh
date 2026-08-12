@@ -1,3 +1,8 @@
+---
+title: "Migrations and Information Architecture Case Study"
+description: "Documentation migration and information architecture work that improves discoverability, consistency, and maintainability."
+---
+
 # Migrations and Information Architecture
 
 Many documentation problems are structure problems. The content exists, but it is hard to find, shaped by old organizational history, or expensive to maintain.

@@ -61,7 +61,7 @@ const config = {
         { to: '/docs/experience/overview', label: 'Experience', position: 'left' },
         { to: '/docs/about', label: 'About', position: 'left' },
         {
-          href: 'https://www.linkedin.com/in/adampugh/details/experience/',
+          href: 'https://adamthepugh.com/adam-pugh-resume.pdf',
           label: 'Resume',
           position: 'right',
         },
@@ -89,6 +89,7 @@ const config = {
         {
           title: 'Elsewhere',
           items: [
+            { label: 'Download resume (PDF)', href: 'https://adamthepugh.com/adam-pugh-resume.pdf' },
             { label: 'Resume on LinkedIn', href: 'https://www.linkedin.com/in/adampugh/details/experience/' },
             { label: 'GitHub', href: 'https://github.com/DocAdam' },
             { label: 'TeraCreators Help', href: 'https://docadam.github.io/TeraCreators-Help/' },

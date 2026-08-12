@@ -1,4 +1,9 @@
-# Work Overview
+---
+title: "Documentation Engineering Case Studies"
+description: "Case studies in documentation operations, information architecture, migrations, analytics, reporting, and workflow automation by Adam Pugh."
+---
+
+# Documentation Engineering Case Studies
 
 This section highlights work where the challenge involved structure, scale, evolving systems, or uneven source material. The common thread is turning documentation from a collection of pages into something people can use and teams can sustain.
 

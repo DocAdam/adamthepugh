@@ -1,3 +1,8 @@
+---
+title: "TeraCreators Help Documentation Project"
+description: "A public end-to-end documentation project that turns fast-moving community knowledge into structured, navigable help."
+---
+
 # TeraCreators Help
 
 [TeraCreators Help](https://docadam.github.io/TeraCreators-Help/) is a public documentation project covering multiple games. It turns scattered, fast-moving community knowledge into a structured help system people can navigate and contributors can extend.

@@ -1,3 +1,8 @@
+---
+title: "Documentation Analytics and Reporting Case Study"
+description: "Documentation analytics, dashboards, tracking, and reporting used to improve prioritization and operational decisions."
+---
+
 # Analytics and Reporting
 
 Documentation teams usually know when something is off. The harder part is seeing the pattern clearly enough to decide what to change.

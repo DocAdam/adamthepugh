@@ -1,3 +1,8 @@
+---
+title: "Documentation Analytics and Operations"
+description: "Documentation analytics, content audits, reporting, and operational measurement used to prioritize maintenance and improve content systems."
+---
+
 # Documentation Analytics
 
 I use analytics to improve documentation work, not to decorate it with dashboards. The useful question is always practical: what does a team need to see in order to prioritize, maintain, or improve the system?

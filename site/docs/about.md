@@ -1,6 +1,34 @@
-# About
+---
+title: "About Adam Pugh"
+description: "Professional profile of Adam Pugh, Senior Documentation Engineer specializing in documentation systems, information architecture, documentation operations, analytics, and workflow automation."
+---
+
+import Head from '@docusaurus/Head';
+
+<Head>
+  <script type="application/ld+json">{JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    mainEntity: {
+      '@type': 'Person',
+      name: 'Adam Pugh',
+      url: 'https://adamthepugh.com/docs/about',
+      image: 'https://adamthepugh.com/img/headshot.jpg',
+      jobTitle: 'Senior Documentation Engineer',
+      description: 'Senior Documentation Engineer specializing in product documentation, information architecture, documentation operations, analytics, structured authoring, and workflow automation.',
+      sameAs: [
+        'https://www.linkedin.com/in/adampugh/details/experience/',
+        'https://github.com/DocAdam',
+      ],
+    },
+  })}</script>
+</Head>
+
+# About Adam Pugh
 
 I’m a Senior Documentation Engineer. I help teams make complicated products and operational systems easier to understand, navigate, maintain, and improve.
+
+Looking for a concise career overview? [Download Adam Pugh’s résumé (PDF)](https://adamthepugh.com/adam-pugh-resume.pdf).
 
 <div className="content-grid">
   <section className="content-card"><h3>Content and information architecture</h3><p>Turn complex workflows and uneven source material into useful, discoverable documentation.</p></section>
@@ -21,8 +49,7 @@ Earlier editorial work included reporting and editing at the Arizona Daily Wildc
 
 ## Education
 
-- **B.A., Journalism / Communications** — University of Arizona
-- **A.A., Sociology** — Bellevue College
+- **B.A., Journalism; Minor in Communications** — University of Arizona, 2003
 
 ## Personal context
 

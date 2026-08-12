@@ -1,3 +1,8 @@
+---
+title: "Documentation Operations Case Study"
+description: "Documentation governance, tracking, standards, and workflows that make complex content systems sustainable."
+---
+
 # Documentation Operations
 
 Good documentation needs more than good pages. It needs enough structure around the pages for teams to plan work, keep standards visible, and maintain the system as products change.

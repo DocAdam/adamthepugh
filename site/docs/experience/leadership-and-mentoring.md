@@ -7,7 +7,7 @@ My leadership work has been about helping people produce stronger documentation 
 | Role | Scope |
 | --- | --- |
 | Documentation Manager, Meta | Led four documentation engineers in a 100+ product environment. |
-| Senior Manager of Technical Writing, Jack Henry | Managed a remote team of 11 delivering help content for 46 products. |
+| Senior Manager of Technical Writing, Jack Henry | Led a 16-person documentation organization supporting 46 products. |
 | Manager of Technical Writing, Jack Henry | Supported reporting, operations, and process improvement for a documentation organization of roughly 45 people. |
 
 ## What I try to create

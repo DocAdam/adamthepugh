@@ -1,3 +1,8 @@
+---
+title: "Documentation Tooling and Automation Case Study"
+description: "Practical tooling, automated checks, change monitoring, and AI-assisted workflows for repeated documentation work."
+---
+
 # Documentation Tooling and Automation
 
 Documentation work accumulates small, repeated jobs: checking changes, finding stale pages, routing reviews, publishing updates, and keeping standards visible. At scale, those jobs become part of the documentation system.

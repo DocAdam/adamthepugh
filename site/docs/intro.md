@@ -8,7 +8,11 @@ hide_title: true
 import Head from '@docusaurus/Head';
 
 <Head>
-  <title>Adam Pugh</title>
+  <title>Adam Pugh | Senior Documentation Engineer</title>
+  <meta
+    name="description"
+    content="Senior Documentation Engineer specializing in product documentation, information architecture, documentation operations, analytics, structured authoring, and workflow automation."
+  />
 </Head>
 
 <div className="intro-hero">
@@ -21,7 +25,7 @@ import Head from '@docusaurus/Head';
       I combine technical writing, information architecture, documentation operations, analytics, and AI-assisted tooling to make complicated systems easier to understand, maintain, and improve.
     </p>
     <p className="intro-links">
-      <a href="https://www.linkedin.com/in/adampugh/details/experience/">Resume</a>
+      <a href="https://adamthepugh.com/adam-pugh-resume.pdf">Resume (PDF)</a>
       <span> · </span>
       <a href="https://github.com/DocAdam">GitHub</a>
       <span> · </span>

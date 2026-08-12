@@ -1,3 +1,8 @@
+---
+title: "Documentation Engineering Tools and Systems"
+description: "Authoring, publishing, analytics, and automation tools Adam Pugh uses to improve documentation systems and repeated workflows."
+---
+
 # Tools and Systems
 
 I use tools to improve a documentation system, not to collect a longer skills list. The useful question is always: where is the friction, and what combination of structure, process, and tooling will make the work easier to maintain?

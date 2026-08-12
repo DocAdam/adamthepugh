@@ -1,6 +1,13 @@
+---
+title: "Adam Pugh Work History"
+description: "Work history for Adam Pugh, Senior Documentation Engineer with experience in enterprise software, documentation leadership, analytics, and documentation operations."
+---
+
 # Work History
 
 My career has followed a consistent pattern: take complicated products, unclear workflows, or fragmented knowledge and make them clearer, more usable, and easier to maintain.
+
+Looking for a concise career overview? [Download Adam Pugh’s résumé (PDF)](https://adamthepugh.com/adam-pugh-resume.pdf).
 
 ## Meta
 
@@ -10,7 +17,7 @@ Create and improve documentation for a large internal recruiting platform spanni
 
 | Recent scope | Evidence |
 | --- | --- |
-| Product change | 80%+ documentation coverage across a 98-launch initiative; 20 user-facing launches supported in 2026 to date. |
+| Product change | 80%+ documentation coverage across a 98-launch initiative; 20 user-facing launches supported through May 2026. |
 | Content quality and governance | 139+ high-traffic pages standardized; 234 pages tracked for freshness. |
 | Knowledge-system migration | 200+ in-product help links moved from a legacy wiki to a structured support system. |
 | Documentation operations | Internal tools and AI-assisted workflows for repeated content, review, and maintenance work. |
@@ -25,7 +32,7 @@ Key outcomes: centralized tracking for 400+ products; seven automated Tableau da
 
 ### Senior Manager of Technical Writing · 2021–2022
 
-Managed a remote team of 11 delivering help content for 46 products on a fixed schedule. Worked across engineering, product, and QA to support online help, PDFs, and API guides.
+Led a 16-person documentation organization, including 15 writers and one manager, supporting 46 products. Worked across engineering, product, and QA to support online help, PDFs, and API guides.
 
 ### Manager of Technical Writing · 2010–2021
 

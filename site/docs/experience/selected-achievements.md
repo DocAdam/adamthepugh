@@ -1,11 +1,16 @@
-# Selected Achievements
+---
+title: "Documentation Engineering Achievements"
+description: "Selected achievements in product documentation, content governance, documentation analytics, migrations, tooling, and leadership."
+---
+
+# Documentation Engineering Achievements
 
 ## Scale at a glance
 
 | Scope | Evidence |
 | --- | --- |
-| Documentation leadership | Led a team of four documentation engineers in a 100+ product environment; managed a remote team of 11 supporting 46 products. |
-| Product documentation | Maintained 80%+ coverage across a 98-launch initiative and supported 20 user-facing launches in 2026 to date. |
+| Documentation leadership | Led a team of four documentation engineers in a 100+ product environment; led a 16-person documentation organization supporting 46 products. |
+| Product documentation | Maintained 80%+ coverage across a 98-launch initiative and supported 20 user-facing launches through May 2026. |
 | Content governance | Standardized 139+ high-traffic pages and built a 234-page freshness-tracking system. |
 | Migrations and operations | Led 101 migrations, reduced migrated volume by 59%, and built reporting for 400+ products. |
 

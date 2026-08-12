@@ -1,3 +1,8 @@
+---
+title: "Documentation Engineering Approach"
+description: "Adam Pugh's approach to documentation engineering: connecting content, product change, operational reality, measurement, and maintainable systems."
+---
+
 # How I Work
 
 I’m a Senior Documentation Engineer. I work where content, product change, and operational reality meet: turning scattered knowledge into useful help, making large documentation environments easier to govern, and building practical systems that reduce maintenance work.
