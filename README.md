@@ -34,7 +34,7 @@ This includes:
     ├── site/                         # active Docusaurus site
     │   ├── docs/
     │   ├── src/
-    │   ├── static/
+    │   ├── static/                   # public static assets, crawl guidance, and résumé PDF
     │   ├── docusaurus.config.js
     │   ├── sidebars.js
     │   └── package.json
@@ -61,6 +61,27 @@ Serve the production build locally:
     cd site
     npm run serve
 
+## Recruiter discovery and résumé assets
+
+The active site includes a small set of machine- and recruiter-friendly entry
+points at the domain root:
+
+- `https://adamthepugh.com/llms.txt` — concise professional profile, verified
+  evidence, and links to the relevant portfolio pages.
+- `https://adamthepugh.com/robots.txt` — permits crawling and points to the
+  generated sitemap.
+- `https://adamthepugh.com/adam-pugh-resume.pdf` — downloadable three-page,
+  ATS-readable résumé.
+
+These source files live in `site/static/` and are copied directly to the root
+of the production build. The résumé is linked from the navbar, home page,
+About page, Work History page, footer, and `llms.txt`.
+
+When updating the résumé, replace `site/static/adam-pugh-resume.pdf`, keep the
+related site facts aligned with the approved résumé, then run `npm run build`.
+The portfolio should remain the public source of truth for the evidence linked
+from `llms.txt`.
+
 ## Deploying
 
 The current site deploys to the `gh-pages` branch.
@@ -73,6 +94,9 @@ From the repo root:
 ## Important notes
 
 - The active site is the Docusaurus site inside `site/`.
+- `site/static/llms.txt`, `site/static/robots.txt`, and
+  `site/static/adam-pugh-resume.pdf` are public root-level assets after a
+  production build or deployment.
 - The old root-level Jekyll structure is being retained only as legacy material during cleanup.
 - If you are updating content for the live site, work inside `site/`, not the old root docs or pages.
 - Archived files in `archive/` are not part of the active site unless they are intentionally brought back in.
