@@ -49,7 +49,7 @@ Earlier editorial work included reporting and editing at the Arizona Daily Wildc
 
 ## Education
 
-- **B.A., Journalism; Minor in Communications** — University of Arizona, 2003
+- **B.A., Journalism; Minor in Communications** — University of Arizona
 
 ## Personal context
 
