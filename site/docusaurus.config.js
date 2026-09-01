@@ -10,7 +10,8 @@ const config = {
 
   url: 'https://adamthepugh.com',
   baseUrl: '/',
-  trailingSlash: false,
+  // GitHub Pages serves directory indexes reliably; this keeps public portfolio links human-readable.
+  trailingSlash: true,
 
   organizationName: 'DocAdam',
   projectName: 'adamthepugh',

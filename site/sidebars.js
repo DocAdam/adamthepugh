@@ -15,6 +15,7 @@ const sidebars = {
       label: 'Case Studies',
       items: [
         'case-studies/overview',
+        'case-studies/euler-documentation-prototype',
         'case-studies/teracreators-help',
         'case-studies/documentation-operations',
         'case-studies/migrations-and-ia',
