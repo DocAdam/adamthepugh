@@ -30,6 +30,7 @@ The active site is in `site/`. It uses Docusaurus, Markdown, and GitHub Pages. M
 
 ```text
 adamthepugh/
+├── .github/workflows/        # automatic site deployment
 ├── archive/
 │   ├── legacy-docs-reviewed/  # earlier portfolio and source documents
 │   ├── legacy-docs-personal/  # earlier personal material
@@ -99,14 +100,18 @@ Keep archived material separate from active site maintenance.
 
 ## Deployment
 
-The site is published from the `gh-pages` branch at `adamthepugh.com`. Pushing source changes to `master` does not publish the site.
+The site is published at `adamthepugh.com` through GitHub Actions. The workflow in `.github/workflows/deploy-pages.yml` runs after each push to `master`.
 
-After reviewing and committing the changes, push the source branch. To publish the site, run this command from `site/` with SSH access to the repository:
+After reviewing and committing the changes, push the source branch from the repository root:
 
 ```sh
-USE_SSH=true npm run deploy
+git push origin master
 ```
 
-The `predeploy` step runs the regression tests and creates a fresh build with the generated-link check. Deployment starts only after both steps pass. The deploy step uses that checked build with `--skip-build` to avoid a second build. Direct Docusaurus deployment commands or disabled npm lifecycle scripts bypass this sequence.
+GitHub Actions installs the locked dependencies, runs the regression tests, and builds the site with the generated-link check. The deployment job publishes `site/build` only after the build job passes. A failed test or build leaves the published site unchanged.
 
-Preserve `site/static/CNAME`, which contains `adamthepugh.com`. This file carries the custom domain setting into the deployed site.
+Check the **Deploy portfolio** run in the repository's **Actions** tab to confirm deployment. To publish again without a source change, select **Run workflow** and choose `master`.
+
+In **Settings → Pages**, keep the source set to **GitHub Actions** and the custom domain set to `adamthepugh.com`. The `github-pages` environment must permit deployments from `master`. The workflow uses GitHub's built-in token; no personal token or SSH secret is required.
+
+The older `npm run deploy` command writes to `gh-pages`. It is not the publishing method for the Actions setup. Keep `site/static/CNAME` as a record of the domain, but manage the custom domain in GitHub Pages settings.
