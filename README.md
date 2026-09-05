@@ -80,6 +80,10 @@ The generated HTML check does not request external websites or inspect links ins
 
 The checker uses the HTML parser already present in the locked Docusaurus dependency tree. It requires no separate package installation.
 
+The build also checks each `overview.md` or `overview.mdx` section page. Its section index must link to every non-redirect page in the same folder, once each, in the order defined by `site/sidebars.js`. Wrap that list or card grid in one `<div data-section-index>` element. Links elsewhere in the page, including the sidebar and related reading, do not count toward this list.
+
+Redirect pages are excluded. An overview with no non-redirect child pages needs no index. New content pages missing from the sidebar stop the check so their published order can be set. A missing or out-of-order index stops the build and prints a proposed link list; the check does not edit or commit content. This check uses the current `/docs/<section>/<page>/` directory routes.
+
 Preview the production build after a successful build:
 
 ```sh

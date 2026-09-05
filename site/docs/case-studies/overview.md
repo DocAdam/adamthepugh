@@ -9,12 +9,13 @@ This section highlights work where the challenge involved structure, scale, evol
 
 ## Case studies
 
-<div className="content-grid">
+<div className="content-grid" data-section-index>
   <section className="content-card"><h3><a href="/docs/case-studies/euler-documentation-prototype/">Euler documentation prototype</a></h3><p>A public working proposal for turning MCP and product knowledge into a human-first documentation system.</p></section>
-  <section className="content-card"><h3><a href="/docs/case-studies/documentation-tooling-and-automation/">Tooling and automation</a></h3><p>Internal documentation tools and automation built around repeated, measurable work.</p></section>
+  <section className="content-card"><h3><a href="/docs/case-studies/teracreators-help/">TeraCreators Help</a></h3><p>A public documentation project that organizes community knowledge into a structured help system.</p></section>
   <section className="content-card"><h3><a href="/docs/case-studies/documentation-operations/">Documentation operations</a></h3><p>Standards, governance, visibility, and workflows that make content sustainable.</p></section>
   <section className="content-card"><h3><a href="/docs/case-studies/migrations-and-ia/">Migrations and IA</a></h3><p>Structural work that improves discoverability and long-term maintainability.</p></section>
   <section className="content-card"><h3><a href="/docs/case-studies/analytics-and-reporting/">Analytics and reporting</a></h3><p>Reporting systems that make documentation operations easier to see and improve.</p></section>
+  <section className="content-card"><h3><a href="/docs/case-studies/documentation-tooling-and-automation/">Tooling and automation</a></h3><p>Internal documentation tools and automation built around repeated, measurable work.</p></section>
 </div>
 
 The public [TeraCreators Help](./teracreators-help.md) case study shows the same systems thinking in an end-to-end documentation project.

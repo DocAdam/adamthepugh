@@ -6,7 +6,7 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
-    "test": "node --test scripts/check-links.test.cjs",
+    "test": "node --test scripts/*.test.cjs",
     "predeploy": "npm test && npm run build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy --skip-build",

@@ -40,4 +40,12 @@ A documentation request may be a page request, but it may also be a discoverabil
 | Low visibility into documentation operations | Built centralized tracking and automated reporting | 400+ products tracked; seven dashboards created |
 | Repeated operational friction | Validated manual workflows, then automated the stable part | Documentation tooling and AI-assisted automation for recurring work |
 
-For the tools behind this work, see [Tools and Systems](./tools-and-systems.md). For project-level proof, see [Work](../case-studies/overview.md).
+## In this section
+
+<div data-section-index>
+
+- [Tools and Systems](./tools-and-systems.md)
+
+</div>
+
+For project-level proof, see [Work](../case-studies/overview.md).
