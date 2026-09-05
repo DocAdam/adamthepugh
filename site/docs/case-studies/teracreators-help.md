@@ -1,11 +1,31 @@
 ---
 title: "TeraCreators Help Documentation Project"
-description: "A public end-to-end documentation project that turns fast-moving community knowledge into structured, navigable help."
+description: "How a gameplay bug led to a community help project: organizing scattered answers, explaining player terminology, and building guides in gameplay order."
 ---
 
 # TeraCreators Help
 
-[TeraCreators Help](https://docadam.github.io/TeraCreators-Help/) is a public documentation project covering multiple games. It turns scattered, fast-moving community knowledge into a structured help system people can navigate and contributors can extend.
+[TeraCreators Help](https://docadam.github.io/TeraCreators-Help/) started when I needed to report a bug I noticed while playing. Looking for a way to report it exposed a broader documentation need: players kept asking about unfamiliar terms, and experienced members kept directing them back to the same questions and answers.
+
+I built the guide as a player and contributor who saw a need. It grew into a public help site covering five games.
+
+## The problem I noticed
+
+As I investigated the bug, I noticed other gameplay issues and recurring questions. Experienced players used terms that newer players needed explained. Useful answers existed, but they were spread across Discord conversations, company documents, and other reference material.
+
+I wanted to bring that information together and organize it around the order in which people play. A player could then find guidance for their current stage and understand the terms used to explain it.
+
+## The first approach and its limits
+
+I first tried collecting the Discord content through copying and pasting. That was too difficult to sustain. I found [Discrub](https://github.com/prathercc/discrub-ext), a Discord message export tool, to help collect messages about recurring user issues, links, and images.
+
+The extracted material was a starting point for the guides. I still needed to organize it in gameplay order, explain the terminology, and connect written instructions with visual examples.
+
+## How I assembled the guides
+
+I incorporated documents from the company alongside knowledge scattered through the community. I took screenshots of my own gameplay and extracted others from examples submitted by users.
+
+My contribution was bringing those sources together and organizing the content in gameplay order. The source material included work from the company and other players; the guide gave it a shared structure.
 
 ## The transformation
 
@@ -20,8 +40,6 @@ create a navigable help structure and page models
     ▼
 publish, refine, and maintain the guide in public</pre>
 
-The problem was not a lack of information. It was that the useful information was scattered across conversations, videos, images, and sources with different levels of reliability.
-
 ## What I built
 
 <div className="content-grid">
@@ -31,18 +49,25 @@ The problem was not a lack of information. It was that the useful information wa
   <section className="content-card"><h3>Docs-as-code workflow</h3><p>Docusaurus, Markdown, GitHub, and static publishing for a maintainable public guide.</p></section>
 </div>
 
-## What the project demonstrates
+## Content decisions
 
 | Challenge | Documentation decision |
 | --- | --- |
-| Noisy and uneven source material | Separate durable reference knowledge from transient discussion and speculation. |
-| Multiple related guides | Use a shared information architecture with clear boundaries between guide areas. |
-| Visual, task-heavy questions | Combine screenshots and structured instructions where they clarify the task. |
-| A guide that must keep changing | Use contributor-friendly documentation patterns and a practical publishing workflow. |
+| Players needed help at different stages | Organize the content in gameplay order so the guide follows their progress. |
+| Experienced players used unfamiliar terms | Include explanations of the terms used in community guidance. |
+| Members repeatedly linked to the same answers | Bring recurring guidance into a central set of pages that people can browse and link to. |
+| Written guidance needed visual context | Use screenshots from my own gameplay and user-submitted examples alongside the instructions. |
+| Useful material came from several sources | Incorporate company documents and community knowledge into a shared guide structure. |
 
-## Why it matters
+## Publication and community response
 
-This is the most public end-to-end example on the site of how I approach a documentation problem: find the stable knowledge, make it discoverable, give it a structure that can grow, and keep improving it as users reveal what they need.
+I published the guide and shared it with the Discord community. Members responded positively, and the company gave me the Tera Helper role in recognition of my knowledge and contributions.
+
+## A later revision: rescue navigation
+
+On April 15, 2026, I updated the Havoc Hotel 3 rescue guide with direct links from the location list to each location section. I also clarified the Safe Room and Exit Tunnel headings so they matched the list labels. Readers could then select a location and jump to its instructions and screenshots.
+
+The [recorded change](https://github.com/DocAdam/TeraCreators-Help/commit/e4ad6e9) shows the navigation before and after the revision.
 
 - [View the live guide](https://docadam.github.io/TeraCreators-Help/)
 - [See the project on GitHub](https://github.com/DocAdam/TeraCreators-Help)

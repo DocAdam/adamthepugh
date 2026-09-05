@@ -17,14 +17,20 @@ import Head from '@docusaurus/Head';
 
 <div className="euler-proposal-hero">
   <p className="euler-eyebrow">Public working proposal · documentation system design</p>
-  <h1>Building Euler’s documentation knowledge system</h1>
-  <p className="euler-proposal-lede">Euler already has a meaningful public MCP surface. The opportunity is to make that knowledge easier for people to scan, trust, and use—then give the team a system for keeping it current as the product changes.</p>
+  <h1>A documentation proposal for Euler</h1>
+  <p className="euler-proposal-lede">I saw an opportunity to make Euler’s public MCP material easier to understand and use. I built a working demo to show how task context, prerequisites, and technical reference could fit together.</p>
   <p className="euler-proposal-links"><a href="https://docadam.github.io/docs-operating-system/euler/">View the working Euler prototype</a><span> · </span><a href="#the-proposal">See the proposal</a><span> · </span><a href="https://mcp.eulerapp.com/public/docs" target="_blank" rel="noreferrer">View Euler’s public MCP reference</a></p>
 </div>
 
 <div className="euler-boundary">
   <strong>What this is:</strong> a self-initiated portfolio prototype built from Euler’s public website and public MCP materials. It is not an official Euler property, product audit, or statement of internal plans. Product behavior, terminology, security guidance, and customer priorities would need validation with the responsible team.
 </div>
+
+## Why I created this proposal
+
+I saw a gap between the technical detail in Euler’s public MCP material and the guidance someone would need to understand when and how to use it. I created this proposal independently as a possible solution for the company.
+
+I worked from outside the company. The public website and MCP materials gave me a starting point, but I did not have the internal access needed to validate complete product guidance. That constraint shaped the scope of the demo.
 
 ## The useful thing already exists
 
@@ -42,6 +48,16 @@ Euler’s public MCP materials expose real capability: connection guidance, a st
 The public [MCP reference](https://mcp.eulerapp.com/public/docs) and [structured manifest](https://mcp.eulerapp.com/public/docs.json) are useful source material. The issue is presentation: fields and their explanations can be densely wrapped together, which makes it harder to distinguish the purpose of a tool from its inputs, access limits, and outcomes.
 
 That is not a complaint about having technical detail. The detail matters. It needs a second layer around it: task context, readable examples, grouped inputs, plain-language results, and a route to troubleshooting.
+
+## Alternatives I considered
+
+| Alternative | Why I did not use it as the solution |
+| --- | --- |
+| Build a conventional help center from scratch | The public material could not support complete product guidance without internal access and validation. I limited the work to a proposal based on the sources available to me. |
+| Generate reference pages directly from the MCP manifest | This could preserve the existing information order without adding task context. I used the public MCP material as a source and added a structure that explains purpose, prerequisites, and results. |
+| Improve only the existing reference’s formatting | Better spacing and tables would not be enough to explain when to use a tool, what to prepare, or what to do next. I changed the content structure as well as its presentation. |
+
+These choices led to a working prototype built around the existing MCP material. It makes the proposed reading experience available for review while keeping the technical reference close at hand.
 
 ## The proposal
 
@@ -80,9 +96,15 @@ This is the same pattern I would use for product help, API quickstarts, integrat
 
 For a first technical writer, this is the leverage point. A good article helps once. A content model, ownership map, and review process keep help accurate after the next product change.
 
-## What I would do first
+## The result: a working demo
 
-| First 30 days | Result |
+The outcome is the [public Euler documentation demo](https://docadam.github.io/docs-operating-system/euler/). It shows the proposed content structure through connection guidance, tool reference examples, and a model for maintaining the content.
+
+This is the deliverable from the project: a concrete proposal that people can explore and assess. Customer adoption and results after a product release are not established by this demo. Validation with Euler’s product and engineering teams would be a next step.
+
+## Proposed next steps with the team
+
+| Proposed first 30 days | Intended result |
 | --- | --- |
 | Inventory existing public, product, support, and engineering sources | A source-of-truth map, terminology baseline, and prioritized content backlog |
 | Rework the highest-value MCP/tool references into the human-first pattern | A small, testable reference model rather than an abstract redesign |
