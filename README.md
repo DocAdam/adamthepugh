@@ -1,156 +1,112 @@
-# Adam Pugh site repository
+# Adam Pugh’s Work Portfolio
 
-This repo contains the rebuilt Docusaurus-based portfolio/help site for adamthepugh.com.
+This repository contains the source for [adamthepugh.com](https://adamthepugh.com/), my professional portfolio.
 
-## Active site
+The site presents selected work in documentation operations, information architecture, tooling, automation, and analytics. It includes case studies, writing and content strategy, public projects, and career experience.
 
-The active site lives in:
+Start with [Selected Work](https://adamthepugh.com/docs/case-studies/overview/) for case studies, [Approach](https://adamthepugh.com/docs/portfolio/overview/) for how I work, or [Experience](https://adamthepugh.com/docs/experience/overview/) for my career background.
 
-    site/
+## Explore the work
 
-This is the version that is built, previewed locally, and deployed to GitHub Pages.
+- [Euler documentation prototype](https://adamthepugh.com/docs/case-studies/euler-documentation-prototype/): A public working proposal for organizing MCP and product knowledge into documentation that people can use.
+- [TeraCreators Help](https://adamthepugh.com/docs/case-studies/teracreators-help/): A public documentation project that organizes community knowledge into a structured help system.
+- [Documentation operations](https://adamthepugh.com/docs/case-studies/documentation-operations/): Standards, governance, and workflows for maintaining documentation.
+- [Migrations and information architecture](https://adamthepugh.com/docs/case-studies/migrations-and-ia/): Work on content structure, discoverability, and migration.
+- [Tooling and automation](https://adamthepugh.com/docs/case-studies/documentation-tooling-and-automation/): Tools and repeatable processes that support documentation work.
+- [Analytics and reporting](https://adamthepugh.com/docs/case-studies/analytics-and-reporting/): Measurement and reporting for documentation operations.
+- [Writing and content strategy](https://adamthepugh.com/docs/writing-samples/overview/): Methods for task documentation, reference content, change communication, and content planning.
 
-## Legacy content
+For a career summary, [download my résumé](https://adamthepugh.com/adam-pugh-resume.pdf).
 
-Earlier portfolio and personal site content has been reviewed and moved into:
+## Source material and limits
 
-    archive/
+Some enterprise source material is proprietary. The portfolio uses selected case studies to describe methods and outcomes without publishing complete internal artifacts. The public projects provide examples that readers can inspect.
 
-This includes:
+Earlier portfolio and personal material is preserved in `archive/` for reference. It is not part of the active site unless it is intentionally brought back in. Keep factual claims supported by source material when updating the portfolio.
 
-- `archive/legacy-docs-reviewed/`  
-  Older portfolio and source documents that were reviewed, mined for useful material, and archived.
+## Repository organization
 
-- `archive/legacy-docs-personal/`  
-  Older personal or non-active content that is not part of the current site structure.
+The active site is in `site/`. It uses Docusaurus, Markdown, and GitHub Pages. Make changes to the published portfolio in this directory.
 
-## Current repo structure
+```text
+adamthepugh/
+├── archive/
+│   ├── legacy-docs-reviewed/  # earlier portfolio and source documents
+│   ├── legacy-docs-personal/  # earlier personal material
+│   └── legacy-root-site/      # earlier Jekyll configuration and pages
+├── images/                   # image sources from the earlier site
+├── site/
+│   ├── docs/                 # portfolio content
+│   ├── scripts/              # generated-link check and regression tests
+│   ├── src/                  # page components and styles
+│   ├── static/               # résumé, images, domain file, and crawl guidance
+│   ├── docusaurus.config.js
+│   ├── sidebars.js
+│   ├── package-lock.json
+│   └── package.json
+├── CNAME                     # legacy domain file
+├── AGENTS.md                 # repository working instructions
+└── README.md
+```
 
-    adamthepugh/
-    ├── archive/                      # archived legacy content
-    ├── docs/                         # remaining old root docs, if any
-    ├── images/                       # older source images from the previous site
-    ├── pages/                        # older root pages from the previous site
-    ├── site/                         # active Docusaurus site
-    │   ├── docs/
-    │   ├── src/
-    │   ├── static/                   # public static assets, crawl guidance, and résumé PDF
-    │   ├── docusaurus.config.js
-    │   ├── sidebars.js
-    │   └── package.json
-    ├── CNAME                         # legacy root custom domain file
-    ├── AGENTS.md                     # repository working instructions
-    ├── _config.yml                   # legacy Jekyll config
-    ├── index.md                      # legacy root page
-    └── README.md
+## Local development and checks
 
-## Working on the active site
+Use Node.js 20 or later and npm. For first-time setup, run these commands from the repository root:
 
-From the repo root:
+```sh
+cd site
+npm ci
+```
 
-    cd site
-    npm run start
+Run all subsequent npm commands from `site/`.
 
-Build for production:
+Start the local development server:
 
-    cd site
-    npm run build
+```sh
+npm run start
+```
 
-The build stops on broken documentation links, page anchors, or internal links
-in the generated HTML. The HTML check resolves relative links from the published
-page URL, including its trailing slash. It also checks links to local files and
-absolute links to this site's domain. External websites are not checked by this
-build step.
+Before committing changes, run the regression tests and create a production build:
 
-Run the link-check regression tests:
+```sh
+npm test
+npm run build
+```
 
-    cd site
-    npm test
+The build stops on broken documentation links and page anchors. It also checks internal hyperlinks in the generated HTML. This check resolves relative links from each page's published URL, including its trailing slash, and checks destination files and HTML anchors. Absolute links with the same origin as the site are checked against the generated files.
 
-The checker uses the HTML parser already present in the locked Docusaurus
-dependency tree. No additional package installation is required.
+The generated HTML check does not request external websites or inspect links inside PDFs or plain-text files. The regression tests cover the earlier Home and Work card failures, missing files and anchors, and failure of the build check.
 
-Serve the production build locally:
+The checker uses the HTML parser already present in the locked Docusaurus dependency tree. It requires no separate package installation.
 
-    cd site
-    npm run serve
+Preview the production build after a successful build:
 
-## Recruiter discovery and résumé assets
+```sh
+npm run serve
+```
 
-The active site includes a small set of machine- and recruiter-friendly entry
-points at the domain root:
+## Portfolio maintenance
 
-- `https://adamthepugh.com/llms.txt` — concise professional profile, verified
-  evidence, and links to the relevant portfolio pages.
-- `https://adamthepugh.com/robots.txt` — permits crawling and points to the
-  generated sitemap.
-- `https://adamthepugh.com/adam-pugh-resume.pdf` — downloadable three-page,
-  ATS-readable résumé.
+The files in `site/static/` are copied into the production build. These files are available at the domain root after deployment:
 
-These source files live in `site/static/` and are copied directly to the root
-of the production build. The résumé is linked from the navbar, home page,
-About page, Work History page, footer, and `llms.txt`.
+- `llms.txt`: A professional profile, selected outcomes, and links to supporting portfolio pages.
+- `robots.txt`: Crawl guidance that permits access and points to the sitemap.
+- `adam-pugh-resume.pdf`: The downloadable résumé.
 
-When updating the résumé, replace `site/static/adam-pugh-resume.pdf`, keep the
-related site facts aligned with the approved résumé, then run `npm run build`.
-The portfolio should remain the public source of truth for the evidence linked
-from `llms.txt`.
+The résumé is linked from the navbar, Home, About, Work History, footer, and `llms.txt`. To update it, replace `site/static/adam-pugh-resume.pdf` and check that the related site content and `llms.txt` agree with the approved résumé. Then run the tests and build checks.
 
-## Deploying
+Keep archived material separate from active site maintenance.
 
-The current site deploys to the `gh-pages` branch.
+## Deployment
 
-From the repo root:
+The site is published from the `gh-pages` branch at `adamthepugh.com`. Pushing source changes to `master` does not publish the site.
 
-    cd site
-    USE_SSH=true npm run deploy
+After reviewing and committing the changes, push the source branch. To publish the site, run this command from `site/` with SSH access to the repository:
 
-Use this command for deployment. Its `predeploy` step runs the regression tests
-and creates a fresh build with the rendered-link check. Deployment starts only
-after both steps pass. The deploy step uses that checked build with `--skip-build`
-to avoid a second build. Direct Docusaurus deployment commands or disabled npm
-lifecycle scripts bypass this sequence.
+```sh
+USE_SSH=true npm run deploy
+```
 
-## Important notes
+The `predeploy` step runs the regression tests and creates a fresh build with the generated-link check. Deployment starts only after both steps pass. The deploy step uses that checked build with `--skip-build` to avoid a second build. Direct Docusaurus deployment commands or disabled npm lifecycle scripts bypass this sequence.
 
-- The active site is the Docusaurus site inside `site/`.
-- `site/static/llms.txt`, `site/static/robots.txt`, and
-  `site/static/adam-pugh-resume.pdf` are public root-level assets after a
-  production build or deployment.
-- The old root-level Jekyll structure is being retained only as legacy material during cleanup.
-- If you are updating content for the live site, work inside `site/`, not the old root docs or pages.
-- Archived files in `archive/` are not part of the active site unless they are intentionally brought back in.
-
-## Recommended workflow
-
-1. Work on content or config inside `site/`
-2. Preview locally with `npm run start`
-3. Commit changes from the repo root
-4. Deploy from `site/` with `USE_SSH=true npm run deploy`
-
-## Current content rewrite
-
-The active site content has been rewritten and consolidated to make the
-portfolio easier to scan and navigate while retaining source-supported claims.
-This update includes:
-
-- shorter, clearer overview and case-study pages;
-- expanded coverage of documentation tooling and automation;
-- revised experience, analytics, portfolio, project, and writing-sample pages;
-- refreshed navigation, site configuration, and responsive visual styling; and
-- crosslinks that connect related pages and sections.
-
-The rewrite is documented in the active `site/` directory; archived material
-remains unchanged and is retained for reference only.
-
-## Custom domain
-
-The live site uses the custom domain:
-
-    adamthepugh.com
-
-The deployed site also depends on:
-
-    site/static/CNAME
-
-to preserve the domain during GitHub Pages deployment.
+Preserve `site/static/CNAME`, which contains `adamthepugh.com`. This file carries the custom domain setting into the deployed site.
