@@ -56,6 +56,20 @@ Build for production:
     cd site
     npm run build
 
+The build stops on broken documentation links, page anchors, or internal links
+in the generated HTML. The HTML check resolves relative links from the published
+page URL, including its trailing slash. It also checks links to local files and
+absolute links to this site's domain. External websites are not checked by this
+build step.
+
+Run the link-check regression tests:
+
+    cd site
+    npm test
+
+The checker uses the HTML parser already present in the locked Docusaurus
+dependency tree. No additional package installation is required.
+
 Serve the production build locally:
 
     cd site
@@ -90,6 +104,12 @@ From the repo root:
 
     cd site
     USE_SSH=true npm run deploy
+
+Use this command for deployment. Its `predeploy` step runs the regression tests
+and creates a fresh build with the rendered-link check. Deployment starts only
+after both steps pass. The deploy step uses that checked build with `--skip-build`
+to avoid a second build. Direct Docusaurus deployment commands or disabled npm
+lifecycle scripts bypass this sequence.
 
 ## Important notes
 

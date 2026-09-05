@@ -87,15 +87,15 @@ I work as a **Senior Documentation Engineer**, creating and improving documentat
 ## Start here
 
 <div className="start-grid">
-  <a className="start-card" href="./case-studies/overview">
+  <a className="start-card" href="/docs/case-studies/overview/">
     <strong>Selected work</strong>
     <span>Case studies in documentation operations, migrations, analytics, and tooling.</span>
   </a>
-  <a className="start-card" href="./portfolio/overview">
+  <a className="start-card" href="/docs/portfolio/overview/">
     <strong>Approach</strong>
     <span>How I work across content, systems, data, and workflow design.</span>
   </a>
-  <a className="start-card" href="./experience/overview">
+  <a className="start-card" href="/docs/experience/overview/">
     <strong>Experience</strong>
     <span>Leadership, product documentation, and documentation-engineering work.</span>
   </a>

@@ -16,11 +16,12 @@ const config = {
   organizationName: 'DocAdam',
   projectName: 'adamthepugh',
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
+  onBrokenAnchors: 'throw',
 
   markdown: {
     hooks: {
-      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownLinks: 'throw',
     },
   },
 
@@ -28,6 +29,8 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [require.resolve('./scripts/check-links-plugin.cjs')],
 
   presets: [
     [
