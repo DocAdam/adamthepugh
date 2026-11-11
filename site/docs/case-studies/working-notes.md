@@ -1,7 +1,7 @@
 ---
 slug: /work/working-notes
 title: "Working Notes"
-description: "A practitioner publication about documentation work, content audits, job research, and practical methods."
+description: "An independent publication about documentation work, content audits, job research, and practical methods."
 sidebar_label: "Working Notes"
 ---
 
@@ -20,7 +20,7 @@ sidebar_label: "Working Notes"
 - **Editorial audits:** Evidence-based reviews of spelling and content problems on public websites.
 - **Job roundups:** Short selections drawn from reviewed records in Good Doc Jobs.
 - **Project methods:** Explanations of how I structure, check, and publish information.
-- **Practitioner essays:** Lessons from technical writing, documentation operations, and content systems.
+- **Essays from the work:** Lessons from technical writing, documentation operations, and content systems.
 
 ## Selected publication work
 
@@ -44,9 +44,9 @@ These examples show two visual approaches that I use for editorial and job-relat
 
 ## Automated content audits
 
-I designed and used spelling-audit scripts to review public websites. The published [Grammarly audit](https://docadam.substack.com/p/everyone-needs-an-editor-grammarly) and [Unity audit](https://docadam.substack.com/p/everyone-needs-an-editor-unity) show selected production errors and the evidence for each finding.
+I designed and used spelling-audit scripts to review public websites. The published [Grammarly audit](https://docadam.substack.com/p/everyone-needs-an-editor-grammarly) and [Unity audit](https://docadam.substack.com/p/everyone-needs-an-editor-unity) connect each finding to the source page and show the evidence behind each correction.
 
-These are focused spelling audits. They are not complete quality reviews of the websites.
+I combined automated checks with manual review and wrote the results for a public audience.
 
 ## Job research and project writing
 
@@ -58,17 +58,4 @@ These are focused spelling audits. They are not complete quality reviews of the 
 - [Everyone needs an editor: Unity](https://docadam.substack.com/p/everyone-needs-an-editor-unity)
 - [Just a Spreadsheet](https://docadam.substack.com/p/just-a-spreadsheet)
 
-## Skills demonstrated
-
-- **Technical communication:** Evidence-based audits, practitioner articles, and job summaries.
-- **Editorial judgment:** Focused findings, clear limits, and source-supported conclusions.
-- **Visual communication:** Article graphics that make each series easy to identify.
-- **Documentation engineering:** Audit scripts, validation steps, and repeatable publishing work.
-
-## Project links
-
-- [Read Working Notes](https://docadam.substack.com/)
-- [View Good Doc Jobs](/work/good-doc-jobs/)
-- [Read the Grammarly audit](https://docadam.substack.com/p/everyone-needs-an-editor-grammarly)
-- [Read the Unity audit](https://docadam.substack.com/p/everyone-needs-an-editor-unity)
-- [Read Just a Spreadsheet](https://docadam.substack.com/p/just-a-spreadsheet)
+[Read all Working Notes](https://docadam.substack.com/) or [view the Good Doc Jobs project](/work/good-doc-jobs/).

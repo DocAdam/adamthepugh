@@ -8,7 +8,7 @@ import GitHubActivity from '@site/src/components/GitHubActivity';
 
 # Work
 
-These examples show how I organize complex information, improve documentation systems, and reduce repeated maintenance work. The public projects include inspectable documentation and source material. The enterprise projects describe supported work, results, and evidence limits.
+These examples show how I organize complex information, improve documentation systems, and reduce repeated maintenance work. The public projects link to live work, source material, and repositories. The enterprise projects show the systems I built, the decisions behind them, and the results.
 
 <span id="representative-work"></span>
 <span id="work-index"></span>
@@ -18,10 +18,10 @@ These examples show how I organize complex information, improve documentation sy
     <div className="work-section__heading">
       <p className="status-label">Independent work</p>
       <h2 id="products-and-publications">Products and publications</h2>
-      <p>Public projects built for readers, practitioners, and documentation job seekers.</p>
+      <p>Public projects built for readers, technical writers, and documentation job seekers.</p>
     </div>
     <div className="work-grid">
-      <article className="work-card work-card--featured"><p className="status-label">Practitioner publication</p><h3><a href="/work/working-notes/">Working Notes</a></h3><p>Articles about documentation systems, editorial audits, job research, and practical methods.</p></article>
+      <article className="work-card work-card--featured"><p className="status-label">Independent publication</p><h3><a href="/work/working-notes/">Working Notes</a></h3><p>Articles about documentation systems, editorial audits, job research, and practical methods.</p></article>
       <article className="work-card work-card--featured"><p className="status-label">Open-data product</p><h3><a href="/work/good-doc-jobs/">Good Doc Jobs</a></h3><p>A free jobs database supported by a public source, review, validation, and publication pipeline.</p></article>
       <article className="work-card"><p className="status-label">Community documentation</p><h3><a href="/work/teracreators-help/">TeraCreators Help</a></h3><p>A maintained help system organized from scattered player and company sources.</p></article>
     </div>

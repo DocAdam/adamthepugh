@@ -64,7 +64,7 @@ These 2022 Tableau views show two parts of the reporting system. The migration d
   </figure>
 </div>
 
-These images are dated operational snapshots. Their totals reflect the selected dates and filters. See [Migrations and information architecture](/work/documentation-migrations/) for the final full-program totals and outcomes.
+These dashboard examples show how I tracked activity, status, content reduction, and team-group progress during 2022. The [Migrations and information architecture](/work/documentation-migrations/) page connects the dashboard views to the final program totals and outcomes.
 
 <span id="where-the-work-helps"></span>
 

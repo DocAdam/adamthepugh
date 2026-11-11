@@ -10,7 +10,7 @@ The sitemap contains these 10 canonical pages:
 
 - [Home](https://adamthepugh.com/): Professional focus, featured work, working method, and contact links.
 - [Work](https://adamthepugh.com/work/): The grouped index for products, publications, enterprise documentation systems, prototypes, and public GitHub activity.
-- [Working Notes](https://adamthepugh.com/work/working-notes/): A practitioner publication with content audits, job roundups, project methods, and selected writing.
+- [Working Notes](https://adamthepugh.com/work/working-notes/): An independent publication with content audits, job roundups, project methods, and selected writing.
 - [Good Doc Jobs](https://adamthepugh.com/work/good-doc-jobs/): A free jobs database with a public source, review, validation, and publication pipeline.
 - [TeraCreators Help](https://adamthepugh.com/work/teracreators-help/): A published help system for five games.
 - [Euler documentation prototype](https://adamthepugh.com/work/euler-documentation-prototype/): An independent working prototype for clearer MCP and product documentation.

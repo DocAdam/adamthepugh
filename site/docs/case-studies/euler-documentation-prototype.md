@@ -11,9 +11,7 @@ sidebar_label: "Euler documentation prototype"
 
 ## Why I built it
 
-Euler's public MCP material contains connection guidance, a tool catalog, access information, and a changelog. I built this independent prototype to show how task context, prerequisites, technical reference, and maintenance information could work together.
-
-Euler did not commission or review this work. I used only public material.
+Euler's public MCP material contains connection guidance, a tool catalog, access information, and a changelog. I used those sources to build a working model that shows how task context, prerequisites, technical reference, and maintenance information could work together. Each source is linked below.
 
 ## The documentation problem
 
@@ -33,9 +31,9 @@ I added a documentation layer around the technical detail. It includes task cont
 
 | Alternative | Decision |
 | --- | --- |
-| Build a new help center without using existing material | I used the public sources as the technical authority for the prototype. |
+| Build a new help center from scratch | I used the public sources as the technical authority for the prototype. |
 | Generate reference pages directly from the manifest | I kept the manifest as a source and added purpose, prerequisites, results, and examples. |
-| Change only the reference formatting | I changed the content structure so that readers can understand when to use a tool and what to do next. |
+| Focus on reference formatting | I changed the content structure so that readers can understand when to use a tool and what to do next. |
 
 ## Proposed tool page model
 
@@ -65,11 +63,9 @@ Keep MCP and API reference, integrations, errors, changes, migrations, and inter
 
 The proposed system connects public pages to source records, owners, and review triggers. Product behavior, schemas, support evidence, and release changes feed a review process. Approved content can then support reference pages, onboarding, troubleshooting, and release communication.
 
-## Result and limits
+## What the prototype shows
 
-The result is a [public working prototype](https://docadam.github.io/docs-operating-system/euler/) that people can explore and assess. It shows connection guidance, tool reference examples, and a proposed maintenance model.
-
-The outcomes on this page are proposals. Product and engineering teams would need to validate the content model, access guidance, terminology, and ownership process before production use.
+The [public working prototype](https://docadam.github.io/docs-operating-system/euler/) combines connection guidance, tool reference examples, and a proposed maintenance model in one system that people can explore.
 
 ## Proposed first steps
 

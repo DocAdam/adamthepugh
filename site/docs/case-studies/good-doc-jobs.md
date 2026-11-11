@@ -13,7 +13,7 @@ sidebar_label: "Good Doc Jobs"
 **Status:** Active and ongoing (launched 2026)<br />
 **Audience:** Technical communicators and documentation job seekers
 
-[Good Doc Jobs](https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing) is a free, reader-facing database for documentation and related jobs. [Public Job Feed](https://github.com/DocAdam/public-job-feed) is the source and review system behind it.
+I built [Good Doc Jobs](https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing) as a free, reader-facing database for documentation and related jobs. I built [Public Job Feed](https://github.com/DocAdam/public-job-feed) as the source and review system behind it.
 
 ## The problem
 
@@ -33,38 +33,26 @@ Good Doc Jobs is the public reading and filtering experience. Public Job Feed ke
 
 <ol className="project-steps">
   <li><strong>Collect.</strong><span>Save direct employer records and source details.</span></li>
-  <li><strong>Review.</strong><span>Check role fit, location, pay, restrictions, and evidence limits.</span></li>
+  <li><strong>Review.</strong><span>Check role fit, location, pay, restrictions, and source status.</span></li>
   <li><strong>Validate.</strong><span>Check structure, repeated records, links, and publication files.</span></li>
   <li><strong>Publish.</strong><span>Prepare the simple public list and selected reader-facing summaries.</span></li>
 </ol>
 
-## Dated reporting example
+## Weekly reporting
 
-The dashboard is a dated view of the project data. It does not state the current size of the public list.
+I created weekly reporting views to track saved entries, additions, removals, and work-location groups. This example captures the project view from November 9, 2026.
 
 <div className="publication-gallery publication-gallery--single">
   <figure className="publication-gallery__item publication-gallery__item--wide">
     <a className="publication-gallery__image-link" href="/img/working-notes/good-doc-jobs-weekly-metrics.png" aria-label="Open the full-size Good Doc Jobs weekly metrics graphic">
       <img className="publication-gallery__image publication-gallery__image--dashboard" src="/img/working-notes/good-doc-jobs-weekly-metrics.png" alt="Good Doc Jobs weekly metrics dashboard dated November 9, 2026, with 767 saved entries and location counts" loading="lazy" decoding="async" width="1405" height="918" />
     </a>
-    <figcaption><strong>Weekly metrics.</strong> This November 9, 2026 snapshot shows saved entries, weekly changes, and location groups. Feed changes do not prove employer posting dates or closures.</figcaption>
+    <figcaption><strong>Weekly metrics.</strong> This view brings saved entries, weekly changes, and location groups into one report for publication planning.</figcaption>
   </figure>
 </div>
 
-## Skills demonstrated
+## How I maintain the list
 
-- **Documentation engineering:** Source tracking, validation steps, and a public repository for the operating system.
-- **Data curation:** Record structure, evidence review, filters, and reader-facing delivery.
-- **Content operations:** A repeatable flow from source collection through public publication.
-- **Technical communication:** Clear project limits and selected summaries on Working Notes.
+Public Job Feed saves the source URL, review evidence, and last known status for each record. I use those fields to update the public list, revisit incomplete details, and recheck links as conditions change.
 
-## Evidence boundary
-
-Good Doc Jobs is a maintained list. It does not guarantee that an employer still accepts applications. Public Job Feed saves source and review evidence, but records can contain unknown or changing details.
-
-## Project links
-
-- [Browse Good Doc Jobs](https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing)
-- [View Public Job Feed](https://github.com/DocAdam/public-job-feed)
-- [Read Working Notes](/work/working-notes/)
-- [Read Just a Spreadsheet](https://docadam.substack.com/p/just-a-spreadsheet)
+[Browse Good Doc Jobs](https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing), [view Public Job Feed](https://github.com/DocAdam/public-job-feed), or [read how I designed the public spreadsheet](https://docadam.substack.com/p/just-a-spreadsheet).

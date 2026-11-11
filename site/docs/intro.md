@@ -53,7 +53,7 @@ import Head from '@docusaurus/Head';
 
 <div className="work-list">
   <article className="work-item">
-    <p className="status-label">Practitioner publication</p>
+    <p className="status-label">Independent publication</p>
     <h3>Working Notes</h3>
     <p>I publish practical articles about documentation systems, editorial work, job research, and independent projects.</p>
     <p><a href="/work/working-notes/">Read the project</a> · <a href="https://docadam.substack.com/">Read Working Notes</a></p>

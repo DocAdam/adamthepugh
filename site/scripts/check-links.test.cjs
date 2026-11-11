@@ -173,6 +173,33 @@ test('separates Working Notes, Good Doc Jobs, and GitHub activity on the Work pa
   }
 });
 
+test('keeps active portfolio copy direct and work-focused', () => {
+  const siteDir = path.join(__dirname, '..');
+  const files = [
+    ...sourceFiles(path.join(siteDir, 'docs')),
+    path.join(siteDir, 'static', 'llms.txt'),
+    path.join(siteDir, '..', 'README.md'),
+  ];
+  const weakPhrases = [
+    /\bpractitioner\b/i,
+    /evidence boundary/i,
+    /evidence limits/i,
+    /not complete quality reviews/i,
+    /does not state the current size/i,
+    /does not guarantee/i,
+    /feed changes do not prove/i,
+    /Euler did not commission/i,
+    /result and limits/i,
+  ];
+
+  for (const file of files) {
+    const source = fs.readFileSync(file, 'utf8');
+    for (const phrase of weakPhrases) {
+      assert.doesNotMatch(source, phrase, `${path.relative(siteDir, file)} must describe the work directly`);
+    }
+  }
+});
+
 test('publishes responsive process visuals for enterprise work', () => {
   const siteDir = path.join(__dirname, '..');
   const visuals = [

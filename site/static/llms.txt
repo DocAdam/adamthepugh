@@ -17,9 +17,9 @@
 
 I start with the real source of a problem: product behavior, user tasks, existing content, operating data, and the people who maintain the system. I separate confirmed facts from assumptions. I then build the smallest useful content model, workflow, or tool and check it against the source.
 
-## Selected evidence
+## Selected work
 
-- [Working Notes](https://adamthepugh.com/work/working-notes/): I publish practitioner articles, evidence-based content audits, job roundups, and project methods for technical communicators.
+- [Working Notes](https://adamthepugh.com/work/working-notes/): I publish articles, evidence-based content audits, job roundups, and project methods for technical communicators.
 - [Good Doc Jobs](https://adamthepugh.com/work/good-doc-jobs/): I built a free reader-facing jobs database and a public source, review, validation, and publication pipeline.
 - [TeraCreators Help](https://adamthepugh.com/work/teracreators-help/): I published community documentation for five games, with a public guide and source repository.
 - [Euler documentation prototype](https://adamthepugh.com/work/euler-documentation-prototype/): I built an independent prototype from Euler’s public material to demonstrate a clearer documentation model.
