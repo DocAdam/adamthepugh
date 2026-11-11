@@ -80,13 +80,14 @@ function checkOverviews({docsDir, outDir, sidebars, siteUrl}) {
     const base = new URL(overview.route, siteUrl);
     const expectedDocs = expected.map((id) => docs.find((doc) => doc.id === id));
     const expectedUrls = expectedDocs.map((doc) => new URL(doc.route, siteUrl).href);
+    const overviewUrl = new URL(overview.route, siteUrl).href;
     const actual = (groups[0] || []).map((href) => {
       const url = new URL(href, base);
       url.hash = '';
       url.search = '';
       url.pathname = url.pathname.replace(/\/$/, '') + '/';
       return url.href;
-    });
+    }).filter((href) => href !== overviewUrl);
     if (groups.length !== 1 || JSON.stringify(actual) !== JSON.stringify(expectedUrls)) {
       const proposal = expectedDocs.map((doc) => `- [${doc.id.split('/').at(-1)}](${doc.route})`).join('\n');
       errors.push(`${overview.id}: section index must contain each sidebar page once, in published order. Found ${groups.length} index blocks.\nExpected: ${expected.join(', ')}\nActual: ${actual.join(', ')}\nProposed update inside one <div data-section-index>:\n${proposal}`);

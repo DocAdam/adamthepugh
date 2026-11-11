@@ -39,29 +39,42 @@ These 2022 Tableau views show two parts of the reporting system. The migration d
     <a className="analytics-gallery__image-link" href="/img/documentation-analytics/ep-docs-migration-metrics.png" aria-label="Open the full-size migration activity dashboard">
       <img className="analytics-gallery__image" src="/img/documentation-analytics/ep-docs-migration-metrics.png" alt="Tableau dashboard that shows documentation migration activity by date and team group" loading="lazy" decoding="async" width="2048" height="1536" />
     </a>
-    <figcaption><strong>Migration activity.</strong> This view shows completed migrations by date and team group. <a href="/img/documentation-analytics/ep-docs-migration-metrics.png">View full size.</a></figcaption>
+    <figcaption><strong>Migration activity.</strong> This view shows completed migrations by date and team group. <a href="/img/documentation-analytics/ep-docs-migration-metrics.png">View the migration activity dashboard at full size.</a></figcaption>
   </figure>
 
   <figure className="analytics-gallery__item">
     <a className="analytics-gallery__image-link" href="/img/documentation-analytics/ep-docs-work-progress-tracker.png" aria-label="Open the full-size documentation work-progress dashboard">
       <img className="analytics-gallery__image" src="/img/documentation-analytics/ep-docs-work-progress-tracker.png" alt="Tableau dashboard that organizes documentation requests by progress and team group" loading="lazy" decoding="async" width="2032" height="1928" />
     </a>
-    <figcaption><strong>Work-request progress.</strong> This view organizes documentation requests by status and team group for monthly reporting. <a href="/img/documentation-analytics/ep-docs-work-progress-tracker.png">View full size.</a></figcaption>
+    <figcaption><strong>Work-request progress.</strong> This view organizes documentation requests by status and team group for monthly reporting. <a href="/img/documentation-analytics/ep-docs-work-progress-tracker.png">View the work-request progress dashboard at full size.</a></figcaption>
   </figure>
 
   <figure className="analytics-gallery__item">
     <a className="analytics-gallery__image-link" href="/img/documentation-analytics/ep-documentation-migration-metrics.png" aria-label="Open the full-size documentation migration status dashboard">
       <img className="analytics-gallery__image" src="/img/documentation-analytics/ep-documentation-migration-metrics.png" alt="Tableau dashboard with migration status, product life-cycle categories, page reduction, and completion dates" loading="lazy" decoding="async" width="2023" height="1105" />
     </a>
-    <figcaption><strong>Migration status.</strong> This view combines status, product life-cycle categories, page reduction, and completion dates. <a href="/img/documentation-analytics/ep-documentation-migration-metrics.png">View full size.</a></figcaption>
+    <figcaption><strong>Migration status.</strong> This view combines status, product life-cycle categories, page reduction, and completion dates. <a href="/img/documentation-analytics/ep-documentation-migration-metrics.png">View the migration status dashboard at full size.</a></figcaption>
   </figure>
 
   <figure className="analytics-gallery__item">
     <a className="analytics-gallery__image-link" href="/img/documentation-analytics/team-group-migrations.png" aria-label="Open the full-size team-group migration dashboard">
       <img className="analytics-gallery__image" src="/img/documentation-analytics/team-group-migrations.png" alt="Tableau dashboard that compares migration status across product life-cycle groups" loading="lazy" decoding="async" width="2048" height="1536" />
     </a>
-    <figcaption><strong>Team-group progress.</strong> This view compares completed, in-progress, on-hold, and remaining migrations. <a href="/img/documentation-analytics/team-group-migrations.png">View full size.</a></figcaption>
+    <figcaption><strong>Team-group progress.</strong> This view compares completed, in-progress, on-hold, and remaining migrations. <a href="/img/documentation-analytics/team-group-migrations.png">View the team-group progress dashboard at full size.</a></figcaption>
   </figure>
+</div>
+
+### Dashboard summary
+
+<div className="dashboard-summary-table">
+
+| Dashboard | What the 2022 view shows | Why it mattered |
+| --- | --- | --- |
+| Migration activity | 18 completed migrations by date and team group. | The team could see when migrations finished and which groups completed them. |
+| Work-request progress | 37 requests organized by status and team group, with product names, descriptions, and completion months. | One view connected the summary measures to the work records used for monthly reporting. |
+| Migration status | 115 complete, 18 in progress, 1 on hold, and 283 remaining. The view also shows product life-cycle groups and a reduction from 643 wiki pages to 312 Documentation Center pages. | Managers could review status, content reduction, and completion activity together. |
+| Team-group progress | Completed, in-progress, on-hold, and remaining migrations across Invest, Support, and Divest, plus completion activity by date. | Managers could compare progress across groups and see what work remained. |
+
 </div>
 
 These dashboard examples show how I tracked activity, status, content reduction, and team-group progress during 2022. The [Migrations and information architecture](/work/documentation-migrations/) page connects the dashboard views to the final program totals and outcomes.

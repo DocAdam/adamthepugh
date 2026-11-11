@@ -17,7 +17,9 @@ These examples show how I organize complex information, improve documentation sy
   <section className="work-section" aria-labelledby="products-and-publications">
     <div className="work-section__heading">
       <p className="status-label">Independent work</p>
-      <h2 id="products-and-publications">Products and publications</h2>
+
+## Products and publications {#products-and-publications}
+
       <p>Public projects built for readers, technical writers, and documentation job seekers.</p>
     </div>
     <div className="work-grid">
@@ -34,7 +36,9 @@ These examples show how I organize complex information, improve documentation sy
   <section className="work-section work-section--tinted" aria-labelledby="enterprise-documentation-systems">
     <div className="work-section__heading">
       <p className="status-label">Enterprise programs</p>
-      <h2 id="enterprise-documentation-systems">Enterprise documentation systems</h2>
+
+## Enterprise documentation systems {#enterprise-documentation-systems}
+
       <p>Examples of documentation work at team, product, and operating-system scale.</p>
     </div>
     <div className="work-grid work-grid--three">
@@ -47,7 +51,9 @@ These examples show how I organize complex information, improve documentation sy
   <section className="work-section" aria-labelledby="prototypes-and-contributions">
     <div className="work-section__heading">
       <p className="status-label">Applied exploration</p>
-      <h2 id="prototypes-and-contributions">Prototypes</h2>
+
+## Prototypes {#prototypes-and-contributions}
+
     </div>
     <div className="work-grid">
       <article className="work-card"><p className="status-label">Independent prototype</p><h3><a href="/work/euler-documentation-prototype/">Euler documentation prototype</a></h3><p>A public working prototype for clearer MCP and product documentation.</p></article>

@@ -31,8 +31,9 @@ function index(ids) {
   return `<div data-section-index>${ids.map((id) => `<a href="/work/${id}/">${id}</a>`).join('')}</div>`;
 }
 
-test('accepts the sidebar order and ignores navigation and contextual links', (t) => {
-  const args = fixture(t, '<nav><a href="/work/second/">Second</a></nav>' + index(['first', 'second']) + '<a href="/work/first/">Read first</a>');
+test('accepts the sidebar order and ignores navigation, heading self-links, and contextual links', (t) => {
+  const sectionIndex = '<div data-section-index><h2><a href="/work/#section">Section</a></h2><a href="/work/first/">First</a><a href="/work/second/">Second</a></div>';
+  const args = fixture(t, '<nav><a href="/work/second/">Second</a></nav>' + sectionIndex + '<a href="/work/first/">Read first</a>');
   assert.deepEqual(checkOverviews(args).errors, []);
 });
 

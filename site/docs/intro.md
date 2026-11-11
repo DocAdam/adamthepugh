@@ -56,25 +56,25 @@ import Head from '@docusaurus/Head';
     <p className="status-label">Independent publication</p>
     <h3>Working Notes</h3>
     <p>I publish practical articles about documentation systems, editorial work, job research, and independent projects.</p>
-    <p><a href="/work/working-notes/">Read the project</a> · <a href="https://docadam.substack.com/">Read Working Notes</a></p>
+    <p><a href="/work/working-notes/">Read about Working Notes</a> · <a href="https://docadam.substack.com/">Read Working Notes</a></p>
   </article>
   <article className="work-item">
     <p className="status-label">Open-data product</p>
     <h3>Good Doc Jobs</h3>
     <p>I maintain a free jobs database and a public source pipeline that supports collection, review, validation, and publication.</p>
-    <p><a href="/work/good-doc-jobs/">Read the project</a> · <a href="https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing">Browse Good Doc Jobs</a></p>
+    <p><a href="/work/good-doc-jobs/">Explore Good Doc Jobs</a> · <a href="https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing">Browse Good Doc Jobs</a></p>
   </article>
   <article className="work-item">
     <p className="status-label">Enterprise documentation system</p>
     <h3>Migrations and information architecture</h3>
     <p>I led a four-person team that migrated 101 product-documentation wikis and consolidated 1,157 source pages into 469 destination pages.</p>
-    <p><a href="/work/documentation-migrations/">Read the project</a></p>
+    <p><a href="/work/documentation-migrations/">Read about the migration program</a></p>
   </article>
   <article className="work-item">
     <p className="status-label">Independent prototype</p>
     <h3>Euler documentation prototype</h3>
     <p>A working proposal that adds task context, prerequisites, outcomes, and a maintenance model to public MCP source material.</p>
-    <p><a href="/work/euler-documentation-prototype/">Read the project</a> · <a href="https://docadam.github.io/docs-operating-system/euler/">View the prototype</a> · <a href="https://github.com/DocAdam/docs-operating-system">View the source</a></p>
+    <p><a href="/work/euler-documentation-prototype/">Read about the Euler documentation prototype</a> · <a href="https://docadam.github.io/docs-operating-system/euler/">View the prototype</a> · <a href="https://github.com/DocAdam/docs-operating-system">View the source</a></p>
   </article>
 </div>
 

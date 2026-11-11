@@ -15,47 +15,34 @@ sidebar_label: "Working Notes"
 
 [Working Notes](https://docadam.substack.com/) is where I publish practical articles about documentation systems, editorial work, job research, and the methods behind my independent projects.
 
-## What I publish
-
-- **Editorial audits:** Evidence-based reviews of spelling and content problems on public websites.
-- **Job roundups:** Short selections drawn from reviewed records in Good Doc Jobs.
-- **Project methods:** Explanations of how I structure, check, and publish information.
-- **Essays from the work:** Lessons from technical writing, documentation operations, and content systems.
-
 ## Selected publication work
 
-These examples show two visual approaches that I use for editorial and job-related articles.
+These examples show two recurring parts of Working Notes: editorial audits and job roundups.
 
 <div className="publication-gallery">
   <figure className="publication-gallery__item">
     <a className="publication-gallery__image-link" href="/img/working-notes/everyone-needs-an-editor.png" aria-label="Open the full-size Everyone needs an editor graphic">
       <img className="publication-gallery__image" src="/img/working-notes/everyone-needs-an-editor.png" alt="Working Notes newspaper-style graphic with the headline Everyone needs an editor and red proofreading marks" loading="lazy" decoding="async" width="1200" height="630" />
     </a>
-    <figcaption><strong>Editorial audits.</strong> The <em>Everyone needs an editor</em> series presents selected spelling findings and their evidence. <a href="https://docadam.substack.com/p/everyone-needs-an-editor-grammarly">Read the Grammarly audit.</a></figcaption>
+    <figcaption><strong>Editorial audits.</strong> A newspaper-style graphic for the <em>Everyone needs an editor</em> series.</figcaption>
   </figure>
 
   <figure className="publication-gallery__item">
     <a className="publication-gallery__image-link" href="/img/working-notes/five-recent-documentation-jobs.png" aria-label="Open the full-size Documentation at work graphic">
       <img className="publication-gallery__image" src="/img/working-notes/five-recent-documentation-jobs.png" alt="Working Notes graphic with two 1980s computers, documentation binders, and the headline Documentation at work" loading="lazy" decoding="async" width="1600" height="900" />
     </a>
-    <figcaption><strong>Job roundups.</strong> Working Notes turns reviewed job records into short, reader-facing documentation job posts. <a href="https://docadam.substack.com/">Read Working Notes.</a></figcaption>
+    <figcaption><strong>Job roundups.</strong> A publication graphic for short selections based on reviewed documentation job records.</figcaption>
   </figure>
 </div>
 
-## Automated content audits
+### Automated content audits
 
 I designed and used spelling-audit scripts to review public websites. The published [Grammarly audit](https://docadam.substack.com/p/everyone-needs-an-editor-grammarly) and [Unity audit](https://docadam.substack.com/p/everyone-needs-an-editor-unity) connect each finding to the source page and show the evidence behind each correction.
 
 I combined automated checks with manual review and wrote the results for a public audience.
 
-## Job research and project writing
+### Job research and project writing
 
 [Good Doc Jobs](/work/good-doc-jobs/) provides reviewed job records for reader-facing roundups. I also use Working Notes to explain the decisions behind the project. [Just a Spreadsheet](https://docadam.substack.com/p/just-a-spreadsheet) describes why the public spreadsheet stays simple while the source system keeps the detailed operating history.
-
-## Selected writing
-
-- [Everyone needs an editor: Grammarly](https://docadam.substack.com/p/everyone-needs-an-editor-grammarly)
-- [Everyone needs an editor: Unity](https://docadam.substack.com/p/everyone-needs-an-editor-unity)
-- [Just a Spreadsheet](https://docadam.substack.com/p/just-a-spreadsheet)
 
 [Read all Working Notes](https://docadam.substack.com/) or [view the Good Doc Jobs project](/work/good-doc-jobs/).

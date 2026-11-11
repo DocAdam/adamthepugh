@@ -38,6 +38,15 @@
   --docusaurus-highlighted-code-line-bg: rgba(125, 177, 255, 0.16);
 }
 
+html {
+  scroll-padding-top: calc(var(--ifm-navbar-height) + 1rem);
+}
+
+#__docusaurus_skipToContent_fallback,
+#__docusaurus_skipToContent_fallback main:first-of-type {
+  scroll-margin-top: calc(var(--ifm-navbar-height) + 1rem);
+}
+
 .navbar {
   border-bottom: 1px solid var(--ifm-toc-border-color);
   box-shadow: none;
@@ -454,6 +463,14 @@
   font-size: 0.85rem;
   line-height: 1.5;
   padding: 0.85rem 0.9rem 1rem;
+}
+
+.dashboard-summary-table {
+  overflow-x: auto;
+}
+
+.dashboard-summary-table table {
+  min-width: 44rem;
 }
 
 .publication-gallery {
