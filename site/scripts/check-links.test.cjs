@@ -57,3 +57,12 @@ test('build hook rejects broken output and accepts valid output', async (t) => {
 test('rejects an empty output directory', (t) => {
   assert.throws(() => checkLinks(fixture(t, {}), 'https://adamthepugh.com'), /No HTML pages/);
 });
+
+test('keeps the Euler html compatibility redirect aligned with the current route', () => {
+  const redirect = fs.readFileSync(path.join(__dirname, '..', 'static', 'docs', 'case-studies', 'euler-documentation-prototype.html'), 'utf8');
+  const target = '/docs/case-studies/euler-documentation-prototype/';
+  assert.match(redirect, new RegExp(`http-equiv="refresh" content="0; url=${target}"`));
+  assert.match(redirect, new RegExp(`rel="canonical" href="https://adamthepugh.com${target}"`));
+  assert.match(redirect, new RegExp(`window.location.replace\\('${target.replaceAll('/', '\\/')}`));
+  assert.match(redirect, new RegExp(`href="${target}"`));
+});

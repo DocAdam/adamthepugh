@@ -17,7 +17,7 @@ The audience was the player community. Experienced players used terms that new p
 
 ## Source material and my contribution
 
-I collected company documents, community knowledge, messages gathered with [Discrub](https://github.com/prathercc/discrub-ext), gameplay screenshots, and examples from users. I reviewed, structured, explained, published, and maintained this material as a public help system.
+I collected company documents, community knowledge, messages gathered with [Discrub](https://github.com/pratherbytecraft/discrub-ext), gameplay screenshots, and examples from users. I reviewed, structured, explained, published, and maintained this material as a public help system.
 
 ## Documentation decisions
 

@@ -2,7 +2,7 @@
 const config = {
   title: 'Adam Pugh',
   tagline: 'Senior Documentation Engineer',
-  favicon: 'img/social-card.png',
+  favicon: 'img/logo.svg',
 
   future: {
     v4: true,
@@ -65,6 +65,11 @@ const config = {
         { to: '/docs/experience/overview', label: 'Experience', position: 'left' },
         { to: '/docs/about', label: 'About', position: 'left' },
         {
+          href: 'https://docadam.substack.com/',
+          label: 'Working Notes',
+          position: 'right',
+        },
+        {
           href: 'https://adamthepugh.com/adam-pugh-resume.pdf',
           label: 'Resume',
           position: 'right',
@@ -93,6 +98,7 @@ const config = {
             { label: 'Download resume (PDF)', href: 'https://adamthepugh.com/adam-pugh-resume.pdf' },
             { label: 'Resume on LinkedIn', href: 'https://www.linkedin.com/in/adampugh/details/experience/' },
             { label: 'GitHub', href: 'https://github.com/DocAdam' },
+            { label: 'Working Notes', href: 'https://docadam.substack.com/' },
           ],
         },
       ],

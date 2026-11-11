@@ -2,20 +2,21 @@
 
 This repository contains the source for [adamthepugh.com](https://adamthepugh.com/), my professional portfolio.
 
-I use the site to show how I organize complex information, improve documentation systems, lead documentation programs, and build practical workflow tools. It includes public projects, enterprise results, career experience, and a two-page general résumé.
+I use the site to show how I organize complex information, improve documentation systems, lead documentation programs, and build practical workflow tools. It includes public projects, enterprise results, career experience, an active publication and open-data project, and a two-page general résumé.
 
 Start with [Selected Work](https://adamthepugh.com/docs/case-studies/overview/) for projects and results, [Experience](https://adamthepugh.com/docs/experience/overview/) for career history, or [About](https://adamthepugh.com/docs/about/) for my working method and technical range.
 
 ## Published structure
 
-The active portfolio has nine substantive pages:
+The active portfolio has ten substantive pages:
 
 - [Home](https://adamthepugh.com/docs/intro/): A clean landing page with my professional focus, featured public work, selected enterprise results, and contact links.
 - [Selected Work](https://adamthepugh.com/docs/case-studies/overview/): An index of the public projects and enterprise systems that best represent my work.
+- [Working Notes and Good Doc Jobs](https://adamthepugh.com/docs/case-studies/working-notes-and-good-doc-jobs/): A practitioner publication, reader-facing job database, automated content-audit project, and public source pipeline for technical communicators.
 - [Euler documentation prototype](https://adamthepugh.com/docs/case-studies/euler-documentation-prototype/): An independent prototype that shows how I would organize Euler’s public MCP material around reader tasks and maintained content.
 - [TeraCreators Help](https://adamthepugh.com/docs/case-studies/teracreators-help/): A published help system that I built from company documents, community knowledge, gameplay screenshots, and user examples.
-- [Migrations and information architecture](https://adamthepugh.com/docs/case-studies/migrations-and-ia/): How I led a four-person team that completed 101 content migrations and consolidated 1,157 source pages into 469 destination pages.
-- [Analytics and reporting](https://adamthepugh.com/docs/case-studies/analytics-and-reporting/): How I created seven Tableau dashboards and built a SharePoint catalog that made documentation work and operating results visible.
+- [Migrations and information architecture](https://adamthepugh.com/docs/case-studies/migrations-and-ia/): How I led a four-person team that migrated 101 product-documentation wikis and consolidated 1,157 source pages into 469 destination pages.
+- [Analytics and reporting](https://adamthepugh.com/docs/case-studies/analytics-and-reporting/): How I replaced a Google Doc tracker with a SharePoint database for documentation work across more than 400 internal products and connected the data to seven Tableau dashboards.
 - [Documentation tooling and automation](https://adamthepugh.com/docs/case-studies/documentation-tooling-and-automation/): How I built 10 internal tools with more than 750 automated tests to support repeated documentation workflows.
 - [Experience](https://adamthepugh.com/docs/experience/overview/): My role history, selected results, leadership experience, and current Vinyl Junction work.
 - [About](https://adamthepugh.com/docs/about/): My working method, technical range, background, and education.
@@ -98,11 +99,15 @@ The files in `site/static/` are copied into the production build. These files ar
 - `robots.txt`: Crawl guidance that permits access and points to the sitemap.
 - `adam-pugh-resume.pdf`: The downloadable résumé.
 
+The site uses `site/static/img/headshot.jpg` for the Home portrait and `site/static/img/social-card.png` for social previews. Keep the portrait as an optimized JPEG and the social card at 1200 by 630 pixels. The site uses `site/static/img/logo.svg` as the favicon.
+
 The résumé is linked from the navbar, Home, About, Experience, footer, and `llms.txt`. The editable authority is `generated/resume-base.md` in Job Finder. Keep the general résumé at two pages. Validate the Markdown and DOCX, inspect both rendered PDF pages, then replace `site/static/adam-pugh-resume.pdf`. Check that Experience and `llms.txt` agree with the PDF before publication.
 
 The Home document is intentionally absent from `site/sidebars.js`. Its front matter also hides the page table of contents and pagination. Deeper Work, Experience, and About pages keep the documentation navigation.
 
 Legacy documentation files use `site/src/components/LegacyRedirect.js`. Keep these files when consolidating content. Add a fragment map when an old heading moves to a different heading on the retained page, and test the old route with its fragment after each change.
+
+The static compatibility file at `site/static/docs/case-studies/euler-documentation-prototype.html` preserves the earlier `.html` backlink to the Euler case study. Keep its canonical URL, refresh target, script target, and fallback link aligned with the current route.
 
 Keep archived material separate from active site maintenance.
 

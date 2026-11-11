@@ -5,6 +5,7 @@ const sidebars = {
       label: 'Work',
       items: [
         'case-studies/overview',
+        'case-studies/working-notes-and-good-doc-jobs',
         'case-studies/euler-documentation-prototype',
         'case-studies/teracreators-help',
         'case-studies/migrations-and-ia',

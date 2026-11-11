@@ -19,6 +19,7 @@ import Head from '@docusaurus/Head';
       sameAs: [
         'https://www.linkedin.com/in/adampugh/',
         'https://github.com/DocAdam',
+        'https://docadam.substack.com/',
       ],
     },
   })}</script>
@@ -32,9 +33,13 @@ I am a Senior Documentation Engineer. I help teams make complex products and ope
 
 I start with the real source of a problem: product behavior, user tasks, existing content, operating data, and the people who maintain the system. I separate confirmed facts from assumptions. I then build the smallest useful content model, workflow, or tool and check it against the source.
 
+## Current work
+
+I use [Working Notes](https://docadam.substack.com/) and [Good Doc Jobs](https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing) as an active research and development lab. I test automated content-audit scripts, share systems-thinking methods, and curate open job data for technical communicators. [Read the Working Notes and Good Doc Jobs case study](./case-studies/working-notes-and-good-doc-jobs.md).
+
 ## Technical range
 
-I use Markdown, Docusaurus, GitHub, XML and DITA, CMS and wiki systems, Tableau, Excel, Power Query, SharePoint, and SQL. I apply these tools to structured content, governance, migrations, reporting, automated checks, and AI-assisted documentation workflows.
+I use Markdown, Docusaurus, and GitHub for docs-as-code work. I use XML, DITA, CMSs, and wikis for structured content and publishing. I use Tableau, Excel, Power Query, SharePoint, and SQL for reporting, tracking, and analysis.
 
 ## Background
 

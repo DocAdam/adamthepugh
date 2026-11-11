@@ -8,13 +8,13 @@ description: "A 2022 Meta documentation analytics system that reduced reporting 
 **Context:** Meta, Documentation Engineering Manager, 2022<br />
 **Audience:** Documentation managers, team members, and operating partners
 
-Documentation leaders needed a consistent view of work across the department. Existing reporting took too long and did not give each manager a useful view of team and project results.
+The department was assigned documentation responsibility for more than 400 internal Enterprise Engineering products. Their documentation wikis contained thousands of pages. A Google Doc tracked the transition work, but it did not give leaders a consistent view of status, dates, risks, and results.
 
 ## What I built
 
-I connected corporate work data and SharePoint records in Tableau and personally created seven automated dashboards. The system included department, project, completed-work, and manager views.
+I extracted the product names from the Google Doc and created a SharePoint tracking database. Writers used it to record status, start dates, end dates, and other project information for documentation work across more than 400 products.
 
-I also built a SharePoint Product Catalog that tracked more than 400 products and supported the reporting system.
+I connected the SharePoint data and other corporate work data to Tableau. I personally created seven automated dashboards with department, project, completed-work, and manager views. My senior manager used the reports to show project status and risks to her director.
 
 ## Supported use and results
 

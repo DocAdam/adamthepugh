@@ -22,11 +22,11 @@ Led documentation operations for internal recruiting products across the hiring 
 
 ### Documentation Engineering Manager · March 2022–June 2023
 
-Led four documentation engineers in an environment with more than 100 enterprise products.
+Led four documentation engineers who assumed responsibility for documentation across more than 400 internal Enterprise Engineering products.
 
-- Created seven automated Tableau dashboards for documentation reporting.
-- Led a team that completed 101 content migrations across seven team groups.
-- Reduced migrated content from 1,157 source pages to 469 destination pages.
+- Replaced a Google Doc tracker with a SharePoint database and connected the data to seven Tableau dashboards for management reporting.
+- Led a team that migrated 101 product-documentation wikis across seven team groups.
+- Consolidated 1,157 source pages into 469 destination pages through review, archiving, removal, and restructuring.
 - Restored access to 170 archived wiki pages used by internal users.
 
 ## Jack Henry & Associates

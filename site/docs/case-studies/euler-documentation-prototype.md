@@ -1,119 +1,83 @@
 ---
-title: "Euler Documentation Prototype"
-description: "A public documentation proposal for making Euler's MCP, integrations, and product knowledge easier to find and use."
+title: "Euler documentation prototype"
+description: "An independent prototype that shows how Euler's public MCP material could support clearer task guidance and maintained reference content."
 sidebar_label: "Euler documentation prototype"
-hide_title: true
 ---
 
-import Head from '@docusaurus/Head';
+<p className="status-label">Independent prototype</p>
 
-<Head>
-  <title>Euler Documentation Prototype | Adam Pugh</title>
-  <meta
-    name="description"
-    content="A public documentation proposal showing how Euler could turn its MCP and product knowledge into a clearer, maintainable documentation experience."
-  />
-</Head>
+[View the working prototype](https://docadam.github.io/docs-operating-system/euler/) or [view the project source](https://github.com/DocAdam/docs-operating-system).
 
-<div className="euler-proposal-hero">
-  <p className="euler-eyebrow">Independent prototype · documentation system design</p>
-  <h1>A documentation proposal for Euler</h1>
-  <p className="euler-proposal-lede">I saw an opportunity to make Euler’s public MCP material easier to understand and use. I built a working demo to show how task context, prerequisites, and technical reference could fit together.</p>
-  <p className="euler-proposal-links"><a href="https://docadam.github.io/docs-operating-system/euler/">View the working Euler prototype</a><span> · </span><a href="https://github.com/DocAdam/docs-operating-system">View the project source and overview</a><span> · </span><a href="#the-proposal">See the proposal</a></p>
-</div>
+## Why I built it
 
-## Why I created this proposal
+Euler's public MCP material contains connection guidance, a tool catalog, access information, and a changelog. I built this independent prototype to show how task context, prerequisites, technical reference, and maintenance information could work together.
 
-I saw a gap between the technical detail in Euler’s public MCP material and the guidance someone would need to understand when and how to use it. I built this independent prototype from Euler’s public website and MCP materials to show a possible documentation approach.
+Euler did not commission or review this work. I used only public material.
 
-## The useful thing already exists
+## The documentation problem
 
-Euler’s public MCP materials provide connection guidance, a structured tool catalog, access context, and a changelog. I focused the proposal on helping a customer or partner answer a few practical questions quickly:
+The public [MCP reference](https://mcp.eulerapp.com/public/docs) and [structured manifest](https://mcp.eulerapp.com/public/docs.json) contain useful source material. Dense presentation can make it difficult to separate a tool's purpose from its inputs, access limits, and results.
 
-<div className="content-grid">
-  <section className="content-card"><h3>What can I do?</h3><p>I start with the outcome a person wants to achieve before showing the fields.</p></section>
-  <section className="content-card"><h3>What do I need first?</h3><p>Put access, prerequisites, and safe setup steps before the contract details.</p></section>
-  <section className="content-card"><h3>What comes back?</h3><p>Explain results, exceptions, and next steps in human language.</p></section>
-  <section className="content-card"><h3>Who keeps this correct?</h3><p>Connect the public page to an owner, a source, and a change-review trigger.</p></section>
-</div>
+I added a documentation layer around the technical detail. It includes task context, readable examples, grouped inputs, plain-language results, and a route to troubleshooting.
 
-## What I found in the public material
+## Questions the prototype answers
 
-The public [MCP reference](https://mcp.eulerapp.com/public/docs) and [structured manifest](https://mcp.eulerapp.com/public/docs.json) are useful source material. The issue is presentation: fields and their explanations can be densely wrapped together, which makes it harder to distinguish the purpose of a tool from its inputs, access limits, and outcomes.
-
-I added a second layer around the technical detail: task context, readable examples, grouped inputs, plain-language results, and a route to troubleshooting.
+- What can I do with this tool?
+- What access, consent, or setup do I need first?
+- How can I ask for the result?
+- What does the result mean?
+- Who owns the source, and what product change must trigger a review?
 
 ## Alternatives I considered
 
-| Alternative | Why I did not use it as the solution |
+| Alternative | Decision |
 | --- | --- |
-| Build a conventional help center from scratch | I used the available public sources to build a focused proposal that the company could review and extend. |
-| Generate reference pages directly from the MCP manifest | I used the public MCP material as a source, then added a structure that explains purpose, prerequisites, and results. |
-| Improve only the existing reference’s formatting | I changed the content structure and presentation to explain when to use a tool, what to prepare, and what to do next. |
+| Build a new help center without using existing material | I used the public sources as the technical authority for the prototype. |
+| Generate reference pages directly from the manifest | I kept the manifest as a source and added purpose, prerequisites, results, and examples. |
+| Change only the reference formatting | I changed the content structure so that readers can understand when to use a tool and what to do next. |
 
-These choices led to a working prototype built around the existing MCP material. It makes the proposed reading experience available for review while keeping the technical reference close at hand.
+## Proposed tool page model
 
-## The proposal
+1. **Use this when:** State the user outcome and when the tool is appropriate.
+2. **Before you begin:** State the connection, role, consent, and prerequisite information.
+3. **Ask it this way:** Give a plain-language example based on a user task.
+4. **What you get back:** Explain result fields, exceptions, and next steps.
+5. **Technical details:** Keep parameters, data types, and the contract near the task guidance.
 
-### 1. Give each tool a human-first reference page
+The prototype uses the public `list_accounts` material as an example. It puts account access and consent before the parameter table.
 
-I designed the first page to answer the question a person has before they open a schema.
+## Proposed documentation structure
 
-<div className="euler-tool-model">
-  <div><span>01</span><strong>Use this when</strong><p>The user outcome and the right time to use the tool.</p></div>
-  <div><span>02</span><strong>Before you begin</strong><p>Connection, role, consent, or prerequisite information.</p></div>
-  <div><span>03</span><strong>Ask it this way</strong><p>A plain-language example that reflects a real task.</p></div>
-  <div><span>04</span><strong>What you get back</strong><p>Meaningful result fields, exceptions, and next steps.</p></div>
-  <div><span>05</span><strong>Technical details</strong><p>I keep parameters, data types, and the contract close at hand after the task guidance.</p></div>
-</div>
+### Learn and launch
 
-The prototype uses the public `list_accounts` material as an example: account access and consent context come first; the raw parameter table stays available for a builder who needs it.
+Explain concepts, account connections, roles, access, terminology, and the first successful task.
 
-### 2. Organize documentation around three reader needs
+### Complete a task
 
-<div className="content-grid">
-  <section className="content-card"><h3>Learn and launch</h3><p>Concepts, account connection, roles, access, terminology, and a safe first success.</p></section>
-  <section className="content-card"><h3>Complete a task</h3><p>Outcome-led guides such as submit a referral, diagnose access, manage communications, or review fund requests.</p></section>
-  <section className="content-card"><h3>Build and maintain</h3><p>MCP/API reference, integrations, errors, changes, migrations, and internal implementation playbooks.</p></section>
-</div>
+Provide guides for outcomes such as submitting a referral, diagnosing access, managing communications, and reviewing fund requests.
 
-This is the same pattern I would use for product help, API quickstarts, integration guidance, release notes, and support content. I organize the content around the reader’s question instead of the implementation’s storage location.
+### Build and maintain
 
-### 3. Treat content as a maintained system
+Keep MCP and API reference, integrations, errors, changes, migrations, and internal implementation guidance together.
 
-<div className="system-flow">Public website, schemas, product behavior, support evidence, and release changes
-  → source record and provenance
-  → normalized facts and review-required candidates
-  → accountable validation
-  → reusable canonical content
-  → help center, reference, onboarding, support, and release communication</div>
+## Maintenance model
 
-I treat the content model, ownership map, and review process as the leverage point. Together, they keep help accurate after the next product change.
+The proposed system connects public pages to source records, owners, and review triggers. Product behavior, schemas, support evidence, and release changes feed a review process. Approved content can then support reference pages, onboarding, troubleshooting, and release communication.
 
-## The result: a working demo
+## Result and limits
 
-The outcome is the [public Euler documentation demo](https://docadam.github.io/docs-operating-system/euler/). It shows the proposed content structure through connection guidance, tool reference examples, and a model for maintaining the content.
+The result is a [public working prototype](https://docadam.github.io/docs-operating-system/euler/) that people can explore and assess. It shows connection guidance, tool reference examples, and a proposed maintenance model.
 
-I delivered a concrete proposal that people can explore and assess. My next step would be to validate the content model with Euler’s product and engineering teams.
+The outcomes on this page are proposals. Product and engineering teams would need to validate the content model, access guidance, terminology, and ownership process before production use.
 
-## Proposed next steps with the team
+## Proposed first steps
 
-| Proposed first 30 days | Intended result |
+| Work | Proposed result |
 | --- | --- |
-| Inventory existing public, product, support, and engineering sources | A source-of-truth map, terminology baseline, and prioritized content backlog |
-| Rework the highest-value MCP/tool references into the human-first pattern | A small, testable reference model rather than an abstract redesign |
-| Build the connection and first-success path | A clearer route from setup to a usable result |
-| Establish owners and change triggers | A lightweight way to prevent new content from going stale |
-
-## The approach behind the prototype
-
-I start by making the strange thing clear. I use the available evidence, separate what is confirmed from what needs review, and build a working content model before choosing a publishing platform or writing a large pile of pages.
-
-I start with what the company already has: schemas, product workflows, support questions, changelogs, and customer language. I then turn those inputs into an organized system the product team can keep using.
-
-<div className="euler-proposal-close">
-  <strong>My goal is to make the right information easier to find, use, and maintain.</strong>
-</div>
+| Inventory public, product, support, and engineering sources | Source map, terminology list, and prioritized backlog |
+| Apply the tool page model to the highest-value references | Small reference set for review and testing |
+| Build the connection and first-success path | Clear route from setup to a usable result |
+| Assign owners and change triggers | Review process that helps prevent stale content |
 
 ## Public sources reviewed
 
@@ -126,5 +90,5 @@ I start with what the company already has: schemas, product workflows, support q
 
 ## Project files
 
-- [Documentation Operating System overview and source](https://github.com/DocAdam/docs-operating-system)
+- [Documentation Operating System source and overview](https://github.com/DocAdam/docs-operating-system)
 - [Published Euler prototype](https://docadam.github.io/docs-operating-system/euler/)
