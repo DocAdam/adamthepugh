@@ -85,6 +85,15 @@ const config = {
       style: 'dark',
       links: [
         {
+          title: 'Adam Pugh',
+          className: 'footer__brand',
+          items: [
+            {
+              html: `<span class="footer__brand-tagline">Senior Documentation Engineer</span><span class="footer__brand-copyright">© ${new Date().getFullYear()} Adam Pugh</span>`,
+            },
+          ],
+        },
+        {
           title: 'Explore',
           items: [
             { label: 'Work', to: '/docs/case-studies/overview' },
@@ -102,7 +111,6 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Adam Pugh`,
     },
   }),
 };

@@ -210,7 +210,29 @@
 }
 
 .footer__links {
-  justify-content: flex-start;
+  display: grid;
+  gap: clamp(2.5rem, 7vw, 5.5rem);
+  grid-template-columns: minmax(14rem, 1.2fr) minmax(9rem, 0.8fr) minmax(16rem, 1.2fr);
+  margin: 0;
+}
+
+.footer__col {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.footer__brand-tagline,
+.footer__brand-copyright {
+  color: var(--ifm-footer-link-color);
+  display: block;
+}
+
+.footer__brand-tagline {
+  max-width: 16rem;
+}
+
+.footer__brand-copyright {
+  margin-top: 2.75rem;
 }
 
 @media (max-width: 996px) {
@@ -224,6 +246,8 @@
   .intro-hero { align-items: flex-start; gap: 1rem; margin: 0.75rem 0 2rem; }
   .intro-headshot { height: 112px; width: 112px; }
   .markdown h2 { margin-top: 2rem; }
+  .footer__links { gap: 2rem; grid-template-columns: 1fr; }
+  .footer__brand-copyright { margin-top: 1.25rem; }
 }
 
 @media (max-width: 560px) {
