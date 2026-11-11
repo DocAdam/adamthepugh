@@ -1,38 +1,39 @@
 ---
-title: "Documentation Analytics and Reporting Case Study"
-description: "Documentation analytics, dashboards, tracking, and reporting used to improve prioritization and operational decisions."
+title: "Documentation Analytics and Reporting"
+description: "A 2022 Meta documentation analytics system that reduced reporting effort and made team work visible."
 ---
 
-# Analytics and Reporting
+# Documentation Analytics and Reporting
 
-Documentation teams usually know when something is off. The harder part is seeing the pattern clearly enough to decide what to change.
+**Context:** Meta, Documentation Engineering Manager, 2022<br />
+**Audience:** Documentation managers, team members, and operating partners
 
-## The model
+Documentation leaders needed a consistent view of work across the department. Existing reporting took too long and did not give each manager a useful view of team and project results.
 
-<pre className="system-flow">documentation work
+## What I built
+
+I connected corporate Tableau data to a documentation reporting system and personally created seven automated dashboards. The system included department, project, completed-work, and manager views.
+
+The related SharePoint Product Catalog tracked more than 400 products. That figure describes catalog scope. It does not state that my four-person team directly supported every product in the catalog.
+
+## Supported use and results
+
+- Documentation accomplishment reporting changed from several hours of preparation to less than two minutes per entry.
+- The dashboards had 735 views from 39 active users.
+- Teams used the dashboards in 11 operations reviews per month and in performance discussions.
+- Managers could use consistent measures instead of separate manual reports.
+
+## Method
+
+<pre className="system-flow">corporate work data and SharePoint records
     │
     ▼
-tracking and reporting
+defined documentation measures
     │
     ▼
-visible workload, progress, and patterns
+role-based Tableau dashboards
     │
     ▼
-better prioritization and process decisions</pre>
+operations reviews and planning decisions</pre>
 
-Reporting is useful when it makes a real decision easier. It is not useful because it produces a dashboard.
-
-## Evidence from the work
-
-| Need | Response | Evidence |
-| --- | --- | --- |
-| Visibility across a large product set | Centralized documentation tracking and automated dashboards | 400+ products tracked; seven Tableau dashboards created |
-| Clearer migration progress | Shared tracker and reporting by team and team group | 101 migrations across seven team groups |
-| Better operational reporting | Automated data collection and analysis | Supported a documentation organization of roughly 45 people |
-| Documentation-health signals | SQL-backed metrics and role-based widgets | Reporting tied more directly to maintenance and project outcomes |
-
-## What this changed
-
-The work made documentation easier to discuss in terms of visible scope, progress, and priority. It also made it easier to identify friction before it became a vague complaint or a large cleanup project.
-
-For the broader system around this work, see [Documentation Operations](./documentation-operations.md). For the working methods and tools, see [Analytics and Documentation Operations](../data-analytics/overview.md) and [Tools and Systems](../portfolio/tools-and-systems.md).
+The dashboards and internal data are not public. The evidence here describes the system, its measured use, and its operating context.

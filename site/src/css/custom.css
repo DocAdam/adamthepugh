@@ -101,8 +101,10 @@
   max-width: 72ch;
 }
 
-.markdown a:not(.start-card) {
+.markdown a:not(.button) {
   font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
 }
 
 .markdown blockquote {
@@ -112,6 +114,7 @@
 
 .intro-hero {
   align-items: center;
+  display: flex;
   gap: 1.75rem;
   margin: 1.25rem 0 2.75rem;
 }
@@ -121,7 +124,7 @@
   height: 152px;
   border: 4px solid var(--ifm-background-surface-color);
   border-radius: 1rem;
-  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.12);
 }
 
 .intro-copy {
@@ -147,6 +150,48 @@
 .intro-links {
   font-weight: 650;
   margin-top: 1rem;
+}
+
+.primary-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.25rem;
+}
+
+.work-list {
+  border-top: 1px solid var(--ifm-toc-border-color);
+  margin: 1.25rem 0 2.5rem;
+}
+
+.work-item {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  padding: 1.25rem 0;
+}
+
+.work-item h3 {
+  margin: 0.2rem 0 0.45rem;
+}
+
+.work-item p:last-child {
+  margin-bottom: 0;
+}
+
+.compact-work-list .work-item {
+  padding: 1rem 0;
+}
+
+.status-label {
+  color: var(--ifm-color-primary-dark);
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  margin: 0 0 0.25rem;
+  text-transform: uppercase;
+}
+
+[data-theme='dark'] .status-label {
+  color: var(--ifm-color-primary);
 }
 
 .portfolio-lede {
@@ -196,15 +241,13 @@
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
-  transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+  transition: border-color 160ms ease;
 }
 
 .start-card:hover {
   border-color: var(--ifm-color-primary);
-  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
   color: var(--ifm-font-color-base);
   text-decoration: none;
-  transform: translateY(-2px);
 }
 
 .tool-map {
@@ -403,4 +446,13 @@
   .intro-headshot { height: 112px; width: 112px; }
   .proof-grid, .start-grid, .tool-map, .content-grid, .euler-tool-model { grid-template-columns: 1fr; }
   .markdown h2 { margin-top: 2rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
 }

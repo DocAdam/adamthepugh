@@ -1,6 +1,6 @@
 ---
 title: "About Adam Pugh"
-description: "Professional profile of Adam Pugh, Senior Documentation Engineer specializing in documentation systems, information architecture, documentation operations, analytics, and workflow automation."
+description: "Professional profile of Adam Pugh, Senior Documentation Engineer."
 ---
 
 import Head from '@docusaurus/Head';
@@ -15,9 +15,9 @@ import Head from '@docusaurus/Head';
       url: 'https://adamthepugh.com/docs/about',
       image: 'https://adamthepugh.com/img/headshot.jpg',
       jobTitle: 'Senior Documentation Engineer',
-      description: 'Senior Documentation Engineer specializing in product documentation, information architecture, documentation operations, analytics, structured authoring, and workflow automation.',
+      description: 'Senior Documentation Engineer focused on product documentation, information architecture, documentation operations, analytics, and workflow tooling.',
       sameAs: [
-        'https://www.linkedin.com/in/adampugh/details/experience/',
+        'https://www.linkedin.com/in/adampugh/',
         'https://github.com/DocAdam',
       ],
     },
@@ -26,31 +26,23 @@ import Head from '@docusaurus/Head';
 
 # About Adam Pugh
 
-I’m a Senior Documentation Engineer. I help teams make complicated products and operational systems easier to understand, navigate, maintain, and improve.
+I am a Senior Documentation Engineer. I help teams make complex products and operational systems easier to understand, navigate, and maintain. My background includes hands-on technical writing, documentation systems, analytics, and leadership.
 
-Looking for a concise career overview? [Download Adam Pugh’s résumé (PDF)](https://adamthepugh.com/adam-pugh-resume.pdf).
+## How I work
 
-<div className="content-grid">
-  <section className="content-card"><h3>Content and information architecture</h3><p>Turn complex workflows and uneven source material into useful, discoverable documentation.</p></section>
-  <section className="content-card"><h3>Documentation operations</h3><p>Build the standards, governance, visibility, and maintenance practices that let content hold up at scale.</p></section>
-  <section className="content-card"><h3>Analytics and decision support</h3><p>Use reporting and measurement to focus documentation effort where it has the most value.</p></section>
-  <section className="content-card"><h3>Practical tooling</h3><p>Improve repeated documentation work with fit-for-purpose systems and AI-assisted automation.</p></section>
-</div>
+I start with the real source of a problem: product behavior, user tasks, existing content, operating data, and the people who maintain the system. I separate confirmed facts from assumptions. I then build the smallest useful content model, workflow, or tool and check it against the source.
 
-I have worked as an individual contributor, manager, senior manager, and documentation engineer. That range has made me comfortable with both the page-level craft and the operating model around it: how content is planned, reviewed, published, measured, governed, and kept current.
+## Technical range
 
-If you want the broadest view of how I work, start with [Home](./intro.md), [How I Work](./portfolio/overview.md), and [Work](./case-studies/overview.md).
+My work includes Markdown, Docusaurus, GitHub, XML and DITA, CMS and wiki systems, Tableau, Excel, Power Query, SharePoint, SQL, structured content, content governance, migrations, automated checks, and AI-assisted workflow development. I use these tools to support documentation outcomes. I do not present this work as full-time software engineering.
 
 ## Background
 
-My work has included documentation for enterprise software and internal recruiting systems, structured authoring, help systems, reporting, content governance, migrations, and workflow automation. I have led documentation teams and supported large product sets, while continuing to work directly with content, product partners, and the systems behind the content.
-
-Earlier editorial work included reporting and editing at the Arizona Daily Wildcat, including managing and assigning work for a team of writers.
+I have worked as an individual contributor, manager, and senior manager. That range helps me connect page-level editorial work with planning, review, publishing, measurement, governance, and maintenance.
 
 ## Education
 
-- **B.A., Journalism; Minor in Communications** — University of Arizona
+**University of Arizona**<br />
+Bachelor of Arts in Journalism, Minor in Communications, 2003
 
-## Personal context
-
-Outside my main documentation work, I run [Vinyl Junction](./projects/vinyl-junction.md), a long-running Etsy shop focused on vintage music and books. I’m also a longtime music collector and someone who tends to learn by building, testing, refining, and improving things over time. That instinct carries into my professional work: understand the real problem, make the system clearer, and keep refining what proves useful.
+[View selected work](./case-studies/overview.md) or [download the general résumé](https://adamthepugh.com/adam-pugh-resume.pdf).

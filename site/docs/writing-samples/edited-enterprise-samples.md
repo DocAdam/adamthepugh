@@ -1,8 +1,8 @@
 ---
-title: Writing and Content Strategy
-hide_title: true
+title: "Enterprise Writing Samples"
+hide_table_of_contents: true
 ---
 
-import {Redirect} from '@docusaurus/router';
+import Redirect from '@site/src/components/LegacyRedirect';
 
-<Redirect to="/docs/writing-samples/overview" />
+<Redirect to="/docs/case-studies/overview/#selected-enterprise-work" />

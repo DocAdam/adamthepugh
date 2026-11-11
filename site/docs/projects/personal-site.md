@@ -1,8 +1,8 @@
 ---
-title: Tools and Systems
-hide_title: true
+title: "Personal Site"
+hide_table_of_contents: true
 ---
 
-import {Redirect} from '@docusaurus/router';
+import Redirect from '@site/src/components/LegacyRedirect';
 
-<Redirect to="/docs/portfolio/tools-and-systems" />
+<Redirect to="/docs/about/#technical-range" />

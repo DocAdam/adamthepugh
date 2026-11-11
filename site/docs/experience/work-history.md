@@ -1,51 +1,8 @@
 ---
 title: "Adam Pugh Work History"
-description: "Work history for Adam Pugh, Senior Documentation Engineer with experience in enterprise software, documentation leadership, analytics, and documentation operations."
+hide_table_of_contents: true
 ---
 
-# Work History
+import Redirect from '@site/src/components/LegacyRedirect';
 
-My career has followed a consistent pattern: take complicated products, unclear workflows, or fragmented knowledge and make them clearer, more usable, and easier to maintain.
-
-Looking for a concise career overview? [Download Adam Pugh’s résumé (PDF)](https://adamthepugh.com/adam-pugh-resume.pdf).
-
-## Meta
-
-### Senior Documentation Engineer · 2023–Present
-
-Create and improve documentation for a large internal recruiting platform spanning the hiring lifecycle. The work combines product documentation, information architecture, governance, migration, and practical tooling with product, engineering, recruiting operations, and leadership partners.
-
-| Recent scope | Evidence |
-| --- | --- |
-| Product change | 80%+ documentation coverage across a 98-launch initiative; 20 user-facing launches supported through May 2026. |
-| Content quality and governance | 139+ high-traffic pages standardized; 234 pages tracked for freshness. |
-| Knowledge-system migration | 200+ in-product help links moved from a legacy wiki to a structured support system. |
-| Documentation operations | Internal tools and AI-assisted workflows for repeated content, review, and maintenance work. |
-
-### Documentation Manager · 2022–2023
-
-Led a team of four documentation engineers supporting more than 100 products. Combined people leadership with hands-on documentation, content strategy, analytics, and process improvement.
-
-Key outcomes: centralized tracking for 400+ products; seven automated Tableau dashboards; 101 migrations across seven team groups; and a 59% reduction in migrated page volume, from 1,157 pages to 469.
-
-## Jack Henry
-
-### Senior Manager of Technical Writing · 2021–2022
-
-Led a 16-person documentation organization, including 15 writers and one manager, supporting 46 products. Worked across engineering, product, and QA to support online help, PDFs, and API guides.
-
-### Manager of Technical Writing · 2010–2021
-
-Improved documentation operations at scale: reporting, data collection, analytics, acquired-product onboarding, and documentation standards for a department of roughly 45 people.
-
-### Technical Writer, Advanced · 2007–2010
-
-Created release notes, enhancement content, and software-update documentation in an Agile environment. Helped advance DITA and XML adoption and contributed to the technical-writing internship program.
-
-### Technical Writer · 2005–2007
-
-Created core-banking software documentation in RoboHelp and supported the team’s transition toward a DITA-based authoring architecture.
-
-## Independent work
-
-[Vinyl Junction](../projects/vinyl-junction.md), my long-running Etsy business, is separate from my documentation career but reinforces the same practical habits: clear product communication, taxonomy, sustained maintenance, and customer-focused iteration.
+<Redirect to="/docs/experience/overview/" fragmentMap={{"#meta":"#meta","#senior-documentation-engineer--2023present":"#senior-documentation-engineer--july-2023july-2026","#documentation-manager--20222023":"#documentation-engineering-manager--march-2022june-2023","#jack-henry":"#jack-henry--associates","#senior-manager-of-technical-writing--20212022":"#senior-manager-of-technical-writing--20212022","#manager-of-technical-writing--20102021":"#manager-of-technical-writing--20102021","#technical-writer-advanced--20072010":"#technical-writer-advanced--20072010","#technical-writer--20052007":"#technical-writer--20052007","#independent-work":"#vinyl-junction"}} />

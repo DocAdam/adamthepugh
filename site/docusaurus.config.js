@@ -57,11 +57,11 @@ const config = {
       logo: {
         alt: 'Adam Pugh',
         src: 'img/logo.svg',
+        href: '/docs/intro/',
+        target: '_self',
       },
       items: [
-        { to: '/docs/intro', label: 'Home', position: 'left' },
         { to: '/docs/case-studies/overview', label: 'Work', position: 'left' },
-        { to: '/docs/portfolio/overview', label: 'Approach', position: 'left' },
         { to: '/docs/experience/overview', label: 'Experience', position: 'left' },
         { to: '/docs/about', label: 'About', position: 'left' },
         {
@@ -82,12 +82,9 @@ const config = {
         {
           title: 'Explore',
           items: [
-            { label: 'Home', to: '/docs/intro' },
-            { label: 'About', to: '/docs/about' },
             { label: 'Work', to: '/docs/case-studies/overview' },
-            { label: 'Approach', to: '/docs/portfolio/overview' },
             { label: 'Experience', to: '/docs/experience/overview' },
-            { label: 'Documentation Analytics', to: '/docs/data-analytics/overview' },
+            { label: 'About', to: '/docs/about' },
           ],
         },
         {
@@ -96,7 +93,6 @@ const config = {
             { label: 'Download resume (PDF)', href: 'https://adamthepugh.com/adam-pugh-resume.pdf' },
             { label: 'Resume on LinkedIn', href: 'https://www.linkedin.com/in/adampugh/details/experience/' },
             { label: 'GitHub', href: 'https://github.com/DocAdam' },
-            { label: 'TeraCreators Help', href: 'https://docadam.github.io/TeraCreators-Help/' },
           ],
         },
       ],

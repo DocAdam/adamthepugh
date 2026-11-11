@@ -1,39 +1,35 @@
 ---
-title: "Migrations and Information Architecture Case Study"
-description: "Documentation migration and information architecture work that improves discoverability, consistency, and maintainability."
+title: "Migrations and Information Architecture"
+description: "A 2022 Meta documentation migration program with clear team, migration-unit, and page-count scope."
 ---
 
 # Migrations and Information Architecture
 
-Many documentation problems are structure problems. The content exists, but it is hard to find, shaped by old organizational history, or expensive to maintain.
+**Context:** Meta, Documentation Engineering Manager, 2022<br />
+**Audience:** Internal employees, documentation maintainers, and partner teams<br />
+**Team:** Four documentation engineers
 
-## The work
+This program moved product documentation into a central knowledge hub. It required content discovery, consolidation, information-architecture decisions, repeatable tracking, and coordination with Product Management, Engineering, and Release Management.
 
-<pre className="system-flow">inventory and review
-    │
-    ▼
-find duplication and drift
-    │
-    ▼
-decide what moves, merges, or disappears
-    │
-    ▼
-rebuild the structure around user needs
-    │
-    ▼
-make the new system easier to maintain</pre>
+## What the 101 figure counts
 
-## Evidence from the work
+The team completed **101 content migrations across seven team groups**. In this record, 101 is the count of completed migration units. It is not a page count and it is not a claim that I completed 101 migrations alone.
 
-| Challenge | Response | Evidence |
-| --- | --- | --- |
-| Large migration with duplicated content | Consolidated and restructured pages | 101 migrations; page volume reduced 59% |
-| High-traffic content needing consistency | Standardized organization and page patterns | 139+ pages reorganized and standardized |
-| In-product help tied to a legacy wiki | Migrated links to a structured support environment | 200+ help links moved |
-| Complex workflow documentation | Reorganized content around actual tasks and navigation | 100+ pages updated and restructured in a major workflow area |
+The page measure is separate. The program reduced **1,157 source pages to 469 destination pages**, a 59% reduction in migrated page volume.
 
-## Decisions that make the difference
+## My contribution
 
-The important decisions are rarely cosmetic: what should disappear, which page types need clear boundaries, what readers need to find first, and who will keep the new structure healthy. Good information architecture makes both readers and maintainers less dependent on tribal knowledge.
+I led the four-person team and the department migration program. I created processes where none existed, coordinated with partner teams, documented the migration workflow, and helped make the work repeatable.
 
-For the governance side of that work, see [Documentation Operations](./documentation-operations.md).
+I also built migration tracking and content-discovery workflows. Those workflows saved an **estimated 150–200 hours** of manual content-discovery work. This is an estimate, not a measured labor total.
+
+## Decisions and artifacts
+
+| Need | Response |
+| --- | --- |
+| Find source content and owners | Used content-discovery templates and migration tracking. |
+| Reduce duplicate and outdated pages | Decided what to keep, merge, restructure, or retire before migration. |
+| Show progress across teams | Reported migration units and page counts as separate measures. |
+| Make later work repeatable | Created process guidance and training for the migration tracker. |
+
+The trackers, source pages, and internal guidance are not public. This page is a factual summary of the program and its approved measures.

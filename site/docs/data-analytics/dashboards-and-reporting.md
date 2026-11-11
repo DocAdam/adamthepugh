@@ -1,8 +1,8 @@
 ---
-title: Documentation Analytics
-hide_title: true
+title: "Dashboards and Reporting"
+hide_table_of_contents: true
 ---
 
-import {Redirect} from '@docusaurus/router';
+import Redirect from '@site/src/components/LegacyRedirect';
 
-<Redirect to="/docs/data-analytics/overview" />
+<Redirect to="/docs/case-studies/analytics-and-reporting/#supported-use-and-results" />

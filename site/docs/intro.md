@@ -1,8 +1,10 @@
 ---
-sidebar_position: 1
 slug: /intro
 title: Home
 hide_title: true
+hide_table_of_contents: true
+pagination_prev: null
+pagination_next: null
 ---
 
 import Head from '@docusaurus/Head';
@@ -11,98 +13,57 @@ import Head from '@docusaurus/Head';
   <title>Adam Pugh | Senior Documentation Engineer</title>
   <meta
     name="description"
-    content="Senior Documentation Engineer specializing in product documentation, information architecture, documentation operations, analytics, structured authoring, and workflow automation."
+    content="Senior Documentation Engineer who makes complex product documentation and knowledge systems easier to use and maintain."
   />
 </Head>
 
-<div className="intro-hero">
+<div className="intro-hero landing-page">
   <img src="/img/headshot.jpg" alt="Adam Pugh" className="intro-headshot" />
 
   <div className="intro-copy">
     <h1>Adam Pugh</h1>
-    <p className="intro-tagline">Senior Documentation Engineer for complex systems, usable knowledge, and documentation that holds up at scale.</p>
-    <p>
-      I combine technical writing, information architecture, documentation operations, analytics, and AI-assisted tooling to make complicated systems easier to understand, maintain, and improve.
-    </p>
-    <p className="intro-links">
-      <a href="https://adamthepugh.com/adam-pugh-resume.pdf">Resume (PDF)</a>
-      <span> · </span>
-      <a href="https://github.com/DocAdam">GitHub</a>
-      <span> · </span>
-      <a href="https://docadam.github.io/TeraCreators-Help/">TeraCreators Help</a>
-    </p>
+    <p className="intro-tagline">I make complex product documentation and knowledge systems easier to use, govern, and maintain.</p>
+    <p>I combine technical writing, information architecture, documentation operations, analytics, and practical tooling. My work connects clear content to the systems and decisions that keep it accurate.</p>
+    <div className="primary-actions">
+      <a className="button button--primary" href="/docs/case-studies/overview/">View selected work</a>
+      <a className="button button--secondary" href="https://adamthepugh.com/adam-pugh-resume.pdf">Download résumé</a>
+    </div>
   </div>
 </div>
 
-<div className="portfolio-lede">
+## Featured public work
 
-## Documentation work with operational weight
-
-I work where content, product change, and operational reality meet: turning scattered knowledge into useful help, making large documentation environments easier to govern, and building practical systems that reduce maintenance work.
-
-</div>
-
-<div className="proof-grid">
-  <article className="proof-card">
-    <span className="proof-value">98</span>
-    <h3>Launch initiative</h3>
-    <p>Maintained 80%+ documentation coverage, with priority on user-impacting changes.</p>
+<div className="work-list">
+  <article className="work-item">
+    <p className="status-label">Independent prototype</p>
+    <h3>Euler documentation proposal</h3>
+    <p>A working proposal that adds task context, prerequisites, outcomes, and a maintenance model to public MCP source material.</p>
+    <p><a href="/docs/case-studies/euler-documentation-prototype/">Read the case study</a> · <a href="https://docadam.github.io/docs-operating-system/euler/">View the prototype</a> · <a href="https://github.com/DocAdam/docs-operating-system">View the source</a></p>
   </article>
-  <article className="proof-card">
-    <span className="proof-value">139+</span>
-    <h3>High-traffic pages</h3>
-    <p>Reorganized and standardized for usability, consistency, and maintainability.</p>
-  </article>
-  <article className="proof-card">
-    <span className="proof-value">234</span>
-    <h3>Pages governed</h3>
-    <p>Tracked for freshness so maintenance could be prioritized deliberately.</p>
-  </article>
-  <article className="proof-card">
-    <span className="proof-value">200+</span>
-    <h3>Help links migrated</h3>
-    <p>Moved from a legacy wiki into a structured support environment.</p>
+  <article className="work-item">
+    <p className="status-label">Published community documentation</p>
+    <h3>TeraCreators Help</h3>
+    <p>A public help system that turns scattered community and company material into guides organized around gameplay.</p>
+    <p><a href="/docs/case-studies/teracreators-help/">Read the case study</a> · <a href="https://docadam.github.io/TeraCreators-Help/">View the guide</a> · <a href="https://github.com/DocAdam/TeraCreators-Help">View the source</a></p>
   </article>
 </div>
 
-## Featured work
+## Selected enterprise work
 
-### TeraCreators Help
+The source artifacts for this work are private. These summaries state the role, scope, and supported results without publishing employer material.
 
-TeraCreators Help is a multi-guide documentation project covering multiple games. It takes scattered, community-sourced information and turns it into structured, navigable help content with screenshots, repeatable page models, and live community-facing documentation.
-
-- [Read the case study](./case-studies/teracreators-help.md)
-- [View the live guide](https://docadam.github.io/TeraCreators-Help/)
-
-### Vinyl Junction
-
-Vinyl Junction is a long-running Etsy business I’ve built since 2014. It is a strong proof point for sustained ownership, product communication, and operational consistency.
-
-- [Read about the project](./projects/vinyl-junction.md)
-
-## Current focus
-
-I work as a **Senior Documentation Engineer**, creating and improving documentation for a large internal recruiting platform that supports the hiring lifecycle from sourcing through onboarding. My current work includes product documentation, content governance, knowledge-system migrations, and documentation tooling.
-
-## Start here
-
-<div className="start-grid">
-  <a className="start-card" href="/docs/case-studies/overview/">
-    <strong>Selected work</strong>
-    <span>Case studies in documentation operations, migrations, analytics, and tooling.</span>
-  </a>
-  <a className="start-card" href="/docs/portfolio/overview/">
-    <strong>Approach</strong>
-    <span>How I work across content, systems, data, and workflow design.</span>
-  </a>
-  <a className="start-card" href="/docs/experience/overview/">
-    <strong>Experience</strong>
-    <span>Leadership, product documentation, and documentation-engineering work.</span>
-  </a>
+<div className="work-list compact-work-list">
+  <article className="work-item"><h3><a href="/docs/case-studies/migrations-and-ia/">Migrations and information architecture</a></h3><p>Led a four-person team that completed 101 content migrations across seven team groups. The program reduced migrated content from 1,157 source pages to 469 destination pages.</p></article>
+  <article className="work-item"><h3><a href="/docs/case-studies/analytics-and-reporting/">Analytics and reporting</a></h3><p>Created seven automated Tableau dashboards that made documentation work and operating results visible to managers and partners.</p></article>
+  <article className="work-item"><h3><a href="/docs/case-studies/documentation-tooling-and-automation/">Documentation tooling and automation</a></h3><p>Built 10 internal documentation and workflow tools with more than 750 automated tests.</p></article>
 </div>
 
-:::note How to use this site
+## Career scope
 
-Start with **Work** for evidence, **Approach** for methods, and **Experience** for career scope. The sidebar holds the deeper pages when you want the detail.
+I have more than 20 years of technical writing and documentation experience, with about 13 years of direct people management. I have worked as a technical writer, documentation engineer, manager, and senior manager across enterprise software, internal product systems, and public docs-as-code projects.
 
-:::
+[View experience and role history](/docs/experience/overview/).
+
+## Contact and profiles
+
+[LinkedIn](https://www.linkedin.com/in/adampugh/) · [GitHub](https://github.com/DocAdam) · [Résumé (PDF)](https://adamthepugh.com/adam-pugh-resume.pdf)

@@ -1,8 +1,8 @@
 ---
-title: How I Work
-hide_title: true
+title: "How I Work"
+hide_table_of_contents: true
 ---
 
-import {Redirect} from '@docusaurus/router';
+import Redirect from '@site/src/components/LegacyRedirect';
 
-<Redirect to="/docs/portfolio/overview" />
+<Redirect to="/docs/about/#how-i-work" />

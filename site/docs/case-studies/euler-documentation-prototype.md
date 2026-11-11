@@ -16,10 +16,10 @@ import Head from '@docusaurus/Head';
 </Head>
 
 <div className="euler-proposal-hero">
-  <p className="euler-eyebrow">Public working proposal · documentation system design</p>
+  <p className="euler-eyebrow">Independent prototype · documentation system design</p>
   <h1>A documentation proposal for Euler</h1>
   <p className="euler-proposal-lede">I saw an opportunity to make Euler’s public MCP material easier to understand and use. I built a working demo to show how task context, prerequisites, and technical reference could fit together.</p>
-  <p className="euler-proposal-links"><a href="https://docadam.github.io/docs-operating-system/euler/">View the working Euler prototype</a><span> · </span><a href="#the-proposal">See the proposal</a><span> · </span><a href="https://mcp.eulerapp.com/public/docs" target="_blank" rel="noreferrer">View Euler’s public MCP reference</a></p>
+  <p className="euler-proposal-links"><a href="https://docadam.github.io/docs-operating-system/euler/">View the working Euler prototype</a><span> · </span><a href="https://github.com/DocAdam/docs-operating-system">View the project source and overview</a><span> · </span><a href="#the-proposal">See the proposal</a></p>
 </div>
 
 <div className="euler-boundary">
@@ -130,3 +130,8 @@ That means a documentation function can begin with what the company already has�
 - [Euler MCP structured manifest](https://mcp.eulerapp.com/public/docs.json)
 - [Euler MCP changelog](https://mcp.eulerapp.com/public/changelog)
 - [Euler MCP connection guide](https://mcp.eulerapp.com/public/connect-claude)
+
+## Project files
+
+- [Documentation Operating System overview and source](https://github.com/DocAdam/docs-operating-system)
+- [Published Euler prototype](https://docadam.github.io/docs-operating-system/euler/)

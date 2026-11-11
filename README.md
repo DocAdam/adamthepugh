@@ -2,19 +2,17 @@
 
 This repository contains the source for [adamthepugh.com](https://adamthepugh.com/), my professional portfolio.
 
-The site presents selected work in documentation operations, information architecture, tooling, automation, and analytics. It includes case studies, writing and content strategy, public projects, and career experience.
+The site presents selected work in documentation operations, information architecture, tooling, automation, and analytics. It includes public projects, factual summaries of enterprise work, career experience, and a general résumé.
 
-Start with [Selected Work](https://adamthepugh.com/docs/case-studies/overview/) for case studies, [Approach](https://adamthepugh.com/docs/portfolio/overview/) for how I work, or [Experience](https://adamthepugh.com/docs/experience/overview/) for my career background.
+Start with [Selected Work](https://adamthepugh.com/docs/case-studies/overview/) for evidence, [Experience](https://adamthepugh.com/docs/experience/overview/) for career history, or [About](https://adamthepugh.com/docs/about/) for working methods and technical range.
 
 ## Explore the work
 
 - [Euler documentation prototype](https://adamthepugh.com/docs/case-studies/euler-documentation-prototype/): A public working proposal for organizing MCP and product knowledge into documentation that people can use.
 - [TeraCreators Help](https://adamthepugh.com/docs/case-studies/teracreators-help/): A public documentation project that organizes community knowledge into a structured help system.
-- [Documentation operations](https://adamthepugh.com/docs/case-studies/documentation-operations/): Standards, governance, and workflows for maintaining documentation.
 - [Migrations and information architecture](https://adamthepugh.com/docs/case-studies/migrations-and-ia/): Work on content structure, discoverability, and migration.
 - [Tooling and automation](https://adamthepugh.com/docs/case-studies/documentation-tooling-and-automation/): Tools and repeatable processes that support documentation work.
 - [Analytics and reporting](https://adamthepugh.com/docs/case-studies/analytics-and-reporting/): Measurement and reporting for documentation operations.
-- [Writing and content strategy](https://adamthepugh.com/docs/writing-samples/overview/): Methods for task documentation, reference content, change communication, and content planning.
 
 For a career summary, [download my résumé](https://adamthepugh.com/adam-pugh-resume.pdf).
 
@@ -98,7 +96,11 @@ The files in `site/static/` are copied into the production build. These files ar
 - `robots.txt`: Crawl guidance that permits access and points to the sitemap.
 - `adam-pugh-resume.pdf`: The downloadable résumé.
 
-The résumé is linked from the navbar, Home, About, Work History, footer, and `llms.txt`. To update it, replace `site/static/adam-pugh-resume.pdf` and check that the related site content and `llms.txt` agree with the approved résumé. Then run the tests and build checks.
+The résumé is linked from the navbar, Home, About, Experience, footer, and `llms.txt`. The editable authority is the approved general résumé source in Job Finder. Generate and validate the DOCX there, export and inspect the PDF, then replace `site/static/adam-pugh-resume.pdf`. Check that Experience and `llms.txt` agree with the PDF before publication.
+
+The Home document is intentionally absent from `site/sidebars.js`. Its front matter also hides the page table of contents and pagination. Deeper Work, Experience, and About pages keep the documentation navigation.
+
+Legacy documentation files use `site/src/components/LegacyRedirect.js`. Keep these files when consolidating content. Add a fragment map when an old heading moves to a different heading on the retained page, and test the old route with its fragment after each change.
 
 Keep archived material separate from active site maintenance.
 
