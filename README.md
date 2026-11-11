@@ -2,7 +2,7 @@
 
 This repository contains the source for [adamthepugh.com](https://adamthepugh.com/). The portfolio shows public projects, enterprise documentation systems, work experience, selected writing, and a two-page general résumé.
 
-The active site is in `site/`. The `archive/` directory contains preserved legacy material. Do not use the archive as published site content.
+The active site is in `site/`. The `archive/` directory contains preserved legacy material. It is visible in the public GitHub repository, but it is not built into the website. Do not use it as active site content.
 
 ## Published structure
 
@@ -27,8 +27,8 @@ The site has no public About page. Home contains the useful working-method conte
 ```text
 adamthepugh/
 ├── .github/workflows/        # GitHub Pages build and deployment
-├── archive/                  # preserved legacy material; not published
-├── images/                   # image sources from the earlier site
+├── archive/                  # preserved legacy material; repository only
+├── images/                   # legacy image sources; repository only
 ├── site/
 │   ├── docs/                 # nine active Markdown documents
 │   ├── scripts/              # link, overview, route, and sitemap checks
@@ -42,6 +42,8 @@ adamthepugh/
 ├── AGENTS.md                 # repository working instructions
 └── README.md
 ```
+
+`work/` is an ignored local workspace for private planning and review artifacts. It is not part of the repository or deployment.
 
 The backend can keep the current `site/docs/` file organization. Each active document has an explicit clean slug, so the public site does not expose that folder structure.
 
@@ -127,7 +129,7 @@ Commit the active source, tests, locked dependency files, route contract, public
 - `site/node_modules/`
 - temporary PDF exports
 - files from the separate Job Finder repository
-- local review files in `work/` unless they are separately approved for publication
+- local review and private working files in the ignored `work/` directory
 
 Keep `archive/` unchanged unless an archive task has explicit approval. Preserve unrelated local changes.
 
