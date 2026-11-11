@@ -105,3 +105,22 @@ test('keeps canonical source free of legacy case-study URLs', () => {
     );
   }
 });
+
+test('publishes the documentation analytics gallery from local static assets', () => {
+  const siteDir = path.join(__dirname, '..');
+  const page = fs.readFileSync(path.join(siteDir, 'docs', 'case-studies', 'analytics-and-reporting.md'), 'utf8');
+  const images = [
+    'ep-docs-migration-metrics.png',
+    'ep-docs-work-progress-tracker.png',
+    'ep-documentation-migration-metrics.png',
+    'team-group-migrations.png',
+  ];
+
+  for (const image of images) {
+    const publicPath = `/img/documentation-analytics/${image}`;
+    assert.match(page, new RegExp(publicPath.replaceAll('/', '\\/')));
+    assert.ok(fs.existsSync(path.join(siteDir, 'static', publicPath)), `${publicPath} must exist`);
+  }
+
+  assert.doesNotMatch(page, /user-images\.githubusercontent\.com|public\.tableau\.com/);
+});

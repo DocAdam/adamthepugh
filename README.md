@@ -14,7 +14,7 @@ The sitemap contains these nine canonical pages:
 - [TeraCreators Help](https://adamthepugh.com/work/teracreators-help/): A published help system for five games.
 - [Euler documentation prototype](https://adamthepugh.com/work/euler-documentation-prototype/): An independent working prototype for clearer MCP and product documentation.
 - [Documentation migrations and information architecture](https://adamthepugh.com/work/documentation-migrations/): A 101-wiki migration program that consolidated 1,157 source pages into 469 destination pages.
-- [Documentation analytics and reporting](https://adamthepugh.com/work/documentation-analytics/): A SharePoint tracking system and seven Tableau dashboards for documentation work across more than 400 internal products.
+- [Documentation analytics and reporting](https://adamthepugh.com/work/documentation-analytics/): A SharePoint tracking system, seven Tableau dashboards, and four dashboard examples for documentation work across more than 400 internal products.
 - [Documentation tooling and automation](https://adamthepugh.com/work/documentation-tooling/): Internal tools and tests for repeated documentation workflow problems.
 - [Experience](https://adamthepugh.com/experience/): Role history, selected results, leadership scope, and Vinyl Junction work.
 
@@ -117,6 +117,7 @@ The files in `site/static/` are copied to the production root. Important files i
 - `img/headshot.jpg`: Home portrait.
 - `img/social-card.png`: 1200 by 630 social preview image.
 - `img/logo.svg`: Site logo and favicon.
+- `img/documentation-analytics/*.png`: Full-size 2022 Tableau dashboard examples used by the documentation analytics case study.
 
 ## Git and generated files
 

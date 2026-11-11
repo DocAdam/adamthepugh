@@ -17,6 +17,42 @@ I extracted the product names from the Google Doc and created a SharePoint track
 
 I connected the SharePoint data and other corporate work data to Tableau. I personally created seven automated dashboards with department, project, completed-work, and manager views. My senior manager used the reports to show project status and risks to her director.
 
+## Dashboard examples
+
+These 2022 Tableau views show two parts of the reporting system. The migration dashboards showed status and completion by team and team group. The work-progress tracker used the SharePoint records to give the team a consistent view of documentation requests for monthly reporting.
+
+<div className="analytics-gallery">
+  <figure className="analytics-gallery__item">
+    <a className="analytics-gallery__image-link" href="/img/documentation-analytics/ep-docs-migration-metrics.png" aria-label="Open the full-size migration activity dashboard">
+      <img className="analytics-gallery__image" src="/img/documentation-analytics/ep-docs-migration-metrics.png" alt="Tableau dashboard that shows documentation migration activity by date and team group" loading="lazy" decoding="async" width="2048" height="1536" />
+    </a>
+    <figcaption><strong>Migration activity.</strong> This view shows completed migrations by date and team group. <a href="/img/documentation-analytics/ep-docs-migration-metrics.png">View full size.</a></figcaption>
+  </figure>
+
+  <figure className="analytics-gallery__item">
+    <a className="analytics-gallery__image-link" href="/img/documentation-analytics/ep-docs-work-progress-tracker.png" aria-label="Open the full-size documentation work-progress dashboard">
+      <img className="analytics-gallery__image" src="/img/documentation-analytics/ep-docs-work-progress-tracker.png" alt="Tableau dashboard that organizes documentation requests by progress and team group" loading="lazy" decoding="async" width="2032" height="1928" />
+    </a>
+    <figcaption><strong>Work-request progress.</strong> This view organizes documentation requests by status and team group for monthly reporting. <a href="/img/documentation-analytics/ep-docs-work-progress-tracker.png">View full size.</a></figcaption>
+  </figure>
+
+  <figure className="analytics-gallery__item">
+    <a className="analytics-gallery__image-link" href="/img/documentation-analytics/ep-documentation-migration-metrics.png" aria-label="Open the full-size documentation migration status dashboard">
+      <img className="analytics-gallery__image" src="/img/documentation-analytics/ep-documentation-migration-metrics.png" alt="Tableau dashboard with migration status, product life-cycle categories, page reduction, and completion dates" loading="lazy" decoding="async" width="2023" height="1105" />
+    </a>
+    <figcaption><strong>Migration status.</strong> This view combines status, product life-cycle categories, page reduction, and completion dates. <a href="/img/documentation-analytics/ep-documentation-migration-metrics.png">View full size.</a></figcaption>
+  </figure>
+
+  <figure className="analytics-gallery__item">
+    <a className="analytics-gallery__image-link" href="/img/documentation-analytics/team-group-migrations.png" aria-label="Open the full-size team-group migration dashboard">
+      <img className="analytics-gallery__image" src="/img/documentation-analytics/team-group-migrations.png" alt="Tableau dashboard that compares migration status across product life-cycle groups" loading="lazy" decoding="async" width="2048" height="1536" />
+    </a>
+    <figcaption><strong>Team-group progress.</strong> This view compares completed, in-progress, on-hold, and remaining migrations. <a href="/img/documentation-analytics/team-group-migrations.png">View full size.</a></figcaption>
+  </figure>
+</div>
+
+These images are dated operational snapshots. Their totals reflect the selected dates and filters. See [Documentation migrations and information architecture](/work/documentation-migrations/) for the final full-program totals and outcomes.
+
 <span id="where-the-work-helps"></span>
 
 ## Supported use and results

@@ -25,7 +25,7 @@ These examples show how I organize complex information, improve documentation sy
   <h2 id="enterprise-documentation-systems">Enterprise documentation systems</h2>
   <div className="work-list">
     <article className="work-item"><p className="status-label">Enterprise documentation system</p><h3><a href="/work/documentation-migrations/">Documentation migrations and information architecture</a></h3><p>A team migration program with separate measures for completed wiki projects and page consolidation.</p></article>
-    <article className="work-item"><p className="status-label">Enterprise documentation system</p><h3><a href="/work/documentation-analytics/">Documentation analytics and reporting</a></h3><p>A SharePoint tracking system and seven Tableau dashboards for work across more than 400 internal products.</p></article>
+    <article className="work-item"><p className="status-label">Enterprise documentation system</p><h3><a href="/work/documentation-analytics/">Documentation analytics and reporting</a></h3><p>A SharePoint tracking system and seven Tableau dashboards for work across more than 400 internal products, with four dashboard examples.</p></article>
     <article className="work-item"><p className="status-label">Enterprise documentation system</p><h3><a href="/work/documentation-tooling/">Documentation tooling and automation</a></h3><p>Internal tools and tests built for repeated documentation workflow problems.</p></article>
   </div>
 

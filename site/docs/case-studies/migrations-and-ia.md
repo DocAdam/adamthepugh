@@ -30,3 +30,5 @@ I also built migration tracking and content-discovery workflows that saved an **
 | Reduce duplicate and outdated pages | Decided what to keep, merge, restructure, or retire before migration. |
 | Show progress across teams | Reported product-wiki projects and page counts as separate measures. |
 | Make later work repeatable | Created process guidance and training for the migration tracker. |
+
+See [Documentation analytics and reporting](/work/documentation-analytics/) for examples of the Tableau dashboards used to report migration progress.
