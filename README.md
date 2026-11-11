@@ -6,11 +6,12 @@ The active site is in `site/`. The `archive/` directory contains preserved legac
 
 ## Published structure
 
-The sitemap contains these nine canonical pages:
+The sitemap contains these 10 canonical pages:
 
 - [Home](https://adamthepugh.com/): Professional focus, featured work, working method, and contact links.
-- [Work](https://adamthepugh.com/work/): The grouped index for products and publications, enterprise documentation systems, and prototypes and contributions.
-- [Working Notes and Good Doc Jobs](https://adamthepugh.com/work/working-notes-good-doc-jobs/): A publication, content-audit project, public jobs database, and open data pipeline.
+- [Work](https://adamthepugh.com/work/): The grouped index for products, publications, enterprise documentation systems, prototypes, and public GitHub activity.
+- [Working Notes](https://adamthepugh.com/work/working-notes/): A practitioner publication with content audits, job roundups, project methods, and selected writing.
+- [Good Doc Jobs](https://adamthepugh.com/work/good-doc-jobs/): A free jobs database with a public source, review, validation, and publication pipeline.
 - [TeraCreators Help](https://adamthepugh.com/work/teracreators-help/): A published help system for five games.
 - [Euler documentation prototype](https://adamthepugh.com/work/euler-documentation-prototype/): An independent working prototype for clearer MCP and product documentation.
 - [Migrations and information architecture](https://adamthepugh.com/work/documentation-migrations/): A 101-wiki migration program that consolidated 1,157 source pages into 469 destination pages.
@@ -30,7 +31,7 @@ adamthepugh/
 ├── archive/                  # preserved legacy material; repository only
 ├── images/                   # legacy image sources; repository only
 ├── site/
-│   ├── docs/                 # nine active Markdown documents
+│   ├── docs/                 # 10 active Markdown documents
 │   ├── scripts/              # link, overview, route, and sitemap checks
 │   ├── src/                  # components and styles
 │   ├── static/               # résumé, images, domain file, and crawl guidance
@@ -69,7 +70,7 @@ The checks enforce these rules:
 - A canonical page must link directly to another canonical page. It must not link to a redirect.
 - A legacy route must redirect directly to its final canonical route. Redirect chains are not permitted.
 - The Work index must contain every active Work page once, in sidebar order.
-- The sitemap must contain the exact nine canonical URLs. It must not contain legacy `/docs/` URLs.
+- The sitemap must contain the exact 10 canonical URLs. It must not contain legacy `/docs/` URLs.
 - The static Euler `.html` compatibility route must point directly to its final page.
 
 The build stops when one of these checks fails. The checks do not request external websites. Preview a successful production build with:
@@ -80,7 +81,7 @@ npm run serve
 
 ## Route maintenance
 
-`site/route-contract.cjs` is the route authority. It contains the nine canonical routes, the legacy route groups, and the separate Euler `.html` compatibility route. `site/docusaurus.config.js` gives the redirect groups to the official Docusaurus client-redirects plugin.
+`site/route-contract.cjs` is the route authority. It contains the 10 canonical routes, the legacy route groups, and the separate Euler `.html` compatibility route. `site/docusaurus.config.js` gives the redirect groups to the official Docusaurus client-redirects plugin.
 
 When a public route changes:
 
@@ -120,6 +121,8 @@ The files in `site/static/` are copied to the production root. Important files i
 - `img/social-card.png`: 1200 by 630 social preview image.
 - `img/logo.svg`: Site logo and favicon.
 - `img/documentation-analytics/*.png`: Full-size 2022 Tableau dashboard examples used by the documentation analytics case study.
+- `img/process/*.svg`: Responsive desktop and mobile process visuals used by the enterprise documentation case studies.
+- `img/working-notes/*.png`: Optimized publication and project-reporting images used by the Working Notes and Good Doc Jobs case studies.
 
 ## Git and generated files
 

@@ -36,7 +36,7 @@ test('accepts the exact canonical sitemap and direct legacy redirects', (t) => {
   const outDir = fixture(t);
   const result = checkBuiltRoutes({outDir, siteUrl});
   assert.deepEqual(result.errors, []);
-  assert.equal(result.canonical, 9);
+  assert.equal(result.canonical, 10);
   assert.equal(result.redirects, redirectMap.size + staticRedirectMap.size);
 });
 

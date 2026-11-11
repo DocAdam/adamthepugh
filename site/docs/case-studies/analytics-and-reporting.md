@@ -17,6 +17,19 @@ I extracted the product names from the Google Doc and created a SharePoint track
 
 I connected the SharePoint data and other corporate work data to Tableau. I personally created seven automated dashboards with department, project, completed-work, and manager views. My senior manager used the reports to show project status and risks to her director.
 
+<span id="the-analytics-model"></span>
+<span id="method"></span>
+
+## How I built the reporting system
+
+<figure className="process-visual">
+  <picture>
+    <source media="(max-width: 640px)" srcSet="/img/process/analytics-reporting-system-mobile.svg" />
+    <img src="/img/process/analytics-reporting-system.svg" alt="Corporate work data, a product list, and writer updates move through a SharePoint tracking database and shared measures into seven role-based Tableau dashboards used for operations reviews and planning." loading="lazy" decoding="async" width="1200" height="660" />
+  </picture>
+  <figcaption><strong>From records to decisions.</strong> I built the tracking and reporting system that connected operational records, consistent measures, role-based dashboards, and management use.</figcaption>
+</figure>
+
 ## Dashboard examples
 
 These 2022 Tableau views show two parts of the reporting system. The migration dashboards showed status and completion by team and team group. The work-progress tracker used the SharePoint records to give the team a consistent view of documentation requests for monthly reporting.
@@ -61,18 +74,3 @@ These images are dated operational snapshots. Their totals reflect the selected 
 - The dashboards had 735 views from 39 active users.
 - Teams used the dashboards in 11 operations reviews per month and in performance discussions.
 - Managers could use consistent measures instead of separate manual reports.
-
-<span id="the-analytics-model"></span>
-
-## Method
-
-<pre className="system-flow">corporate work data and SharePoint records
-    │
-    ▼
-defined documentation measures
-    │
-    ▼
-role-based Tableau dashboards
-    │
-    ▼
-operations reviews and planning decisions</pre>

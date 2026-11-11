@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1210" viewBox="0 0 600 1210" role="img" aria-labelledby="title desc">
+  <title id="title">Documentation tooling and validation loop</title>
+  <desc id="desc">The method starts with a real manual documentation workflow, identifies a stable step, directs an AI-assisted build, adds checks and tests, validates the result in use, and maintains the tool through continued feedback.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fbff"/><stop offset="1" stop-color="#fff7ed"/></linearGradient>
+    <linearGradient id="work" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#ccfbf1"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2563eb"/></marker>
+    <style>
+      text { font-family: Inter, Arial, sans-serif; }
+      .eyebrow { font-size: 16px; font-weight: 750; letter-spacing: 1.5px; }
+      .heading { font-size: 29px; font-weight: 750; }
+      .subheading { font-size: 18px; fill: #526079; }
+      .step { font-size: 15px; font-weight: 750; letter-spacing: 1.2px; fill: #1e40af; }
+      .card-title { font-size: 22px; font-weight: 750; }
+      .body { font-size: 17px; fill: #526079; }
+      .small { font-size: 14px; font-weight: 700; letter-spacing: 1px; }
+      .metric { font-size: 16px; font-weight: 700; }
+    </style>
+  </defs>
+  <rect width="600" height="1210" rx="28" fill="url(#background)"/>
+  <text class="eyebrow" x="32" y="46" fill="#2563eb">TOOLING AND AUTOMATION</text>
+  <text class="heading" x="32" y="83">Treat the documentation</text>
+  <text class="heading" x="32" y="119">problem first</text>
+  <text class="subheading" x="32" y="153">Build, test, use, and improve in a repeatable loop.</text>
+
+  <path d="M300 341V370 M300 548V577 M300 755V784" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M62 863C15 730 15 360 62 263" fill="none" stroke="#0f766e" stroke-width="4" stroke-dasharray="10 9" marker-end="url(#arrow)"/>
+  <text class="small" x="18" y="570" fill="#0f766e" transform="rotate(-90 18 570)">FEEDBACK AND MAINTENANCE</text>
+
+  <g>
+    <rect x="72" y="196" width="496" height="145" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+    <circle cx="112" cy="238" r="21" fill="#dbeafe"/><text class="step" x="112" y="243" text-anchor="middle">01</text>
+    <text class="card-title" x="148" y="235">Observe manual work</text>
+    <text class="body" x="98" y="276">Confirm the real task, repeated effort, inputs,</text>
+    <text class="body" x="98" y="303">and review needs.</text>
+
+    <rect x="72" y="403" width="496" height="145" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+    <circle cx="112" cy="445" r="21" fill="#dbeafe"/><text class="step" x="112" y="450" text-anchor="middle">02</text>
+    <text class="card-title" x="148" y="442">Define the stable step</text>
+    <text class="body" x="98" y="483">Separate repeatable work from the judgment</text>
+    <text class="body" x="98" y="510">that must stay human.</text>
+
+    <rect x="72" y="610" width="496" height="145" rx="20" fill="url(#work)" stroke="#60a5fa" stroke-width="2"/>
+    <circle cx="112" cy="652" r="21" fill="#ffffff"/><text class="step" x="112" y="657" text-anchor="middle">03</text>
+    <text class="card-title" x="148" y="649">Direct the build</text>
+    <text class="body" x="98" y="690">Use AI-assisted implementation to build</text>
+    <text class="body" x="98" y="717">a practical workflow tool.</text>
+
+    <rect x="72" y="817" width="496" height="166" rx="20" fill="url(#work)" stroke="#2dd4bf" stroke-width="2"/>
+    <circle cx="112" cy="859" r="21" fill="#ffffff"/><text class="step" x="112" y="864" text-anchor="middle">04</text>
+    <text class="card-title" x="148" y="856">Validate and maintain</text>
+    <text class="body" x="98" y="897">Add checks, test real results, apply feedback,</text>
+    <text class="body" x="98" y="924">and maintain the tool.</text>
+    <text class="body" x="98" y="956">Human judgment stays in the loop.</text>
+  </g>
+
+  <rect x="32" y="1019" width="536" height="159" rx="18" fill="#172033"/>
+  <text class="small" x="54" y="1051" fill="#93c5fd">SUPPORTED SCALE AND VALIDATION</text>
+  <g transform="translate(52 1065)">
+    <rect width="150" height="38" rx="19" fill="#26334a"/><text class="metric" x="75" y="25" fill="#ffffff" text-anchor="middle">10 tools</text>
+    <rect x="160" width="304" height="38" rx="19" fill="#26334a"/><text class="metric" x="312" y="25" fill="#ffffff" text-anchor="middle">750+ automated tests</text>
+    <rect y="48" width="220" height="38" rx="19" fill="#26334a"/><text class="metric" x="110" y="73" fill="#ffffff" text-anchor="middle">50+ review patterns</text>
+    <rect x="230" y="48" width="234" height="38" rx="19" fill="#26334a"/><text class="metric" x="347" y="73" fill="#ffffff" text-anchor="middle">466 hours/year estimated</text>
+  </g>
+</svg>

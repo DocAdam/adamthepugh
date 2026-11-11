@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Documentation tooling and validation loop</title>
+  <desc id="desc">The method starts with a real manual documentation workflow, identifies a stable step, directs an AI-assisted build, adds checks and tests, validates the result in use, and maintains the tool through continued feedback.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fbff"/><stop offset="1" stop-color="#fff7ed"/></linearGradient>
+    <linearGradient id="center" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#ccfbf1"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#172033" flood-opacity="0.10"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2563eb"/></marker>
+    <style>
+      text { font-family: Inter, Arial, sans-serif; }
+      .eyebrow { font-size: 15px; font-weight: 750; letter-spacing: 1.8px; }
+      .heading { font-size: 28px; font-weight: 750; letter-spacing: -0.5px; }
+      .subheading { font-size: 16px; fill: #526079; }
+      .step { font-size: 14px; font-weight: 750; letter-spacing: 1.2px; fill: #1e40af; }
+      .card-title { font-size: 19px; font-weight: 750; }
+      .body { font-size: 15px; fill: #526079; }
+      .center-title { font-size: 24px; font-weight: 800; }
+      .center-body { font-size: 16px; fill: #334155; }
+      .small { font-size: 13px; font-weight: 700; letter-spacing: 1px; }
+      .metric { font-size: 16px; font-weight: 700; }
+    </style>
+  </defs>
+  <rect width="1200" height="720" rx="28" fill="url(#background)"/>
+  <text class="eyebrow" x="40" y="48" fill="#2563eb">TOOLING AND AUTOMATION</text>
+  <text class="heading" x="40" y="86">Treat the documentation problem first</text>
+  <text class="subheading" x="40" y="116">Each tool starts with observed work and returns to real use for validation and improvement.</text>
+
+  <path d="M442 210C500 160 700 160 758 210" fill="none" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M944 286C1010 324 1010 400 944 438" fill="none" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M758 515C700 565 500 565 442 515" fill="none" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M256 438C190 400 190 324 256 286" fill="none" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="74" y="182" width="300" height="132" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="826" y="182" width="300" height="132" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="826" y="418" width="300" height="132" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="74" y="418" width="300" height="132" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+    <circle cx="600" cy="365" r="142" fill="url(#center)" stroke="#60a5fa" stroke-width="2"/>
+  </g>
+
+  <circle cx="112" cy="220" r="20" fill="#dbeafe"/><text class="step" x="112" y="225" text-anchor="middle">01</text>
+  <text class="card-title" x="146" y="217">Observe manual work</text>
+  <text class="body" x="100" y="257">Confirm the real task, repeated effort,</text>
+  <text class="body" x="100" y="280">inputs, and review needs.</text>
+
+  <circle cx="864" cy="220" r="20" fill="#dbeafe"/><text class="step" x="864" y="225" text-anchor="middle">02</text>
+  <text class="card-title" x="898" y="217">Define the stable step</text>
+  <text class="body" x="852" y="257">Separate the repeatable part from</text>
+  <text class="body" x="852" y="280">the judgment that must stay human.</text>
+
+  <circle cx="864" cy="456" r="20" fill="#dbeafe"/><text class="step" x="864" y="461" text-anchor="middle">03</text>
+  <text class="card-title" x="898" y="453">Direct the build</text>
+  <text class="body" x="852" y="493">Use AI-assisted implementation to</text>
+  <text class="body" x="852" y="516">build a practical workflow tool.</text>
+
+  <circle cx="112" cy="456" r="20" fill="#dbeafe"/><text class="step" x="112" y="461" text-anchor="middle">04</text>
+  <text class="card-title" x="146" y="453">Validate and maintain</text>
+  <text class="body" x="100" y="493">Add checks, test real results, apply</text>
+  <text class="body" x="100" y="516">feedback, and maintain the tool.</text>
+
+  <g transform="translate(552 272)">
+    <path d="M48 0L61 27L91 31L69 52L75 82L48 67L21 82L27 52L5 31L35 27Z" fill="#ffffff" stroke="#0f766e" stroke-width="2.5"/>
+    <circle cx="48" cy="44" r="11" fill="#0f766e"/>
+  </g>
+  <text class="center-title" x="600" y="390" text-anchor="middle">Documentation</text>
+  <text class="center-title" x="600" y="419" text-anchor="middle">problem first</text>
+  <text class="center-body" x="600" y="452" text-anchor="middle">Human judgment stays</text>
+  <text class="center-body" x="600" y="474" text-anchor="middle">in the loop.</text>
+
+  <g transform="translate(40 576)">
+    <rect width="1120" height="104" rx="18" fill="#172033"/>
+    <text class="small" x="24" y="31" fill="#93c5fd">SUPPORTED SCALE AND VALIDATION</text>
+    <g transform="translate(24 48)">
+      <rect width="130" height="36" rx="18" fill="#26334a"/><text class="metric" x="65" y="24" fill="#ffffff" text-anchor="middle">10 tools</text>
+      <rect x="150" width="230" height="36" rx="18" fill="#26334a"/><text class="metric" x="265" y="24" fill="#ffffff" text-anchor="middle">750+ automated tests</text>
+      <rect x="400" width="220" height="36" rx="18" fill="#26334a"/><text class="metric" x="510" y="24" fill="#ffffff" text-anchor="middle">50+ review patterns</text>
+      <rect x="640" width="408" height="36" rx="18" fill="#26334a"/><text class="metric" x="844" y="24" fill="#ffffff" text-anchor="middle">466 hours per year estimated</text>
+    </g>
+  </g>
+</svg>

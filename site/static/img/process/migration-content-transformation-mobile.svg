@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1260" viewBox="0 0 600 1260" role="img" aria-labelledby="title desc">
+  <title id="title">Documentation migration and content transformation</title>
+  <desc id="desc">A four-person team discovered and tracked content, reviewed source pages, and decided what to keep, combine, restructure, or retire. The program migrated 101 product wikis and reduced 1,157 source pages to 469 destination pages.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fbff"/><stop offset="1" stop-color="#f0fdfa"/></linearGradient>
+    <linearGradient id="result" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#ccfbf1"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2563eb"/></marker>
+    <style>
+      text { font-family: Inter, Arial, sans-serif; }
+      .eyebrow { font-size: 15px; font-weight: 750; letter-spacing: 1.4px; }
+      .heading { font-size: 28px; font-weight: 750; }
+      .subheading { font-size: 18px; fill: #526079; }
+      .stage { font-size: 15px; font-weight: 750; letter-spacing: 1.3px; fill: #1e40af; }
+      .card-title { font-size: 23px; font-weight: 750; }
+      .number { font-size: 34px; font-weight: 800; fill: #1e40af; }
+      .body { font-size: 18px; fill: #44516a; }
+      .chip { font-size: 14px; font-weight: 750; }
+      .support { font-size: 15px; font-weight: 650; }
+    </style>
+  </defs>
+  <rect width="600" height="1260" rx="28" fill="url(#background)"/>
+  <text class="eyebrow" x="32" y="46" fill="#2563eb">MIGRATIONS AND INFORMATION ARCHITECTURE</text>
+  <text class="heading" x="32" y="83">Move the useful content,</text>
+  <text class="heading" x="32" y="118">not every source page</text>
+  <text class="subheading" x="32" y="151">Discovery and editorial decisions reduced page volume.</text>
+
+  <path d="M300 370V400 M300 770V800" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <rect x="32" y="184" width="536" height="186" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+  <text class="stage" x="58" y="220">SOURCE SET</text>
+  <text class="number" x="58" y="266">101</text><text class="card-title" x="126" y="263">product wikis</text>
+  <text class="number" x="58" y="316">1,157</text><text class="card-title" x="154" y="313">source pages</text>
+  <text class="body" x="58" y="346">About 3–80 pages in each wiki project</text>
+
+  <rect x="32" y="433" width="536" height="337" rx="20" fill="#ffffff" stroke="#60a5fa" stroke-width="2"/>
+  <circle cx="72" cy="478" r="21" fill="#2563eb"/><text x="72" y="485" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="750" fill="#fff" text-anchor="middle">1</text>
+  <text class="card-title" x="108" y="474">Discover and track</text>
+  <text class="body" x="58" y="517">Find content, owners, status, and page counts.</text>
+  <path d="M58 548H542" stroke="#cbd5e1"/>
+  <circle cx="72" cy="590" r="21" fill="#2563eb"/><text x="72" y="597" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="750" fill="#fff" text-anchor="middle">2</text>
+  <text class="card-title" x="108" y="586">Review each source</text>
+  <text class="body" x="58" y="628">Make a clear decision before migration.</text>
+  <g transform="translate(58 655)">
+    <rect width="102" height="40" rx="20" fill="#dbeafe"/><text class="chip" x="51" y="26" text-anchor="middle" fill="#1e40af">KEEP</text>
+    <rect x="112" width="118" height="40" rx="20" fill="#ccfbf1"/><text class="chip" x="171" y="26" text-anchor="middle" fill="#0f766e">COMBINE</text>
+    <rect x="240" width="150" height="40" rx="20" fill="#fef3c7"/><text class="chip" x="315" y="26" text-anchor="middle" fill="#92400e">RESTRUCTURE</text>
+    <rect x="400" width="78" height="40" rx="20" fill="#fee2e2"/><text class="chip" x="439" y="26" text-anchor="middle" fill="#991b1b">RETIRE</text>
+  </g>
+
+  <rect x="32" y="833" width="536" height="206" rx="20" fill="url(#result)" stroke="#2dd4bf" stroke-width="2"/>
+  <text class="stage" x="58" y="873" fill="#0f766e">CENTRAL KNOWLEDGE HUB</text>
+  <text class="number" x="58" y="922" fill="#0f766e">469</text><text class="card-title" x="130" y="919">destination pages</text>
+  <text class="body" x="58" y="961">101 migrated projects</text>
+  <text class="body" x="58" y="992">59% fewer pages</text>
+
+  <rect x="32" y="1067" width="536" height="161" rx="18" fill="#172033"/>
+  <text class="support" x="54" y="1096" fill="#93c5fd">PROGRAM SUPPORT</text>
+  <g transform="translate(52 1110)">
+    <rect width="220" height="38" rx="19" fill="#26334a"/><text class="support" x="110" y="25" fill="#ffffff" text-anchor="middle">Four-person team</text>
+    <rect x="230" width="234" height="38" rx="19" fill="#26334a"/><text class="support" x="347" y="25" fill="#ffffff" text-anchor="middle">Seven team groups</text>
+    <rect y="48" width="240" height="38" rx="19" fill="#26334a"/><text class="support" x="120" y="73" fill="#ffffff" text-anchor="middle">Partner coordination</text>
+    <rect x="250" y="48" width="214" height="38" rx="19" fill="#26334a"/><text class="support" x="357" y="73" fill="#ffffff" text-anchor="middle">Tracking and guidance</text>
+  </g>
+</svg>

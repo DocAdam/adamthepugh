@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1230" viewBox="0 0 600 1230" role="img" aria-labelledby="title desc">
+  <title id="title">Analytics and reporting system</title>
+  <desc id="desc">Corporate work data, a product list, and writer updates move through a SharePoint tracking database and defined measures into seven role-based Tableau dashboards used for operations reviews and planning.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fbff"/><stop offset="1" stop-color="#eef5ff"/></linearGradient>
+    <linearGradient id="work" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#ccfbf1"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2563eb"/></marker>
+    <style>
+      text { font-family: Inter, Arial, sans-serif; }
+      .eyebrow { font-size: 16px; font-weight: 750; letter-spacing: 1.5px; }
+      .heading { font-size: 29px; font-weight: 750; }
+      .subheading { font-size: 18px; fill: #526079; }
+      .stage { font-size: 15px; font-weight: 750; letter-spacing: 1.3px; fill: #1e40af; }
+      .card-title { font-size: 23px; font-weight: 750; }
+      .body { font-size: 18px; fill: #44516a; }
+      .small { font-size: 14px; font-weight: 700; letter-spacing: 1px; }
+      .metric { font-size: 16px; font-weight: 700; }
+    </style>
+  </defs>
+  <rect width="600" height="1230" rx="28" fill="url(#background)"/>
+  <text class="eyebrow" x="32" y="46" fill="#2563eb">ANALYTICS AND REPORTING</text>
+  <text class="heading" x="32" y="82">From scattered tracking</text>
+  <text class="heading" x="32" y="118">to consistent reporting</text>
+  <text class="subheading" x="32" y="153">Records become measures, views, and decisions.</text>
+
+  <path d="M300 335V362 M300 546V573 M300 757V784" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="32" y="184" width="536" height="151" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+    <circle cx="74" cy="226" r="22" fill="#dbeafe"/><text class="stage" x="74" y="231" text-anchor="middle">01</text>
+    <text class="stage" x="110" y="218">INPUTS</text>
+    <text class="card-title" x="110" y="247">Operational records</text>
+    <text class="body" x="110" y="278">Product list · Corporate work data</text>
+    <text class="body" x="110" y="307">Writer updates</text>
+  </g>
+
+  <rect x="50" y="367" width="500" height="28" rx="14" fill="#2563eb"/><text class="small" x="300" y="386" fill="#ffffff" text-anchor="middle">MY WORK: BUILD THE REPORTING SYSTEM</text>
+  <g>
+    <rect x="32" y="395" width="536" height="151" rx="20" fill="url(#work)" stroke="#60a5fa" stroke-width="2"/>
+    <circle cx="74" cy="437" r="22" fill="#ffffff"/><text class="stage" x="74" y="442" text-anchor="middle">02</text>
+    <text class="stage" x="110" y="429">TRACK</text>
+    <text class="card-title" x="110" y="458">SharePoint database</text>
+    <text class="body" x="110" y="489">Status · dates · product ownership</text>
+    <text class="body" x="110" y="518">Consistent records</text>
+  </g>
+
+  <g>
+    <rect x="32" y="606" width="536" height="151" rx="20" fill="url(#work)" stroke="#2dd4bf" stroke-width="2"/>
+    <circle cx="74" cy="648" r="22" fill="#ffffff"/><text class="stage" x="74" y="653" text-anchor="middle">03</text>
+    <text class="stage" x="110" y="640">DEFINE</text>
+    <text class="card-title" x="110" y="669">Shared measures</text>
+    <text class="body" x="110" y="700">Common definitions · connected data</text>
+    <text class="body" x="110" y="729">Role-based views</text>
+  </g>
+
+  <g>
+    <rect x="32" y="817" width="536" height="173" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+    <circle cx="74" cy="859" r="22" fill="#dbeafe"/><text class="stage" x="74" y="864" text-anchor="middle">04</text>
+    <text class="stage" x="110" y="851">REPORT AND USE</text>
+    <text class="card-title" x="110" y="880">Seven dashboards</text>
+    <text class="body" x="110" y="911">Operations reviews · performance discussions</text>
+    <text class="body" x="110" y="940">Planning decisions</text>
+  </g>
+
+  <rect x="32" y="1018" width="536" height="180" rx="18" fill="#172033"/>
+  <text class="small" x="52" y="1047" fill="#93c5fd">SUPPORTED SCALE AND USE</text>
+  <g transform="translate(52 1064)">
+    <rect width="158" height="38" rx="19" fill="#26334a"/><text class="metric" x="79" y="25" fill="#ffffff" text-anchor="middle">400+ products</text>
+    <rect x="168" width="150" height="38" rx="19" fill="#26334a"/><text class="metric" x="243" y="25" fill="#ffffff" text-anchor="middle">7 dashboards</text>
+    <rect x="328" width="136" height="38" rx="19" fill="#26334a"/><text class="metric" x="396" y="25" fill="#ffffff" text-anchor="middle">735 views</text>
+    <rect y="50" width="180" height="38" rx="19" fill="#26334a"/><text class="metric" x="90" y="75" fill="#ffffff" text-anchor="middle">39 active users</text>
+    <rect x="190" y="50" width="274" height="38" rx="19" fill="#26334a"/><text class="metric" x="327" y="75" fill="#ffffff" text-anchor="middle">11 operations reviews/month</text>
+  </g>
+</svg>

@@ -125,6 +125,98 @@ test('publishes the documentation analytics gallery from local static assets', (
   assert.doesNotMatch(page, /user-images\.githubusercontent\.com|public\.tableau\.com/);
 });
 
+test('publishes selected Working Notes images from optimized local assets', () => {
+  const siteDir = path.join(__dirname, '..');
+  const workingNotes = fs.readFileSync(path.join(siteDir, 'docs', 'case-studies', 'working-notes.md'), 'utf8');
+  const goodDocJobs = fs.readFileSync(path.join(siteDir, 'docs', 'case-studies', 'good-doc-jobs.md'), 'utf8');
+  const images = new Map([
+    ['everyone-needs-an-editor.png', workingNotes],
+    ['five-recent-documentation-jobs.png', workingNotes],
+    ['good-doc-jobs-weekly-metrics.png', goodDocJobs],
+  ]);
+
+  for (const [image, page] of images) {
+    const publicPath = `/img/working-notes/${image}`;
+    const assetPath = path.join(siteDir, 'static', publicPath);
+    assert.match(page, new RegExp(publicPath.replaceAll('/', '\\/')));
+    assert.ok(fs.existsSync(assetPath), `${publicPath} must exist`);
+    assert.ok(fs.statSync(assetPath).size < 1024 * 1024, `${publicPath} must remain smaller than 1 MB`);
+  }
+
+  assert.doesNotMatch(workingNotes, /\/Users\/adampugh\/Downloads\/substack/);
+  assert.doesNotMatch(goodDocJobs, /\/Users\/adampugh\/Downloads\/substack/);
+});
+
+test('separates Working Notes, Good Doc Jobs, and GitHub activity on the Work page', () => {
+  const siteDir = path.join(__dirname, '..');
+  const overview = fs.readFileSync(path.join(siteDir, 'docs', 'case-studies', 'overview.md'), 'utf8');
+  const activity = fs.readFileSync(path.join(siteDir, 'src', 'components', 'GitHubActivity.jsx'), 'utf8');
+  const activeSources = [
+    ...sourceFiles(path.join(siteDir, 'docs')),
+    path.join(siteDir, 'static', 'llms.txt'),
+    path.join(siteDir, 'sidebars.js'),
+  ];
+
+  assert.match(overview, /href="\/work\/working-notes\/"/);
+  assert.match(overview, /href="\/work\/good-doc-jobs\/"/);
+  assert.match(overview, /<GitHubActivity \/>/);
+  assert.doesNotMatch(overview, /## Selected writing|### Open-source contribution/);
+  assert.match(activity, /api\.github\.com\/users\/DocAdam\/events\/public/);
+  assert.match(activity, /View current activity on GitHub/);
+
+  for (const file of activeSources) {
+    assert.doesNotMatch(
+      fs.readFileSync(file, 'utf8'),
+      /\/work\/working-notes-good-doc-jobs\//,
+      `${path.relative(siteDir, file)} must link to the separate project pages`,
+    );
+  }
+});
+
+test('publishes responsive process visuals for enterprise work', () => {
+  const siteDir = path.join(__dirname, '..');
+  const visuals = [
+    {
+      page: 'analytics-and-reporting.md',
+      desktop: 'analytics-reporting-system.svg',
+      mobile: 'analytics-reporting-system-mobile.svg',
+      pillCount: 5,
+    },
+    {
+      page: 'migrations-and-ia.md',
+      desktop: 'migration-content-transformation.svg',
+      mobile: 'migration-content-transformation-mobile.svg',
+      pillCount: 4,
+    },
+    {
+      page: 'documentation-tooling-and-automation.md',
+      desktop: 'tooling-validation-loop.svg',
+      mobile: 'tooling-validation-loop-mobile.svg',
+      pillCount: 4,
+    },
+  ];
+
+  for (const { page, desktop, mobile, pillCount } of visuals) {
+    const source = fs.readFileSync(path.join(siteDir, 'docs', 'case-studies', page), 'utf8');
+    assert.match(source, new RegExp(`/img/process/${desktop}`));
+    assert.match(source, new RegExp(`/img/process/${mobile}`));
+    assert.match(source, /<figure className="process-visual">/);
+
+    for (const image of [desktop, mobile]) {
+      const asset = fs.readFileSync(path.join(siteDir, 'static', 'img', 'process', image), 'utf8');
+      assert.match(asset, /^<svg /);
+      assert.match(asset, /<title id="title">/);
+      assert.match(asset, /<desc id="desc">/);
+      assert.equal((asset.match(/fill="#26334a"/g) || []).length, pillCount, `${image} must use one pill for each evidence item`);
+    }
+  }
+
+  const docs = sourceFiles(path.join(siteDir, 'docs')).map((file) => fs.readFileSync(file, 'utf8')).join('\n');
+  const css = fs.readFileSync(path.join(siteDir, 'src', 'css', 'custom.css'), 'utf8');
+  assert.doesNotMatch(docs, /system-flow/);
+  assert.doesNotMatch(css, /\.system-flow/);
+});
+
 test('keeps enterprise page names concise and consistent', () => {
   const siteDir = path.join(__dirname, '..');
   const pages = new Map([

@@ -22,6 +22,16 @@ I led the four-person team and the department migration program. I created proce
 
 I also built migration tracking and content-discovery workflows that saved an **estimated 150–200 hours** of manual work.
 
+## How the migration worked
+
+<figure className="process-visual">
+  <picture>
+    <source media="(max-width: 640px)" srcSet="/img/process/migration-content-transformation-mobile.svg" />
+    <img src="/img/process/migration-content-transformation.svg" alt="The team discovered and tracked content, reviewed each source, and decided what to keep, combine, restructure, or retire. The program migrated 101 product wikis and reduced 1,157 source pages to 469 destination pages." loading="lazy" decoding="async" width="1200" height="680" />
+  </picture>
+  <figcaption><strong>Content transformation, not page transfer.</strong> The team used discovery, editorial decisions, tracking, and partner coordination to migrate 101 wiki projects while reducing the page count by 59%.</figcaption>
+</figure>
+
 ## Decisions and artifacts
 
 | Need | Response |

@@ -15,6 +15,16 @@ Repeated documentation work included change review, stale-content checks, media 
 
 I identified the problems, designed the workflows, directed AI-assisted implementation, checked the results, and maintained the tools.
 
+## How I built and validated the tools
+
+<figure className="process-visual">
+  <picture>
+    <source media="(max-width: 640px)" srcSet="/img/process/tooling-validation-loop-mobile.svg" />
+    <img src="/img/process/tooling-validation-loop.svg" alt="The method observes a manual documentation workflow, defines the stable step, directs an AI-assisted build, adds checks and tests, validates real results, and maintains the tool through continued feedback." loading="lazy" decoding="async" width="1200" height="720" />
+  </picture>
+  <figcaption><strong>Documentation problem first.</strong> I used a repeatable loop to separate stable work from human judgment, direct implementation, validate results, and maintain each tool.</figcaption>
+</figure>
+
 ## Representative work
 
 - A wiki-change comparison dashboard that supported manual reconciliation of content changes.

@@ -53,10 +53,16 @@ import Head from '@docusaurus/Head';
 
 <div className="work-list">
   <article className="work-item">
-    <p className="status-label">Publication and open-data product</p>
-    <h3>Working Notes and Good Doc Jobs</h3>
-    <p>I publish practical articles, maintain a reader-facing jobs database, and use a public data pipeline to collect and check source records.</p>
-    <p><a href="/work/working-notes-good-doc-jobs/">Read the project</a> · <a href="https://docadam.substack.com/">Read Working Notes</a> · <a href="https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing">Browse Good Doc Jobs</a></p>
+    <p className="status-label">Practitioner publication</p>
+    <h3>Working Notes</h3>
+    <p>I publish practical articles about documentation systems, editorial work, job research, and independent projects.</p>
+    <p><a href="/work/working-notes/">Read the project</a> · <a href="https://docadam.substack.com/">Read Working Notes</a></p>
+  </article>
+  <article className="work-item">
+    <p className="status-label">Open-data product</p>
+    <h3>Good Doc Jobs</h3>
+    <p>I maintain a free jobs database and a public source pipeline that supports collection, review, validation, and publication.</p>
+    <p><a href="/work/good-doc-jobs/">Read the project</a> · <a href="https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing">Browse Good Doc Jobs</a></p>
   </article>
   <article className="work-item">
     <p className="status-label">Enterprise documentation system</p>

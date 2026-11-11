@@ -5,7 +5,8 @@ const sidebars = {
       type: 'category',
       label: 'Products and publications',
       items: [
-        'case-studies/working-notes-and-good-doc-jobs',
+        'case-studies/working-notes',
+        'case-studies/good-doc-jobs',
         'case-studies/teracreators-help',
       ],
     },
@@ -20,7 +21,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Prototypes and contributions',
+      label: 'Prototypes',
       items: ['case-studies/euler-documentation-prototype'],
     },
     { type: 'doc', id: 'experience/overview', label: 'Experience' },

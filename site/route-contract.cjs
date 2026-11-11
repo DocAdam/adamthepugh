@@ -1,7 +1,8 @@
 const canonicalRoutes = [
   '/',
   '/work/',
-  '/work/working-notes-good-doc-jobs/',
+  '/work/working-notes/',
+  '/work/good-doc-jobs/',
   '/work/teracreators-help/',
   '/work/euler-documentation-prototype/',
   '/work/documentation-migrations/',
@@ -31,8 +32,11 @@ const redirectGroups = [
     ],
   },
   {
-    to: '/work/working-notes-good-doc-jobs/',
-    from: '/docs/case-studies/working-notes-and-good-doc-jobs',
+    to: '/work/working-notes/',
+    from: [
+      '/work/working-notes-good-doc-jobs',
+      '/docs/case-studies/working-notes-and-good-doc-jobs',
+    ],
   },
   {
     to: '/work/teracreators-help/',
