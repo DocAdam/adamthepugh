@@ -44,7 +44,7 @@ import Head from '@docusaurus/Head';
     <p>I also publish <a href="https://docadam.substack.com/">Working Notes</a> and maintain <a href="https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing">Good Doc Jobs</a>, a free database for documentation job seekers.</p>
     <div className="primary-actions">
       <a className="button button--primary" href="/work/">View work</a>
-      <a className="button button--secondary" href="/adam-pugh-resume.pdf">Download résumé</a>
+      <a className="button button--secondary" href="/adam-pugh-resume.pdf">Resume (PDF)</a>
     </div>
   </div>
 </div>

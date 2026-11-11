@@ -83,7 +83,7 @@ const config = {
         },
         {
           type: 'html',
-          value: '<a class="navbar__link" href="/adam-pugh-resume.pdf">Résumé</a>',
+          value: '<a class="navbar__link" href="/adam-pugh-resume.pdf">Resume (PDF)</a>',
           position: 'right',
         },
         {
@@ -95,33 +95,7 @@ const config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Adam Pugh',
-          className: 'footer__brand',
-          items: [
-            {
-              html: `<span class="footer__brand-tagline">Senior Documentation Engineer</span><span class="footer__brand-copyright">© ${new Date().getFullYear()} Adam Pugh</span>`,
-            },
-          ],
-        },
-        {
-          title: 'Explore',
-          items: [
-            { label: 'Work', to: '/work/' },
-            { label: 'Experience', to: '/experience/' },
-          ],
-        },
-        {
-          title: 'Elsewhere',
-          items: [
-            { html: '<a class="footer__link-item" href="/adam-pugh-resume.pdf">Download résumé (PDF)</a>' },
-            { label: 'Résumé on LinkedIn', href: 'https://www.linkedin.com/in/adampugh/details/experience/' },
-            { label: 'GitHub', href: 'https://github.com/DocAdam' },
-            { label: 'Working Notes', href: 'https://docadam.substack.com/' },
-          ],
-        },
-      ],
+      copyright: `<span class="footer__simple"><span>© ${new Date().getFullYear()} Adam Pugh</span><span aria-hidden="true">|</span><a href="https://www.linkedin.com/in/adampugh/">LinkedIn</a><span aria-hidden="true">|</span><a href="https://github.com/DocAdam">GitHub</a><span aria-hidden="true">|</span><a href="https://docadam.substack.com/">Substack</a></span>`,
     },
   }),
 };

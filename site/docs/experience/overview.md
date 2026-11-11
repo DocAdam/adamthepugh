@@ -8,7 +8,7 @@ description: "Work history, selected results, leadership scope, and current inde
 
 I have more than 20 years of technical writing and documentation experience, including about 13 years of direct people management. My work connects technical writing, documentation systems, operations, analytics, and leadership.
 
-<a href="/adam-pugh-resume.pdf">Download the general résumé</a>.
+<a href="/adam-pugh-resume.pdf">Resume (PDF)</a>
 
 <span id="scale-at-a-glance"></span>
 <span id="cross-functional-documentation-engineering"></span>

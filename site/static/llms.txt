@@ -32,7 +32,7 @@ I start with the real source of a problem: product behavior, user tasks, existin
 - [Home](https://adamthepugh.com/): My professional focus and representative work.
 - [Work](https://adamthepugh.com/work/): My public projects and enterprise documentation systems.
 - [Experience](https://adamthepugh.com/experience/): My role history, selected results, leadership scope, and Vinyl Junction work.
-- [General résumé](https://adamthepugh.com/adam-pugh-resume.pdf): My downloadable résumé.
+- [Resume (PDF)](https://adamthepugh.com/adam-pugh-resume.pdf): Downloadable two-page resume.
 
 ## Contact and public profiles
 

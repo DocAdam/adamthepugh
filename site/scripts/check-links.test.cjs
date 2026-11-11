@@ -200,6 +200,31 @@ test('keeps active portfolio copy direct and work-focused', () => {
   }
 });
 
+test('labels the public resume PDF consistently', () => {
+  const siteDir = path.join(__dirname, '..');
+  const config = fs.readFileSync(path.join(siteDir, 'docusaurus.config.js'), 'utf8');
+  const intro = fs.readFileSync(path.join(siteDir, 'docs', 'intro.md'), 'utf8');
+  const experience = fs.readFileSync(path.join(siteDir, 'docs', 'experience', 'overview.md'), 'utf8');
+  const llms = fs.readFileSync(path.join(siteDir, 'static', 'llms.txt'), 'utf8');
+  const publicCopy = [config, intro, experience, llms].join('\n');
+
+  assert.equal((config.match(/>Resume \(PDF\)<\/a>/g) || []).length, 1);
+  assert.match(intro, /href="\/adam-pugh-resume\.pdf">Resume \(PDF\)<\/a>/);
+  assert.match(experience, /href="\/adam-pugh-resume\.pdf">Resume \(PDF\)<\/a>/);
+  assert.match(llms, /\[Resume \(PDF\)\]\(https:\/\/adamthepugh\.com\/adam-pugh-resume\.pdf\)/);
+  assert.doesNotMatch(publicCopy, /Download (?:the general )?résumé|>Résumé<\/a>|Résumé on LinkedIn/);
+});
+
+test('keeps the footer to copyright and primary profiles', () => {
+  const config = fs.readFileSync(path.join(__dirname, '..', 'docusaurus.config.js'), 'utf8');
+
+  assert.match(config, /© \$\{new Date\(\)\.getFullYear\(\)\} Adam Pugh/);
+  assert.match(config, /href="https:\/\/www\.linkedin\.com\/in\/adampugh\/">LinkedIn<\/a>/);
+  assert.match(config, /href="https:\/\/github\.com\/DocAdam">GitHub<\/a>/);
+  assert.match(config, /href="https:\/\/docadam\.substack\.com\/">Substack<\/a>/);
+  assert.doesNotMatch(config, /footer__brand-tagline|title: 'Explore'|title: 'Elsewhere'/);
+});
+
 test('publishes responsive process visuals for enterprise work', () => {
   const siteDir = path.join(__dirname, '..');
   const visuals = [

@@ -21,7 +21,7 @@ The sitemap contains these 10 canonical pages:
 
 The site has no public About page. Home contains the useful working-method content. `site/static/llms.txt` contains the longer professional profile and background information. Education information does not include a graduation year.
 
-[Download the two-page résumé](https://adamthepugh.com/adam-pugh-resume.pdf).
+[Resume (PDF)](https://adamthepugh.com/adam-pugh-resume.pdf)
 
 ## Repository organization
 

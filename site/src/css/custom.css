@@ -525,34 +525,12 @@
   border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-.footer .container {
-  max-width: 1100px;
-}
-
-.footer__links {
-  display: grid;
-  gap: clamp(2.5rem, 7vw, 5.5rem);
-  grid-template-columns: minmax(14rem, 1.2fr) minmax(9rem, 0.8fr) minmax(16rem, 1.2fr);
-  margin: 0;
-}
-
-.footer__col {
-  margin-bottom: 0;
-  padding: 0;
-}
-
-.footer__brand-tagline,
-.footer__brand-copyright {
-  color: var(--ifm-footer-link-color);
-  display: block;
-}
-
-.footer__brand-tagline {
-  max-width: 16rem;
-}
-
-.footer__brand-copyright {
-  margin-top: 2.75rem;
+.footer__simple {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  justify-content: center;
 }
 
 @media (max-width: 996px) {
@@ -570,12 +548,15 @@
   .github-activity,
   .project-steps { grid-template-columns: minmax(0, 1fr); }
   .github-activity__link { grid-column: auto; }
-  .footer__links { gap: 2rem; grid-template-columns: 1fr; }
-  .footer__brand-copyright { margin-top: 1.25rem; }
 }
 
 @media (max-width: 560px) {
   .intro-hero { flex-direction: column; }
+  .footer__simple {
+    flex-wrap: nowrap;
+    font-size: 0.78rem;
+    gap: 0.3rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
