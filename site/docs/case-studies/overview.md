@@ -7,15 +7,15 @@ description: "Public documentation projects and factual summaries of enterprise 
 
 These examples show how I organize complex information, improve documentation systems, and reduce repeated maintenance work.
 
-The two public projects include work that readers can inspect. The enterprise pages describe real production work, but the source artifacts remain private. They state the role, date, team scope, and supported outcomes where that evidence is available.
+I built two public documentation projects that readers can inspect. My enterprise work includes documentation migrations, reporting systems, and workflow tools.
 
 ## Public projects
 
-Euler is an independent prototype based on public material. TeraCreators Help is published community documentation. Neither project is presented as official product documentation for the company that made the source product.
+I built Euler as an independent prototype from public material. I built TeraCreators Help as published community documentation for players.
 
 ## Selected enterprise work
 
-The enterprise pages focus on three distinct systems: a migration program, a documentation analytics system, and a documentation workflow tool portfolio. General documentation-operations material is included inside these examples instead of becoming a padded case study.
+I led a migration program, built a documentation analytics system, and developed a portfolio of documentation workflow tools.
 
 ## Work index
 

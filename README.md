@@ -1,26 +1,28 @@
-# Adam Pugh’s Work Portfolio
+# Adam Pugh Portfolio
 
 This repository contains the source for [adamthepugh.com](https://adamthepugh.com/), my professional portfolio.
 
-The site presents selected work in documentation operations, information architecture, tooling, automation, and analytics. It includes public projects, factual summaries of enterprise work, career experience, and a general résumé.
+I use the site to show how I organize complex information, improve documentation systems, lead documentation programs, and build practical workflow tools. It includes public projects, enterprise results, career experience, and a two-page general résumé.
 
-Start with [Selected Work](https://adamthepugh.com/docs/case-studies/overview/) for evidence, [Experience](https://adamthepugh.com/docs/experience/overview/) for career history, or [About](https://adamthepugh.com/docs/about/) for working methods and technical range.
+Start with [Selected Work](https://adamthepugh.com/docs/case-studies/overview/) for projects and results, [Experience](https://adamthepugh.com/docs/experience/overview/) for career history, or [About](https://adamthepugh.com/docs/about/) for my working method and technical range.
 
-## Explore the work
+## Published structure
 
-- [Euler documentation prototype](https://adamthepugh.com/docs/case-studies/euler-documentation-prototype/): A public working proposal for organizing MCP and product knowledge into documentation that people can use.
-- [TeraCreators Help](https://adamthepugh.com/docs/case-studies/teracreators-help/): A public documentation project that organizes community knowledge into a structured help system.
-- [Migrations and information architecture](https://adamthepugh.com/docs/case-studies/migrations-and-ia/): Work on content structure, discoverability, and migration.
-- [Tooling and automation](https://adamthepugh.com/docs/case-studies/documentation-tooling-and-automation/): Tools and repeatable processes that support documentation work.
-- [Analytics and reporting](https://adamthepugh.com/docs/case-studies/analytics-and-reporting/): Measurement and reporting for documentation operations.
+The active portfolio has nine substantive pages:
 
-For a career summary, [download my résumé](https://adamthepugh.com/adam-pugh-resume.pdf).
+- [Home](https://adamthepugh.com/docs/intro/): A clean landing page with my professional focus, featured public work, selected enterprise results, and contact links.
+- [Selected Work](https://adamthepugh.com/docs/case-studies/overview/): An index of the public projects and enterprise systems that best represent my work.
+- [Euler documentation prototype](https://adamthepugh.com/docs/case-studies/euler-documentation-prototype/): An independent prototype that shows how I would organize Euler’s public MCP material around reader tasks and maintained content.
+- [TeraCreators Help](https://adamthepugh.com/docs/case-studies/teracreators-help/): A published help system that I built from company documents, community knowledge, gameplay screenshots, and user examples.
+- [Migrations and information architecture](https://adamthepugh.com/docs/case-studies/migrations-and-ia/): How I led a four-person team that completed 101 content migrations and consolidated 1,157 source pages into 469 destination pages.
+- [Analytics and reporting](https://adamthepugh.com/docs/case-studies/analytics-and-reporting/): How I created seven Tableau dashboards and built a SharePoint catalog that made documentation work and operating results visible.
+- [Documentation tooling and automation](https://adamthepugh.com/docs/case-studies/documentation-tooling-and-automation/): How I built 10 internal tools with more than 750 automated tests to support repeated documentation workflows.
+- [Experience](https://adamthepugh.com/docs/experience/overview/): My role history, selected results, leadership experience, and current Vinyl Junction work.
+- [About](https://adamthepugh.com/docs/about/): My working method, technical range, background, and education.
 
-## Source material and limits
+For a career summary, [download my two-page résumé](https://adamthepugh.com/adam-pugh-resume.pdf).
 
-Some enterprise source material is proprietary. The portfolio uses selected case studies to describe methods and outcomes without publishing complete internal artifacts. The public projects provide examples that readers can inspect.
-
-Earlier portfolio and personal material is preserved in `archive/` for reference. It is not part of the active site unless it is intentionally brought back in. Keep factual claims supported by source material when updating the portfolio.
+Earlier portfolio and personal material remains in `archive/` for reference. The active site uses the content in `site/`. Keep portfolio claims tied to the supporting career records and project sources when updating the site.
 
 ## Repository organization
 
@@ -92,11 +94,11 @@ npm run serve
 
 The files in `site/static/` are copied into the production build. These files are available at the domain root after deployment:
 
-- `llms.txt`: A professional profile, selected outcomes, and links to supporting portfolio pages.
+- `llms.txt`: A first-person professional profile, selected outcomes, and links to supporting portfolio pages.
 - `robots.txt`: Crawl guidance that permits access and points to the sitemap.
 - `adam-pugh-resume.pdf`: The downloadable résumé.
 
-The résumé is linked from the navbar, Home, About, Experience, footer, and `llms.txt`. The editable authority is the approved general résumé source in Job Finder. Generate and validate the DOCX there, export and inspect the PDF, then replace `site/static/adam-pugh-resume.pdf`. Check that Experience and `llms.txt` agree with the PDF before publication.
+The résumé is linked from the navbar, Home, About, Experience, footer, and `llms.txt`. The editable authority is `generated/resume-base.md` in Job Finder. Keep the general résumé at two pages. Validate the Markdown and DOCX, inspect both rendered PDF pages, then replace `site/static/adam-pugh-resume.pdf`. Check that Experience and `llms.txt` agree with the PDF before publication.
 
 The Home document is intentionally absent from `site/sidebars.js`. Its front matter also hides the page table of contents and pagination. Deeper Work, Experience, and About pages keep the documentation navigation.
 

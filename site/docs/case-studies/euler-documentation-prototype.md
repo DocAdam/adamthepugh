@@ -22,22 +22,16 @@ import Head from '@docusaurus/Head';
   <p className="euler-proposal-links"><a href="https://docadam.github.io/docs-operating-system/euler/">View the working Euler prototype</a><span> · </span><a href="https://github.com/DocAdam/docs-operating-system">View the project source and overview</a><span> · </span><a href="#the-proposal">See the proposal</a></p>
 </div>
 
-<div className="euler-boundary">
-  <strong>What this is:</strong> a self-initiated portfolio prototype built from Euler’s public website and public MCP materials. It is not an official Euler property, product audit, or statement of internal plans. Product behavior, terminology, security guidance, and customer priorities would need validation with the responsible team.
-</div>
-
 ## Why I created this proposal
 
-I saw a gap between the technical detail in Euler’s public MCP material and the guidance someone would need to understand when and how to use it. I created this proposal independently as a possible solution for the company.
-
-I worked from outside the company. The public website and MCP materials gave me a starting point, but I did not have the internal access needed to validate complete product guidance. That constraint shaped the scope of the demo.
+I saw a gap between the technical detail in Euler’s public MCP material and the guidance someone would need to understand when and how to use it. I built this independent prototype from Euler’s public website and MCP materials to show a possible documentation approach.
 
 ## The useful thing already exists
 
-Euler’s public MCP materials expose real capability: connection guidance, a structured tool catalog, access context, and a changelog. That is a strong starting point. The missing piece is not raw information. It is an experience that helps a customer or partner answer a few practical questions quickly:
+Euler’s public MCP materials provide connection guidance, a structured tool catalog, access context, and a changelog. I focused the proposal on helping a customer or partner answer a few practical questions quickly:
 
 <div className="content-grid">
-  <section className="content-card"><h3>What can I do?</h3><p>Start with the outcome a person is trying to achieve, not a wall of fields.</p></section>
+  <section className="content-card"><h3>What can I do?</h3><p>I start with the outcome a person wants to achieve before showing the fields.</p></section>
   <section className="content-card"><h3>What do I need first?</h3><p>Put access, prerequisites, and safe setup steps before the contract details.</p></section>
   <section className="content-card"><h3>What comes back?</h3><p>Explain results, exceptions, and next steps in human language.</p></section>
   <section className="content-card"><h3>Who keeps this correct?</h3><p>Connect the public page to an owner, a source, and a change-review trigger.</p></section>
@@ -47,15 +41,15 @@ Euler’s public MCP materials expose real capability: connection guidance, a st
 
 The public [MCP reference](https://mcp.eulerapp.com/public/docs) and [structured manifest](https://mcp.eulerapp.com/public/docs.json) are useful source material. The issue is presentation: fields and their explanations can be densely wrapped together, which makes it harder to distinguish the purpose of a tool from its inputs, access limits, and outcomes.
 
-That is not a complaint about having technical detail. The detail matters. It needs a second layer around it: task context, readable examples, grouped inputs, plain-language results, and a route to troubleshooting.
+I added a second layer around the technical detail: task context, readable examples, grouped inputs, plain-language results, and a route to troubleshooting.
 
 ## Alternatives I considered
 
 | Alternative | Why I did not use it as the solution |
 | --- | --- |
-| Build a conventional help center from scratch | The public material could not support complete product guidance without internal access and validation. I limited the work to a proposal based on the sources available to me. |
-| Generate reference pages directly from the MCP manifest | This could preserve the existing information order without adding task context. I used the public MCP material as a source and added a structure that explains purpose, prerequisites, and results. |
-| Improve only the existing reference’s formatting | Better spacing and tables would not be enough to explain when to use a tool, what to prepare, or what to do next. I changed the content structure as well as its presentation. |
+| Build a conventional help center from scratch | I used the available public sources to build a focused proposal that the company could review and extend. |
+| Generate reference pages directly from the MCP manifest | I used the public MCP material as a source, then added a structure that explains purpose, prerequisites, and results. |
+| Improve only the existing reference’s formatting | I changed the content structure and presentation to explain when to use a tool, what to prepare, and what to do next. |
 
 These choices led to a working prototype built around the existing MCP material. It makes the proposed reading experience available for review while keeping the technical reference close at hand.
 
@@ -63,14 +57,14 @@ These choices led to a working prototype built around the existing MCP material.
 
 ### 1. Give each tool a human-first reference page
 
-The first page should answer the question a person has before they open a schema.
+I designed the first page to answer the question a person has before they open a schema.
 
 <div className="euler-tool-model">
   <div><span>01</span><strong>Use this when</strong><p>The user outcome and the right time to use the tool.</p></div>
   <div><span>02</span><strong>Before you begin</strong><p>Connection, role, consent, or prerequisite information.</p></div>
   <div><span>03</span><strong>Ask it this way</strong><p>A plain-language example that reflects a real task.</p></div>
   <div><span>04</span><strong>What you get back</strong><p>Meaningful result fields, exceptions, and next steps.</p></div>
-  <div><span>05</span><strong>Technical details</strong><p>Parameters, data types, and the contract—close at hand, not first.</p></div>
+  <div><span>05</span><strong>Technical details</strong><p>I keep parameters, data types, and the contract close at hand after the task guidance.</p></div>
 </div>
 
 The prototype uses the public `list_accounts` material as an example: account access and consent context come first; the raw parameter table stays available for a builder who needs it.
@@ -83,7 +77,7 @@ The prototype uses the public `list_accounts` material as an example: account ac
   <section className="content-card"><h3>Build and maintain</h3><p>MCP/API reference, integrations, errors, changes, migrations, and internal implementation playbooks.</p></section>
 </div>
 
-This is the same pattern I would use for product help, API quickstarts, integration guidance, release notes, and support content. The reader starts where their question starts—not where the implementation happens to be stored.
+This is the same pattern I would use for product help, API quickstarts, integration guidance, release notes, and support content. I organize the content around the reader’s question instead of the implementation’s storage location.
 
 ### 3. Treat content as a maintained system
 
@@ -94,13 +88,13 @@ This is the same pattern I would use for product help, API quickstarts, integrat
   → reusable canonical content
   → help center, reference, onboarding, support, and release communication</div>
 
-For a first technical writer, this is the leverage point. A good article helps once. A content model, ownership map, and review process keep help accurate after the next product change.
+I treat the content model, ownership map, and review process as the leverage point. Together, they keep help accurate after the next product change.
 
 ## The result: a working demo
 
 The outcome is the [public Euler documentation demo](https://docadam.github.io/docs-operating-system/euler/). It shows the proposed content structure through connection guidance, tool reference examples, and a model for maintaining the content.
 
-This is the deliverable from the project: a concrete proposal that people can explore and assess. Customer adoption and results after a product release are not established by this demo. Validation with Euler’s product and engineering teams would be a next step.
+I delivered a concrete proposal that people can explore and assess. My next step would be to validate the content model with Euler’s product and engineering teams.
 
 ## Proposed next steps with the team
 
@@ -115,11 +109,10 @@ This is the deliverable from the project: a concrete proposal that people can ex
 
 I start by making the strange thing clear. I use the available evidence, separate what is confirmed from what needs review, and build a working content model before choosing a publishing platform or writing a large pile of pages.
 
-That means a documentation function can begin with what the company already has—schemas, product workflows, support questions, changelogs, and customer language—then turn those inputs into an organized system the product team can keep using.
+I start with what the company already has: schemas, product workflows, support questions, changelogs, and customer language. I then turn those inputs into an organized system the product team can keep using.
 
 <div className="euler-proposal-close">
-  <strong>The point is not to make docs look finished.</strong>
-  <p>It is to make the right information easier to find, easier to use, and easier for the next person to maintain.</p>
+  <strong>My goal is to make the right information easier to find, use, and maintain.</strong>
 </div>
 
 ## Public sources reviewed

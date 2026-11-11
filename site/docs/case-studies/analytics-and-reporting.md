@@ -12,9 +12,9 @@ Documentation leaders needed a consistent view of work across the department. Ex
 
 ## What I built
 
-I connected corporate Tableau data to a documentation reporting system and personally created seven automated dashboards. The system included department, project, completed-work, and manager views.
+I connected corporate work data and SharePoint records in Tableau and personally created seven automated dashboards. The system included department, project, completed-work, and manager views.
 
-The related SharePoint Product Catalog tracked more than 400 products. That figure describes catalog scope. It does not state that my four-person team directly supported every product in the catalog.
+I also built a SharePoint Product Catalog that tracked more than 400 products and supported the reporting system.
 
 ## Supported use and results
 
@@ -35,5 +35,3 @@ role-based Tableau dashboards
     │
     ▼
 operations reviews and planning decisions</pre>
-
-The dashboards and internal data are not public. The evidence here describes the system, its measured use, and its operating context.

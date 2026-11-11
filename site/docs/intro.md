@@ -50,8 +50,6 @@ import Head from '@docusaurus/Head';
 
 ## Selected enterprise work
 
-The source artifacts for this work are private. These summaries state the role, scope, and supported results without publishing employer material.
-
 <div className="work-list compact-work-list">
   <article className="work-item"><h3><a href="/docs/case-studies/migrations-and-ia/">Migrations and information architecture</a></h3><p>Led a four-person team that completed 101 content migrations across seven team groups. The program reduced migrated content from 1,157 source pages to 469 destination pages.</p></article>
   <article className="work-item"><h3><a href="/docs/case-studies/analytics-and-reporting/">Analytics and reporting</a></h3><p>Created seven automated Tableau dashboards that made documentation work and operating results visible to managers and partners.</p></article>

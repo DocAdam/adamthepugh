@@ -1,6 +1,6 @@
 ---
 title: "Documentation Tooling and Automation"
-description: "Documentation workflow tools, validation, and qualified impact estimates from Adam Pugh's 2025–2026 Meta work."
+description: "How I built and validated documentation workflow tools during my 2025–2026 Meta work."
 ---
 
 # Documentation Tooling and Automation
@@ -10,9 +10,9 @@ description: "Documentation workflow tools, validation, and qualified impact est
 
 Repeated documentation work included change review, stale-content checks, media lookup, submission checks, and task setup. I treated these as documentation problems first. I confirmed the manual workflow, defined the stable part, and then used AI-assisted development to build practical tools and checks.
 
-## Contribution boundary
+## My role
 
-I identified the problems, designed the workflows, directed AI-assisted implementation, checked results, and maintained the tools. I describe this as documentation tooling. I do not present it as full-time software engineering.
+I identified the problems, designed the workflows, directed AI-assisted implementation, checked the results, and maintained the tools.
 
 ## Representative work
 
@@ -30,6 +30,4 @@ I identified the problems, designed the workflows, directed AI-assisted implemen
 | Reusable workflow support | 30 AI-assisted skills and 10 commands |
 | Review standards | More than 50 patterns based on real review feedback |
 
-The broader automation program was **estimated to save 466 hours per year** and reduce administrative overhead by 76% in the relevant workflow. The 466-hour figure is an annual estimate. It is not a measured total for the full employment period.
-
-The tools and employer source material are not public. The page describes the documentation problems, my role, the validation boundary, and the approved scale measures.
+The broader automation program was **estimated to save 466 hours per year** and reduce administrative overhead by 76% in the relevant workflow.

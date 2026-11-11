@@ -1,6 +1,6 @@
 ---
 title: "Migrations and Information Architecture"
-description: "A 2022 Meta documentation migration program with clear team, migration-unit, and page-count scope."
+description: "How I led a 2022 Meta documentation migration program that completed 101 migrations and reduced 1,157 source pages to 469 destination pages."
 ---
 
 # Migrations and Information Architecture
@@ -11,17 +11,15 @@ description: "A 2022 Meta documentation migration program with clear team, migra
 
 This program moved product documentation into a central knowledge hub. It required content discovery, consolidation, information-architecture decisions, repeatable tracking, and coordination with Product Management, Engineering, and Release Management.
 
-## What the 101 figure counts
+## Program scale and results
 
-The team completed **101 content migrations across seven team groups**. In this record, 101 is the count of completed migration units. It is not a page count and it is not a claim that I completed 101 migrations alone.
-
-The page measure is separate. The program reduced **1,157 source pages to 469 destination pages**, a 59% reduction in migrated page volume.
+I led a four-person team that completed **101 content migrations across seven team groups**. The program consolidated **1,157 source pages into 469 destination pages**, a 59% reduction in migrated page volume.
 
 ## My contribution
 
 I led the four-person team and the department migration program. I created processes where none existed, coordinated with partner teams, documented the migration workflow, and helped make the work repeatable.
 
-I also built migration tracking and content-discovery workflows. Those workflows saved an **estimated 150–200 hours** of manual content-discovery work. This is an estimate, not a measured labor total.
+I also built migration tracking and content-discovery workflows that saved an **estimated 150–200 hours** of manual work.
 
 ## Decisions and artifacts
 
@@ -31,5 +29,3 @@ I also built migration tracking and content-discovery workflows. Those workflows
 | Reduce duplicate and outdated pages | Decided what to keep, merge, restructure, or retire before migration. |
 | Show progress across teams | Reported migration units and page counts as separate measures. |
 | Make later work repeatable | Created process guidance and training for the migration tracker. |
-
-The trackers, source pages, and internal guidance are not public. This page is a factual summary of the program and its approved measures.

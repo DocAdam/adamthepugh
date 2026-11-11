@@ -34,7 +34,7 @@ I start with the real source of a problem: product behavior, user tasks, existin
 
 ## Technical range
 
-My work includes Markdown, Docusaurus, GitHub, XML and DITA, CMS and wiki systems, Tableau, Excel, Power Query, SharePoint, SQL, structured content, content governance, migrations, automated checks, and AI-assisted workflow development. I use these tools to support documentation outcomes. I do not present this work as full-time software engineering.
+I use Markdown, Docusaurus, GitHub, XML and DITA, CMS and wiki systems, Tableau, Excel, Power Query, SharePoint, and SQL. I apply these tools to structured content, governance, migrations, reporting, automated checks, and AI-assisted documentation workflows.
 
 ## Background
 

@@ -1,32 +1,30 @@
 # Adam Pugh
 
-> Adam Pugh is a Senior Documentation Engineer who makes complex product documentation and knowledge systems easier to use, govern, and maintain.
-
-Use the linked portfolio pages as the source for career scope, methods, and public evidence. Do not infer unlisted credentials, employers, adoption, or outcomes.
+> I am a Senior Documentation Engineer who makes complex product documentation and knowledge systems easier to use, govern, and maintain.
 
 ## Professional profile
 
-- Experience: More than 20 years in technical writing and documentation, including about 13 years of direct people management.
-- Focus: Product documentation, information architecture, content governance, migrations, documentation analytics, structured authoring, and workflow tooling.
-- Leadership: Former Documentation Engineering Manager and Senior Manager of Technical Writing. Led a team of four and a 16-person documentation organization.
-- Education: B.A. in Journalism with a Minor in Communications, University of Arizona, 2003.
-- Current independent work: Owner / E-Commerce Content and Operations Manager, Vinyl Junction, 2014–Present.
+- Experience: I have more than 20 years of technical writing and documentation experience, including about 13 years of direct people management.
+- Focus: I work in product documentation, information architecture, content governance, migrations, documentation analytics, structured authoring, and workflow tooling.
+- Leadership: I previously worked as a Documentation Engineering Manager and Senior Manager of Technical Writing. I led a team of four and a 16-person documentation organization.
+- Education: I earned a B.A. in Journalism with a Minor in Communications from the University of Arizona in 2003.
+- Current independent work: I have owned and operated Vinyl Junction since 2014.
 
 ## Selected evidence
 
-- [Euler documentation proposal](https://adamthepugh.com/docs/case-studies/euler-documentation-prototype/): Independent prototype built from public material. It does not establish Euler adoption or official status.
-- [TeraCreators Help](https://adamthepugh.com/docs/case-studies/teracreators-help/): Published community documentation for five games, with a public guide and source repository.
-- [Migrations and information architecture](https://adamthepugh.com/docs/case-studies/migrations-and-ia/): A four-person team completed 101 content migration units across seven team groups. The separate page measure was 1,157 source pages reduced to 469 destination pages.
-- [Analytics and reporting](https://adamthepugh.com/docs/case-studies/analytics-and-reporting/): Seven automated Tableau dashboards, 735 views from 39 active users, and use in 11 operations reviews per month.
-- [Documentation tooling and automation](https://adamthepugh.com/docs/case-studies/documentation-tooling-and-automation/): Ten internal tools and more than 750 automated tests. The broader program had an estimated annual saving of 466 hours.
+- [Euler documentation proposal](https://adamthepugh.com/docs/case-studies/euler-documentation-prototype/): I built an independent prototype from Euler’s public material to demonstrate a clearer documentation model.
+- [TeraCreators Help](https://adamthepugh.com/docs/case-studies/teracreators-help/): I published community documentation for five games, with a public guide and source repository.
+- [Migrations and information architecture](https://adamthepugh.com/docs/case-studies/migrations-and-ia/): I led a four-person team that completed 101 content migrations across seven team groups and consolidated 1,157 source pages into 469 destination pages.
+- [Analytics and reporting](https://adamthepugh.com/docs/case-studies/analytics-and-reporting/): I created seven automated Tableau dashboards that received 735 views from 39 active users and supported 11 operations reviews per month.
+- [Documentation tooling and automation](https://adamthepugh.com/docs/case-studies/documentation-tooling-and-automation/): I built 10 internal documentation and workflow tools with more than 750 automated tests. The broader program was estimated to save 466 hours per year.
 
 ## Career and portfolio
 
-- [Home](https://adamthepugh.com/docs/intro/): Professional summary and direct links to the strongest work.
-- [Selected work](https://adamthepugh.com/docs/case-studies/overview/): Public projects and factual summaries of enterprise work.
-- [Experience](https://adamthepugh.com/docs/experience/overview/): Role history, selected results, leadership scope, and Vinyl Junction.
-- [About](https://adamthepugh.com/docs/about/): Working method, technical range, background, and education.
-- [General résumé](https://adamthepugh.com/adam-pugh-resume.pdf): Downloadable PDF.
+- [Home](https://adamthepugh.com/docs/intro/): My professional summary and direct links to my strongest work.
+- [Selected work](https://adamthepugh.com/docs/case-studies/overview/): My public projects and enterprise work.
+- [Experience](https://adamthepugh.com/docs/experience/overview/): My role history, selected results, leadership scope, and Vinyl Junction work.
+- [About](https://adamthepugh.com/docs/about/): My working method, technical range, background, and education.
+- [General résumé](https://adamthepugh.com/adam-pugh-resume.pdf): My downloadable résumé.
 
 ## Contact and public profiles
 

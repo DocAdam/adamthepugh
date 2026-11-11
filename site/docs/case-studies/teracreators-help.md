@@ -15,9 +15,9 @@ I built the guide as a player and contributor. It grew into a public help site f
 
 The audience was the player community. Experienced players used terms that new players did not know. The same questions appeared often. Answers were useful, but their original locations made them difficult to find and reuse.
 
-## Source boundary
+## Source material and my contribution
 
-The source material included company documents, community knowledge, messages collected with [Discrub](https://github.com/prathercc/discrub-ext), my own gameplay screenshots, and examples from users. I did not create all source knowledge. My contribution was to collect, review, structure, explain, publish, and maintain it.
+I collected company documents, community knowledge, messages gathered with [Discrub](https://github.com/prathercc/discrub-ext), gameplay screenshots, and examples from users. I reviewed, structured, explained, published, and maintained this material as a public help system.
 
 ## Documentation decisions
 
@@ -37,5 +37,3 @@ On April 15, 2026, I revised the Havoc Hotel 3 rescue guide. I added direct link
 
 - [View the live guide](https://docadam.github.io/TeraCreators-Help/)
 - [View the source repository](https://github.com/DocAdam/TeraCreators-Help)
-
-The public evidence shows a published and maintained community documentation project. It does not establish traffic, product-company ownership, or official product status.

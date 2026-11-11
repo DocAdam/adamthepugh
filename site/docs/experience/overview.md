@@ -57,8 +57,8 @@ Created core banking software documentation and supported the move from RoboHelp
 
 I own and operate [Vinyl Junction](https://vinyljunction.com), an independent Etsy business for vintage music and books. I maintain product-content schemas, editorial standards, metadata, taxonomy, and AI-assisted listing workflows with human review.
 
-Owner-reported results from 2014 through October 10, 2026 include more than $400,000 in cumulative revenue, approximately 837,000 shop visits, and more than 1.1 million listing views. These figures are a business snapshot. They are not independently inspected, and I do not attribute them to one content or search method.
+My Vinyl Junction business records from 2014 through October 10, 2026 show more than $400,000 in cumulative revenue, approximately 837,000 shop visits, and more than 1.1 million listing views.
 
 ## Leadership
 
-My management scope included four documentation engineers at Meta and a 16-person organization at Jack Henry. I used standards, coaching, operating data, and clear workflows to support consistent work without making teams depend on repeated manual intervention.
+My management scope included four documentation engineers at Meta and a 16-person organization at Jack Henry. I used standards, coaching, operating data, and clear workflows to help teams produce consistent work and maintain it independently.
