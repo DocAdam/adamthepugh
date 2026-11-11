@@ -1,4 +1,5 @@
 ---
+slug: /work/euler-documentation-prototype
 title: "Euler documentation prototype"
 description: "An independent prototype that shows how Euler's public MCP material could support clearer task guidance and maintained reference content."
 sidebar_label: "Euler documentation prototype"

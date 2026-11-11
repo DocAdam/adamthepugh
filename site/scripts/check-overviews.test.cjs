@@ -10,12 +10,12 @@ function fixture(t, html, extra = {}) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'portfolio-overviews-'));
   t.after(() => fs.rmSync(root, {recursive: true, force: true}));
   const files = {
-    'docs/work/overview.md': '# Work',
-    'docs/work/first.md': '# First',
-    'docs/work/second.md': '# Second',
-    'build/docs/work/overview/index.html': html,
-    'build/docs/work/first/index.html': '<h1>First</h1>',
-    'build/docs/work/second/index.html': '<h1>Second</h1>',
+    'docs/work/overview.md': '---\nslug: /work\n---\n# Work',
+    'docs/work/first.md': '---\nslug: /work/first\n---\n# First',
+    'docs/work/second.md': '---\nslug: /work/second\n---\n# Second',
+    'build/work/index.html': html,
+    'build/work/first/index.html': '<h1>First</h1>',
+    'build/work/second/index.html': '<h1>Second</h1>',
     ...extra,
   };
   for (const [name, text] of Object.entries(files)) {
@@ -28,20 +28,20 @@ function fixture(t, html, extra = {}) {
 }
 
 function index(ids) {
-  return `<div data-section-index>${ids.map((id) => `<a href="/docs/work/${id}/">${id}</a>`).join('')}</div>`;
+  return `<div data-section-index>${ids.map((id) => `<a href="/work/${id}/">${id}</a>`).join('')}</div>`;
 }
 
 test('accepts the sidebar order and ignores navigation and contextual links', (t) => {
-  const args = fixture(t, '<nav><a href="/docs/work/second/">Second</a></nav>' + index(['first', 'second']) + '<a href="/docs/work/first/">Read first</a>');
+  const args = fixture(t, '<nav><a href="/work/second/">Second</a></nav>' + index(['first', 'second']) + '<a href="/work/first/">Read first</a>');
   assert.deepEqual(checkOverviews(args).errors, []);
 });
 
 test('detects an omitted card even when that page appears elsewhere', (t) => {
-  const args = fixture(t, index(['first']) + '<p><a href="/docs/work/second/">Second</a></p>');
+  const args = fixture(t, index(['first']) + '<p><a href="/work/second/">Second</a></p>');
   const errors = checkOverviews(args).errors;
   assert.equal(errors.length, 1);
   assert.match(errors[0], /Proposed update/);
-  assert.match(errors[0], /\[second\]\(\/docs\/work\/second\/\)/);
+  assert.match(errors[0], /\[second\]\(\/work\/second\/\)/);
 });
 
 test('rejects reversed, repeated, and absent section indexes', (t) => {
@@ -59,8 +59,8 @@ test('excludes redirect pages and redirect overviews, and permits sections witho
   const args = fixture(t, index(['first', 'second']), {
     'docs/work/old.md': 'import {Redirect} from "@docusaurus/router";\n<Redirect to="/docs/work/overview" />',
     'docs/experience/overview.md': '<Redirect to="/docs/experience/history" />',
-    'docs/writing/overview.md': '# Writing',
-    'build/docs/writing/overview/index.html': '<h1>Writing</h1>',
+    'docs/writing/overview.md': '---\nslug: /writing\n---\n# Writing',
+    'build/writing/index.html': '<h1>Writing</h1>',
   });
   const result = checkOverviews(args);
   assert.deepEqual(result.errors, []);

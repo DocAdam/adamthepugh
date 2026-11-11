@@ -1,130 +1,139 @@
-# Adam Pugh Portfolio
+# Adam Pugh portfolio
 
-This repository contains the source for [adamthepugh.com](https://adamthepugh.com/), my professional portfolio.
+This repository contains the source for [adamthepugh.com](https://adamthepugh.com/). The portfolio shows public projects, enterprise documentation systems, work experience, selected writing, and a two-page general résumé.
 
-I use the site to show how I organize complex information, improve documentation systems, lead documentation programs, and build practical workflow tools. It includes public projects, enterprise results, career experience, an active publication and open-data project, and a two-page general résumé.
-
-Start with [Selected Work](https://adamthepugh.com/docs/case-studies/overview/) for projects and results, [Experience](https://adamthepugh.com/docs/experience/overview/) for career history, or [About](https://adamthepugh.com/docs/about/) for my working method and technical range.
+The active site is in `site/`. The `archive/` directory contains preserved legacy material. Do not use the archive as published site content.
 
 ## Published structure
 
-The active portfolio has ten substantive pages:
+The sitemap contains these nine canonical pages:
 
-- [Home](https://adamthepugh.com/docs/intro/): A clean landing page with my professional focus, featured public work, selected enterprise results, and contact links.
-- [Selected Work](https://adamthepugh.com/docs/case-studies/overview/): An index of the public projects and enterprise systems that best represent my work.
-- [Working Notes and Good Doc Jobs](https://adamthepugh.com/docs/case-studies/working-notes-and-good-doc-jobs/): A practitioner publication, reader-facing job database, automated content-audit project, and public source pipeline for technical communicators.
-- [Euler documentation prototype](https://adamthepugh.com/docs/case-studies/euler-documentation-prototype/): An independent prototype that shows how I would organize Euler’s public MCP material around reader tasks and maintained content.
-- [TeraCreators Help](https://adamthepugh.com/docs/case-studies/teracreators-help/): A published help system that I built from company documents, community knowledge, gameplay screenshots, and user examples.
-- [Migrations and information architecture](https://adamthepugh.com/docs/case-studies/migrations-and-ia/): How I led a four-person team that migrated 101 product-documentation wikis and consolidated 1,157 source pages into 469 destination pages.
-- [Analytics and reporting](https://adamthepugh.com/docs/case-studies/analytics-and-reporting/): How I replaced a Google Doc tracker with a SharePoint database for documentation work across more than 400 internal products and connected the data to seven Tableau dashboards.
-- [Documentation tooling and automation](https://adamthepugh.com/docs/case-studies/documentation-tooling-and-automation/): How I built 10 internal tools with more than 750 automated tests to support repeated documentation workflows.
-- [Experience](https://adamthepugh.com/docs/experience/overview/): My role history, selected results, leadership experience, and current Vinyl Junction work.
-- [About](https://adamthepugh.com/docs/about/): My working method, technical range, background, and education.
+- [Home](https://adamthepugh.com/): Professional focus, featured work, working method, and contact links.
+- [Work](https://adamthepugh.com/work/): The grouped index for products and publications, enterprise documentation systems, and prototypes and contributions.
+- [Working Notes and Good Doc Jobs](https://adamthepugh.com/work/working-notes-good-doc-jobs/): A publication, content-audit project, public jobs database, and open data pipeline.
+- [TeraCreators Help](https://adamthepugh.com/work/teracreators-help/): A published help system for five games.
+- [Euler documentation prototype](https://adamthepugh.com/work/euler-documentation-prototype/): An independent working prototype for clearer MCP and product documentation.
+- [Documentation migrations and information architecture](https://adamthepugh.com/work/documentation-migrations/): A 101-wiki migration program that consolidated 1,157 source pages into 469 destination pages.
+- [Documentation analytics and reporting](https://adamthepugh.com/work/documentation-analytics/): A SharePoint tracking system and seven Tableau dashboards for documentation work across more than 400 internal products.
+- [Documentation tooling and automation](https://adamthepugh.com/work/documentation-tooling/): Internal tools and tests for repeated documentation workflow problems.
+- [Experience](https://adamthepugh.com/experience/): Role history, selected results, leadership scope, and Vinyl Junction work.
 
-For a career summary, [download my two-page résumé](https://adamthepugh.com/adam-pugh-resume.pdf).
+The site has no public About page. Home contains the useful working-method content. `site/static/llms.txt` contains the longer professional profile and background information. Education information does not include a graduation year.
 
-Earlier portfolio and personal material remains in `archive/` for reference. The active site uses the content in `site/`. Keep portfolio claims tied to the supporting career records and project sources when updating the site.
+[Download the two-page résumé](https://adamthepugh.com/adam-pugh-resume.pdf).
 
 ## Repository organization
 
-The active site is in `site/`. It uses Docusaurus, Markdown, and GitHub Pages. Make changes to the published portfolio in this directory.
-
 ```text
 adamthepugh/
-├── .github/workflows/        # automatic site deployment
-├── archive/
-│   ├── legacy-docs-reviewed/  # earlier portfolio and source documents
-│   ├── legacy-docs-personal/  # earlier personal material
-│   └── legacy-root-site/      # earlier Jekyll configuration and pages
+├── .github/workflows/        # GitHub Pages build and deployment
+├── archive/                  # preserved legacy material; not published
 ├── images/                   # image sources from the earlier site
 ├── site/
-│   ├── docs/                 # portfolio content
-│   ├── scripts/              # generated-link check and regression tests
-│   ├── src/                  # page components and styles
+│   ├── docs/                 # nine active Markdown documents
+│   ├── scripts/              # link, overview, route, and sitemap checks
+│   ├── src/                  # components and styles
 │   ├── static/               # résumé, images, domain file, and crawl guidance
-│   ├── docusaurus.config.js
-│   ├── sidebars.js
+│   ├── docusaurus.config.js  # site and navigation configuration
+│   ├── route-contract.cjs    # canonical routes and direct legacy redirects
+│   ├── sidebars.js           # published Work grouping
 │   ├── package-lock.json
 │   └── package.json
-├── CNAME                     # legacy domain file
 ├── AGENTS.md                 # repository working instructions
 └── README.md
 ```
 
+The backend can keep the current `site/docs/` file organization. Each active document has an explicit clean slug, so the public site does not expose that folder structure.
+
 ## Local development and checks
 
-Use Node.js 20 or later and npm. For first-time setup, run these commands from the repository root:
+Use Node.js 20 or later and npm. Run these commands from `site/`:
 
 ```sh
-cd site
 npm ci
-```
-
-Run all subsequent npm commands from `site/`.
-
-Start the local development server:
-
-```sh
 npm run start
 ```
 
-Before committing changes, run the regression tests and create a production build:
+Run the tests and production build before a publication review:
 
 ```sh
 npm test
 npm run build
 ```
 
-The build stops on broken documentation links and page anchors. It also checks internal hyperlinks in the generated HTML. This check resolves relative links from each page's published URL, including its trailing slash, and checks destination files and HTML anchors. Absolute links with the same origin as the site are checked against the generated files.
+The checks enforce these rules:
 
-The generated HTML check does not request external websites or inspect links inside PDFs or plain-text files. The regression tests cover the earlier Home and Work card failures, missing files and anchors, and failure of the build check.
+- All internal links and anchors must resolve in the generated site.
+- A canonical page must link directly to another canonical page. It must not link to a redirect.
+- A legacy route must redirect directly to its final canonical route. Redirect chains are not permitted.
+- The Work index must contain every active Work page once, in sidebar order.
+- The sitemap must contain the exact nine canonical URLs. It must not contain legacy `/docs/` URLs.
+- The static Euler `.html` compatibility route must point directly to its final page.
 
-The checker uses the HTML parser already present in the locked Docusaurus dependency tree. It requires no separate package installation.
-
-The build also checks each `overview.md` or `overview.mdx` section page. Its section index must link to every non-redirect page in the same folder, once each, in the order defined by `site/sidebars.js`. Wrap that list or card grid in one `<div data-section-index>` element. Links elsewhere in the page, including the sidebar and related reading, do not count toward this list.
-
-Redirect pages are excluded. An overview with no non-redirect child pages needs no index. New content pages missing from the sidebar stop the check so their published order can be set. A missing or out-of-order index stops the build and prints a proposed link list; the check does not edit or commit content. This check uses the current `/docs/<section>/<page>/` directory routes.
-
-Preview the production build after a successful build:
+The build stops when one of these checks fails. The checks do not request external websites. Preview a successful production build with:
 
 ```sh
 npm run serve
 ```
 
-## Portfolio maintenance
+## Route maintenance
 
-The files in `site/static/` are copied into the production build. These files are available at the domain root after deployment:
+`site/route-contract.cjs` is the route authority. It contains the nine canonical routes, the legacy route groups, and the separate Euler `.html` compatibility route. `site/docusaurus.config.js` gives the redirect groups to the official Docusaurus client-redirects plugin.
 
-- `llms.txt`: A first-person professional profile, selected outcomes, and links to supporting portfolio pages.
-- `robots.txt`: Crawl guidance that permits access and points to the sitemap.
-- `adam-pugh-resume.pdf`: The downloadable résumé.
+When a public route changes:
 
-The site uses `site/static/img/headshot.jpg` for the Home portrait and `site/static/img/social-card.png` for social previews. Keep the portrait as an optimized JPEG and the social card at 1200 by 630 pixels. The site uses `site/static/img/logo.svg` as the favicon.
+1. Set the final slug in the retained Markdown file.
+2. Update navigation and content links to use that final route.
+3. Add the old route to `site/route-contract.cjs` with the final route as its direct target.
+4. Do not target another legacy route.
+5. Run the tests and build.
+6. Inspect `site/build/sitemap.xml` and the generated redirect file.
 
-The résumé is linked from the navbar, Home, About, Experience, footer, and `llms.txt`. The editable authority is `generated/resume-base.md` in Job Finder. Keep the general résumé at two pages. Validate the Markdown and DOCX, inspect both rendered PDF pages, then replace `site/static/adam-pugh-resume.pdf`. Check that Experience and `llms.txt` agree with the PDF before publication.
+The sitemap excludes all `/docs/**` compatibility routes. The redirect files exist only for old links and bookmarks.
 
-The Home document is intentionally absent from `site/sidebars.js`. Its front matter also hides the page table of contents and pagination. Deeper Work, Experience, and About pages keep the documentation navigation.
+Canonical content must link directly to the final `/work/` routes. Legacy `/docs/case-studies/` paths can appear only in the route contract, the static Euler compatibility file, redirect tests, and historical audit material. Related public projects must also use the final `/work/` URLs. Keep the legacy redirects after the known inbound links are updated because old bookmarks and untracked external links can still use them.
 
-Legacy documentation files use `site/src/components/LegacyRedirect.js`. Keep these files when consolidating content. Add a fragment map when an old heading moves to a different heading on the retained page, and test the old route with its fragment after each change.
+## Content and résumé maintenance
 
-The static compatibility file at `site/static/docs/case-studies/euler-documentation-prototype.html` preserves the earlier `.html` backlink to the Euler case study. Keep its canonical URL, refresh target, script target, and fallback link aligned with the current route.
+Keep factual claims tied to the supporting career records and project sources. Do not add personal history, portfolio claims, quotations, or credentials without source support.
 
-Keep archived material separate from active site maintenance.
+The editable résumé authority is `generated/resume-base.md` in the separate Job Finder repository. The normal update flow is:
+
+1. Update and validate the Job Finder Markdown source.
+2. Export and review the DOCX.
+3. Export a two-page, US Letter PDF.
+4. Check both PDF pages and confirm that the PDF is tagged.
+5. Replace `site/static/adam-pugh-resume.pdf`.
+6. Confirm that the Markdown, DOCX, PDF, Experience page, and `llms.txt` agree.
+7. Run the portfolio tests and build.
+
+The navbar, Home, Experience, footer, and `llms.txt` link directly to the root PDF path. Use raw static-file links for this PDF so Docusaurus does not add a trailing slash or create a hashed asset URL.
+
+The files in `site/static/` are copied to the production root. Important files include:
+
+- `llms.txt`: First-person professional profile, background, selected outcomes, and canonical portfolio links.
+- `robots.txt`: Crawl guidance and the sitemap location.
+- `adam-pugh-resume.pdf`: Downloadable general résumé.
+- `img/headshot.jpg`: Home portrait.
+- `img/social-card.png`: 1200 by 630 social preview image.
+- `img/logo.svg`: Site logo and favicon.
+
+## Git and generated files
+
+Commit the active source, tests, locked dependency files, route contract, public static files, and README when the changes are approved. Do not add these generated or local files:
+
+- `site/build/`
+- `site/node_modules/`
+- temporary PDF exports
+- files from the separate Job Finder repository
+- local review files in `work/` unless they are separately approved for publication
+
+Keep `archive/` unchanged unless an archive task has explicit approval. Preserve unrelated local changes.
 
 ## Deployment
 
-The site is published at `adamthepugh.com` through GitHub Actions. The workflow in `.github/workflows/deploy-pages.yml` runs after each push to `master`.
+The workflow in `.github/workflows/deploy-pages.yml` publishes the site to GitHub Pages after an approved push to `master`. It installs the locked dependencies, runs the tests, builds the site, and publishes `site/build` only after the checks pass.
 
-After reviewing and committing the changes, push the source branch from the repository root:
+The older `npm run deploy` command writes to `gh-pages`. It is not the publication method for the current GitHub Actions setup. Keep `site/static/CNAME` as the domain record, and manage the custom domain in GitHub Pages settings.
 
-```sh
-git push origin master
-```
-
-GitHub Actions installs the locked dependencies, runs the regression tests, and builds the site with the generated-link check. The deployment job publishes `site/build` only after the build job passes. A failed test or build leaves the published site unchanged.
-
-Check the **Deploy portfolio** run in the repository's **Actions** tab to confirm deployment. To publish again without a source change, select **Run workflow** and choose `master`.
-
-In **Settings → Pages**, keep the source set to **GitHub Actions** and the custom domain set to `adamthepugh.com`. The `github-pages` environment must permit deployments from `master`. The workflow uses GitHub's built-in token; no personal token or SSH secret is required.
-
-The older `npm run deploy` command writes to `gh-pages`. It is not the publishing method for the Actions setup. Keep `site/static/CNAME` as a record of the domain, but manage the custom domain in GitHub Pages settings.
+No local implementation step commits, pushes, opens a pull request, or publishes the site unless that action has explicit approval.

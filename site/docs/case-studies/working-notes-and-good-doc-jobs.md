@@ -1,4 +1,5 @@
 ---
+slug: /work/working-notes-good-doc-jobs
 title: "Working Notes and Good Doc Jobs"
 description: "How I use publishing, automated content audits, a public job database, and an open data pipeline to support technical communicators."
 sidebar_label: "Working Notes and Good Doc Jobs"

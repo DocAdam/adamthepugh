@@ -1,4 +1,6 @@
 // @ts-check
+const {redirectGroups} = require('./route-contract.cjs');
+
 const config = {
   title: 'Adam Pugh',
   tagline: 'Senior Documentation Engineer',
@@ -30,7 +32,15 @@ const config = {
     locales: ['en'],
   },
 
-  plugins: [require.resolve('./scripts/check-links-plugin.cjs')],
+  plugins: [
+    [
+      require.resolve('@docusaurus/plugin-client-redirects'),
+      {
+        redirects: redirectGroups,
+      },
+    ],
+    require.resolve('./scripts/check-links-plugin.cjs'),
+  ],
 
   presets: [
     [
@@ -38,11 +48,14 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: 'docs',
+          routeBasePath: '/',
           sidebarCollapsible: true,
           sidebarCollapsed: false,
         },
         blog: false,
+        sitemap: {
+          ignorePatterns: ['/docs/**'],
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -57,21 +70,20 @@ const config = {
       logo: {
         alt: 'Adam Pugh',
         src: 'img/logo.svg',
-        href: '/docs/intro/',
+        href: '/',
         target: '_self',
       },
       items: [
-        { to: '/docs/case-studies/overview', label: 'Work', position: 'left' },
-        { to: '/docs/experience/overview', label: 'Experience', position: 'left' },
-        { to: '/docs/about', label: 'About', position: 'left' },
+        { to: '/work/', label: 'Work', position: 'left' },
+        { to: '/experience/', label: 'Experience', position: 'left' },
         {
           href: 'https://docadam.substack.com/',
-          label: 'Working Notes',
+          label: 'Writing',
           position: 'right',
         },
         {
-          href: 'https://adamthepugh.com/adam-pugh-resume.pdf',
-          label: 'Resume',
+          type: 'html',
+          value: '<a class="navbar__link" href="/adam-pugh-resume.pdf">Résumé</a>',
           position: 'right',
         },
         {
@@ -96,16 +108,15 @@ const config = {
         {
           title: 'Explore',
           items: [
-            { label: 'Work', to: '/docs/case-studies/overview' },
-            { label: 'Experience', to: '/docs/experience/overview' },
-            { label: 'About', to: '/docs/about' },
+            { label: 'Work', to: '/work/' },
+            { label: 'Experience', to: '/experience/' },
           ],
         },
         {
           title: 'Elsewhere',
           items: [
-            { label: 'Download resume (PDF)', href: 'https://adamthepugh.com/adam-pugh-resume.pdf' },
-            { label: 'Resume on LinkedIn', href: 'https://www.linkedin.com/in/adampugh/details/experience/' },
+            { html: '<a class="footer__link-item" href="/adam-pugh-resume.pdf">Download résumé (PDF)</a>' },
+            { label: 'Résumé on LinkedIn', href: 'https://www.linkedin.com/in/adampugh/details/experience/' },
             { label: 'GitHub', href: 'https://github.com/DocAdam' },
             { label: 'Working Notes', href: 'https://docadam.substack.com/' },
           ],

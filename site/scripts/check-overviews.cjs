@@ -34,15 +34,27 @@ function indexLinks(html) {
   return groups;
 }
 
+function docRoute(content, id) {
+  const frontMatter = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  const slug = frontMatter?.[1].match(/^slug:\s*["']?([^"'\r\n]+)["']?\s*$/m)?.[1].trim();
+  const route = slug || `/docs/${id}`;
+  return route === '/' ? route : `/${route.replace(/^\/+|\/+$/g, '')}/`;
+}
+
+function routeFile(outDir, route) {
+  const relative = route === '/' ? '' : route.replace(/^\/+|\/+$/g, '');
+  return path.join(outDir, relative, 'index.html');
+}
+
 function checkOverviews({docsDir, outDir, sidebars, siteUrl}) {
   const errors = [];
   const skipped = [];
   let checked = 0;
-  const docs = docFiles(docsDir).map((file) => ({
-    file,
-    id: path.relative(docsDir, file).split(path.sep).join('/').replace(/\.mdx?$/, ''),
-    redirect: /<Redirect\s/.test(fs.readFileSync(file, 'utf8')),
-  }));
+  const docs = docFiles(docsDir).map((file) => {
+    const id = path.relative(docsDir, file).split(path.sep).join('/').replace(/\.mdx?$/, '');
+    const content = fs.readFileSync(file, 'utf8');
+    return {file, id, route: docRoute(content, id), redirect: /<Redirect\s/.test(content)};
+  });
   const order = Object.values(sidebars).flatMap(docOrder);
   for (const overview of docs.filter((doc) => path.posix.basename(doc.id) === 'overview')) {
     if (overview.redirect) {
@@ -58,15 +70,16 @@ function checkOverviews({docsDir, outDir, sidebars, siteUrl}) {
     if (unlisted.length) {
       errors.push(`${overview.id}: pages missing from the sidebar: ${unlisted.map((doc) => doc.id).join(', ')}. Proposed update: add them to sidebars.js in the intended published order, then update the section index.`);
     }
-    const file = path.join(outDir, 'docs', overview.id, 'index.html');
+    const file = routeFile(outDir, overview.route);
     if (!fs.existsSync(file)) {
       errors.push(`${overview.id}: generated overview page is missing: ${file}`);
       continue;
     }
     const groups = indexLinks(fs.readFileSync(file, 'utf8'));
     if (!expected.length && !groups.length) continue;
-    const base = new URL(`/docs/${overview.id}/`, siteUrl);
-    const expectedUrls = expected.map((id) => new URL(`/docs/${id}/`, siteUrl).href);
+    const base = new URL(overview.route, siteUrl);
+    const expectedDocs = expected.map((id) => docs.find((doc) => doc.id === id));
+    const expectedUrls = expectedDocs.map((doc) => new URL(doc.route, siteUrl).href);
     const actual = (groups[0] || []).map((href) => {
       const url = new URL(href, base);
       url.hash = '';
@@ -75,7 +88,7 @@ function checkOverviews({docsDir, outDir, sidebars, siteUrl}) {
       return url.href;
     });
     if (groups.length !== 1 || JSON.stringify(actual) !== JSON.stringify(expectedUrls)) {
-      const proposal = expected.map((id) => `- [${id.split('/').at(-1)}](/docs/${id}/)`).join('\n');
+      const proposal = expectedDocs.map((doc) => `- [${doc.id.split('/').at(-1)}](${doc.route})`).join('\n');
       errors.push(`${overview.id}: section index must contain each sidebar page once, in published order. Found ${groups.length} index blocks.\nExpected: ${expected.join(', ')}\nActual: ${actual.join(', ')}\nProposed update inside one <div data-section-index>:\n${proposal}`);
     }
   }

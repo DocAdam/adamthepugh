@@ -1,33 +1,46 @@
 ---
-title: "Selected Work"
+slug: /work
+title: Work
 description: "Public documentation projects and factual summaries of enterprise documentation work by Adam Pugh."
 ---
 
-# Selected Work
+# Work
 
-These examples show how I organize complex information, improve documentation systems, and reduce repeated maintenance work.
+These examples show how I organize complex information, improve documentation systems, and reduce repeated maintenance work. The public projects include inspectable documentation and source material. The enterprise projects describe supported work, results, and evidence limits.
 
-I built three public projects that readers can inspect. My enterprise work includes documentation migrations, reporting systems, and workflow tools.
+<span id="representative-work"></span>
+<span id="work-index"></span>
 
-## Public projects
+<div data-section-index>
+  <h2 id="products-and-publications">Products and publications</h2>
+  <div className="work-list">
+    <article className="work-item"><p className="status-label">Publication and open-data product</p><h3><a href="/work/working-notes-good-doc-jobs/">Working Notes and Good Doc Jobs</a></h3><p>A practitioner publication, automated content-audit project, free jobs database, and public source pipeline for technical communicators.</p></article>
+    <article className="work-item"><p className="status-label">Published community documentation</p><h3><a href="/work/teracreators-help/">TeraCreators Help</a></h3><p>A maintained help system organized from scattered player and company sources.</p></article>
+  </div>
 
-I publish Working Notes and maintain Good Doc Jobs as an active content and open-data system. I built Euler as an independent prototype from public material. I built TeraCreators Help as published community documentation for players.
+  <span id="selected-enterprise-work"></span>
+  <span id="the-operating-model"></span>
+  <span id="evidence-from-the-work"></span>
+  <span id="takeaway"></span>
+  <h2 id="enterprise-documentation-systems">Enterprise documentation systems</h2>
+  <div className="work-list">
+    <article className="work-item"><p className="status-label">Enterprise documentation system</p><h3><a href="/work/documentation-migrations/">Documentation migrations and information architecture</a></h3><p>A team migration program with separate measures for completed wiki projects and page consolidation.</p></article>
+    <article className="work-item"><p className="status-label">Enterprise documentation system</p><h3><a href="/work/documentation-analytics/">Documentation analytics and reporting</a></h3><p>A SharePoint tracking system and seven Tableau dashboards for work across more than 400 internal products.</p></article>
+    <article className="work-item"><p className="status-label">Enterprise documentation system</p><h3><a href="/work/documentation-tooling/">Documentation tooling and automation</a></h3><p>Internal tools and tests built for repeated documentation workflow problems.</p></article>
+  </div>
 
-## Selected enterprise work
-
-I led a migration program, built a documentation analytics system, and developed a portfolio of documentation workflow tools.
-
-## Work index
-
-<div className="work-list" data-section-index>
-  <article className="work-item"><p className="status-label">Active independent project</p><h3><a href="/docs/case-studies/working-notes-and-good-doc-jobs/">Working Notes and Good Doc Jobs</a></h3><p>A practitioner publication, automated content-audit project, and free database for documentation job seekers.</p></article>
-  <article className="work-item"><p className="status-label">Independent prototype</p><h3><a href="/docs/case-studies/euler-documentation-prototype/">Euler documentation prototype</a></h3><p>A public working prototype for clearer MCP and product documentation.</p></article>
-  <article className="work-item"><p className="status-label">Published community documentation</p><h3><a href="/docs/case-studies/teracreators-help/">TeraCreators Help</a></h3><p>A maintained help system organized from scattered player and company sources.</p></article>
-  <article className="work-item"><h3><a href="/docs/case-studies/migrations-and-ia/">Migrations and information architecture</a></h3><p>A team migration program with separate measures for completed migrations and page consolidation.</p></article>
-  <article className="work-item"><h3><a href="/docs/case-studies/analytics-and-reporting/">Analytics and reporting</a></h3><p>Seven dashboards that made documentation work visible and reduced reporting effort.</p></article>
-  <article className="work-item"><h3><a href="/docs/case-studies/documentation-tooling-and-automation/">Documentation tooling and automation</a></h3><p>Internal tools and tests built for repeated documentation workflow problems.</p></article>
+  <h2 id="prototypes-and-contributions">Prototypes and contributions</h2>
+  <div className="work-list">
+    <article className="work-item"><p className="status-label">Independent prototype</p><h3><a href="/work/euler-documentation-prototype/">Euler documentation prototype</a></h3><p>A public working prototype for clearer MCP and product documentation.</p></article>
+  </div>
 </div>
 
-## Open-source editing
+### Open-source contribution
 
 I contributed copy corrections to the PostHog website. The project maintainers merged [pull request 18418](https://github.com/PostHog/posthog.com/pull/18418) and [pull request 18414](https://github.com/PostHog/posthog.com/pull/18414).
+
+## Selected writing
+
+- [Everyone needs an editor: Grammarly](https://docadam.substack.com/p/everyone-needs-an-editor-grammarly)
+- [Everyone needs an editor: Unity](https://docadam.substack.com/p/everyone-needs-an-editor-unity)
+- [Just a Spreadsheet](https://docadam.substack.com/p/just-a-spreadsheet)

@@ -1,5 +1,6 @@
 ---
-title: "Adam Pugh Experience"
+slug: /experience
+title: Experience
 description: "Work history, selected results, leadership scope, and current independent work for Adam Pugh."
 ---
 
@@ -7,9 +8,20 @@ description: "Work history, selected results, leadership scope, and current inde
 
 I have more than 20 years of technical writing and documentation experience, including about 13 years of direct people management. My work connects technical writing, documentation systems, operations, analytics, and leadership.
 
-[Download the general résumé](https://adamthepugh.com/adam-pugh-resume.pdf).
+<a href="/adam-pugh-resume.pdf">Download the general résumé</a>.
+
+<span id="scale-at-a-glance"></span>
+<span id="cross-functional-documentation-engineering"></span>
+<span id="documentation-tooling-and-workflow-automation"></span>
+<span id="analytics-and-reporting"></span>
+<span id="documentation-systems-and-structure"></span>
+<span id="where-i-have-led"></span>
+<span id="what-i-try-to-create"></span>
+<span id="leadership"></span>
 
 ## Meta
+
+<span id="senior-documentation-engineer--2023present"></span>
 
 ### Senior Documentation Engineer · July 2023–July 2026
 
@@ -20,6 +32,8 @@ Led documentation operations for internal recruiting products across the hiring 
 - Built a freshness and governance system for 234 pages.
 - Built 10 internal documentation and workflow tools with more than 750 automated tests.
 
+<span id="documentation-manager--20222023"></span>
+
 ### Documentation Engineering Manager · March 2022–June 2023
 
 Led four documentation engineers who assumed responsibility for documentation across more than 400 internal Enterprise Engineering products.
@@ -28,6 +42,9 @@ Led four documentation engineers who assumed responsibility for documentation ac
 - Led a team that migrated 101 product-documentation wikis across seven team groups.
 - Consolidated 1,157 source pages into 469 destination pages through review, archiving, removal, and restructuring.
 - Restored access to 170 archived wiki pages used by internal users.
+
+<span id="jack-henry"></span>
+<span id="mentoring-and-team-development"></span>
 
 ## Jack Henry & Associates
 
@@ -51,6 +68,9 @@ Created release notes, enhancement documentation, software-update documentation,
 
 Created core banking software documentation and supported the move from RoboHelp to DITA and XML. Planned and led a migration of more than 6,000 bank reports to XML and also contributed to the hands-on migration work.
 
+<span id="independent-work"></span>
+<span id="what-the-work-requires"></span>
+
 ## Vinyl Junction
 
 ### Owner / E-Commerce Content and Operations Manager · 2014–Present
@@ -58,7 +78,3 @@ Created core banking software documentation and supported the move from RoboHelp
 I own and operate [Vinyl Junction](https://vinyljunction.com), an independent Etsy business for vintage music and books. I maintain product-content schemas, editorial standards, metadata, taxonomy, and AI-assisted listing workflows with human review.
 
 My Vinyl Junction business records from 2014 through October 10, 2026 show more than $400,000 in cumulative revenue, approximately 837,000 shop visits, and more than 1.1 million listing views.
-
-## Leadership
-
-My management scope included four documentation engineers at Meta and a 16-person organization at Jack Henry. I used standards, coaching, operating data, and clear workflows to help teams produce consistent work and maintain it independently.

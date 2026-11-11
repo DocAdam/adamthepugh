@@ -7,25 +7,30 @@
 - Experience: I have more than 20 years of technical writing and documentation experience, including about 13 years of direct people management.
 - Focus: I work in product documentation, information architecture, content governance, migrations, documentation analytics, structured authoring, and workflow tooling.
 - Leadership: I previously worked as a Documentation Engineering Manager and Senior Manager of Technical Writing. I led a team of four and a 16-person documentation organization.
-- Education: I earned a B.A. in Journalism with a Minor in Communications from the University of Arizona in 2003.
+- Background: I have worked as an individual contributor, manager, and senior manager. This range connects page-level editorial work with planning, review, publishing, measurement, governance, and maintenance.
+- Technical range: I use Markdown, Docusaurus, and GitHub for docs-as-code work; XML, DITA, CMSs, and wikis for structured content and publishing; and Tableau, Excel, Power Query, SharePoint, and SQL for reporting, tracking, and analysis.
+- Education: I earned a Bachelor of Arts in Journalism with a Minor in Communications from the University of Arizona.
 - Current independent work: I have owned and operated Vinyl Junction since 2014.
 - Current publishing and open-data work: I publish Working Notes, maintain the reader-facing Good Doc Jobs database, and develop the Public Job Feed source pipeline.
 
+## How I work
+
+I start with the real source of a problem: product behavior, user tasks, existing content, operating data, and the people who maintain the system. I separate confirmed facts from assumptions. I then build the smallest useful content model, workflow, or tool and check it against the source.
+
 ## Selected evidence
 
-- [Working Notes and Good Doc Jobs](https://adamthepugh.com/docs/case-studies/working-notes-and-good-doc-jobs/): I built an ongoing publication, automated content-audit project, reader-facing job database, and public source pipeline for technical communicators.
-- [Euler documentation prototype](https://adamthepugh.com/docs/case-studies/euler-documentation-prototype/): I built an independent prototype from Euler’s public material to demonstrate a clearer documentation model.
-- [TeraCreators Help](https://adamthepugh.com/docs/case-studies/teracreators-help/): I published community documentation for five games, with a public guide and source repository.
-- [Migrations and information architecture](https://adamthepugh.com/docs/case-studies/migrations-and-ia/): I led a four-person team that migrated 101 product-documentation wikis across seven team groups and consolidated 1,157 source pages into 469 destination pages.
-- [Analytics and reporting](https://adamthepugh.com/docs/case-studies/analytics-and-reporting/): I created seven automated Tableau dashboards that received 735 views from 39 active users and supported 11 operations reviews per month.
-- [Documentation tooling and automation](https://adamthepugh.com/docs/case-studies/documentation-tooling-and-automation/): I built 10 internal documentation and workflow tools with more than 750 automated tests. The broader program was estimated to save 466 hours per year.
+- [Working Notes and Good Doc Jobs](https://adamthepugh.com/work/working-notes-good-doc-jobs/): I built an ongoing publication, automated content-audit project, reader-facing job database, and public source pipeline for technical communicators.
+- [TeraCreators Help](https://adamthepugh.com/work/teracreators-help/): I published community documentation for five games, with a public guide and source repository.
+- [Euler documentation prototype](https://adamthepugh.com/work/euler-documentation-prototype/): I built an independent prototype from Euler’s public material to demonstrate a clearer documentation model.
+- [Documentation migrations and information architecture](https://adamthepugh.com/work/documentation-migrations/): I led a four-person team that migrated 101 product-documentation wikis across seven team groups and consolidated 1,157 source pages into 469 destination pages.
+- [Documentation analytics and reporting](https://adamthepugh.com/work/documentation-analytics/): I created seven automated Tableau dashboards that received 735 views from 39 active users and supported 11 operations reviews per month.
+- [Documentation tooling and automation](https://adamthepugh.com/work/documentation-tooling/): I built 10 internal documentation and workflow tools with more than 750 automated tests. The broader program was estimated to save 466 hours per year.
 
 ## Career and portfolio
 
-- [Home](https://adamthepugh.com/docs/intro/): My professional summary and direct links to my strongest work.
-- [Selected work](https://adamthepugh.com/docs/case-studies/overview/): My public projects and enterprise work.
-- [Experience](https://adamthepugh.com/docs/experience/overview/): My role history, selected results, leadership scope, and Vinyl Junction work.
-- [About](https://adamthepugh.com/docs/about/): My working method, technical range, background, and education.
+- [Home](https://adamthepugh.com/): My professional focus and representative work.
+- [Work](https://adamthepugh.com/work/): My public projects and enterprise documentation systems.
+- [Experience](https://adamthepugh.com/experience/): My role history, selected results, leadership scope, and Vinyl Junction work.
 - [General résumé](https://adamthepugh.com/adam-pugh-resume.pdf): My downloadable résumé.
 
 ## Contact and public profiles

@@ -14,16 +14,29 @@ function readHtml(file) {
   const ids = new Set();
   const links = [];
   let base;
+  let redirect;
   function visit(node) {
     const attrs = Object.fromEntries((node.attrs || []).map(({name, value}) => [name, value]));
     if (attrs.id !== undefined) ids.add(attrs.id);
     if (node.tagName === 'a' && attrs.name) ids.add(attrs.name);
     if (['a', 'area'].includes(node.tagName) && attrs.href !== undefined) links.push(attrs.href);
     if (node.tagName === 'base' && attrs.href !== undefined && base === undefined) base = attrs.href;
+    if (node.tagName === 'meta' && attrs['http-equiv']?.toLowerCase() === 'refresh' && redirect === undefined) {
+      const match = attrs.content?.match(/^\s*\d+(?:\.\d+)?\s*;\s*url\s*=\s*(.*?)\s*$/i);
+      if (match) redirect = match[1].replace(/^["']|["']$/g, '');
+    }
     for (const child of node.childNodes || []) visit(child);
   }
   visit(parse(fs.readFileSync(file, 'utf8')));
-  return {ids, links, base};
+  return {ids, links, base, redirect};
+}
+
+function resolveFile(url, files) {
+  const target = decodeURIComponent(url.pathname).replace(/^\//, '');
+  const candidates = target.endsWith('/') || !target
+    ? [target + 'index.html']
+    : [target, target + '/index.html'];
+  return candidates.find((candidate) => files.has(candidate));
 }
 
 function checkLinks(outDir, siteUrl) {
@@ -33,6 +46,7 @@ function checkLinks(outDir, siteUrl) {
   const origin = new URL(siteUrl).origin;
   const errors = [];
   let checked = 0;
+  let redirects = 0;
   for (const [name, page] of pages) {
     const pagePath = '/' + name.replace(/(^|\/)index\.html$/, '$1');
     const pageUrl = new URL(pagePath, origin);
@@ -42,12 +56,11 @@ function checkLinks(outDir, siteUrl) {
         const url = new URL(href, base);
         if (!['https:', 'http:'].includes(url.protocol) || url.origin !== origin) continue;
         checked++;
-        const target = decodeURIComponent(url.pathname).replace(/^\//, '');
-        const candidates = target.endsWith('/') || !target
-          ? [target + 'index.html']
-          : [target, target + '/index.html'];
-        const resolved = candidates.find((candidate) => files.has(candidate));
+        const resolved = resolveFile(url, files);
         if (!resolved) throw new Error(`missing destination ${url.pathname}`);
+        if (page.redirect === undefined && pages.get(resolved)?.redirect !== undefined) {
+          throw new Error(`links to redirect /${resolved}; use its final destination`);
+        }
         // Directory redirects change the base URL, but preserve the fragment.
         const fragment = decodeURIComponent(url.hash.slice(1)).split(':~:text=')[0];
         if (fragment && pages.has(resolved) && !pages.get(resolved).ids.has(fragment)) {
@@ -57,8 +70,28 @@ function checkLinks(outDir, siteUrl) {
         errors.push(`${pagePath}: ${JSON.stringify(href)} -> ${error.message}`);
       }
     }
+    if (page.redirect !== undefined) {
+      redirects++;
+      try {
+        const url = new URL(page.redirect, base);
+        if (!['https:', 'http:'].includes(url.protocol) || url.origin !== origin) {
+          throw new Error(`redirect leaves the site: ${url.href}`);
+        }
+        const resolved = resolveFile(url, files);
+        if (!resolved) throw new Error(`missing redirect destination ${url.pathname}`);
+        if (pages.get(resolved)?.redirect !== undefined) {
+          throw new Error(`redirect chain through /${resolved}`);
+        }
+        const fragment = decodeURIComponent(url.hash.slice(1)).split(':~:text=')[0];
+        if (fragment && pages.has(resolved) && !pages.get(resolved).ids.has(fragment)) {
+          throw new Error(`missing anchor #${fragment} in /${resolved}`);
+        }
+      } catch (error) {
+        errors.push(`${pagePath}: redirect ${JSON.stringify(page.redirect)} -> ${error.message}`);
+      }
+    }
   }
-  return {pages: pages.size, checked, errors};
+  return {pages: pages.size, checked, redirects, errors};
 }
 
 module.exports = {checkLinks};

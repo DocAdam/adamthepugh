@@ -1,9 +1,10 @@
 ---
-title: "Migrations and Information Architecture"
+slug: /work/documentation-migrations
+title: "Documentation migrations and information architecture"
 description: "How I led a 2022 Meta program that migrated 101 product-documentation wikis and consolidated 1,157 source pages into 469 destination pages."
 ---
 
-# Migrations and Information Architecture
+# Documentation migrations and information architecture
 
 **Context:** Meta, Documentation Engineering Manager, 2022<br />
 **Audience:** Internal employees, documentation maintainers, and partner teams<br />

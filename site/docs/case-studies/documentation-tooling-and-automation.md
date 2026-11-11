@@ -1,9 +1,10 @@
 ---
-title: "Documentation Tooling and Automation"
+slug: /work/documentation-tooling
+title: "Documentation tooling and automation"
 description: "How I built and validated documentation workflow tools during my 2025–2026 Meta work."
 ---
 
-# Documentation Tooling and Automation
+# Documentation tooling and automation
 
 **Context:** Meta, Senior Documentation Engineer, 2025–2026<br />
 **Audience:** Documentation contributors and internal operating partners
@@ -20,6 +21,11 @@ I identified the problems, designed the workflows, directed AI-assisted implemen
 - An image-lookup tool for media stored in inconsistent CMS locations.
 - Review and submission checks that applied standards from real editorial feedback.
 - Workflow support for task setup, content synchronization, and change triage.
+
+<span id="the-documentation-system-i-work-in"></span>
+<span id="tool-families"></span>
+<span id="what-that-looks-like-in-practice"></span>
+<span id="a-practical-technical-range"></span>
 
 ## Scale and validation
 

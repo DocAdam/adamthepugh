@@ -1,5 +1,6 @@
 ---
-title: "TeraCreators Help Documentation Project"
+slug: /work/teracreators-help
+title: "TeraCreators Help"
 description: "How Adam Pugh organized scattered community and company sources into published guides for five games."
 ---
 

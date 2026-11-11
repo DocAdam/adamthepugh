@@ -16,19 +16,42 @@ function fixture(t, files) {
   return dir;
 }
 
-test('rejects the original Work and Home card paths; accepts corrected paths', (t) => {
+function sourceFiles(directory) {
+  return fs.readdirSync(directory, {withFileTypes: true}).flatMap((entry) => {
+    const file = path.join(directory, entry.name);
+    return entry.isDirectory() ? sourceFiles(file) : [file];
+  });
+}
+
+test('rejects broken relative card paths and accepts clean canonical paths', (t) => {
   const files = {
-    'docs/case-studies/overview/index.html': '<a href="./euler-documentation-prototype">Euler</a>',
-    'docs/intro/index.html': '<a href="./case-studies/overview">Work</a>',
-    'docs/case-studies/euler-documentation-prototype/index.html': '<h1>Euler</h1>',
+    'work/index.html': '<a href="./missing-euler">Euler</a>',
+    'index.html': '<a href="./missing-work">Work</a>',
+    'work/euler-documentation-prototype/index.html': '<h1>Euler</h1>',
   };
   const dir = fixture(t, files);
   const result = checkLinks(dir, 'https://adamthepugh.com');
   assert.equal(result.errors.length, 2);
-  assert.match(result.errors.join('\n'), /overview\/euler-documentation-prototype/);
-  assert.match(result.errors.join('\n'), /intro\/case-studies\/overview/);
-  fs.writeFileSync(path.join(dir, 'docs/case-studies/overview/index.html'), '<a href="/docs/case-studies/euler-documentation-prototype/">Euler</a>');
-  fs.writeFileSync(path.join(dir, 'docs/intro/index.html'), '<a href="/docs/case-studies/overview/">Work</a>');
+  assert.match(result.errors.join('\n'), /work\/missing-euler/);
+  assert.match(result.errors.join('\n'), /missing-work/);
+  fs.writeFileSync(path.join(dir, 'work/index.html'), '<a href="/work/euler-documentation-prototype/">Euler</a>');
+  fs.writeFileSync(path.join(dir, 'index.html'), '<a href="/work/">Work</a>');
+  assert.deepEqual(checkLinks(dir, 'https://adamthepugh.com').errors, []);
+});
+
+test('rejects canonical links to redirects and rejects redirect chains', (t) => {
+  const dir = fixture(t, {
+    'index.html': '<a href="/old/">Old route</a>',
+    'old/index.html': '<meta http-equiv="refresh" content="0; url=/middle/">',
+    'middle/index.html': '<meta http-equiv="refresh" content="0; url=/new/">',
+    'new/index.html': '<h1>New</h1>',
+  });
+  const result = checkLinks(dir, 'https://adamthepugh.com');
+  assert.match(result.errors.join('\n'), /links to redirect/);
+  assert.match(result.errors.join('\n'), /redirect chain/);
+
+  fs.writeFileSync(path.join(dir, 'index.html'), '<a href="/new/">New route</a>');
+  fs.writeFileSync(path.join(dir, 'old/index.html'), '<meta http-equiv="refresh" content="0; url=/new/">');
   assert.deepEqual(checkLinks(dir, 'https://adamthepugh.com').errors, []);
 });
 
@@ -60,9 +83,25 @@ test('rejects an empty output directory', (t) => {
 
 test('keeps the Euler html compatibility redirect aligned with the current route', () => {
   const redirect = fs.readFileSync(path.join(__dirname, '..', 'static', 'docs', 'case-studies', 'euler-documentation-prototype.html'), 'utf8');
-  const target = '/docs/case-studies/euler-documentation-prototype/';
+  const target = '/work/euler-documentation-prototype/';
   assert.match(redirect, new RegExp(`http-equiv="refresh" content="0; url=${target}"`));
   assert.match(redirect, new RegExp(`rel="canonical" href="https://adamthepugh.com${target}"`));
   assert.match(redirect, new RegExp(`window.location.replace\\('${target.replaceAll('/', '\\/')}`));
   assert.match(redirect, new RegExp(`href="${target}"`));
+});
+
+test('keeps canonical source free of legacy case-study URLs', () => {
+  const siteDir = path.join(__dirname, '..');
+  const files = [
+    ...sourceFiles(path.join(siteDir, 'docs')),
+    path.join(siteDir, 'static', 'llms.txt'),
+    path.join(siteDir, 'docusaurus.config.js'),
+  ];
+  for (const file of files) {
+    assert.doesNotMatch(
+      fs.readFileSync(file, 'utf8'),
+      /(?:https:\/\/adamthepugh\.com)?\/docs\/case-studies(?:\/|\b)/,
+      `${path.relative(siteDir, file)} must link to its final /work/ route`,
+    );
+  }
 });
