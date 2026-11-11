@@ -22,9 +22,9 @@ I start with the real source of a problem: product behavior, user tasks, existin
 - [Working Notes and Good Doc Jobs](https://adamthepugh.com/work/working-notes-good-doc-jobs/): I built an ongoing publication, automated content-audit project, reader-facing job database, and public source pipeline for technical communicators.
 - [TeraCreators Help](https://adamthepugh.com/work/teracreators-help/): I published community documentation for five games, with a public guide and source repository.
 - [Euler documentation prototype](https://adamthepugh.com/work/euler-documentation-prototype/): I built an independent prototype from Euler’s public material to demonstrate a clearer documentation model.
-- [Documentation migrations and information architecture](https://adamthepugh.com/work/documentation-migrations/): I led a four-person team that migrated 101 product-documentation wikis across seven team groups and consolidated 1,157 source pages into 469 destination pages.
-- [Documentation analytics and reporting](https://adamthepugh.com/work/documentation-analytics/): I created seven automated Tableau dashboards that received 735 views from 39 active users and supported 11 operations reviews per month.
-- [Documentation tooling and automation](https://adamthepugh.com/work/documentation-tooling/): I built 10 internal documentation and workflow tools with more than 750 automated tests. The broader program was estimated to save 466 hours per year.
+- [Migrations and information architecture](https://adamthepugh.com/work/documentation-migrations/): I led a four-person team that migrated 101 product-documentation wikis across seven team groups and consolidated 1,157 source pages into 469 destination pages.
+- [Analytics and reporting](https://adamthepugh.com/work/documentation-analytics/): I created seven automated Tableau dashboards that received 735 views from 39 active users and supported 11 operations reviews per month.
+- [Tooling and automation](https://adamthepugh.com/work/documentation-tooling/): I built 10 internal documentation and workflow tools with more than 750 automated tests. The broader program was estimated to save 466 hours per year.
 
 ## Career and portfolio
 

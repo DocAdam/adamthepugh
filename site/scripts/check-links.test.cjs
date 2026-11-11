@@ -124,3 +124,39 @@ test('publishes the documentation analytics gallery from local static assets', (
 
   assert.doesNotMatch(page, /user-images\.githubusercontent\.com|public\.tableau\.com/);
 });
+
+test('keeps enterprise page names concise and consistent', () => {
+  const siteDir = path.join(__dirname, '..');
+  const pages = new Map([
+    ['migrations-and-ia.md', 'Migrations and information architecture'],
+    ['analytics-and-reporting.md', 'Analytics and reporting'],
+    ['documentation-tooling-and-automation.md', 'Tooling and automation'],
+  ]);
+
+  for (const [file, title] of pages) {
+    const source = fs.readFileSync(path.join(siteDir, 'docs', 'case-studies', file), 'utf8');
+    assert.match(source, new RegExp(`^title: "${title}"$`, 'm'));
+    assert.match(source, new RegExp(`^# ${title}$`, 'm'));
+  }
+
+  const activeSources = [
+    ...sourceFiles(path.join(siteDir, 'docs')),
+    path.join(siteDir, 'static', 'llms.txt'),
+    path.join(siteDir, '..', 'README.md'),
+  ];
+  const repeatedNames = [
+    'Documentation migrations and information architecture',
+    'Documentation analytics and reporting',
+    'Documentation tooling and automation',
+  ];
+
+  for (const file of activeSources) {
+    const source = fs.readFileSync(file, 'utf8');
+    for (const name of repeatedNames) {
+      assert.doesNotMatch(source, new RegExp(name), `${path.relative(siteDir, file)} must use the concise enterprise page name`);
+    }
+  }
+
+  const overview = fs.readFileSync(path.join(siteDir, 'docs', 'case-studies', 'overview.md'), 'utf8');
+  assert.doesNotMatch(overview, /status-label">Enterprise documentation system</);
+});

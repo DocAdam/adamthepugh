@@ -1,10 +1,10 @@
 ---
 slug: /work/documentation-analytics
-title: "Documentation analytics and reporting"
+title: "Analytics and reporting"
 description: "A 2022 Meta documentation analytics system that reduced reporting effort and made team work visible."
 ---
 
-# Documentation analytics and reporting
+# Analytics and reporting
 
 **Context:** Meta, Documentation Engineering Manager, 2022<br />
 **Audience:** Documentation managers, team members, and operating partners
@@ -51,7 +51,7 @@ These 2022 Tableau views show two parts of the reporting system. The migration d
   </figure>
 </div>
 
-These images are dated operational snapshots. Their totals reflect the selected dates and filters. See [Documentation migrations and information architecture](/work/documentation-migrations/) for the final full-program totals and outcomes.
+These images are dated operational snapshots. Their totals reflect the selected dates and filters. See [Migrations and information architecture](/work/documentation-migrations/) for the final full-program totals and outcomes.
 
 <span id="where-the-work-helps"></span>
 

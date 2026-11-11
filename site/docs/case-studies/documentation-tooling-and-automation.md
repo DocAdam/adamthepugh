@@ -1,10 +1,10 @@
 ---
 slug: /work/documentation-tooling
-title: "Documentation tooling and automation"
+title: "Tooling and automation"
 description: "How I built and validated documentation workflow tools during my 2025–2026 Meta work."
 ---
 
-# Documentation tooling and automation
+# Tooling and automation
 
 **Context:** Meta, Senior Documentation Engineer, 2025–2026<br />
 **Audience:** Documentation contributors and internal operating partners

@@ -60,7 +60,7 @@ import Head from '@docusaurus/Head';
   </article>
   <article className="work-item">
     <p className="status-label">Enterprise documentation system</p>
-    <h3>Documentation migrations and information architecture</h3>
+    <h3>Migrations and information architecture</h3>
     <p>I led a four-person team that migrated 101 product-documentation wikis and consolidated 1,157 source pages into 469 destination pages.</p>
     <p><a href="/work/documentation-migrations/">Read the project</a></p>
   </article>

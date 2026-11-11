@@ -1,10 +1,10 @@
 ---
 slug: /work/documentation-migrations
-title: "Documentation migrations and information architecture"
+title: "Migrations and information architecture"
 description: "How I led a 2022 Meta program that migrated 101 product-documentation wikis and consolidated 1,157 source pages into 469 destination pages."
 ---
 
-# Documentation migrations and information architecture
+# Migrations and information architecture
 
 **Context:** Meta, Documentation Engineering Manager, 2022<br />
 **Audience:** Internal employees, documentation maintainers, and partner teams<br />
@@ -31,4 +31,4 @@ I also built migration tracking and content-discovery workflows that saved an **
 | Show progress across teams | Reported product-wiki projects and page counts as separate measures. |
 | Make later work repeatable | Created process guidance and training for the migration tracker. |
 
-See [Documentation analytics and reporting](/work/documentation-analytics/) for examples of the Tableau dashboards used to report migration progress.
+See [Analytics and reporting](/work/documentation-analytics/) for examples of the Tableau dashboards used to report migration progress.

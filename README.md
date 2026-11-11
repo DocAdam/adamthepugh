@@ -13,9 +13,9 @@ The sitemap contains these nine canonical pages:
 - [Working Notes and Good Doc Jobs](https://adamthepugh.com/work/working-notes-good-doc-jobs/): A publication, content-audit project, public jobs database, and open data pipeline.
 - [TeraCreators Help](https://adamthepugh.com/work/teracreators-help/): A published help system for five games.
 - [Euler documentation prototype](https://adamthepugh.com/work/euler-documentation-prototype/): An independent working prototype for clearer MCP and product documentation.
-- [Documentation migrations and information architecture](https://adamthepugh.com/work/documentation-migrations/): A 101-wiki migration program that consolidated 1,157 source pages into 469 destination pages.
-- [Documentation analytics and reporting](https://adamthepugh.com/work/documentation-analytics/): A SharePoint tracking system, seven Tableau dashboards, and four dashboard examples for documentation work across more than 400 internal products.
-- [Documentation tooling and automation](https://adamthepugh.com/work/documentation-tooling/): Internal tools and tests for repeated documentation workflow problems.
+- [Migrations and information architecture](https://adamthepugh.com/work/documentation-migrations/): A 101-wiki migration program that consolidated 1,157 source pages into 469 destination pages.
+- [Analytics and reporting](https://adamthepugh.com/work/documentation-analytics/): A SharePoint tracking system, seven Tableau dashboards, and four dashboard examples for documentation work across more than 400 internal products.
+- [Tooling and automation](https://adamthepugh.com/work/documentation-tooling/): Internal tools and tests for repeated documentation workflow problems.
 - [Experience](https://adamthepugh.com/experience/): Role history, selected results, leadership scope, and Vinyl Junction work.
 
 The site has no public About page. Home contains the useful working-method content. `site/static/llms.txt` contains the longer professional profile and background information. Education information does not include a graduation year.
