@@ -60,12 +60,14 @@ test('keeps home page metadata aligned with the hero', () => {
   const home = fs.readFileSync(path.join(siteDir, 'docs', 'intro.md'), 'utf8');
   const config = fs.readFileSync(path.join(siteDir, 'docusaurus.config.js'), 'utf8');
   const llms = fs.readFileSync(path.join(siteDir, 'static', 'llms.txt'), 'utf8');
-  const title = 'Adam Pugh | Technical Writing, Documentation Systems &amp; Operations';
-  const description = 'Technical writing, documentation engineering, and docs leadership—building clear content and the systems that keep it accurate.';
+  const pageTitle = 'Adam Pugh | Technical Writing &amp; Documentation';
+  const socialTitle = 'Adam Pugh | Technical Writing, Documentation Systems &amp; Operations';
+  const description = 'Technical writing, documentation engineering, and docs leadership, building clear content and the systems that keep it accurate.';
 
-  assert.equal((home.match(new RegExp(title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length, 3);
+  assert.equal((home.match(new RegExp(pageTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length, 1);
+  assert.equal((home.match(new RegExp(socialTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length, 2);
   assert.equal((home.match(new RegExp(description.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length, 5);
-  assert.match(home, new RegExp(`<meta property="og:title" content="${title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}" \\/>`));
+  assert.match(home, new RegExp(`<meta property="og:title" content="${socialTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}" \\/>`));
   assert.match(home, /<meta property="og:image" content="https:\/\/adamthepugh\.com\/img\/social-card\.png" \/>/);
   assert.match(home, /<meta property="og:image:alt" content="Adam Pugh\. Technical Writing, Documentation Systems &amp; Operations\." \/>/);
   assert.match(home, /<meta property="og:url" content="https:\/\/adamthepugh\.com\/" \/>/);
@@ -167,7 +169,8 @@ test('keeps the Experience structure, evidence, and Work links stable', () => {
 
   assert.match(experience, /with 13 years of direct people management/);
   assert.doesNotMatch(experience, /about 13 years/i);
-  assert.match(experience, /^## Core capabilities$/m);
+  assert.match(experience, /^## What I bring$/m);
+  assert.doesNotMatch(experience, /Capability [123]/);
   assert.match(experience, /className="work-grid experience-capabilities"/);
   assert.equal((experience.match(/className="work-card"/g) || []).length, 3);
   assert.match(css, /\.experience-capabilities\s*\{[\s\S]*grid-template-columns: repeat\(3, minmax\(0, 1fr\)\);/);
@@ -197,9 +200,27 @@ test('keeps the Experience structure, evidence, and Work links stable', () => {
   assert.match(experience, /approximately 837,000 shop visits/);
   assert.match(experience, /more than 1\.1 million listing views/);
 
-  assert.match(experience, /\]\(\/work\/documentation-tooling\/\)/);
-  assert.match(experience, /\]\(\/work\/documentation-analytics\/\)/);
-  assert.equal((experience.match(/\]\(\/work\/documentation-migrations\/\)/g) || []).length, 2);
+  assert.equal((experience.match(/className="experience-related-links"/g) || []).length, 2);
+  assert.match(experience, /href="\/work\/documentation-tooling\/">Tooling and automation<\/a>/);
+  assert.match(experience, /href="\/work\/documentation-analytics\/">Analytics and reporting<\/a>/);
+  assert.match(experience, /href="\/work\/documentation-migrations\/">Migrations and information architecture<\/a>/);
+  assert.match(css, /\.experience-related-links\s*\{/);
+});
+
+test('keeps active source free of em dashes', () => {
+  const emDash = String.fromCodePoint(0x2014);
+  const files = [
+    ...contentFiles(path.join(siteDir, 'docs')),
+    ...contentFiles(path.join(siteDir, 'src')),
+    path.join(siteDir, 'docusaurus.config.js'),
+    path.join(siteDir, 'sidebars.js'),
+    path.join(siteDir, 'static', 'llms.txt'),
+    path.join(siteDir, 'static', 'docs', 'case-studies', 'euler-documentation-prototype.html'),
+  ];
+
+  for (const file of files) {
+    assert.doesNotMatch(fs.readFileSync(file, 'utf8'), new RegExp(emDash), `${path.relative(siteDir, file)} must not use em dashes`);
+  }
 });
 
 test('keeps Work headings in the generated table of contents and offsets the skip target', () => {

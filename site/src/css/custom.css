@@ -240,6 +240,12 @@ html {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.experience-related-links {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.9rem;
+  margin: 0.75rem 0 1.5rem;
+}
+
 .work-card {
   background: var(--ifm-background-surface-color);
   border: 1px solid var(--ifm-toc-border-color);

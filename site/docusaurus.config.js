@@ -3,7 +3,7 @@ const {redirectGroups} = require('./route-contract.cjs');
 
 const config = {
   title: 'Adam Pugh',
-  tagline: 'Technical writing, documentation engineering, and docs leadership—building clear content and the systems that keep it accurate.',
+  tagline: 'Technical writing, documentation engineering, and docs leadership, building clear content and the systems that keep it accurate.',
   favicon: 'img/logo.svg',
 
   future: {

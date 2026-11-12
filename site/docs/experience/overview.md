@@ -21,21 +21,18 @@ For more than 20 years, I have built documentation and the systems that support 
   <span id="leadership"></span>
 </div>
 
-## Core capabilities
+## What I bring
 
 <div className="work-grid experience-capabilities">
   <article className="work-card">
-    <p className="status-label">Capability 1</p>
     <h3>Documentation systems and tooling</h3>
     <p>I build documentation workflows, governance systems, reporting, and validated tools that make repeated work more reliable and maintainable.</p>
   </article>
   <article className="work-card">
-    <p className="status-label">Capability 2</p>
     <h3>Information architecture at scale</h3>
     <p>I plan migrations, restructure large page sets, and create content models that help teams find, govern, and maintain information.</p>
   </article>
   <article className="work-card">
-    <p className="status-label">Capability 3</p>
     <h3>Team leadership and operations</h3>
     <p>I have 13 years of direct people management across teams of up to 16 people, with responsibility for hiring, mentoring, operations, and delivery.</p>
   </article>
@@ -54,7 +51,9 @@ Led documentation operations for internal recruiting products across the hiring 
 - Supported 20 user-facing launches through May 2026.
 - Reorganized and standardized more than 139 high-traffic documentation pages.
 - Built a freshness and governance system for 234 pages.
-- Built [10 internal documentation and workflow tools with more than 750 automated tests](/work/documentation-tooling/).
+- Built 10 internal documentation and workflow tools with more than 750 automated tests.
+
+<p className="experience-related-links"><strong>Related work:</strong> <a href="/work/documentation-tooling/">Tooling and automation</a></p>
 
 <div aria-hidden="true">
   <span id="documentation-manager--20222023"></span>
@@ -64,10 +63,12 @@ Led documentation operations for internal recruiting products across the hiring 
 
 Led four documentation engineers who assumed responsibility for documentation across more than 400 internal Enterprise Engineering products.
 
-- Replaced a Google Doc tracker with a [SharePoint database and seven Tableau dashboards](/work/documentation-analytics/) for management reporting.
-- Led a team that [migrated 101 product-documentation wikis across seven team groups](/work/documentation-migrations/).
-- [Consolidated 1,157 source pages into 469 destination pages](/work/documentation-migrations/) through review, archiving, removal, and restructuring.
+- Replaced a Google Doc tracker with a SharePoint database and connected the data to seven Tableau dashboards for management reporting.
+- Led a team that migrated 101 product-documentation wikis across seven team groups.
+- Consolidated 1,157 source pages into 469 destination pages through review, archiving, removal, and restructuring.
 - Restored access to 170 archived wiki pages used by internal users.
+
+<p className="experience-related-links"><strong>Related work:</strong> <a href="/work/documentation-analytics/">Analytics and reporting</a> · <a href="/work/documentation-migrations/">Migrations and information architecture</a></p>
 
 <div aria-hidden="true">
   <span id="jack-henry"></span>

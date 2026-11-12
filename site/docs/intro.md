@@ -10,18 +10,18 @@ pagination_next: null
 import Head from '@docusaurus/Head';
 
 <Head>
-  <title>Adam Pugh | Technical Writing, Documentation Systems &amp; Operations</title>
+  <title>Adam Pugh | Technical Writing &amp; Documentation</title>
   <meta
     name="description"
-    content="Technical writing, documentation engineering, and docs leadership—building clear content and the systems that keep it accurate."
+    content="Technical writing, documentation engineering, and docs leadership, building clear content and the systems that keep it accurate."
   />
   <meta property="og:title" content="Adam Pugh | Technical Writing, Documentation Systems &amp; Operations" />
-  <meta property="og:description" content="Technical writing, documentation engineering, and docs leadership—building clear content and the systems that keep it accurate." />
+  <meta property="og:description" content="Technical writing, documentation engineering, and docs leadership, building clear content and the systems that keep it accurate." />
   <meta property="og:image" content="https://adamthepugh.com/img/social-card.png" />
   <meta property="og:image:alt" content="Adam Pugh. Technical Writing, Documentation Systems &amp; Operations." />
   <meta property="og:url" content="https://adamthepugh.com/" />
   <meta name="twitter:title" content="Adam Pugh | Technical Writing, Documentation Systems &amp; Operations" />
-  <meta name="twitter:description" content="Technical writing, documentation engineering, and docs leadership—building clear content and the systems that keep it accurate." />
+  <meta name="twitter:description" content="Technical writing, documentation engineering, and docs leadership, building clear content and the systems that keep it accurate." />
   <meta name="twitter:image:alt" content="Adam Pugh. Technical Writing, Documentation Systems &amp; Operations." />
   <script type="application/ld+json">{JSON.stringify({
     '@context': 'https://schema.org',
@@ -32,7 +32,7 @@ import Head from '@docusaurus/Head';
       url: 'https://adamthepugh.com/',
       image: 'https://adamthepugh.com/img/headshot.jpg',
       jobTitle: 'Technical Writing and Documentation Operations Leader',
-      description: 'Technical writing, documentation engineering, and docs leadership—building clear content and the systems that keep it accurate.',
+      description: 'Technical writing, documentation engineering, and docs leadership, building clear content and the systems that keep it accurate.',
       sameAs: [
         'https://www.linkedin.com/in/adampugh/',
         'https://github.com/DocAdam',
@@ -47,7 +47,7 @@ import Head from '@docusaurus/Head';
 
   <div className="intro-copy">
     <h1>Adam Pugh</h1>
-    <p className="intro-tagline">Technical writing, documentation engineering, and docs leadership—building clear content and the systems that keep it accurate.</p>
+    <p className="intro-tagline">Technical writing, documentation engineering, and docs leadership, building clear content and the systems that keep it accurate.</p>
     <p>I work across information architecture, content governance, migrations, analytics, and practical tooling. This range connects page-level work to documentation operations and long-term maintenance.</p>
     <p>I also publish <a href="/work/working-notes/">Working Notes</a> and maintain <a href="/work/good-doc-jobs/">Good Doc Jobs</a>, a free database for documentation job seekers.</p>
     <div className="primary-actions">
