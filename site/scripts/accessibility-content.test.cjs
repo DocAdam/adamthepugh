@@ -58,13 +58,35 @@ test('keeps Featured work order and external-link behavior stable', () => {
 
 test('keeps home page metadata aligned with the hero', () => {
   const home = fs.readFileSync(path.join(siteDir, 'docs', 'intro.md'), 'utf8');
-  const description = 'I make complex product documentation and knowledge systems easier to use, govern, and maintain.';
+  const config = fs.readFileSync(path.join(siteDir, 'docusaurus.config.js'), 'utf8');
+  const llms = fs.readFileSync(path.join(siteDir, 'static', 'llms.txt'), 'utf8');
+  const title = 'Adam Pugh | Technical Writing, Documentation Systems &amp; Operations';
+  const description = 'Technical writing, documentation engineering, and docs leadership—building clear content and the systems that keep it accurate.';
 
-  assert.equal((home.match(new RegExp(description.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length, 4);
-  assert.match(home, /<meta property="og:title" content="Adam Pugh \| Senior Documentation Engineer" \/>/);
+  assert.equal((home.match(new RegExp(title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length, 3);
+  assert.equal((home.match(new RegExp(description.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length, 5);
+  assert.match(home, new RegExp(`<meta property="og:title" content="${title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}" \\/>`));
   assert.match(home, /<meta property="og:image" content="https:\/\/adamthepugh\.com\/img\/social-card\.png" \/>/);
+  assert.match(home, /<meta property="og:image:alt" content="Adam Pugh\. Technical Writing, Documentation Systems &amp; Operations\." \/>/);
   assert.match(home, /<meta property="og:url" content="https:\/\/adamthepugh\.com\/" \/>/);
+  assert.match(home, /<meta name="twitter:title"/);
+  assert.match(home, /<meta name="twitter:description"/);
+  assert.match(home, /<meta name="twitter:image:alt"/);
+  assert.match(home, /jobTitle: 'Technical Writing and Documentation Operations Leader'/);
+  assert.match(config, new RegExp(`tagline: '${description.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`));
+  assert.match(llms, new RegExp(`^> ${description.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`, 'm'));
+  assert.match(llms, /including 13 years of direct people management/);
+  assert.doesNotMatch(`${config}\n${home}\n${llms}`, /Senior Documentation Engineer/);
+  assert.doesNotMatch(llms, /about 13 years/i);
   assert.match(home, /<div aria-hidden="true">\s*<span id="the-working-model"><\/span>/);
+});
+
+test('keeps factual Meta role references unchanged', () => {
+  const experience = fs.readFileSync(path.join(siteDir, 'docs', 'experience', 'overview.md'), 'utf8');
+  const tooling = fs.readFileSync(path.join(siteDir, 'docs', 'case-studies', 'documentation-tooling-and-automation.md'), 'utf8');
+
+  assert.match(experience, /^### Senior Documentation Engineer · July 2023–July 2026$/m);
+  assert.match(tooling, /^\*\*Context:\*\* Meta, Senior Documentation Engineer, 2025–2026<br \/>$/m);
 });
 
 test('keeps internal and external links consistent outside the home page', () => {

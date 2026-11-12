@@ -1,10 +1,10 @@
 # Adam Pugh
 
-> I am a Senior Documentation Engineer who makes complex product documentation and knowledge systems easier to use, govern, and maintain.
+> Technical writing, documentation engineering, and docs leadership—building clear content and the systems that keep it accurate.
 
 ## Professional profile
 
-- Experience: I have more than 20 years of technical writing and documentation experience, including about 13 years of direct people management.
+- Experience: I have more than 20 years of technical writing and documentation experience, including 13 years of direct people management.
 - Focus: I work in product documentation, information architecture, content governance, migrations, documentation analytics, structured authoring, and workflow tooling.
 - Leadership: I previously worked as a Documentation Engineering Manager and Senior Manager of Technical Writing. I led a team of four and a 16-person documentation organization.
 - Background: I have worked as an individual contributor, manager, and senior manager. This range connects page-level editorial work with planning, review, publishing, measurement, governance, and maintenance.
