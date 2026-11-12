@@ -49,7 +49,7 @@ import Head from '@docusaurus/Head';
     <h1>Adam Pugh</h1>
     <p className="intro-tagline">Technical writing, documentation engineering, and docs leadership, building clear content and the systems that keep it accurate.</p>
     <p>I work across information architecture, content governance, migrations, analytics, and practical tooling. This range connects page-level work to documentation operations and long-term maintenance.</p>
-    <p>I also publish <a href="/work/working-notes/">Working Notes</a> and maintain <a href="/work/good-doc-jobs/">Good Doc Jobs</a>, a free database for documentation job seekers.</p>
+    <p>I also publish <a href="/work/working-notes/">Working Notes</a> and maintain <a href="/work/good-doc-jobs/">Good Doc Jobs</a>, a free database of technical writing and documentation-related jobs.</p>
     <div className="primary-actions">
       <a className="button button--primary" href="/work/">View work</a>
       <a className="button button--secondary" href="/adam-pugh-resume.pdf">Resume (PDF)</a>
@@ -69,7 +69,7 @@ import Head from '@docusaurus/Head';
   <article className="work-item">
     <p className="status-label">Open-data product</p>
     <h3>Good Doc Jobs</h3>
-    <p>I maintain a free jobs database and a public source pipeline that supports collection, review, validation, and publication.</p>
+    <p>I maintain a free database of technical writing and documentation-related jobs and a public source pipeline that supports collection, review, validation, and publication.</p>
     <p><a href="/work/good-doc-jobs/">Overview</a> · <a href="https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Browse database ↗</a></p>
   </article>
   <article className="work-item">

@@ -1,7 +1,7 @@
 ---
 slug: /work/good-doc-jobs
 title: "Good Doc Jobs"
-description: "A free documentation jobs database supported by a public source, review, and publication pipeline."
+description: "A free database of technical writing and documentation-related jobs, supported by a public source, review, and publication pipeline."
 sidebar_label: "Good Doc Jobs"
 ---
 
@@ -13,7 +13,7 @@ sidebar_label: "Good Doc Jobs"
 **Status:** Active and ongoing (launched 2026)<br />
 **Audience:** Technical communicators and documentation job seekers
 
-I built <a href="https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Good Doc Jobs ↗</a> as a free, reader-facing database for documentation and related jobs. I built <a href="https://github.com/DocAdam/public-job-feed" target="_blank" rel="noopener noreferrer">Public Job Feed ↗</a> as the source and review system behind it.
+I built <a href="https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Good Doc Jobs ↗</a> as a free, reader-facing database of technical writing and documentation-related jobs. I built <a href="https://github.com/DocAdam/public-job-feed" target="_blank" rel="noopener noreferrer">Public Job Feed ↗</a> as the source and review system behind it.
 
 ## The problem
 

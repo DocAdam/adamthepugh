@@ -11,7 +11,7 @@
 - Technical range: I use Markdown, Docusaurus, and GitHub for docs-as-code work; XML, DITA, CMSs, and wikis for structured content and publishing; and Tableau, Excel, Power Query, SharePoint, and SQL for reporting, tracking, and analysis.
 - Education: I earned a Bachelor of Arts in Journalism with a Minor in Communications from the University of Arizona.
 - Current independent work: I have owned and operated Vinyl Junction since 2014.
-- Current publishing and open-data work: I publish Working Notes, maintain the reader-facing Good Doc Jobs database, and develop the Public Job Feed source pipeline.
+- Current publishing and open-data work: I publish Working Notes, maintain the reader-facing Good Doc Jobs database of technical writing and documentation-related jobs, and develop the Public Job Feed source pipeline.
 
 ## How I work
 
@@ -20,7 +20,7 @@ I start with the real source of a problem: product behavior, user tasks, existin
 ## Selected work
 
 - [Working Notes](https://adamthepugh.com/work/working-notes/): I publish articles, evidence-based content audits, job roundups, and project methods for technical communicators.
-- [Good Doc Jobs](https://adamthepugh.com/work/good-doc-jobs/): I built a free reader-facing jobs database and a public source, review, validation, and publication pipeline.
+- [Good Doc Jobs](https://adamthepugh.com/work/good-doc-jobs/): I built a free reader-facing database of technical writing and documentation-related jobs and a public source, review, validation, and publication pipeline.
 - [TeraCreators Help](https://adamthepugh.com/work/teracreators-help/): I published community documentation for five games, with a public guide and source repository.
 - [Euler documentation prototype](https://adamthepugh.com/work/euler-documentation-prototype/): I built an independent prototype from Euler’s public material to demonstrate a clearer documentation model.
 - [Migrations and information architecture](https://adamthepugh.com/work/documentation-migrations/): I led a four-person team that migrated 101 product-documentation wikis across seven team groups and consolidated 1,157 source pages into 469 destination pages.

@@ -249,3 +249,18 @@ test('keeps the Working Notes page concise without dropping its source links', (
   assert.match(page, /### Job research and project writing/);
   assert.match(page, /just-a-spreadsheet/);
 });
+
+test('keeps the Good Doc Jobs scope explicit in published summaries', () => {
+  const home = fs.readFileSync(path.join(siteDir, 'docs', 'intro.md'), 'utf8');
+  const overview = fs.readFileSync(path.join(siteDir, 'docs', 'case-studies', 'overview.md'), 'utf8');
+  const goodDocJobs = fs.readFileSync(path.join(siteDir, 'docs', 'case-studies', 'good-doc-jobs.md'), 'utf8');
+  const workingNotes = fs.readFileSync(path.join(siteDir, 'docs', 'case-studies', 'working-notes.md'), 'utf8');
+  const llms = fs.readFileSync(path.join(siteDir, 'static', 'llms.txt'), 'utf8');
+  const scope = /technical writing and documentation-related jobs?/;
+
+  assert.equal((home.match(new RegExp(scope.source, 'g')) || []).length, 2);
+  assert.match(overview, scope);
+  assert.equal((goodDocJobs.match(new RegExp(scope.source, 'g')) || []).length, 2);
+  assert.match(workingNotes, scope);
+  assert.equal((llms.match(new RegExp(scope.source, 'g')) || []).length, 2);
+});

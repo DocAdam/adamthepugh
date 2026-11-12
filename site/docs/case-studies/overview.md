@@ -24,7 +24,7 @@ These examples show how I organize complex information, improve documentation sy
     </div>
     <div className="work-grid">
       <article className="work-card work-card--featured"><p className="status-label">Independent publication</p><h3><a href="/work/working-notes/">Working Notes</a></h3><p>Articles about documentation systems, editorial audits, job research, and practical methods.</p></article>
-      <article className="work-card work-card--featured"><p className="status-label">Open-data product</p><h3><a href="/work/good-doc-jobs/">Good Doc Jobs</a></h3><p>A free jobs database supported by a public source, review, validation, and publication pipeline.</p></article>
+      <article className="work-card work-card--featured"><p className="status-label">Open-data product</p><h3><a href="/work/good-doc-jobs/">Good Doc Jobs</a></h3><p>A free database of technical writing and documentation-related jobs, supported by a public source, review, validation, and publication pipeline.</p></article>
       <article className="work-card"><p className="status-label">Community documentation</p><h3><a href="/work/teracreators-help/">TeraCreators Help</a></h3><p>A maintained help system organized from scattered player and company sources.</p></article>
     </div>
   </section>

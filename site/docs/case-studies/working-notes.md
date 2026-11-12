@@ -43,6 +43,6 @@ I combined automated checks with manual review and wrote the results for a publi
 
 ### Job research and project writing
 
-[Good Doc Jobs](/work/good-doc-jobs/) provides reviewed job records for reader-facing roundups. I also use Working Notes to explain the decisions behind the project. <a href="https://docadam.substack.com/p/just-a-spreadsheet" target="_blank" rel="noopener noreferrer">Just a Spreadsheet ↗</a> describes why the public spreadsheet stays simple while the source system keeps the detailed operating history.
+[Good Doc Jobs](/work/good-doc-jobs/) provides reviewed technical writing and documentation-related job records for reader-facing roundups. I also use Working Notes to explain the decisions behind the project. <a href="https://docadam.substack.com/p/just-a-spreadsheet" target="_blank" rel="noopener noreferrer">Just a Spreadsheet ↗</a> describes why the public spreadsheet stays simple while the source system keeps the detailed operating history.
 
 <a href="https://docadam.substack.com/" target="_blank" rel="noopener noreferrer">Read all Working Notes ↗</a> or [view the Good Doc Jobs project](/work/good-doc-jobs/).
