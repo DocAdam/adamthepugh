@@ -88,7 +88,9 @@ export default function GitHubActivity() {
           <ul className="github-activity__events">
             {events.map((event) => (
               <li key={event.id}>
-                <a href={eventUrl(event)}>{eventDescription(event)}</a>
+                <a href={eventUrl(event)} target="_blank" rel="noopener noreferrer">
+                  {eventDescription(event)} <span aria-hidden="true">↗</span>
+                </a>
                 <time dateTime={event.created_at}>{dateFormatter.format(new Date(event.created_at))}</time>
               </li>
             ))}
@@ -99,7 +101,7 @@ export default function GitHubActivity() {
         )}
       </div>
 
-      <a className="github-activity__link" href={PROFILE_URL}>View current activity on GitHub <span aria-hidden="true">→</span></a>
+      <a className="github-activity__link" href={PROFILE_URL} target="_blank" rel="noopener noreferrer">View current activity on GitHub <span aria-hidden="true">↗</span></a>
     </section>
   );
 }

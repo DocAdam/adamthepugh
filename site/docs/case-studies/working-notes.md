@@ -13,7 +13,7 @@ sidebar_label: "Working Notes"
 **Status:** Active and ongoing (launched 2026)<br />
 **Audience:** Technical communicators and documentation job seekers
 
-[Working Notes](https://docadam.substack.com/) is where I publish practical articles about documentation systems, editorial work, job research, and the methods behind my independent projects.
+<a href="https://docadam.substack.com/" target="_blank" rel="noopener noreferrer">Working Notes ↗</a> is where I publish practical articles about documentation systems, editorial work, job research, and the methods behind my independent projects.
 
 ## Selected publication work
 
@@ -37,12 +37,12 @@ These examples show two recurring parts of Working Notes: editorial audits and j
 
 ### Automated content audits
 
-I designed and used spelling-audit scripts to review public websites. The published [Grammarly audit](https://docadam.substack.com/p/everyone-needs-an-editor-grammarly) and [Unity audit](https://docadam.substack.com/p/everyone-needs-an-editor-unity) connect each finding to the source page and show the evidence behind each correction.
+I designed and used spelling-audit scripts to review public websites. The published <a href="https://docadam.substack.com/p/everyone-needs-an-editor-grammarly" target="_blank" rel="noopener noreferrer">Grammarly audit ↗</a> and <a href="https://docadam.substack.com/p/everyone-needs-an-editor-unity" target="_blank" rel="noopener noreferrer">Unity audit ↗</a> connect each finding to the source page and show the evidence behind each correction.
 
 I combined automated checks with manual review and wrote the results for a public audience.
 
 ### Job research and project writing
 
-[Good Doc Jobs](/work/good-doc-jobs/) provides reviewed job records for reader-facing roundups. I also use Working Notes to explain the decisions behind the project. [Just a Spreadsheet](https://docadam.substack.com/p/just-a-spreadsheet) describes why the public spreadsheet stays simple while the source system keeps the detailed operating history.
+[Good Doc Jobs](/work/good-doc-jobs/) provides reviewed job records for reader-facing roundups. I also use Working Notes to explain the decisions behind the project. <a href="https://docadam.substack.com/p/just-a-spreadsheet" target="_blank" rel="noopener noreferrer">Just a Spreadsheet ↗</a> describes why the public spreadsheet stays simple while the source system keeps the detailed operating history.
 
-[Read all Working Notes](https://docadam.substack.com/) or [view the Good Doc Jobs project](/work/good-doc-jobs/).
+<a href="https://docadam.substack.com/" target="_blank" rel="noopener noreferrer">Read all Working Notes ↗</a> or [view the Good Doc Jobs project](/work/good-doc-jobs/).

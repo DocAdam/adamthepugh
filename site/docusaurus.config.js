@@ -80,6 +80,8 @@ const config = {
           href: 'https://docadam.substack.com/',
           label: 'Writing',
           position: 'right',
+          target: '_blank',
+          rel: 'noopener noreferrer',
         },
         {
           type: 'html',
@@ -90,12 +92,14 @@ const config = {
           href: 'https://github.com/DocAdam',
           label: 'GitHub',
           position: 'right',
+          target: '_blank',
+          rel: 'noopener noreferrer',
         },
       ],
     },
     footer: {
       style: 'dark',
-      copyright: `<span class="footer__simple"><span>© ${new Date().getFullYear()} Adam Pugh</span><span aria-hidden="true">|</span><a href="https://www.linkedin.com/in/adampugh/">LinkedIn</a><span aria-hidden="true">|</span><a href="https://github.com/DocAdam">GitHub</a><span aria-hidden="true">|</span><a href="https://docadam.substack.com/">Substack</a></span>`,
+      copyright: `<span class="footer__simple"><span>© ${new Date().getFullYear()} Adam Pugh</span><span aria-hidden="true">|</span><a href="https://www.linkedin.com/in/adampugh/" target="_blank" rel="noopener noreferrer">LinkedIn</a><span aria-hidden="true">|</span><a href="https://github.com/DocAdam" target="_blank" rel="noopener noreferrer">GitHub</a><span aria-hidden="true">|</span><a href="https://docadam.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a></span>`,
     },
   }),
 };

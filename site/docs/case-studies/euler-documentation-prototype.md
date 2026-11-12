@@ -7,7 +7,7 @@ sidebar_label: "Euler documentation prototype"
 
 <p className="status-label">Independent prototype</p>
 
-[View the working prototype](https://docadam.github.io/docs-operating-system/euler/) or [view the project source](https://github.com/DocAdam/docs-operating-system).
+<a href="https://docadam.github.io/docs-operating-system/euler/" target="_blank" rel="noopener noreferrer">View the working prototype ↗</a> or <a href="https://github.com/DocAdam/docs-operating-system" target="_blank" rel="noopener noreferrer">view the project source on GitHub ↗</a>.
 
 ## Why I built it
 
@@ -15,7 +15,7 @@ Euler's public MCP material contains connection guidance, a tool catalog, access
 
 ## The documentation problem
 
-The public [MCP reference](https://mcp.eulerapp.com/public/docs) and [structured manifest](https://mcp.eulerapp.com/public/docs.json) contain useful source material. Dense presentation can make it difficult to separate a tool's purpose from its inputs, access limits, and results.
+The public <a href="https://mcp.eulerapp.com/public/docs" target="_blank" rel="noopener noreferrer">MCP reference ↗</a> and <a href="https://mcp.eulerapp.com/public/docs.json" target="_blank" rel="noopener noreferrer">structured manifest ↗</a> contain useful source material. Dense presentation can make it difficult to separate a tool's purpose from its inputs, access limits, and results.
 
 I added a documentation layer around the technical detail. It includes task context, readable examples, grouped inputs, plain-language results, and a route to troubleshooting.
 
@@ -65,7 +65,7 @@ The proposed system connects public pages to source records, owners, and review 
 
 ## What the prototype shows
 
-The [public working prototype](https://docadam.github.io/docs-operating-system/euler/) combines connection guidance, tool reference examples, and a proposed maintenance model in one system that people can explore.
+The <a href="https://docadam.github.io/docs-operating-system/euler/" target="_blank" rel="noopener noreferrer">public working prototype ↗</a> combines connection guidance, tool reference examples, and a proposed maintenance model in one system that people can explore.
 
 ## Proposed first steps
 
@@ -78,14 +78,14 @@ The [public working prototype](https://docadam.github.io/docs-operating-system/e
 
 ## Public sources reviewed
 
-- [Euler website](https://eulerhq.com/)
-- [Euler integrations](https://eulerhq.com/integrations)
-- [Euler MCP reference](https://mcp.eulerapp.com/public/docs)
-- [Euler MCP structured manifest](https://mcp.eulerapp.com/public/docs.json)
-- [Euler MCP changelog](https://mcp.eulerapp.com/public/changelog)
-- [Euler MCP connection guide](https://mcp.eulerapp.com/public/connect-claude)
+- <a href="https://eulerhq.com/" target="_blank" rel="noopener noreferrer">Euler website ↗</a>
+- <a href="https://eulerhq.com/integrations" target="_blank" rel="noopener noreferrer">Euler integrations ↗</a>
+- <a href="https://mcp.eulerapp.com/public/docs" target="_blank" rel="noopener noreferrer">Euler MCP reference ↗</a>
+- <a href="https://mcp.eulerapp.com/public/docs.json" target="_blank" rel="noopener noreferrer">Euler MCP structured manifest ↗</a>
+- <a href="https://mcp.eulerapp.com/public/changelog" target="_blank" rel="noopener noreferrer">Euler MCP changelog ↗</a>
+- <a href="https://mcp.eulerapp.com/public/connect-claude" target="_blank" rel="noopener noreferrer">Euler MCP connection guide ↗</a>
 
 ## Project files
 
-- [Documentation Operating System source and overview](https://github.com/DocAdam/docs-operating-system)
-- [Published Euler prototype](https://docadam.github.io/docs-operating-system/euler/)
+- <a href="https://github.com/DocAdam/docs-operating-system" target="_blank" rel="noopener noreferrer">Documentation Operating System source and overview ↗</a>
+- <a href="https://docadam.github.io/docs-operating-system/euler/" target="_blank" rel="noopener noreferrer">Published Euler prototype ↗</a>

@@ -8,7 +8,7 @@ description: "How Adam Pugh organized scattered community and company sources in
 
 <p className="status-label">Published community documentation</p>
 
-[TeraCreators Help](https://docadam.github.io/TeraCreators-Help/) started when I needed to report a gameplay bug. The search for a reporting path exposed a larger need. New players needed definitions and stable instructions, but useful answers were spread across Discord discussions, company documents, and other reference material.
+<a href="https://docadam.github.io/TeraCreators-Help/" target="_blank" rel="noopener noreferrer">TeraCreators Help ↗</a> started when I needed to report a gameplay bug. The search for a reporting path exposed a larger need. New players needed definitions and stable instructions, but useful answers were spread across Discord discussions, company documents, and other reference material.
 
 I built the guide as a player and contributor. It grew into a public help site for five games.
 
@@ -18,7 +18,7 @@ The audience was the player community. Experienced players used terms that new p
 
 ## Source material and my contribution
 
-I collected company documents, community knowledge, messages gathered with [Discrub](https://github.com/pratherbytecraft/discrub-ext), gameplay screenshots, and examples from users. I reviewed, structured, explained, published, and maintained this material as a public help system.
+I collected company documents, community knowledge, messages gathered with <a href="https://github.com/pratherbytecraft/discrub-ext" target="_blank" rel="noopener noreferrer">Discrub on GitHub ↗</a>, gameplay screenshots, and examples from users. I reviewed, structured, explained, published, and maintained this material as a public help system.
 
 ## Documentation decisions
 
@@ -34,7 +34,7 @@ I collected company documents, community knowledge, messages gathered with [Disc
 
 The result is a public Docusaurus site with repeatable page models, navigation based on player tasks, screenshots, and a docs-as-code publishing workflow.
 
-On April 15, 2026, I revised the Havoc Hotel 3 rescue guide. I added direct links from each location name to its instruction section and made the section labels match the list. The [recorded change](https://github.com/DocAdam/TeraCreators-Help/commit/e4ad6e9) shows the revision.
+On April 15, 2026, I revised the Havoc Hotel 3 rescue guide. I added direct links from each location name to its instruction section and made the section labels match the list. The <a href="https://github.com/DocAdam/TeraCreators-Help/commit/e4ad6e9" target="_blank" rel="noopener noreferrer">recorded change on GitHub ↗</a> shows the revision.
 
-- [View the live guide](https://docadam.github.io/TeraCreators-Help/)
-- [View the source repository](https://github.com/DocAdam/TeraCreators-Help)
+- <a href="https://docadam.github.io/TeraCreators-Help/" target="_blank" rel="noopener noreferrer">View the live guide ↗</a>
+- <a href="https://github.com/DocAdam/TeraCreators-Help" target="_blank" rel="noopener noreferrer">View the source repository on GitHub ↗</a>

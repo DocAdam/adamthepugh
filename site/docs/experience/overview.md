@@ -75,6 +75,6 @@ Created core banking software documentation and supported the move from RoboHelp
 
 ### Owner / E-Commerce Content and Operations Manager · 2014–Present
 
-I own and operate [Vinyl Junction](https://vinyljunction.com), an independent Etsy business for vintage music and books. I maintain product-content schemas, editorial standards, metadata, taxonomy, and AI-assisted listing workflows with human review.
+I own and operate <a href="https://vinyljunction.com" target="_blank" rel="noopener noreferrer">Vinyl Junction ↗</a>, an independent Etsy business for vintage music and books. I maintain product-content schemas, editorial standards, metadata, taxonomy, and AI-assisted listing workflows with human review.
 
 My Vinyl Junction business records from 2014 through October 10, 2026 show more than $400,000 in cumulative revenue, approximately 837,000 shop visits, and more than 1.1 million listing views.

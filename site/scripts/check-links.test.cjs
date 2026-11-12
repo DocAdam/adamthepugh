@@ -219,9 +219,9 @@ test('keeps the footer to copyright and primary profiles', () => {
   const config = fs.readFileSync(path.join(__dirname, '..', 'docusaurus.config.js'), 'utf8');
 
   assert.match(config, /© \$\{new Date\(\)\.getFullYear\(\)\} Adam Pugh/);
-  assert.match(config, /href="https:\/\/www\.linkedin\.com\/in\/adampugh\/">LinkedIn<\/a>/);
-  assert.match(config, /href="https:\/\/github\.com\/DocAdam">GitHub<\/a>/);
-  assert.match(config, /href="https:\/\/docadam\.substack\.com\/">Substack<\/a>/);
+  assert.match(config, /href="https:\/\/www\.linkedin\.com\/in\/adampugh\/"[^>]*>LinkedIn<\/a>/);
+  assert.match(config, /href="https:\/\/github\.com\/DocAdam"[^>]*>GitHub<\/a>/);
+  assert.match(config, /href="https:\/\/docadam\.substack\.com\/"[^>]*>Substack<\/a>/);
   assert.doesNotMatch(config, /footer__brand-tagline|title: 'Explore'|title: 'Elsewhere'/);
 });
 

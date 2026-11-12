@@ -29,11 +29,11 @@ These examples show how I organize complex information, improve documentation sy
     </div>
   </section>
 
-  <span id="selected-enterprise-work"></span>
-  <span id="the-operating-model"></span>
-  <span id="evidence-from-the-work"></span>
-  <span id="takeaway"></span>
   <section className="work-section work-section--tinted" aria-labelledby="enterprise-documentation-systems">
+    <span id="selected-enterprise-work"></span>
+    <span id="the-operating-model"></span>
+    <span id="evidence-from-the-work"></span>
+    <span id="takeaway"></span>
     <div className="work-section__heading">
       <p className="status-label">Enterprise programs</p>
 
@@ -67,11 +67,11 @@ These examples show how I organize complex information, improve documentation sy
 
 My public pull requests include documentation and editorial changes for:
 
-- [PostHog](https://github.com/PostHog/posthog.com/pull/18418)
-- [Sourcegraph](https://github.com/sourcegraph/handbook/pull/1730)
-- [Meta Lexical](https://github.com/meta/lexical/pull/7105)
-- [HashiCorp](https://github.com/hashicorp/terraform/pull/32884)
-- [dbt Labs](https://github.com/dbt-labs/docs.getdbt.com/pull/6987)
-- [Workato](https://github.com/workato/custom_connector_docs/pull/161)
+- <a href="https://github.com/PostHog/posthog.com/pull/18418" target="_blank" rel="noopener noreferrer">PostHog ↗</a>
+- <a href="https://github.com/sourcegraph/handbook/pull/1730" target="_blank" rel="noopener noreferrer">Sourcegraph ↗</a>
+- <a href="https://github.com/meta/lexical/pull/7105" target="_blank" rel="noopener noreferrer">Meta Lexical ↗</a>
+- <a href="https://github.com/hashicorp/terraform/pull/32884" target="_blank" rel="noopener noreferrer">HashiCorp ↗</a>
+- <a href="https://github.com/dbt-labs/docs.getdbt.com/pull/6987" target="_blank" rel="noopener noreferrer">dbt Labs ↗</a>
+- <a href="https://github.com/workato/custom_connector_docs/pull/161" target="_blank" rel="noopener noreferrer">Workato ↗</a>
 
 The project list shows representative public work. The GitHub profile contains the current activity record and repository history.

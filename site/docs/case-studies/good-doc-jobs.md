@@ -13,7 +13,7 @@ sidebar_label: "Good Doc Jobs"
 **Status:** Active and ongoing (launched 2026)<br />
 **Audience:** Technical communicators and documentation job seekers
 
-I built [Good Doc Jobs](https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing) as a free, reader-facing database for documentation and related jobs. I built [Public Job Feed](https://github.com/DocAdam/public-job-feed) as the source and review system behind it.
+I built <a href="https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Good Doc Jobs ↗</a> as a free, reader-facing database for documentation and related jobs. I built <a href="https://github.com/DocAdam/public-job-feed" target="_blank" rel="noopener noreferrer">Public Job Feed ↗</a> as the source and review system behind it.
 
 ## The problem
 
@@ -55,4 +55,4 @@ I created weekly reporting views to track saved entries, additions, removals, an
 
 Public Job Feed saves the source URL, review evidence, and last known status for each record. I use those fields to update the public list, revisit incomplete details, and recheck links as conditions change.
 
-[Browse Good Doc Jobs](https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing), [view Public Job Feed](https://github.com/DocAdam/public-job-feed), or [read how I designed the public spreadsheet](https://docadam.substack.com/p/just-a-spreadsheet).
+<a href="https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Browse Good Doc Jobs ↗</a>, <a href="https://github.com/DocAdam/public-job-feed" target="_blank" rel="noopener noreferrer">view Public Job Feed on GitHub ↗</a>, or <a href="https://docadam.substack.com/p/just-a-spreadsheet" target="_blank" rel="noopener noreferrer">read how I designed the public spreadsheet ↗</a>.
