@@ -1,27 +1,51 @@
 ---
 slug: /experience
 title: Experience
-description: "Work history, selected results, leadership scope, and current independent work for Adam Pugh."
+description: "More than 20 years of documentation engineering, information architecture, operations, tooling, and team leadership."
 ---
 
 # Experience
 
-I have more than 20 years of technical writing and documentation experience, including about 13 years of direct people management. My work connects technical writing, documentation systems, operations, analytics, and leadership.
+For more than 20 years, I have built documentation and the systems that support it. My work combines hands-on documentation engineering, information architecture, analytics, and workflow tooling with 13 years of direct people management. I connect detailed content and tool work to the team structures and operating processes that keep documentation useful at scale.
 
 <a href="/adam-pugh-resume.pdf">Resume (PDF)</a>
 
-<span id="scale-at-a-glance"></span>
-<span id="cross-functional-documentation-engineering"></span>
-<span id="documentation-tooling-and-workflow-automation"></span>
-<span id="analytics-and-reporting"></span>
-<span id="documentation-systems-and-structure"></span>
-<span id="where-i-have-led"></span>
-<span id="what-i-try-to-create"></span>
-<span id="leadership"></span>
+<div aria-hidden="true">
+  <span id="scale-at-a-glance"></span>
+  <span id="cross-functional-documentation-engineering"></span>
+  <span id="documentation-tooling-and-workflow-automation"></span>
+  <span id="analytics-and-reporting"></span>
+  <span id="documentation-systems-and-structure"></span>
+  <span id="where-i-have-led"></span>
+  <span id="what-i-try-to-create"></span>
+  <span id="leadership"></span>
+</div>
+
+## Core capabilities
+
+<div className="work-grid experience-capabilities">
+  <article className="work-card">
+    <p className="status-label">Capability 1</p>
+    <h3>Documentation systems and tooling</h3>
+    <p>I build documentation workflows, governance systems, reporting, and validated tools that make repeated work more reliable and maintainable.</p>
+  </article>
+  <article className="work-card">
+    <p className="status-label">Capability 2</p>
+    <h3>Information architecture at scale</h3>
+    <p>I plan migrations, restructure large page sets, and create content models that help teams find, govern, and maintain information.</p>
+  </article>
+  <article className="work-card">
+    <p className="status-label">Capability 3</p>
+    <h3>Team leadership and operations</h3>
+    <p>I have 13 years of direct people management across teams of up to 16 people, with responsibility for hiring, mentoring, operations, and delivery.</p>
+  </article>
+</div>
 
 ## Meta
 
-<span id="senior-documentation-engineer--2023present"></span>
+<div aria-hidden="true">
+  <span id="senior-documentation-engineer--2023present"></span>
+</div>
 
 ### Senior Documentation Engineer · July 2023–July 2026
 
@@ -30,48 +54,50 @@ Led documentation operations for internal recruiting products across the hiring 
 - Supported 20 user-facing launches through May 2026.
 - Reorganized and standardized more than 139 high-traffic documentation pages.
 - Built a freshness and governance system for 234 pages.
-- Built 10 internal documentation and workflow tools with more than 750 automated tests.
+- Built [10 internal documentation and workflow tools with more than 750 automated tests](/work/documentation-tooling/).
 
-<span id="documentation-manager--20222023"></span>
+<div aria-hidden="true">
+  <span id="documentation-manager--20222023"></span>
+</div>
 
 ### Documentation Engineering Manager · March 2022–June 2023
 
 Led four documentation engineers who assumed responsibility for documentation across more than 400 internal Enterprise Engineering products.
 
-- Replaced a Google Doc tracker with a SharePoint database and connected the data to seven Tableau dashboards for management reporting.
-- Led a team that migrated 101 product-documentation wikis across seven team groups.
-- Consolidated 1,157 source pages into 469 destination pages through review, archiving, removal, and restructuring.
+- Replaced a Google Doc tracker with a [SharePoint database and seven Tableau dashboards](/work/documentation-analytics/) for management reporting.
+- Led a team that [migrated 101 product-documentation wikis across seven team groups](/work/documentation-migrations/).
+- [Consolidated 1,157 source pages into 469 destination pages](/work/documentation-migrations/) through review, archiving, removal, and restructuring.
 - Restored access to 170 archived wiki pages used by internal users.
 
-<span id="jack-henry"></span>
-<span id="mentoring-and-team-development"></span>
+<div aria-hidden="true">
+  <span id="jack-henry"></span>
+  <span id="mentoring-and-team-development"></span>
+</div>
 
 ## Jack Henry & Associates
 
-### Senior Manager of Technical Writing · 2021–2022
+### Leadership phase · 2010–2022
 
-Led a 16-person documentation organization of 15 writers and one manager. The group supported 46 financial-software products and used XML and DITA workflows for online help, PDFs, API guides, and other product documentation.
+**Senior Manager of Technical Writing · 2021–2022.** Led a 16-person documentation organization of 15 writers and one manager. The group supported 46 financial-software products and used XML and DITA workflows for online help, PDFs, API guides, and other product documentation.
 
-### Manager of Technical Writing · 2010–2021
-
-Built and scaled a technical writing team to 14 employees. Led hiring, onboarding, mentoring, performance management, internship growth, reporting, and product-documentation operations.
+**Manager of Technical Writing · 2010–2021.** Built and scaled a technical writing team to 14 employees. Led hiring, onboarding, mentoring, performance management, internship growth, reporting, and product-documentation operations.
 
 - Delivered more than 45 product-onboarding workshops and acquired work from more than 30 product groups.
 - Built a Power Query reporting process for a documentation department of about 45 people that supported more than 350 software products.
 - Served as product owner for a rewritten request system that handled 2,714 cases after its 2016 release.
 
-### Technical Writer, Advanced · 2007–2010
+### Foundation phase · 2005–2010
 
-Created release notes, enhancement documentation, software-update documentation, and product guidance. Helped advance DITA and XML structured authoring.
+**Technical Writer, Advanced · 2007–2010.** Created release notes, enhancement documentation, software-update documentation, and product guidance. Helped advance DITA and XML structured authoring.
 
-### Technical Writer · 2005–2007
+**Technical Writer · 2005–2007.** Created core banking software documentation and supported the move from RoboHelp to DITA and XML. Planned and led a migration of more than 6,000 bank reports to XML and also contributed to the hands-on migration work.
 
-Created core banking software documentation and supported the move from RoboHelp to DITA and XML. Planned and led a migration of more than 6,000 bank reports to XML and also contributed to the hands-on migration work.
+<div aria-hidden="true">
+  <span id="independent-work"></span>
+  <span id="what-the-work-requires"></span>
+</div>
 
-<span id="independent-work"></span>
-<span id="what-the-work-requires"></span>
-
-## Vinyl Junction
+## Independent venture: Vinyl Junction
 
 ### Owner / E-Commerce Content and Operations Manager · 2014–Present
 

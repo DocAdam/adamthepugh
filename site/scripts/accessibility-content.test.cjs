@@ -123,6 +123,63 @@ test('keeps navigation and footer link behavior consistent', () => {
   }
 });
 
+test('keeps the Experience structure, evidence, and Work links stable', () => {
+  const experience = fs.readFileSync(path.join(siteDir, 'docs', 'experience', 'overview.md'), 'utf8');
+  const css = fs.readFileSync(path.join(siteDir, 'src', 'css', 'custom.css'), 'utf8');
+  const legacyIds = [
+    'scale-at-a-glance',
+    'cross-functional-documentation-engineering',
+    'documentation-tooling-and-workflow-automation',
+    'analytics-and-reporting',
+    'documentation-systems-and-structure',
+    'where-i-have-led',
+    'what-i-try-to-create',
+    'leadership',
+    'senior-documentation-engineer--2023present',
+    'documentation-manager--20222023',
+    'jack-henry',
+    'mentoring-and-team-development',
+    'independent-work',
+    'what-the-work-requires',
+  ];
+
+  assert.match(experience, /with 13 years of direct people management/);
+  assert.doesNotMatch(experience, /about 13 years/i);
+  assert.match(experience, /^## Core capabilities$/m);
+  assert.match(experience, /className="work-grid experience-capabilities"/);
+  assert.equal((experience.match(/className="work-card"/g) || []).length, 3);
+  assert.match(css, /\.experience-capabilities\s*\{[\s\S]*grid-template-columns: repeat\(3, minmax\(0, 1fr\)\);/);
+
+  for (const id of legacyIds) {
+    assert.equal((experience.match(new RegExp(`id="${id}"`, 'g')) || []).length, 1, `${id} must remain unique`);
+  }
+  assert.equal((experience.match(/<div aria-hidden="true">/g) || []).length, 5);
+
+  assert.match(experience, /^### Senior Documentation Engineer · July 2023–July 2026$/m);
+  assert.match(experience, /^### Documentation Engineering Manager · March 2022–June 2023$/m);
+  assert.match(experience, /^### Leadership phase · 2010–2022$/m);
+  assert.match(experience, /\*\*Senior Manager of Technical Writing · 2021–2022\.\*\*/);
+  assert.match(experience, /\*\*Manager of Technical Writing · 2010–2021\.\*\*/);
+  assert.match(experience, /^### Foundation phase · 2005–2010$/m);
+  assert.match(experience, /\*\*Technical Writer, Advanced · 2007–2010\.\*\*/);
+  assert.match(experience, /\*\*Technical Writer · 2005–2007\.\*\*/);
+  assert.match(experience, /^## Independent venture: Vinyl Junction$/m);
+
+  assert.match(experience, /more than 400 internal Enterprise Engineering products/);
+  assert.match(experience, /101 product-documentation wikis across seven team groups/);
+  assert.match(experience, /1,157 source pages into 469 destination pages/);
+  assert.match(experience, /16-person documentation organization of 15 writers and one manager/);
+  assert.match(experience, /technical writing team to 14 employees/);
+  assert.match(experience, /more than 6,000 bank reports/);
+  assert.match(experience, /more than \$400,000 in cumulative revenue/);
+  assert.match(experience, /approximately 837,000 shop visits/);
+  assert.match(experience, /more than 1\.1 million listing views/);
+
+  assert.match(experience, /\]\(\/work\/documentation-tooling\/\)/);
+  assert.match(experience, /\]\(\/work\/documentation-analytics\/\)/);
+  assert.equal((experience.match(/\]\(\/work\/documentation-migrations\/\)/g) || []).length, 2);
+});
+
 test('keeps Work headings in the generated table of contents and offsets the skip target', () => {
   const overview = fs.readFileSync(path.join(siteDir, 'docs', 'case-studies', 'overview.md'), 'utf8');
   const css = fs.readFileSync(path.join(siteDir, 'src', 'css', 'custom.css'), 'utf8');
