@@ -82,7 +82,7 @@ import Head from '@docusaurus/Head';
     <p className="status-label">Open-data product</p>
     <h3>Good Doc Jobs</h3>
     <p>I maintain a free database of technical writing and documentation-related jobs and a public source pipeline that supports collection, review, validation, and publication.</p>
-    <p><a href="/work/good-doc-jobs/">Overview</a> · <a href="https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Browse database ↗</a></p>
+    <p><a href="/work/good-doc-jobs/">Overview</a> · <a href="https://adamthepugh.com/jobs/" target="_blank" rel="noopener noreferrer">Browse database ↗</a></p>
   </article>
   <article className="work-item">
     <p className="status-label">Enterprise documentation system</p>

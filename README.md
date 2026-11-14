@@ -23,7 +23,7 @@ The site has no public About page. Home contains the useful working-method conte
 
 [Resume (PDF)](https://adamthepugh.com/adam-pugh-resume.pdf)
 
-The noncanonical [`/jobs/`](https://adamthepugh.com/jobs/) short link records a GA4 redirect event and then opens the public Good Doc Jobs Google Sheet. The static page uses `noindex` and stays out of the sitemap.
+The noncanonical [`/jobs/`](https://adamthepugh.com/jobs/) short link records a GA4 redirect event and then opens the public Good Doc Jobs Google Sheet. The static page uses `noindex` and stays out of the sitemap. It is a tracked outbound link, not site navigation.
 
 ## Repository organization
 
@@ -48,7 +48,7 @@ adamthepugh/
 
 `work/` is an ignored local workspace for private planning and review artifacts. It is not part of the repository or deployment.
 
-The backend can keep the current `site/docs/` file organization. Each active document has an explicit clean slug, so the public site does not expose that folder structure.
+The `site/docs/` file names remain internal. Each active document has an explicit clean slug, so the public site does not expose the source folder structure.
 
 ## Local development and checks
 
@@ -69,7 +69,7 @@ npm run build
 The checks enforce these rules:
 
 - All internal links and anchors must resolve in the generated site.
-- A canonical page must link directly to another canonical page. It must not link to a redirect.
+- Site-navigation links between canonical pages must use the final canonical routes. The tracked Good Doc Jobs outbound link is the documented exception.
 - A legacy route must redirect directly to its final canonical route. Redirect chains are not permitted.
 - The Work index must contain every active Work page once, in sidebar order.
 - The sitemap must contain the exact 10 canonical URLs. It must not contain legacy `/docs/` URLs.
@@ -88,6 +88,8 @@ The Docusaurus classic preset loads GA4 measurement ID `G-TVTVVNE6PR` on generat
 
 `site/static/jobs/index.html` is copied directly to `site/build/jobs/index.html`, so it loads the Google tag without the Docusaurus preset. The page sends a `jobs_sheet_redirect` event with the available referrer and `utm_source`, `utm_medium`, and `utm_campaign` values. An event callback or a 500 ms fallback opens the public Google Sheet with `window.location.replace()`.
 
+Reader-facing links to the Sheet use the absolute `https://adamthepugh.com/jobs/` URL. Although the first request is on the same domain, the link is treated as outbound because its destination is the external Google Sheet. These links open in a new tab, use `rel="noopener noreferrer"`, and show the external-link arrow. Overview and navigation links continue to use `/work/good-doc-jobs/`.
+
 Do not add a meta-refresh redirect to this page. The rendered-link checker rejects external meta-refresh targets.
 
 ## Route maintenance
@@ -105,7 +107,9 @@ When a public route changes:
 
 The sitemap excludes all `/docs/**` compatibility routes. The redirect files exist only for old links and bookmarks.
 
-Canonical content must link directly to the final `/work/` routes. Legacy `/docs/case-studies/` paths can appear only in the route contract, the static Euler compatibility file, redirect tests, and historical audit material. Related public projects must also use the final `/work/` URLs. Keep the legacy redirects after the known inbound links are updated because old bookmarks and untracked external links can still use them.
+Canonical content must link directly to the final `/work/` routes for site navigation. Legacy `/docs/case-studies/` paths can appear only in the route contract, the static Euler compatibility file, redirect tests, and historical audit material. Related public projects must also use the final `/work/` URLs. Keep the legacy redirects after the known inbound links are updated because old bookmarks and untracked external links can still use them.
+
+The tracked `https://adamthepugh.com/jobs/` outbound link is the only content-link exception. Use it only for links that open the public Good Doc Jobs Sheet. Do not use it for the Good Doc Jobs overview page or site navigation.
 
 ## Content and résumé maintenance
 
@@ -123,11 +127,16 @@ The editable résumé authority is `generated/resume-base.md` in the separate Jo
 
 The navbar, Home, Experience, footer, and `llms.txt` link directly to the root PDF path. Use raw static-file links for this PDF so Docusaurus does not add a trailing slash or create a hashed asset URL.
 
+Only the PDF is a public site asset. Any local DOCX source must remain untracked and must not enter a deployment artifact.
+
 The files in `site/static/` are copied to the production root. Important files include:
 
-- `llms.txt`: First-person professional profile, background, selected outcomes, and canonical portfolio links.
+- `llms.txt`: Professional profile, background, selected outcomes, canonical portfolio links, and the tracked Good Doc Jobs link.
 - `robots.txt`: Crawl guidance and the sitemap location.
 - `jobs/index.html`: Noindex Good Doc Jobs short link with GA4 redirect tracking and a standard fallback link.
+- `.nojekyll`: Prevents GitHub Pages from processing the generated site with Jekyll.
+- `CNAME`: Sets the GitHub Pages custom domain.
+- `docs/case-studies/euler-documentation-prototype.html`: Static compatibility redirect to the final Euler page.
 - `adam-pugh-resume.pdf`: Downloadable general résumé.
 - `img/headshot.jpg`: Home portrait.
 - `img/social-card.png`: 1200 by 630 social preview image.
@@ -142,6 +151,8 @@ Commit the active source, tests, locked dependency files, route contract, public
 
 - `site/build/`
 - `site/node_modules/`
+- `site/.docusaurus/`
+- `site/.cache-loader/`
 - temporary PDF exports
 - files from the separate Job Finder repository
 - local review and private working files in the ignored `work/` directory
@@ -150,7 +161,7 @@ Keep `archive/` unchanged unless an archive task has explicit approval. Preserve
 
 ## Deployment
 
-The workflow in `.github/workflows/deploy-pages.yml` publishes the site to GitHub Pages after an approved push to `master`. It installs the locked dependencies, runs the tests, builds the site, and publishes `site/build` only after the checks pass.
+The workflow in `.github/workflows/deploy-pages.yml` publishes the site to GitHub Pages after an approved push to `master` or a manual workflow run. It uses Node.js 22, installs the locked dependencies, runs the tests, builds the site, and publishes `site/build` only after the checks pass.
 
 The older `npm run deploy` command writes to `gh-pages`. It is not the publication method for the current GitHub Actions setup. Keep `site/static/CNAME` as the domain record, and manage the custom domain in GitHub Pages settings.
 

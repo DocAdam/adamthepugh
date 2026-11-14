@@ -108,7 +108,8 @@ test('keeps internal and external links consistent outside the home page', () =>
       const [, beforeHref, href, afterHref, content] = match;
       const attributes = `${beforeHref} ${afterHref}`;
       const label = content.replace(/<[^>]+>/g, '').trim();
-      const external = /^https?:\/\//.test(href) && !/^https?:\/\/(?:www\.)?adamthepugh\.com(?:\/|$)/.test(href);
+      const trackedOutbound = href === 'https://adamthepugh.com/jobs/';
+      const external = trackedOutbound || (/^https?:\/\//.test(href) && !/^https?:\/\/(?:www\.)?adamthepugh\.com(?:\/|$)/.test(href));
 
       if (external) {
         assert.match(attributes, /target="_blank"/, `${relativeFile}: ${href} must open in a new tab`);
@@ -263,4 +264,18 @@ test('keeps the Good Doc Jobs scope explicit in published summaries', () => {
   assert.equal((goodDocJobs.match(new RegExp(scope.source, 'g')) || []).length, 2);
   assert.match(workingNotes, scope);
   assert.equal((llms.match(new RegExp(scope.source, 'g')) || []).length, 2);
+});
+
+test('routes reader-facing Good Doc Jobs links through the tracked outbound short link', () => {
+  const home = fs.readFileSync(path.join(siteDir, 'docs', 'intro.md'), 'utf8');
+  const goodDocJobs = fs.readFileSync(path.join(siteDir, 'docs', 'case-studies', 'good-doc-jobs.md'), 'utf8');
+  const llms = fs.readFileSync(path.join(siteDir, 'static', 'llms.txt'), 'utf8');
+  const trackedLink = /<a href="https:\/\/adamthepugh\.com\/jobs\/" target="_blank" rel="noopener noreferrer">[^<]+ ↗<\/a>/g;
+  const directSheetAnchor = /<a href="https:\/\/docs\.google\.com\/spreadsheets\//;
+
+  assert.equal((home.match(trackedLink) || []).length, 1);
+  assert.equal((goodDocJobs.match(trackedLink) || []).length, 2);
+  assert.doesNotMatch(home, directSheetAnchor);
+  assert.doesNotMatch(goodDocJobs, directSheetAnchor);
+  assert.match(llms, /\[Browse the Good Doc Jobs database\]\(https:\/\/adamthepugh\.com\/jobs\/\)/);
 });
