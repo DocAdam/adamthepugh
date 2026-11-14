@@ -7,6 +7,12 @@ const {
   staticRedirectMap,
 } = require('../route-contract.cjs');
 
+const jobsRedirect = {
+  route: '/jobs/',
+  canonical: 'https://adamthepugh.com',
+  destination: 'https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?gid=55693553#gid=55693553',
+};
+
 function routeFile(outDir, route) {
   const relative = route.replace(/^\//, '');
   return route.endsWith('.html')
@@ -32,10 +38,27 @@ function sitemapUrls(file) {
   return [...fs.readFileSync(file, 'utf8').matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1]);
 }
 
+function jobsRedirectMetadata(file) {
+  const metadata = {noindex: false, canonical: undefined};
+  function visit(node) {
+    const attrs = Object.fromEntries((node.attrs || []).map(({name, value}) => [name, value]));
+    if (node.tagName === 'meta' && attrs.name?.toLowerCase() === 'robots') {
+      metadata.noindex = attrs.content?.toLowerCase().split(/\s*,\s*|\s+/).includes('noindex') || false;
+    }
+    if (node.tagName === 'link' && attrs.rel?.toLowerCase().split(/\s+/).includes('canonical')) {
+      metadata.canonical = attrs.href;
+    }
+    for (const child of node.childNodes || []) visit(child);
+  }
+  visit(parse(fs.readFileSync(file, 'utf8')));
+  return metadata;
+}
+
 function checkBuiltRoutes({outDir, siteUrl}) {
   const errors = [];
   const expectedUrls = canonicalRoutes.map((route) => new URL(route, siteUrl).href).sort();
   const sitemapFile = path.join(outDir, 'sitemap.xml');
+  let actualUrls = [];
 
   for (const route of canonicalRoutes) {
     const file = routeFile(outDir, route);
@@ -45,10 +68,31 @@ function checkBuiltRoutes({outDir, siteUrl}) {
   if (!fs.existsSync(sitemapFile)) {
     errors.push(`Sitemap is missing: ${sitemapFile}`);
   } else {
-    const actualUrls = sitemapUrls(sitemapFile).sort();
+    actualUrls = sitemapUrls(sitemapFile).sort();
     if (JSON.stringify(actualUrls) !== JSON.stringify(expectedUrls)) {
       errors.push(`Sitemap must contain only the ${canonicalRoutes.length} canonical URLs.\nExpected: ${expectedUrls.join(', ')}\nActual: ${actualUrls.join(', ')}`);
     }
+  }
+
+  const jobsFile = routeFile(outDir, jobsRedirect.route);
+  if (!fs.existsSync(jobsFile)) {
+    errors.push(`${jobsRedirect.route}: static redirect page is missing: ${jobsFile}`);
+  } else {
+    const source = fs.readFileSync(jobsFile, 'utf8');
+    const metadata = jobsRedirectMetadata(jobsFile);
+    if (!metadata.noindex) errors.push(`${jobsRedirect.route}: static redirect page must use robots noindex`);
+    if (metadata.canonical !== jobsRedirect.canonical) {
+      errors.push(`${jobsRedirect.route}: expected canonical ${jobsRedirect.canonical}, found ${metadata.canonical || 'none'}`);
+    }
+    if (refreshTarget(jobsFile) !== undefined) {
+      errors.push(`${jobsRedirect.route}: external redirect must not use meta refresh`);
+    }
+    if (!source.includes(jobsRedirect.destination)) {
+      errors.push(`${jobsRedirect.route}: expected Google Sheet destination ${jobsRedirect.destination}`);
+    }
+  }
+  if (actualUrls.includes(new URL(jobsRedirect.route, siteUrl).href)) {
+    errors.push(`${jobsRedirect.route}: static redirect page must be excluded from the sitemap`);
   }
 
   const allRedirects = new Map([...redirectMap, ...staticRedirectMap]);
@@ -98,4 +142,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = {checkBuiltRoutes};
+module.exports = {checkBuiltRoutes, jobsRedirect};

@@ -1,6 +1,14 @@
-# Adam Pugh
+# Adam Pugh (DocAdam)
 
 > Technical writing, documentation engineering, and docs leadership, building clear content and the systems that keep it accurate.
+
+Adam Pugh uses the name DocAdam for his public technical writing, documentation engineering, and independent publishing work. This profile is not for the Oklahoma politician of the same name.
+
+## Good Doc Jobs and Working Notes
+
+- [Good Doc Jobs](https://adamthepugh.com/work/good-doc-jobs/): A free reader-facing database of technical writing and documentation-related jobs, supported by a public source, review, validation, and publication pipeline.
+- [Browse the Good Doc Jobs database](https://adamthepugh.com/jobs/): The direct link to the public Google Sheet.
+- [Working Notes](https://docadam.substack.com/): Articles, evidence-based content audits, job roundups, and project methods for technical communicators.
 
 ## Professional profile
 
@@ -19,8 +27,7 @@ I start with the real source of a problem: product behavior, user tasks, existin
 
 ## Selected work
 
-- [Working Notes](https://adamthepugh.com/work/working-notes/): I publish articles, evidence-based content audits, job roundups, and project methods for technical communicators.
-- [Good Doc Jobs](https://adamthepugh.com/work/good-doc-jobs/): I built a free reader-facing database of technical writing and documentation-related jobs and a public source, review, validation, and publication pipeline.
+- [Working Notes overview](https://adamthepugh.com/work/working-notes/): The canonical portfolio page for the publication.
 - [TeraCreators Help](https://adamthepugh.com/work/teracreators-help/): I published community documentation for five games, with a public guide and source repository.
 - [Euler documentation prototype](https://adamthepugh.com/work/euler-documentation-prototype/): I built an independent prototype from Euler’s public material to demonstrate a clearer documentation model.
 - [Migrations and information architecture](https://adamthepugh.com/work/documentation-migrations/): I led a four-person team that migrated 101 product-documentation wikis across seven team groups and consolidated 1,157 source pages into 469 destination pages.
@@ -38,7 +45,5 @@ I start with the real source of a problem: product behavior, user tasks, existin
 
 - [LinkedIn](https://www.linkedin.com/in/adampugh/)
 - [GitHub](https://github.com/DocAdam)
-- [Working Notes](https://docadam.substack.com/)
-- [Good Doc Jobs](https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?usp=sharing)
 - [TeraCreators Help](https://docadam.github.io/TeraCreators-Help/)
 - [Vinyl Junction](https://vinyljunction.com)

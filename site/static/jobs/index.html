@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href="https://adamthepugh.com" />
+    <title>Open Good Doc Jobs</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TVTVVNE6PR"></script>
+    <script>
+      const destinationUrl = 'https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?gid=55693553#gid=55693553';
+      const query = new URLSearchParams(window.location.search);
+      const sourceReferrer = document.referrer || '';
+      let redirectStarted = false;
+
+      function openGoodDocJobs() {
+        if (redirectStarted) return;
+        redirectStarted = true;
+        window.location.replace(destinationUrl);
+      }
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+
+      gtag('js', new Date());
+      gtag('config', 'G-TVTVVNE6PR');
+      gtag('event', 'jobs_sheet_redirect', {
+        source_referrer: sourceReferrer,
+        utm_source: query.get('utm_source') || '',
+        utm_medium: query.get('utm_medium') || '',
+        utm_campaign: query.get('utm_campaign') || '',
+        event_callback: openGoodDocJobs,
+        event_timeout: 500,
+      });
+
+      window.setTimeout(openGoodDocJobs, 500);
+    </script>
+  </head>
+  <body>
+    <p>Opening Good Doc Jobs. <a href="https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/edit?gid=55693553#gid=55693553">Open the public Google Sheet</a>.</p>
+  </body>
+</html>

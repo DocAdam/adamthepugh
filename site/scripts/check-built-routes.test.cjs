@@ -3,7 +3,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
-const {checkBuiltRoutes} = require('./check-built-routes.cjs');
+const {checkBuiltRoutes, jobsRedirect} = require('./check-built-routes.cjs');
 const {canonicalRoutes, redirectMap, staticRedirectMap} = require('../route-contract.cjs');
 
 const siteUrl = 'https://adamthepugh.com';
@@ -27,6 +27,10 @@ function fixture(t) {
   for (const [source, target] of new Map([...redirectMap, ...staticRedirectMap])) {
     write(routeFile(root, source), `<meta http-equiv="refresh" content="0; url=${target}">`);
   }
+  write(
+    routeFile(root, jobsRedirect.route),
+    `<meta name="robots" content="noindex"><link rel="canonical" href="${jobsRedirect.canonical}"><script>window.location.replace('${jobsRedirect.destination}')</script><a href="${jobsRedirect.destination}">Open</a>`,
+  );
   const urls = canonicalRoutes.map((route) => `<url><loc>${new URL(route, siteUrl).href}</loc></url>`).join('');
   write(path.join(root, 'sitemap.xml'), `<urlset>${urls}</urlset>`);
   return root;
@@ -55,4 +59,23 @@ test('rejects a redirect chain and a missing canonical page', (t) => {
   const errors = checkBuiltRoutes({outDir, siteUrl}).errors.join('\n');
   assert.match(errors, /redirect chain/);
   assert.match(errors, /canonical page is missing/);
+});
+
+test('checks the static jobs redirect and keeps it out of the sitemap', (t) => {
+  const outDir = fixture(t);
+  const jobsFile = routeFile(outDir, jobsRedirect.route);
+  assert.ok(fs.existsSync(jobsFile));
+  assert.deepEqual(checkBuiltRoutes({outDir, siteUrl}).errors, []);
+
+  write(
+    jobsFile,
+    '<meta name="robots" content="index"><link rel="canonical" href="https://example.com"><meta http-equiv="refresh" content="0; url=https://example.com">',
+  );
+  fs.appendFileSync(path.join(outDir, 'sitemap.xml'), `<url><loc>${new URL(jobsRedirect.route, siteUrl).href}</loc></url>`);
+  const errors = checkBuiltRoutes({outDir, siteUrl}).errors.join('\n');
+  assert.match(errors, /must use robots noindex/);
+  assert.match(errors, /expected canonical https:\/\/adamthepugh\.com/);
+  assert.match(errors, /must not use meta refresh/);
+  assert.match(errors, /expected Google Sheet destination/);
+  assert.match(errors, /must be excluded from the sitemap/);
 });

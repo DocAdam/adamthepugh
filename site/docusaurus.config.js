@@ -53,6 +53,10 @@ const config = {
           sidebarCollapsed: false,
         },
         blog: false,
+        gtag: {
+          trackingID: 'G-TVTVVNE6PR',
+          anonymizeIP: true,
+        },
         sitemap: {
           ignorePatterns: ['/docs/**'],
         },

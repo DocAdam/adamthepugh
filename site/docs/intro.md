@@ -28,11 +28,23 @@ import Head from '@docusaurus/Head';
     '@type': 'ProfilePage',
     mainEntity: {
       '@type': 'Person',
+      '@id': 'https://adamthepugh.com/#person',
       name: 'Adam Pugh',
+      alternateName: 'DocAdam',
       url: 'https://adamthepugh.com/',
       image: 'https://adamthepugh.com/img/headshot.jpg',
       jobTitle: 'Technical Writing and Documentation Operations Leader',
       description: 'Technical writing, documentation engineering, and docs leadership, building clear content and the systems that keep it accurate.',
+      knowsAbout: [
+        'Technical writing',
+        'Documentation engineering',
+        'Docs as code',
+        'Information architecture',
+        'Content governance',
+        'Documentation analytics',
+        'Structured authoring',
+        'Documentation workflow automation',
+      ],
       sameAs: [
         'https://www.linkedin.com/in/adampugh/',
         'https://github.com/DocAdam',

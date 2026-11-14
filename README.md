@@ -23,6 +23,8 @@ The site has no public About page. Home contains the useful working-method conte
 
 [Resume (PDF)](https://adamthepugh.com/adam-pugh-resume.pdf)
 
+The noncanonical [`/jobs/`](https://adamthepugh.com/jobs/) short link records a GA4 redirect event and then opens the public Good Doc Jobs Google Sheet. The static page uses `noindex` and stays out of the sitemap.
+
 ## Repository organization
 
 ```text
@@ -34,7 +36,7 @@ adamthepugh/
 │   ├── docs/                 # 10 active Markdown documents
 │   ├── scripts/              # link, overview, route, and sitemap checks
 │   ├── src/                  # components and styles
-│   ├── static/               # résumé, images, domain file, and crawl guidance
+│   ├── static/               # résumé, images, short link, domain file, and crawl guidance
 │   ├── docusaurus.config.js  # site and navigation configuration
 │   ├── route-contract.cjs    # canonical routes and direct legacy redirects
 │   ├── sidebars.js           # published Work grouping
@@ -72,12 +74,21 @@ The checks enforce these rules:
 - The Work index must contain every active Work page once, in sidebar order.
 - The sitemap must contain the exact 10 canonical URLs. It must not contain legacy `/docs/` URLs.
 - The static Euler `.html` compatibility route must point directly to its final page.
+- The static `/jobs/` page must use `noindex`, use the expected canonical URL and Sheet destination, contain no meta refresh, and stay out of the sitemap.
 
 The build stops when one of these checks fails. The checks do not request external websites. Preview a successful production build with:
 
 ```sh
 npm run serve
 ```
+
+## Analytics and the Good Doc Jobs short link
+
+The Docusaurus classic preset loads GA4 measurement ID `G-TVTVVNE6PR` on generated pages. The configuration enables IP anonymization.
+
+`site/static/jobs/index.html` is copied directly to `site/build/jobs/index.html`, so it loads the Google tag without the Docusaurus preset. The page sends a `jobs_sheet_redirect` event with the available referrer and `utm_source`, `utm_medium`, and `utm_campaign` values. An event callback or a 500 ms fallback opens the public Google Sheet with `window.location.replace()`.
+
+Do not add a meta-refresh redirect to this page. The rendered-link checker rejects external meta-refresh targets.
 
 ## Route maintenance
 
@@ -116,6 +127,7 @@ The files in `site/static/` are copied to the production root. Important files i
 
 - `llms.txt`: First-person professional profile, background, selected outcomes, and canonical portfolio links.
 - `robots.txt`: Crawl guidance and the sitemap location.
+- `jobs/index.html`: Noindex Good Doc Jobs short link with GA4 redirect tracking and a standard fallback link.
 - `adam-pugh-resume.pdf`: Downloadable general résumé.
 - `img/headshot.jpg`: Home portrait.
 - `img/social-card.png`: 1200 by 630 social preview image.

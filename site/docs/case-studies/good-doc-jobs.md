@@ -5,6 +5,38 @@ description: "A free database of technical writing and documentation-related job
 sidebar_label: "Good Doc Jobs"
 ---
 
+import Head from '@docusaurus/Head';
+
+<Head>
+  <script type="application/ld+json">{JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    '@id': 'https://adamthepugh.com/work/good-doc-jobs/#dataset',
+    name: 'Good Doc Jobs',
+    description: 'A free, reader-facing database that helps technical communicators find and review relevant job opportunities.',
+    url: 'https://adamthepugh.com/work/good-doc-jobs/',
+    creator: {
+      '@type': 'Person',
+      '@id': 'https://adamthepugh.com/#person',
+      name: 'Adam Pugh',
+      alternateName: 'DocAdam',
+      url: 'https://adamthepugh.com/',
+    },
+    keywords: [
+      'technical writing jobs',
+      'documentation jobs',
+      'documentation engineering jobs',
+      'technical communication jobs',
+    ],
+    isAccessibleForFree: true,
+    distribution: {
+      '@type': 'DataDownload',
+      encodingFormat: 'text/csv',
+      contentUrl: 'https://docs.google.com/spreadsheets/d/1rECWXCGhDKUiB3-LIwEEe1teaPWaGxgSK28AZADFF4g/gviz/tq?tqx=out:csv&sheet=DataDownload',
+    },
+  })}</script>
+</Head>
+
 # Good Doc Jobs
 
 <p className="status-label">Active open-data product</p>
